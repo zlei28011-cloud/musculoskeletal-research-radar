@@ -100,7 +100,11 @@ def run(settings: Settings, *, weekly: bool = False, skip_email: bool = False) -
         try:
             report_key = "weekly_html" if weekly else "daily"
             body = reports[report_key].read_text(encoding="utf-8")
-            subject = ("Weekly Frontier Brief" if weekly else "肌骨科研机会雷达") + f" · {date.today().isoformat()}"
+            subject = (
+                "每周前沿简报 / Weekly Frontier Brief"
+                if weekly
+                else "肌骨科研机会雷达 / Musculoskeletal Research Radar"
+            ) + f" · {date.today().isoformat()}"
             send_email(subject, body)
         except Exception as exc:
             LOG.exception("Email delivery failed")
