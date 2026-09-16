@@ -14,6 +14,12 @@ from .sources import CrossrefSource, PubMedSource, RxivSource, date_window
 
 LOG = logging.getLogger(__name__)
 
+DEMO_DOIS = {
+    "10.0000/demo.001",
+    "10.1101/2026.09.15.000001",
+    "10.0000/demo.003",
+}
+
 
 @dataclass
 class PipelineResult:
@@ -24,6 +30,7 @@ class PipelineResult:
 
 def run(settings: Settings, *, weekly: bool = False, skip_email: bool = False) -> PipelineResult:
     db = Database(settings.db_path)
+    demo_records_removed = db.remove_articles_by_doi(DEMO_DOIS)
     run_id = db.start_run("weekly" if weekly else "daily")
     config = settings.config
     start, end = date_window(int(config["lookback_days"]))
@@ -101,8 +108,10 @@ def run(settings: Settings, *, weekly: bool = False, skip_email: bool = False) -
     stats = {
         "sources": source_stats, "collected": len(collected), "candidates": len(candidates),
         "cards_saved": len(saved_ids), "version_links": linked, "errors": len(errors),
+        "demo_records_removed": demo_records_removed,
     }
     db.snapshot(run_id, date.today().isoformat(), saved_ids, stats)
     db.finish_run(run_id, "partial" if errors else "success", stats, errors)
     db.close()
     return PipelineResult(run_id=run_id, stats=stats, errors=errors)
+
