@@ -7,6 +7,7 @@ from pathlib import Path
 from radar.cards import build_card, secondary_queries
 from radar.db import Database, normalize_doi, normalize_title
 from radar.models import Article
+from radar.reports import daily_email
 from radar.scoring import calculate, classify
 from radar.sources import PubMedSource
 
@@ -70,6 +71,37 @@ class CoreTests(unittest.TestCase):
         self.assertNotIn("api_key", without_key.base_params)
         with_key = PubMedSource("researcher@example.com", "test-key")
         self.assertEqual(with_key.base_params["api_key"], "test-key")
+
+    def test_daily_email_is_bilingual_and_structured(self):
+        card = {
+            "title": "A spatial atlas of skeletal aging",
+            "url": "https://example.org/article",
+            "track": "B",
+            "score_total": 88,
+            "novelty_status": "Adjacent studies exist",
+            "journal": "Nature Aging",
+            "published_at": "2026-09-16",
+            "doi": "10.1000/example",
+            "pmid": None,
+            "abstract": "We generated a spatial atlas of aging tissues. The atlas revealed distinct cellular neighborhoods. These findings support future mechanistic studies.",
+            "summary_zh": [
+                "这项研究聚焦空间衰老图谱。",
+                "作者主要使用了空间转录组学来回答研究问题。 摘要证据：We generated a spatial atlas.",
+                "它可能帮助重构骨与肌肉衰老机制。 摘要补充：The atlas revealed distinct cellular neighborhoods.",
+            ],
+            "new_paradigm": "空间转录组学",
+            "data_needs": ["human tissue", "omics"],
+            "musculoskeletal_link": "可评估骨髓微环境中的空间细胞互作。",
+            "competition": [],
+        }
+        rendered = daily_email([card])
+        self.assertIn("今日必看 / Must Read", rendered)
+        self.assertIn("摘要级解读 / Abstract-level review", rendered)
+        self.assertIn("研究背景 / Background", rendered)
+        self.assertIn("方法与数据 / Methods &amp; Data", rendered)
+        self.assertIn("英文原文证据 / Original Evidence", rendered)
+        self.assertIn("We generated a spatial atlas of aging tissues.", rendered)
+        self.assertIn("本卡基于题录与摘要自动生成", rendered)
 
 
 if __name__ == "__main__":
