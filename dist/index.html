@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="面向骨科与骨质疏松研究者的轻量科研机会监测系统">
+  <meta name="theme-color" content="#07131f">
+  <title>Musculoskeletal Research Radar / 肌骨科研机会雷达</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#today" aria-label="肌骨科研机会雷达首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><b></b></span>
+      <span><strong>MSK Research Radar</strong><small>肌骨科研机会雷达</small></span>
+    </a>
+    <div class="run-status"><span class="status-dot"></span><span id="updatedAt">正在读取最近一次扫描</span></div>
+  </header>
+
+  <div class="shell">
+    <nav class="side-nav" aria-label="主导航">
+      <a href="#today" class="active" data-view="today"><span>01</span>Today</a>
+      <a href="#opportunities" data-view="opportunities"><span>02</span>Opportunities</a>
+      <a href="#trend-map" data-view="trend-map"><span>03</span>Trend Map</a>
+      <a href="#competition" data-view="competition"><span>04</span>Competition Alerts</a>
+      <a href="#preprints" data-view="preprints"><span>05</span>Preprints</a>
+      <a href="#methods" data-view="methods"><span>06</span>Methods & Resources</a>
+      <a href="#ideas" data-view="ideas"><span>07</span>My Ideas</a>
+    </nav>
+
+    <main>
+      <section class="view active" id="today" data-view="today">
+        <div class="section-head">
+          <div><p class="eyebrow">DAILY INTELLIGENCE · 双轨扫描</p><h1>今天值得改变研究路线的信号</h1></div>
+          <div class="date-badge"><span id="todayDate">—</span><small>本地更新时间</small></div>
+        </div>
+        <div class="metrics" id="metrics" aria-label="扫描统计"></div>
+        <div class="control-row">
+          <div class="track-toggle" role="group" aria-label="轨道筛选">
+            <button class="active" data-track="all">全部</button><button data-track="A">Track A · 肌骨直接</button><button data-track="B">Track B · 前沿迁移</button>
+          </div>
+          <label class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="检索题目、期刊、方法…" aria-label="检索机会卡片"></label>
+        </div>
+        <div class="priority-strip"><span>PRIORITY QUEUE</span><p>只展示评分 ≥ 68 的高优先级机会；其余记录保留在历史库中。</p></div>
+        <div id="todayCards" class="cards" aria-live="polite"></div>
+      </section>
+
+      <section class="view" id="opportunities" data-view="opportunities">
+        <div class="section-head"><div><p class="eyebrow">RANKED OPPORTUNITIES</p><h1>机会清单</h1></div><p class="section-note">按综合评分排序；展开卡片可核查证据、二次检索词与分项理由。</p></div>
+        <div id="allCards" class="cards"></div>
+      </section>
+
+      <section class="view" id="trend-map" data-view="trend-map">
+        <div class="section-head"><div><p class="eyebrow">PARADIGM PULSE</p><h1>本月趋势地图</h1></div><p class="section-note">统计最近30天卡片中的方法信号，不以单篇高分替代趋势。</p></div>
+        <div id="trendGrid" class="trend-grid"></div>
+      </section>
+
+      <section class="view" id="competition" data-view="competition">
+        <div class="section-head"><div><p class="eyebrow">COLLISION WATCH</p><h1>撞车 / 竞争预警</h1></div><p class="section-note">来自自动构造的 PubMed 二次检索。务必人工复核。</p></div>
+        <div id="competitionList" class="alert-list"></div>
+      </section>
+
+      <section class="view" id="preprints" data-view="preprints">
+        <div class="section-head"><div><p class="eyebrow">EARLY SIGNALS</p><h1>预印本</h1></div><p class="section-note">bioRxiv / medRxiv；正式发表后将按 DOI 或规范化标题关联。</p></div>
+        <div id="preprintCards" class="cards"></div>
+      </section>
+
+      <section class="view" id="methods" data-view="methods">
+        <div class="section-head"><div><p class="eyebrow">TRANSFER TOOLBOX</p><h1>新方法与数据资源</h1></div><p class="section-note">优先展示 Track B 中可迁移的技术与资源。</p></div>
+        <div id="methodCards" class="cards"></div>
+      </section>
+
+      <section class="view" id="ideas" data-view="ideas">
+        <div class="section-head"><div><p class="eyebrow">PRIVATE WORKBENCH</p><h1>我的研究想法</h1></div><p class="section-note">当前浏览器本地保存，不上传服务器。</p></div>
+        <form id="ideaForm" class="idea-form"><input name="title" required maxlength="120" placeholder="一句话研究问题"><textarea name="note" maxlength="1200" placeholder="验证路径、数据来源、潜在合作者…"></textarea><button type="submit">保存想法</button></form>
+        <div id="ideaList" class="idea-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <template id="cardTemplate">
+    <article class="opportunity-card">
+      <div class="card-top"><div class="tags"></div><div class="score"><strong></strong><span>/100</span></div></div>
+      <h2></h2><div class="citation"></div><div class="summary"></div>
+      <div class="signal-line"><span>机会信号</span><p></p></div>
+      <button class="expand" aria-expanded="false">展开证据与迁移路径 <span>＋</span></button>
+      <div class="details" hidden></div>
+    </article>
+  </template>
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,547 @@
+{
+  "generated_at": "2026-09-16",
+  "hot_paradigms": [
+    {
+      "term": "foundation model",
+      "count": 1
+    },
+    {
+      "term": "longitudinal",
+      "count": 1
+    },
+    {
+      "term": "multimodal",
+      "count": 1
+    },
+    {
+      "term": "spatial",
+      "count": 1
+    },
+    {
+      "term": "single-cell",
+      "count": 1
+    },
+    {
+      "term": "atlas",
+      "count": 1
+    }
+  ],
+  "transfer": [
+    {
+      "id": 2,
+      "source": "biorxiv",
+      "title": "A multimodal foundation model for longitudinal multi-organ aging trajectories",
+      "title_key": "amultimodalfoundationmodelforlongitudinalmultiorganagingtrajectories",
+      "abstract": "A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank. The model predicts organ-specific aging trajectories and supports perturbation analysis.",
+      "journal": "bioRxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.1101/2026.09.15.000001",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/",
+      "publication_status": "preprint",
+      "authors_json": "[\"Example Team\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-16T01:31:55+00:00",
+      "last_seen_at": "2026-09-16T01:36:28+00:00",
+      "article_id": 2,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“A multimodal foundation model for longitudinal multi-organ aging trajectories”，核心对象来自 bioRxiv。\", \"作者主要使用了基础模型、蛋白质组学、代谢组学来回答研究问题。 摘要证据：A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The model predicts organ-specific aging trajectories and supports perturbation analysis.\"]",
+      "new_paradigm": "可迁移的新范式是：基础模型、蛋白质组学、代谢组学、多模态建模。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；算力、预训练模型与多模态数据基础成熟；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (bone)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (osteoporosis)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (muscle)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (sarcopenia)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"UK Biobank\", \"CT\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 72,
+      "score_components_json": "{\"paradigm_novelty\": 100, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 97, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 4 个范式信号：foundation model, multi-organ, perturbation, longitudinal。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 5 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-16T01:36:28+00:00",
+      "authors": [
+        "Example Team"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“A multimodal foundation model for longitudinal multi-organ aging trajectories”，核心对象来自 bioRxiv。",
+        "作者主要使用了基础模型、蛋白质组学、代谢组学来回答研究问题。 摘要证据：A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The model predicts organ-specific aging trajectories and supports perturbation analysis."
+      ],
+      "secondary_queries": [
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (bone)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (osteoporosis)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (muscle)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (sarcopenia)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "UK Biobank",
+        "CT",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 100,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 35,
+        "data_feasibility": 97,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 4 个范式信号：foundation model, multi-organ, perturbation, longitudinal。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 5 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    }
+  ],
+  "direct": [
+    {
+      "id": 3,
+      "source": "crossref",
+      "title": "Proteomic signatures of frailty and sarcopenia preceding incident fracture",
+      "title_key": "proteomicsignaturesoffrailtyandsarcopeniaprecedingincidentfracture",
+      "abstract": "Longitudinal proteomics in a clinical cohort identifies pathways associated with frailty, sarcopenia and fracture. Findings are validated with CT muscle measures and DXA.",
+      "journal": "Aging Cell",
+      "published_date": "2026-09-14",
+      "doi": "10.0000/demo.003",
+      "pmid": null,
+      "url": "https://doi.org/10.0000/demo.003",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Example Clinical Network\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-16T01:31:55+00:00",
+      "last_seen_at": "2026-09-16T01:36:28+00:00",
+      "article_id": 3,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Proteomic signatures of frailty and sarcopenia preceding incident fracture”，核心对象来自 Aging Cell。\", \"作者主要使用了蛋白质组学、纵向轨迹来回答研究问题。 摘要证据：Longitudinal proteomics in a clinical cohort identifies pathways associated with frailty, sarcopenia and fracture.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Findings are validated with CT muscle measures and DXA.\"]",
+      "new_paradigm": "可迁移的新范式是：蛋白质组学、纵向轨迹。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (bone)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (osteoporosis)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (muscle)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (sarcopenia)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Related proof-of-concept study in bone\", \"journal\": \"Bone\", \"date\": \"2025\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/\", \"pmid\": \"\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"hospital DXA\", \"CT\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 60,
+      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 65, \"data_feasibility\": 86, \"mechanistic_depth\": 44, \"competition_urgency\": 55}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：longitudinal。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 3 个。\", \"data_feasibility\": \"可获得数据/技术线索 4 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 1 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-16T01:36:28+00:00",
+      "authors": [
+        "Example Clinical Network"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Proteomic signatures of frailty and sarcopenia preceding incident fracture”，核心对象来自 Aging Cell。",
+        "作者主要使用了蛋白质组学、纵向轨迹来回答研究问题。 摘要证据：Longitudinal proteomics in a clinical cohort identifies pathways associated with frailty, sarcopenia and fracture.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Findings are validated with CT muscle measures and DXA."
+      ],
+      "secondary_queries": [
+        "(\"proteomics\" OR \"longitudinal\") AND (bone)",
+        "(\"proteomics\" OR \"longitudinal\") AND (osteoporosis)",
+        "(\"proteomics\" OR \"longitudinal\") AND (muscle)",
+        "(\"proteomics\" OR \"longitudinal\") AND (sarcopenia)",
+        "(\"proteomics\" OR \"longitudinal\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Related proof-of-concept study in bone",
+          "journal": "Bone",
+          "date": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "pmid": ""
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "hospital DXA",
+        "CT",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 51,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 65,
+        "data_feasibility": 86,
+        "mechanistic_depth": 44,
+        "competition_urgency": 55
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：longitudinal。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 3 个。",
+        "data_feasibility": "可获得数据/技术线索 4 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 1 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 1,
+      "source": "pubmed",
+      "title": "A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches",
+      "title_key": "aspatialsinglecellatlasofhumanskeletalagingrevealsosteocyteimmuneniches",
+      "abstract": "Spatial transcriptomics and single-cell profiling map age-associated osteocyte and immune cell states. The study identifies cell-cell communication programs linked to cortical porosity and fracture risk.",
+      "journal": "Nature Aging",
+      "published_date": "2026-09-16",
+      "doi": "10.0000/demo.001",
+      "pmid": "99900001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/99900001/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Demo Research Consortium\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-16T01:31:55+00:00",
+      "last_seen_at": "2026-09-16T01:36:28+00:00",
+      "article_id": 1,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches”，核心对象来自 Nature Aging。\", \"作者主要使用了空间转录组、单细胞分析、细胞间通讯推断来回答研究问题。 摘要证据：Spatial transcriptomics and single-cell profiling map age-associated osteocyte and immune cell states.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The study identifies cell-cell communication programs linked to cortical porosity and fracture risk.\"]",
+      "new_paradigm": "可迁移的新范式是：空间转录组、单细胞分析、细胞间通讯推断、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (bone)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (osteoporosis)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (muscle)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (sarcopenia)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Related proof-of-concept study in bone\", \"journal\": \"Bone\", \"date\": \"2025\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/\", \"pmid\": \"\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 58,
+      "score_components_json": "{\"paradigm_novelty\": 77, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 55}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 3 个范式信号：single-cell, spatial, atlas。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 1 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-16T01:36:28+00:00",
+      "authors": [
+        "Demo Research Consortium"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches”，核心对象来自 Nature Aging。",
+        "作者主要使用了空间转录组、单细胞分析、细胞间通讯推断来回答研究问题。 摘要证据：Spatial transcriptomics and single-cell profiling map age-associated osteocyte and immune cell states.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The study identifies cell-cell communication programs linked to cortical porosity and fracture risk."
+      ],
+      "secondary_queries": [
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (bone)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (osteoporosis)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (muscle)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (sarcopenia)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Related proof-of-concept study in bone",
+          "journal": "Bone",
+          "date": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "pmid": ""
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 77,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 55
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 3 个范式信号：single-cell, spatial, atlas。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 1 条潜在竞争记录。"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": 2,
+      "source": "biorxiv",
+      "title": "A multimodal foundation model for longitudinal multi-organ aging trajectories",
+      "title_key": "amultimodalfoundationmodelforlongitudinalmultiorganagingtrajectories",
+      "abstract": "A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank. The model predicts organ-specific aging trajectories and supports perturbation analysis.",
+      "journal": "bioRxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.1101/2026.09.15.000001",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/",
+      "publication_status": "preprint",
+      "authors_json": "[\"Example Team\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-16T01:31:55+00:00",
+      "last_seen_at": "2026-09-16T01:36:28+00:00",
+      "article_id": 2,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“A multimodal foundation model for longitudinal multi-organ aging trajectories”，核心对象来自 bioRxiv。\", \"作者主要使用了基础模型、蛋白质组学、代谢组学来回答研究问题。 摘要证据：A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The model predicts organ-specific aging trajectories and supports perturbation analysis.\"]",
+      "new_paradigm": "可迁移的新范式是：基础模型、蛋白质组学、代谢组学、多模态建模。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；算力、预训练模型与多模态数据基础成熟；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (bone)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (osteoporosis)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (muscle)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (sarcopenia)\", \"(\\\"foundation model\\\" OR \\\"proteomics\\\" OR \\\"metabolomics\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"UK Biobank\", \"CT\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 72,
+      "score_components_json": "{\"paradigm_novelty\": 100, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 97, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 4 个范式信号：foundation model, multi-organ, perturbation, longitudinal。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 5 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-16T01:36:28+00:00",
+      "authors": [
+        "Example Team"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“A multimodal foundation model for longitudinal multi-organ aging trajectories”，核心对象来自 bioRxiv。",
+        "作者主要使用了基础模型、蛋白质组学、代谢组学来回答研究问题。 摘要证据：A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The model predicts organ-specific aging trajectories and supports perturbation analysis."
+      ],
+      "secondary_queries": [
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (bone)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (osteoporosis)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (muscle)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (sarcopenia)",
+        "(\"foundation model\" OR \"proteomics\" OR \"metabolomics\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "UK Biobank",
+        "CT",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 100,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 35,
+        "data_feasibility": 97,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 4 个范式信号：foundation model, multi-organ, perturbation, longitudinal。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 5 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 3,
+      "source": "crossref",
+      "title": "Proteomic signatures of frailty and sarcopenia preceding incident fracture",
+      "title_key": "proteomicsignaturesoffrailtyandsarcopeniaprecedingincidentfracture",
+      "abstract": "Longitudinal proteomics in a clinical cohort identifies pathways associated with frailty, sarcopenia and fracture. Findings are validated with CT muscle measures and DXA.",
+      "journal": "Aging Cell",
+      "published_date": "2026-09-14",
+      "doi": "10.0000/demo.003",
+      "pmid": null,
+      "url": "https://doi.org/10.0000/demo.003",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Example Clinical Network\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-16T01:31:55+00:00",
+      "last_seen_at": "2026-09-16T01:36:28+00:00",
+      "article_id": 3,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Proteomic signatures of frailty and sarcopenia preceding incident fracture”，核心对象来自 Aging Cell。\", \"作者主要使用了蛋白质组学、纵向轨迹来回答研究问题。 摘要证据：Longitudinal proteomics in a clinical cohort identifies pathways associated with frailty, sarcopenia and fracture.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Findings are validated with CT muscle measures and DXA.\"]",
+      "new_paradigm": "可迁移的新范式是：蛋白质组学、纵向轨迹。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (bone)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (osteoporosis)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (muscle)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (sarcopenia)\", \"(\\\"proteomics\\\" OR \\\"longitudinal\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Related proof-of-concept study in bone\", \"journal\": \"Bone\", \"date\": \"2025\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/\", \"pmid\": \"\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"hospital DXA\", \"CT\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 60,
+      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 65, \"data_feasibility\": 86, \"mechanistic_depth\": 44, \"competition_urgency\": 55}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：longitudinal。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 3 个。\", \"data_feasibility\": \"可获得数据/技术线索 4 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 1 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-16T01:36:28+00:00",
+      "authors": [
+        "Example Clinical Network"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Proteomic signatures of frailty and sarcopenia preceding incident fracture”，核心对象来自 Aging Cell。",
+        "作者主要使用了蛋白质组学、纵向轨迹来回答研究问题。 摘要证据：Longitudinal proteomics in a clinical cohort identifies pathways associated with frailty, sarcopenia and fracture.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Findings are validated with CT muscle measures and DXA."
+      ],
+      "secondary_queries": [
+        "(\"proteomics\" OR \"longitudinal\") AND (bone)",
+        "(\"proteomics\" OR \"longitudinal\") AND (osteoporosis)",
+        "(\"proteomics\" OR \"longitudinal\") AND (muscle)",
+        "(\"proteomics\" OR \"longitudinal\") AND (sarcopenia)",
+        "(\"proteomics\" OR \"longitudinal\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Related proof-of-concept study in bone",
+          "journal": "Bone",
+          "date": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "pmid": ""
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "hospital DXA",
+        "CT",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 51,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 65,
+        "data_feasibility": 86,
+        "mechanistic_depth": 44,
+        "competition_urgency": 55
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：longitudinal。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 3 个。",
+        "data_feasibility": "可获得数据/技术线索 4 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 1 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 1,
+      "source": "pubmed",
+      "title": "A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches",
+      "title_key": "aspatialsinglecellatlasofhumanskeletalagingrevealsosteocyteimmuneniches",
+      "abstract": "Spatial transcriptomics and single-cell profiling map age-associated osteocyte and immune cell states. The study identifies cell-cell communication programs linked to cortical porosity and fracture risk.",
+      "journal": "Nature Aging",
+      "published_date": "2026-09-16",
+      "doi": "10.0000/demo.001",
+      "pmid": "99900001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/99900001/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Demo Research Consortium\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-16T01:31:55+00:00",
+      "last_seen_at": "2026-09-16T01:36:28+00:00",
+      "article_id": 1,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches”，核心对象来自 Nature Aging。\", \"作者主要使用了空间转录组、单细胞分析、细胞间通讯推断来回答研究问题。 摘要证据：Spatial transcriptomics and single-cell profiling map age-associated osteocyte and immune cell states.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The study identifies cell-cell communication programs linked to cortical porosity and fracture risk.\"]",
+      "new_paradigm": "可迁移的新范式是：空间转录组、单细胞分析、细胞间通讯推断、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (bone)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (osteoporosis)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (muscle)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (sarcopenia)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"cell-cell communication\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Related proof-of-concept study in bone\", \"journal\": \"Bone\", \"date\": \"2025\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/\", \"pmid\": \"\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 58,
+      "score_components_json": "{\"paradigm_novelty\": 77, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 55}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 3 个范式信号：single-cell, spatial, atlas。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 1 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-16T01:36:28+00:00",
+      "authors": [
+        "Demo Research Consortium"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches”，核心对象来自 Nature Aging。",
+        "作者主要使用了空间转录组、单细胞分析、细胞间通讯推断来回答研究问题。 摘要证据：Spatial transcriptomics and single-cell profiling map age-associated osteocyte and immune cell states.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The study identifies cell-cell communication programs linked to cortical porosity and fracture risk."
+      ],
+      "secondary_queries": [
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (bone)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (osteoporosis)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (muscle)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (sarcopenia)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"cell-cell communication\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Related proof-of-concept study in bone",
+          "journal": "Bone",
+          "date": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "pmid": ""
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 77,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 55
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 3 个范式信号：single-cell, spatial, atlas。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 1 条潜在竞争记录。"
+      }
+    }
+  ]
+}

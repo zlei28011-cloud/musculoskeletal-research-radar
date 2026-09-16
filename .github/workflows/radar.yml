@@ -1,0 +1,74 @@
+name: Research Radar
+
+on:
+  workflow_dispatch:
+    inputs:
+      weekly:
+        description: Generate the weekly brief
+        type: boolean
+        default: false
+  schedule:
+    - cron: "20 22 * * *" # 06:20 Asia/Shanghai
+    - cron: "40 22 * * 0" # Monday 06:40 Asia/Shanghai, weekly brief
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: research-radar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Daily scan
+        if: github.event.schedule != '40 22 * * 0' && inputs.weekly != true
+        run: python -m radar run
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      - name: Weekly scan
+        if: github.event.schedule == '40 22 * * 0' || inputs.weekly == true
+        run: python -m radar run --weekly
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      - name: Persist history and reports
+        run: |
+          git config user.name "research-radar-bot"
+          git config user.email "research-radar-bot@users.noreply.github.com"
+          git add data/radar.db dist/data.json dist/reports/
+          git diff --cached --quiet || git commit -m "chore: update research radar"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
+

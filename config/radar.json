@@ -1,0 +1,32 @@
+{
+  "lookback_days": 3,
+  "max_results_per_source": 80,
+  "max_competition_checks": 8,
+  "high_value_threshold": 68,
+  "must_read_threshold": 82,
+  "track_a_terms": [
+    "osteoporosis", "bone aging", "skeletal aging", "sarcopenia",
+    "muscle aging", "osteosarcopenia", "fracture", "frailty",
+    "bone-muscle crosstalk", "osteocyte", "osteokine", "myokine", "senescence"
+  ],
+  "track_b_terms": [
+    "organ-specific aging", "spatial aging", "single-cell aging", "aging clock",
+    "longitudinal trajectory", "multi-organ network", "proteomics", "metabolomics",
+    "spatial transcriptomics", "foundation model", "multimodal imaging", "digital twin",
+    "cell-cell communication", "rejuvenation", "perturbation", "new resource", "data release"
+  ],
+  "frontier_journals": [
+    "Nature", "Science", "Cell", "Nature Medicine", "Nature Aging",
+    "Nature Metabolism", "Nature Methods", "Nature Biotechnology", "Nature Genetics",
+    "Cell Metabolism", "Science Translational Medicine", "Aging Cell"
+  ],
+  "transfer_targets": ["bone", "osteoporosis", "muscle", "sarcopenia", "fracture"],
+  "score_weights": {
+    "paradigm_novelty": 0.2,
+    "musculoskeletal_gap": 0.22,
+    "clinical_significance": 0.18,
+    "data_feasibility": 0.15,
+    "mechanistic_depth": 0.15,
+    "competition_urgency": 0.1
+  }
+}
