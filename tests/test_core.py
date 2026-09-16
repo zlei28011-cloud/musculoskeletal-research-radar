@@ -8,6 +8,7 @@ from radar.cards import build_card, secondary_queries
 from radar.db import Database, normalize_doi, normalize_title
 from radar.models import Article
 from radar.scoring import calculate, classify
+from radar.sources import PubMedSource
 
 
 CONFIG = json.loads(Path("config/radar.json").read_text(encoding="utf-8"))
@@ -63,6 +64,12 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(card.novelty_status, "No direct match found in current search")
         self.assertEqual(len(card.summary_zh), 3)
         self.assertEqual(len(secondary_queries(["foundation model"], ["bone"])), 1)
+
+    def test_pubmed_omits_empty_api_key(self):
+        without_key = PubMedSource("researcher@example.com")
+        self.assertNotIn("api_key", without_key.base_params)
+        with_key = PubMedSource("researcher@example.com", "test-key")
+        self.assertEqual(with_key.base_params["api_key"], "test-key")
 
 
 if __name__ == "__main__":
