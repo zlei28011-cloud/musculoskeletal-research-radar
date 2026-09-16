@@ -20,13 +20,13 @@
 
   <div class="shell">
     <nav class="side-nav" aria-label="主导航">
-      <a href="#today" class="active" data-view="today"><span>01</span>Today</a>
-      <a href="#opportunities" data-view="opportunities"><span>02</span>Opportunities</a>
-      <a href="#trend-map" data-view="trend-map"><span>03</span>Trend Map</a>
-      <a href="#competition" data-view="competition"><span>04</span>Competition Alerts</a>
-      <a href="#preprints" data-view="preprints"><span>05</span>Preprints</a>
-      <a href="#methods" data-view="methods"><span>06</span>Methods & Resources</a>
-      <a href="#ideas" data-view="ideas"><span>07</span>My Ideas</a>
+      <a href="#today" class="active" data-view="today"><span>01</span>今日 / Today</a>
+      <a href="#opportunities" data-view="opportunities"><span>02</span>机会 / Opportunities</a>
+      <a href="#trend-map" data-view="trend-map"><span>03</span>趋势 / Trend Map</a>
+      <a href="#competition" data-view="competition"><span>04</span>竞争预警 / Alerts</a>
+      <a href="#preprints" data-view="preprints"><span>05</span>预印本 / Preprints</a>
+      <a href="#methods" data-view="methods"><span>06</span>方法与资源 / Methods</a>
+      <a href="#ideas" data-view="ideas"><span>07</span>我的想法 / Ideas</a>
     </nav>
 
     <main>
@@ -42,7 +42,7 @@
           </div>
           <label class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="检索题目、期刊、方法…" aria-label="检索机会卡片"></label>
         </div>
-        <div class="priority-strip"><span>PRIORITY QUEUE</span><p>只展示评分 ≥ 68 的高优先级机会；其余记录保留在历史库中。</p></div>
+        <div class="priority-strip"><span>阅读提示</span><p>点击中文题目可展开“背景—方法—结果—讨论”；红色为预印本，绿色为已见刊。首页只展示评分 ≥ 68 的机会。</p></div>
         <div id="todayCards" class="cards" aria-live="polite"></div>
       </section>
 
@@ -82,7 +82,7 @@
   <template id="cardTemplate">
     <article class="opportunity-card">
       <div class="card-top"><div class="tags"></div><div class="score"><strong></strong><span>/100</span></div></div>
-      <h2></h2><div class="citation"></div><div class="summary"></div>
+      <h2><button class="title-toggle" type="button" aria-expanded="false"><span class="title-zh"></span><small class="title-en"></small><em>点击查看：背景 · 方法 · 结果 · 讨论</em></button></h2><div class="citation"></div><div class="summary"></div>
       <div class="signal-line"><span>机会信号</span><p></p></div>
       <button class="expand" aria-expanded="false">展开证据与迁移路径 <span>＋</span></button>
       <div class="details" hidden></div>
