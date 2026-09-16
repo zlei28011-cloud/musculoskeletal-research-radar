@@ -1,4 +1,4 @@
-# Musculoskeletal Research Radar / 肌骨科研机会雷达
+# Coolboylei MSK Radar / Coolboylei 肌骨雷达
 
 一个面向骨科、骨质疏松和肌少症研究者的轻量科研监测 MVP。它不是“论文越多越好”的 RSS 聚合器，而是把新论文转成可核查的 **Opportunity Card**，重点寻找新范式、新方法、新数据资源和跨学科迁移机会。
 
