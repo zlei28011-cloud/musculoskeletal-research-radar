@@ -121,6 +121,30 @@ class Database:
     def close(self) -> None:
         self.conn.close()
 
+    def remove_articles_by_doi(self, dois: set[str]) -> int:
+        """Remove explicitly identified seed/demo records without touching live data."""
+        normalized = sorted({normalize_doi(value) for value in dois if value})
+        if not normalized:
+            return 0
+        placeholders = ",".join("?" for _ in normalized)
+        rows = self.conn.execute(
+            f"SELECT id FROM articles WHERE doi IN ({placeholders})", normalized
+        ).fetchall()
+        article_ids = [int(row["id"]) for row in rows]
+        if not article_ids:
+            return 0
+        id_placeholders = ",".join("?" for _ in article_ids)
+        self.conn.execute(
+            f"DELETE FROM article_links WHERE preprint_article_id IN ({id_placeholders}) "
+            f"OR published_article_id IN ({id_placeholders})",
+            article_ids + article_ids,
+        )
+        self.conn.execute(
+            f"DELETE FROM articles WHERE id IN ({id_placeholders})", article_ids
+        )
+        self.conn.commit()
+        return len(article_ids)
+
     @contextmanager
     def transaction(self):
         try:
@@ -262,3 +286,4 @@ class Database:
                     count += 1
         self.conn.commit()
         return count
+
