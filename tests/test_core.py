@@ -40,6 +40,23 @@ class CoreTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
 
+    def test_database_removes_only_explicit_demo_dois(self):
+        tmp = Path("work") / f"test-{uuid.uuid4().hex}"
+        tmp.mkdir(parents=True)
+        try:
+            db = Database(tmp / "radar.db")
+            demo = Article(source="crossref", title="Demo", doi="10.0000/demo.001", status="peer-reviewed")
+            live = Article(source="crossref", title="Live", doi="10.1000/live", status="peer-reviewed")
+            db.upsert_article(demo)
+            db.upsert_article(live)
+            db.conn.commit()
+            self.assertEqual(db.remove_articles_by_doi({"10.0000/demo.001"}), 1)
+            remaining = db.conn.execute("SELECT doi FROM articles").fetchall()
+            self.assertEqual([row[0] for row in remaining], ["10.1000/live"])
+            db.close()
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+
     def test_card_status_is_constrained(self):
         article = {"title": "A foundation model for aging", "abstract": "A longitudinal biobank foundation model.", "journal": "Nature Aging", "source": "crossref"}
         card = build_card(1, article, "B", ["foundation model"], CONFIG, [])
@@ -50,3 +67,4 @@ class CoreTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
