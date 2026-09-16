@@ -47,7 +47,9 @@ class PubMedSource:
     def __init__(self, email: str = "", api_key: str = ""):
         interval = 0.12 if api_key else 0.36
         self.http = HttpClient(f"MusculoskeletalResearchRadar/0.1 ({email or 'no-email'})", interval)
-        self.base_params = {"tool": "msk-research-radar", "email": email, "api_key": api_key}
+        self.base_params = {"tool": "msk-research-radar", "email": email}
+        if api_key:
+            self.base_params["api_key"] = api_key
 
     def fetch(self, terms: list[str], start: date, end: date, limit: int) -> list[Article]:
         if not self.base_params.get("email"):
@@ -96,7 +98,7 @@ class PubMedSource:
     def search_competition(self, query: str, limit: int = 4) -> list[dict[str, str]]:
         data = self.http.json(self.SEARCH, {
             **self.base_params, "db": "pubmed", "retmode": "json", "retmax": limit,
-            "sort": "relevance", "term": query,
+            "term": query,
         })
         articles = self.fetch_ids(data.get("esearchresult", {}).get("idlist", []))
         return [{"title": x.title, "journal": x.journal, "date": x.published_date, "url": x.url, "pmid": x.pmid} for x in articles]
@@ -171,3 +173,4 @@ class RxivSource:
 def date_window(days: int) -> tuple[date, date]:
     today = date.today()
     return today - timedelta(days=days), today
+
