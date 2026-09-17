@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:41:00+00:00",
+  "generated_at": "2026-09-17T00:34:46+00:00",
   "cards": [
     {
       "id": 18,
@@ -1008,6 +1008,606 @@
       }
     },
     {
+      "id": 7,
+      "source": "crossref",
+      "title": "Bone aging: a paradigm of multiscale degeneration and targeted rejuvenation",
+      "title_key": "boneagingaparadigmofmultiscaledegenerationandtargetedrejuvenation",
+      "abstract": "Abstract Bone aging is not merely a process of bone mass loss but rather a multi-level, networked degenerative phenomenon spanning molecular, cellular, tissue, and system levels. With the accelerating pace of global population aging, bone degenerative diseases have emerged as a major public health challenge. Consequently, there is an urgent need to elucidate the underlying mechanisms from an integrated perspective and to develop innovative intervention strategies. This review systematically synthesizes the comprehensive landscape of bone aging. At the macroscopic level, bone aging is characterized by declines in bone mass, microstructure, and biomechanical properties, ultimately leading to increased fragility. At the microscopic level, its pathogenesis involves dysfunction across multiple layers. Molecular mechanisms include genetic and epigenetic alterations, oxidative stress, the senescence-associated secretory phenotype, and dysregulation of key signaling pathways. Cellular level changes involve telomere attrition, mitochondrial and endoplasmic reticulum dysfunction, impaired proteostasis, altered nutrient sensing, and cellular senescence. At the microenvironmental and systemic levels, contributing factors include chronic inflammation, hormonal changes, and extracellular matrix remodeling. Correspondingly, intervention strategies include non-pharmacological approaches, such as dietary optimization, physical activity, and avoidance of alcohol and tobacco, as well as pharmacological therapies, including antiresorptive agents, anabolic bone-forming drugs, and senolytics. Emerging therapeutic avenues include regenerative medicine, gene therapy, and tissue engineering. Future research should focus on constructing a multi-omics-integrated bone aging atlas, developing bone organoids and computational models, establishing multimodal risk assessment systems, advancing precision therapies that target aging-related pathways, and promoting prevention-centered public health strategies. This review aims to provide a systematic framework for understanding the complex pathophysiology of bone aging and to provide key insights and directions for future interdisciplinary collaborations, translational research, and clinical interventions.",
+      "journal": "Bone Research",
+      "published_date": "2026-09-14",
+      "doi": "10.1038/s41413-026-00582-w",
+      "pmid": null,
+      "url": "https://doi.org/10.1038/s41413-026-00582-w",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Kangpeng Li\", \"Chenyuan Gao\", \"Ti Zhang\", \"Cheng Wang\", \"Xiao Geng\", \"Xinguang Wang\", \"Hua Tian\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-16T02:17:15+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 7,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Bone aging: a paradigm of multiscale degeneration and targeted rejuvenation”，核心对象来自 Bone Research。\", \"作者主要使用了多模态建模、图谱/资源来回答研究问题。 摘要证据：Abstract Bone aging is not merely a process of bone mass loss but rather a multi-level, networked degenerative phenomenon spanning molecular, cellular\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：With the accelerating pace of global population aging, bone degenerative diseases have emerged as a major public health \"]",
+      "new_paradigm": "可迁移的新范式是：多模态建模、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；算力、预训练模型与多模态数据基础成熟；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (bone)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (osteoporosis)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (muscle)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (sarcopenia)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"[Research on the depth and angle of needle insertion at Fengfu (GV16) in children based on three-dimensional image reconstruction].\", \"journal\": \"Zhongguo zhen jiu = Chinese acupuncture & moxibustion\", \"date\": \"2026-09-12\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42744632/\", \"pmid\": \"42744632\"}, {\"title\": \"Fabrication of a novel carboxymethyl chitosan-manganese complex and its multidimensional regulatory effects on the joint microenvironment in early osteoarthritis.\", \"journal\": \"Biomaterials advances\", \"date\": \"2026-09-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42743824/\", \"pmid\": \"42743824\"}, {\"title\": \"HMOX2-driven crosstalk between vascular aging and heart failure: A multimodal bioinformatics and explainable machine learning approach with experimental validation.\", \"journal\": \"PloS one\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42743238/\", \"pmid\": \"42743238\"}, {\"title\": \"A lymphadenectomy and irradiation-induced rat lymphedema model exhibits persistent dermal backflow and region-dependent fibrosis-associated remodeling.\", \"journal\": \"Frontiers in cell and developmental biology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42741149/\", \"pmid\": \"42741149\"}, {\"title\": \"Sustained Improvements of Thoracic Hyperkyphosis, Body Dysmorphic Disorder, in a 26-Year-Old Male With Scheuermann's Disease Using Chiropractic BioPhysics® Spinal Rehabilitation: A Case Report and 28-Month Long-Term Follow-Up.\", \"journal\": \"Cureus\", \"date\": \"2026-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740924/\", \"pmid\": \"42740924\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "Adjacent studies exist",
+      "score_total": 65,
+      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 65, \"data_feasibility\": 53, \"mechanistic_depth\": 80, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：atlas。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 3 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 4 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:41+00:00",
+      "authors": [
+        "Kangpeng Li",
+        "Chenyuan Gao",
+        "Ti Zhang",
+        "Cheng Wang",
+        "Xiao Geng",
+        "Xinguang Wang",
+        "Hua Tian"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Bone aging: a paradigm of multiscale degeneration and targeted rejuvenation”，核心对象来自 Bone Research。",
+        "作者主要使用了多模态建模、图谱/资源来回答研究问题。 摘要证据：Abstract Bone aging is not merely a process of bone mass loss but rather a multi-level, networked degenerative phenomenon spanning molecular, cellular",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：With the accelerating pace of global population aging, bone degenerative diseases have emerged as a major public health "
+      ],
+      "secondary_queries": [
+        "(\"multimodal\" OR \"atlas\") AND (bone)",
+        "(\"multimodal\" OR \"atlas\") AND (osteoporosis)",
+        "(\"multimodal\" OR \"atlas\") AND (muscle)",
+        "(\"multimodal\" OR \"atlas\") AND (sarcopenia)",
+        "(\"multimodal\" OR \"atlas\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "[Research on the depth and angle of needle insertion at Fengfu (GV16) in children based on three-dimensional image reconstruction].",
+          "journal": "Zhongguo zhen jiu = Chinese acupuncture & moxibustion",
+          "date": "2026-09-12",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42744632/",
+          "pmid": "42744632"
+        },
+        {
+          "title": "Fabrication of a novel carboxymethyl chitosan-manganese complex and its multidimensional regulatory effects on the joint microenvironment in early osteoarthritis.",
+          "journal": "Biomaterials advances",
+          "date": "2026-09-11",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42743824/",
+          "pmid": "42743824"
+        },
+        {
+          "title": "HMOX2-driven crosstalk between vascular aging and heart failure: A multimodal bioinformatics and explainable machine learning approach with experimental validation.",
+          "journal": "PloS one",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42743238/",
+          "pmid": "42743238"
+        },
+        {
+          "title": "A lymphadenectomy and irradiation-induced rat lymphedema model exhibits persistent dermal backflow and region-dependent fibrosis-associated remodeling.",
+          "journal": "Frontiers in cell and developmental biology",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741149/",
+          "pmid": "42741149"
+        },
+        {
+          "title": "Sustained Improvements of Thoracic Hyperkyphosis, Body Dysmorphic Disorder, in a 26-Year-Old Male With Scheuermann's Disease Using Chiropractic BioPhysics® Spinal Rehabilitation: A Case Report and 28-Month Long-Term Follow-Up.",
+          "journal": "Cureus",
+          "date": "2026-09",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740924/",
+          "pmid": "42740924"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 51,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 65,
+        "data_feasibility": 53,
+        "mechanistic_depth": 80,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：atlas。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 3 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 4 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 55,
+      "source": "pubmed",
+      "title": "Clinical and Radiologic Predictors of Surgical Intervention in Adult Maxillofacial Trauma Patients Presenting to the Emergency Department.",
+      "title_key": "clinicalandradiologicpredictorsofsurgicalinterventioninadultmaxillofacialtraumapatientspresentingtotheemergencydepartment",
+      "abstract": "Maxillofacial trauma may be managed either conservatively or surgically. This study aimed to identify the clinical and radiologic factors associated with operative management in adult patients and to propose a practical, emergency department-based treatment approach. This retrospective cohort study included adult patients who presented with head and facial trauma between March 1, 2021, and March 1, 2026. Patients aged 18 years or older who had clinical findings suggestive of maxillofacial injury and who underwent maxillofacial computed tomography (CT) were included. Demographic data, trauma mechanism, Glasgow Coma Scale (GCS) score, forensic status, CT findings, consultation, hospitalization, mortality, and treatment were recorded. Patients were divided into operative and nonoperative groups. Descriptive statistics, between-group comparisons, and multivariable logistic regression were performed. A total of 855 patients were included. The mean age was 59.06±22.38 years, and 499 patients (58.4%) were female. Falls were the most common mechanism of injury (74.15%). Surgery was performed in 32 patients (3.74%). Compared with nonoperatively managed patients, those who underwent surgery were younger, more frequently male, had lower GCS scores, and were more often forensic cases. A radiologically confirmed fracture was the strongest independent factor associated with surgery [odds ratio (OR)=11.29; P=0.001], together with forensic status and a lower GCS score. Among patients with radiologically confirmed facial fractures, mandibular, orbital, and nasal fractures were each independently associated with surgery (OR=44.70, 6.54, and 4.44, respectively; all P≤0.004). Most adult patients with maxillofacial trauma were managed nonoperatively. A radiologically confirmed fracture, forensic status, a lower GCS score, and specific fracture locations-mandibular, orbital, and nasal-may help guide early surgical evaluation and support a simple, practical treatment algorithm.",
+      "journal": "The Journal of craniofacial surgery",
+      "published_date": "2026-09-16",
+      "doi": "10.1097/scs.0000000000013417",
+      "pmid": "42747898",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747898/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Murat Muratoglu\", \"Damla Gencel\", \"Busra Bulut\", \"Suleyman Savran\", \"Deniz Kalemci\", \"Çağri A Uysal\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 55,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Clinical and Radiologic Predictors of Surgical Intervention in Adult Maxillofacial Trauma Patients Presenting to the Emergency Department.”，核心对象来自 The Journal of craniofacial surgery。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Maxillofacial trauma may be managed either conservatively or surgically.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：This study aimed to identify the clinical and radiologic factors associated with operative management in adult patients \"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.\", \"journal\": \"Archives of orthopaedic and trauma surgery\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747581/\", \"pmid\": \"42747581\"}, {\"title\": \"Atomic force microscopy in human post-mortem samples: current applications and future directions.\", \"journal\": \"International journal of legal medicine\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747552/\", \"pmid\": \"42747552\"}, {\"title\": \"The use of the Neviaser portal for antegrade intramedullary nailing in humerus fractures: a scoping review.\", \"journal\": \"European journal of orthopaedic surgery & traumatology : orthopedie traumatologie\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747522/\", \"pmid\": \"42747522\"}, {\"title\": \"The Liver-Bone Axis in Steatotic Liver Disease.\", \"journal\": \"Calcified tissue international\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747510/\", \"pmid\": \"42747510\"}, {\"title\": \"The effect of gap and step-off displacement of infratectal T-type acetabular fractures on contact pressures of the acetabulum: a biomechanical analysis.\", \"journal\": \"European journal of orthopaedic surgery & traumatology : orthopedie traumatologie\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747501/\", \"pmid\": \"42747501\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"CT\", \"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 64,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 95, \"data_feasibility\": 64, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 6 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:42+00:00",
+      "authors": [
+        "Murat Muratoglu",
+        "Damla Gencel",
+        "Busra Bulut",
+        "Suleyman Savran",
+        "Deniz Kalemci",
+        "Çağri A Uysal"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Clinical and Radiologic Predictors of Surgical Intervention in Adult Maxillofacial Trauma Patients Presenting to the Emergency Department.”，核心对象来自 The Journal of craniofacial surgery。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Maxillofacial trauma may be managed either conservatively or surgically.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：This study aimed to identify the clinical and radiologic factors associated with operative management in adult patients "
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.",
+          "journal": "Archives of orthopaedic and trauma surgery",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747581/",
+          "pmid": "42747581"
+        },
+        {
+          "title": "Atomic force microscopy in human post-mortem samples: current applications and future directions.",
+          "journal": "International journal of legal medicine",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747552/",
+          "pmid": "42747552"
+        },
+        {
+          "title": "The use of the Neviaser portal for antegrade intramedullary nailing in humerus fractures: a scoping review.",
+          "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747522/",
+          "pmid": "42747522"
+        },
+        {
+          "title": "The Liver-Bone Axis in Steatotic Liver Disease.",
+          "journal": "Calcified tissue international",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747510/",
+          "pmid": "42747510"
+        },
+        {
+          "title": "The effect of gap and step-off displacement of infratectal T-type acetabular fractures on contact pressures of the acetabulum: a biomechanical analysis.",
+          "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747501/",
+          "pmid": "42747501"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "CT",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 95,
+        "data_feasibility": 64,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 6 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 58,
+      "source": "pubmed",
+      "title": "Primary Cardiovascular Prevention in People Living With HIV: Rethinking Statin Therapy in the Post-REPRIEVE Era.",
+      "title_key": "primarycardiovascularpreventioninpeoplelivingwithhivrethinkingstatintherapyinthepostreprieveera",
+      "abstract": "This review examines approaches to primary cardiovascular prevention in people with HIV (PWH), focusing on the implications of the REPRIEVE trial and the 2026 ACC/AHA multisociety dyslipidemia guideline. We discuss cardiovascular risk mechanisms, limitations of conventional prediction tools, selection and monitoring of statin therapy, and the potential roles of imaging and non-statin lipid-lowering agents. REPRIEVE demonstrated that pitavastatin reduced major adverse cardiovascular events in PWH aged 40-75 years receiving antiretroviral therapy and at low-to-moderate estimated cardiovascular risk. Absolute benefit varied substantially according to baseline risk. Current US guidance recommends statin therapy for primary prevention in PWH aged 40-75 years receiving stable combination antiretroviral therapy, while quantitative risk assessment remains important for communicating expected benefit and informing treatment intensity. REPRIEVE did not directly study PWH younger than 40 years or older than 75 years; however, cohort data suggest a higher HIV-attributable relative cardiovascular risk at younger ages despite low absolute event rates, whereas general-population evidence supports statin efficacy and acceptable tolerability in older adults. Conventional risk models show variable performance in PWH, and high-quality evidence supporting imaging-guided prevention or non-statin cardiovascular outcome reduction specifically in this population remains limited. Statin therapy is an evidence-based component of primary cardiovascular prevention in PWH aged 40-75 years, but guideline-level eligibility does not imply uniform absolute benefit. Outside the REPRIEVE age range, decisions should integrate the distinct balance of relative and absolute risk, general-population evidence, comorbidity, frailty, drug-drug interactions, treatment burden, and individual preferences rather than rely on age alone.",
+      "journal": "Current HIV/AIDS reports",
+      "published_date": "2026-09-16",
+      "doi": "10.1161/circresaha.124.323891",
+      "pmid": "42747751",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747751/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Paolo Fusco\", \"Francesco De Maria\", \"Bruno Tassone\", \"Alessandro Russo\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 58,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Primary Cardiovascular Prevention in People Living With HIV: Rethinking Statin Therapy in the Post-REPRIEVE Era.”，核心对象来自 Current HIV/AIDS reports。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：This review examines approaches to primary cardiovascular prevention in people with HIV (PWH), focusing on the implications of the REPRIEVE trial and \", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We discuss cardiovascular risk mechanisms, limitations of conventional prediction tools, selection and monitoring of sta\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"frailty\\\") AND (bone)\", \"(\\\"frailty\\\") AND (osteoporosis)\", \"(\\\"frailty\\\") AND (muscle)\", \"(\\\"frailty\\\") AND (sarcopenia)\", \"(\\\"frailty\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.\", \"journal\": \"The Journal of experimental medicine\", \"date\": \"2026-10-05\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747887/\", \"pmid\": \"42747887\"}, {\"title\": \"A Rare Case of Oligosecretory Multiple Myeloma With Intracranial Plasmacytoma.\", \"journal\": \"Cureus\", \"date\": \"2026-08\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42746218/\", \"pmid\": \"42746218\"}, {\"title\": \"Biological Age Acceleration Predicts Functional Decline and Surgical Risk in Knee Arthroplasty.\", \"journal\": \"The Journal of arthroplasty\", \"date\": \"2026-09-15\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42744006/\", \"pmid\": \"42744006\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}, {\"title\": \"Safety and Efficacy of Mesenchymal Stem Cell Therapy in Aging Frailty: A Systematic Review.\", \"journal\": \"International journal of molecular sciences\", \"date\": \"2026-08-25\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42737497/\", \"pmid\": \"42737497\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"CT\", \"animal experiment\"]",
+      "novelty_status": "Adjacent studies exist",
+      "score_total": 64,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 85, \"data_feasibility\": 75, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 5 个。\", \"data_feasibility\": \"可获得数据/技术线索 3 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:43+00:00",
+      "authors": [
+        "Paolo Fusco",
+        "Francesco De Maria",
+        "Bruno Tassone",
+        "Alessandro Russo"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Primary Cardiovascular Prevention in People Living With HIV: Rethinking Statin Therapy in the Post-REPRIEVE Era.”，核心对象来自 Current HIV/AIDS reports。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：This review examines approaches to primary cardiovascular prevention in people with HIV (PWH), focusing on the implications of the REPRIEVE trial and ",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We discuss cardiovascular risk mechanisms, limitations of conventional prediction tools, selection and monitoring of sta"
+      ],
+      "secondary_queries": [
+        "(\"frailty\") AND (bone)",
+        "(\"frailty\") AND (osteoporosis)",
+        "(\"frailty\") AND (muscle)",
+        "(\"frailty\") AND (sarcopenia)",
+        "(\"frailty\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.",
+          "journal": "The Journal of experimental medicine",
+          "date": "2026-10-05",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747887/",
+          "pmid": "42747887"
+        },
+        {
+          "title": "A Rare Case of Oligosecretory Multiple Myeloma With Intracranial Plasmacytoma.",
+          "journal": "Cureus",
+          "date": "2026-08",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42746218/",
+          "pmid": "42746218"
+        },
+        {
+          "title": "Biological Age Acceleration Predicts Functional Decline and Surgical Risk in Knee Arthroplasty.",
+          "journal": "The Journal of arthroplasty",
+          "date": "2026-09-15",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42744006/",
+          "pmid": "42744006"
+        },
+        {
+          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
+          "journal": "Sensors (Basel, Switzerland)",
+          "date": "2026-08-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
+          "pmid": "42740073"
+        },
+        {
+          "title": "Safety and Efficacy of Mesenchymal Stem Cell Therapy in Aging Frailty: A Systematic Review.",
+          "journal": "International journal of molecular sciences",
+          "date": "2026-08-25",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42737497/",
+          "pmid": "42737497"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "CT",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 85,
+        "data_feasibility": 75,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 5 个。",
+        "data_feasibility": "可获得数据/技术线索 3 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 57,
+      "source": "pubmed",
+      "title": "Efficacy and Safety of Semaglutide According to Frailty Status: A Post Hoc Analysis of the SELECT Randomized Clinical Trial.",
+      "title_key": "efficacyandsafetyofsemaglutideaccordingtofrailtystatusaposthocanalysisoftheselectrandomizedclinicaltrial",
+      "abstract": "Whether frailty influences the benefit-risk balance of glucagon-like peptide-1 receptor agonists (GLP-1 RA) is uncertain. To evaluate whether frailty modifies the efficacy and safety of the GLP-1 RA semaglutide in adults with cardiovascular disease and overweight/obesity. In this secondary analysis of a randomized clinical trial, participants were adults with a body mass index of 27 or higher and established cardiovascular disease without diabetes. A 31-item frailty index (FI) was constructed using the Rockwood cumulative deficit approach; participants were categorized as not frail (FI ≤0.210), more frail (FI 0.211-0.310), and most frail (FI ≥0.311). Semaglutide, 2.4 mg, once weekly or placebo. The primary composite outcome was cardiovascular death, nonfatal myocardial infarction, and nonfatal stroke. Key secondary clinical outcomes, health-related quality-of-life (assessed by EuroQol 5-Dimension 5-Level [EQ-5D-5L] score), and safety events were additionally examined. Of 17 604 participants, the mean (SD) age was 61.6 (8.9) years; 12 732 patients (72.3%) were male and 4872 were female (27.7%). A total of 5432 patients (31%) had an FI up to 0.210, 8349 (47%) had an FI of 0.211 to 0.310, and 3823 (22%) had an FI 0.311 or higher. The incidence of the primary outcome increased with higher baseline FI. Benefits of semaglutide vs placebo on the primary outcome appeared consistent across the FI categories (hazard ratio [HR], 0.84; 95% CI, 0.65-1.07, if the FI was ≤0.210; HR, 0.70; 95% CI, 0.59-0.82, if the FI was 0.211-0.310; HR, 0.92; 95% CI, 0.76-1.10, if the FI was ≥0.311; P = .09 for interaction). Similar findings were observed when the FI was examined continuously (P = .30 for interaction). Semaglutide additionally reduced the composite heart failure outcome (P = .82 for interaction), all-cause hospitalization (P = .71 for interaction), and all-cause mortality (P = .28 for interaction) regardless of FI category. Benefits of semaglutide on EQ-5D-5L scores appeared larger with higher FI (P = .02 for interaction). Between baseline and week 104, FI category was more likely to improve (odds ratio [OR], 2.46; 95% CI, 1.80-3.37), and less likely to worsen (OR, 0.47; 95% CI, 0.34-0.65) with semaglutide vs placebo. The HRs for adverse events leading to permanent discontinuation of semaglutide vs placebo appeared lower among participants with higher baseline FI (P < .001 for interaction). This study found that semaglutide demonstrated beneficial effects on a broad range of clinical outcomes in SELECT, without detectable heterogeneity by baseline FI. Benefits of semaglutide on health-related quality of life appeared greater with higher FI. ClinicalTrials.gov Identifier: NCT03574597.",
+      "journal": "JAMA cardiology",
+      "published_date": "2026-09-16",
+      "doi": "10.1001/jamacardio.2026.3566",
+      "pmid": "42747817",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747817/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"John W Ostrominski\", \"Jorge Plutzky\", \"Benjamin M Scirica\", \"G Kees Hovingh\", \"Ole Kleist Jeppesen\", \"A Michael Lincoff\", \"Ildiko Lingvay\", \"Thomas Hoffmann Morville\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 57,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Efficacy and Safety of Semaglutide According to Frailty Status: A Post Hoc Analysis of the SELECT Randomized Clinical Trial.”，核心对象来自 JAMA cardiology。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Whether frailty influences the benefit-risk balance of glucagon-like peptide-1 receptor agonists (GLP-1 RA) is uncertain.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：To evaluate whether frailty modifies the efficacy and safety of the GLP-1 RA semaglutide in adults with cardiovascular d\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"frailty\\\") AND (bone)\", \"(\\\"frailty\\\") AND (osteoporosis)\", \"(\\\"frailty\\\") AND (muscle)\", \"(\\\"frailty\\\") AND (sarcopenia)\", \"(\\\"frailty\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.\", \"journal\": \"The Journal of experimental medicine\", \"date\": \"2026-10-05\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747887/\", \"pmid\": \"42747887\"}, {\"title\": \"A Rare Case of Oligosecretory Multiple Myeloma With Intracranial Plasmacytoma.\", \"journal\": \"Cureus\", \"date\": \"2026-08\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42746218/\", \"pmid\": \"42746218\"}, {\"title\": \"Biological Age Acceleration Predicts Functional Decline and Surgical Risk in Knee Arthroplasty.\", \"journal\": \"The Journal of arthroplasty\", \"date\": \"2026-09-15\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42744006/\", \"pmid\": \"42744006\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}, {\"title\": \"Safety and Efficacy of Mesenchymal Stem Cell Therapy in Aging Frailty: A Systematic Review.\", \"journal\": \"International journal of molecular sciences\", \"date\": \"2026-08-25\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42737497/\", \"pmid\": \"42737497\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "Adjacent studies exist",
+      "score_total": 60,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 85, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 5 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:43+00:00",
+      "authors": [
+        "John W Ostrominski",
+        "Jorge Plutzky",
+        "Benjamin M Scirica",
+        "G Kees Hovingh",
+        "Ole Kleist Jeppesen",
+        "A Michael Lincoff",
+        "Ildiko Lingvay",
+        "Thomas Hoffmann Morville"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Efficacy and Safety of Semaglutide According to Frailty Status: A Post Hoc Analysis of the SELECT Randomized Clinical Trial.”，核心对象来自 JAMA cardiology。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Whether frailty influences the benefit-risk balance of glucagon-like peptide-1 receptor agonists (GLP-1 RA) is uncertain.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：To evaluate whether frailty modifies the efficacy and safety of the GLP-1 RA semaglutide in adults with cardiovascular d"
+      ],
+      "secondary_queries": [
+        "(\"frailty\") AND (bone)",
+        "(\"frailty\") AND (osteoporosis)",
+        "(\"frailty\") AND (muscle)",
+        "(\"frailty\") AND (sarcopenia)",
+        "(\"frailty\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.",
+          "journal": "The Journal of experimental medicine",
+          "date": "2026-10-05",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747887/",
+          "pmid": "42747887"
+        },
+        {
+          "title": "A Rare Case of Oligosecretory Multiple Myeloma With Intracranial Plasmacytoma.",
+          "journal": "Cureus",
+          "date": "2026-08",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42746218/",
+          "pmid": "42746218"
+        },
+        {
+          "title": "Biological Age Acceleration Predicts Functional Decline and Surgical Risk in Knee Arthroplasty.",
+          "journal": "The Journal of arthroplasty",
+          "date": "2026-09-15",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42744006/",
+          "pmid": "42744006"
+        },
+        {
+          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
+          "journal": "Sensors (Basel, Switzerland)",
+          "date": "2026-08-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
+          "pmid": "42740073"
+        },
+        {
+          "title": "Safety and Efficacy of Mesenchymal Stem Cell Therapy in Aging Frailty: A Systematic Review.",
+          "journal": "International journal of molecular sciences",
+          "date": "2026-08-25",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42737497/",
+          "pmid": "42737497"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 85,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 5 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 61,
+      "source": "pubmed",
+      "title": "Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.",
+      "title_key": "longerhospitalstaybutsimilaroneyearmortalityandreadmissionaftercombinedproximalhumerusandproximalfemurfragilityfracturesapropensityscorematchedcohortstudy",
+      "abstract": "Fragility Proximal Humerus (PH) fractures are common and often associated with significant morbidity and mortality. Unlike Proximal Femur (PF) fractures, PH fractures are often omitted from established orthogeriatric multidisciplinary team (MDT) pathways. Combined Proximal Humerus and Proximal Femur fractures (PH&PF) are rare. Combined injuries would be expected to result in worse outcomes compared to isolated PH fractures due to greater injury burden. This study assessed outcomes between isolated PH and combined PH&PF fractures, exploring whether differences in care pathways may contribute to outcome. A retrospective propensity score-matched cohort study was performed over a 2-year period identifying patients sustaining isolated fragility PH fractures and over a 5-year period identifying patients sustaining combined PH&PF fractures secondary to low-energy trauma. Propensity score matching was performed using age, sex, comorbidity burden (as defined by Charlson Comorbidity Index (CCI)), mobility status, cognitive impairment and fracture pattern. Primary outcome was 1-year mortality. Secondary outcomes included 1-year readmission and length of stay (LoS). Mortality was analysed using Firth logistic regression, readmission using clustered logistic regression, and LoS using Gamma regression with cluster-robust standard errors. Sixty-five patients were included following matching (42 PH, 23 PH&PF). Excellent covariate balance was achieved across all matched variables (all absolute standardised mean differences < 0.10). One-year mortality was 7.1% in the PH group and 13.0% in the PH&PF group (OR 1.93, 95% CI 0.38-9.88; p = 0.417). Readmission occurred in 33.3% and 26.1% of patients, respectively (OR 0.71, 95% CI 0.17-2.92; p = 0.615). Median hospital LoS was 4 days (IQR 0-18.3) for PH fractures and 17 days (IQR 10.5-44.5) for PH&PF fractures. Gamma regression estimated a two-fold increase in hospital LoS among patients with concomitant PH&PF fractures (length-of-stay ratio 2.03, 95% CI 0.98-4.22; p = 0.057). Sensitivity analyses incorporating calendar year yielded similar findings. Despite a greater injury burden, patients with combined PH&PF fractures demonstrated equivocal 1-year mortality and readmission rates versus those with isolated PH fractures. These findings raise the possibility that access to established orthogeriatric MDT pathways may contribute to outcomes and support further prospective investigation into dedicated multidisciplinary care models for fragility PH fractures.",
+      "journal": "Archives of orthopaedic and trauma surgery",
+      "published_date": "2026-09-16",
+      "doi": "10.1177/2151459318776101",
+      "pmid": "42747581",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747581/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Stephen Murphy\", \"Clara Kellett\", \"Dylan Roberts\", \"Clara McGurk\", \"Emer Ahern\", \"Padhraig O'Loughlin\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 61,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.”，核心对象来自 Archives of orthopaedic and trauma surgery。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Fragility Proximal Humerus (PH) fractures are common and often associated with significant morbidity and mortality.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Unlike Proximal Femur (PF) fractures, PH fractures are often omitted from established orthogeriatric multidisciplinary t\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.\", \"journal\": \"Archives of orthopaedic and trauma surgery\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747581/\", \"pmid\": \"42747581\"}, {\"title\": \"Atomic force microscopy in human post-mortem samples: current applications and future directions.\", \"journal\": \"International journal of legal medicine\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747552/\", \"pmid\": \"42747552\"}, {\"title\": \"The use of the Neviaser portal for antegrade intramedullary nailing in humerus fractures: a scoping review.\", \"journal\": \"European journal of orthopaedic surgery & traumatology : orthopedie traumatologie\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747522/\", \"pmid\": \"42747522\"}, {\"title\": \"The Liver-Bone Axis in Steatotic Liver Disease.\", \"journal\": \"Calcified tissue international\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747510/\", \"pmid\": \"42747510\"}, {\"title\": \"The effect of gap and step-off displacement of infratectal T-type acetabular fractures on contact pressures of the acetabulum: a biomechanical analysis.\", \"journal\": \"European journal of orthopaedic surgery & traumatology : orthopedie traumatologie\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747501/\", \"pmid\": \"42747501\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 60,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 75, \"data_feasibility\": 64, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:44+00:00",
+      "authors": [
+        "Stephen Murphy",
+        "Clara Kellett",
+        "Dylan Roberts",
+        "Clara McGurk",
+        "Emer Ahern",
+        "Padhraig O'Loughlin"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.”，核心对象来自 Archives of orthopaedic and trauma surgery。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Fragility Proximal Humerus (PH) fractures are common and often associated with significant morbidity and mortality.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Unlike Proximal Femur (PF) fractures, PH fractures are often omitted from established orthogeriatric multidisciplinary t"
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.",
+          "journal": "Archives of orthopaedic and trauma surgery",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747581/",
+          "pmid": "42747581"
+        },
+        {
+          "title": "Atomic force microscopy in human post-mortem samples: current applications and future directions.",
+          "journal": "International journal of legal medicine",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747552/",
+          "pmid": "42747552"
+        },
+        {
+          "title": "The use of the Neviaser portal for antegrade intramedullary nailing in humerus fractures: a scoping review.",
+          "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747522/",
+          "pmid": "42747522"
+        },
+        {
+          "title": "The Liver-Bone Axis in Steatotic Liver Disease.",
+          "journal": "Calcified tissue international",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747510/",
+          "pmid": "42747510"
+        },
+        {
+          "title": "The effect of gap and step-off displacement of infratectal T-type acetabular fractures on contact pressures of the acetabulum: a biomechanical analysis.",
+          "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747501/",
+          "pmid": "42747501"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 75,
+        "data_feasibility": 64,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 4 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 19,
       "source": "medrxiv",
       "title": "Plasma proteomics reveals stage-dependent biological remodelling in Alzheimer's disease",
@@ -1112,92 +1712,6 @@
         "clinical_significance": "临床相关线索 2 个。",
         "data_feasibility": "可获得数据/技术线索 3 个。",
         "mechanistic_depth": "机制或因果线索 0 个。",
-        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
-      }
-    },
-    {
-      "id": 7,
-      "source": "crossref",
-      "title": "Bone aging: a paradigm of multiscale degeneration and targeted rejuvenation",
-      "title_key": "boneagingaparadigmofmultiscaledegenerationandtargetedrejuvenation",
-      "abstract": "Abstract Bone aging is not merely a process of bone mass loss but rather a multi-level, networked degenerative phenomenon spanning molecular, cellular, tissue, and system levels. With the accelerating pace of global population aging, bone degenerative diseases have emerged as a major public health challenge. Consequently, there is an urgent need to elucidate the underlying mechanisms from an integrated perspective and to develop innovative intervention strategies. This review systematically synthesizes the comprehensive landscape of bone aging. At the macroscopic level, bone aging is characterized by declines in bone mass, microstructure, and biomechanical properties, ultimately leading to increased fragility. At the microscopic level, its pathogenesis involves dysfunction across multiple layers. Molecular mechanisms include genetic and epigenetic alterations, oxidative stress, the senescence-associated secretory phenotype, and dysregulation of key signaling pathways. Cellular level changes involve telomere attrition, mitochondrial and endoplasmic reticulum dysfunction, impaired proteostasis, altered nutrient sensing, and cellular senescence. At the microenvironmental and systemic levels, contributing factors include chronic inflammation, hormonal changes, and extracellular matrix remodeling. Correspondingly, intervention strategies include non-pharmacological approaches, such as dietary optimization, physical activity, and avoidance of alcohol and tobacco, as well as pharmacological therapies, including antiresorptive agents, anabolic bone-forming drugs, and senolytics. Emerging therapeutic avenues include regenerative medicine, gene therapy, and tissue engineering. Future research should focus on constructing a multi-omics-integrated bone aging atlas, developing bone organoids and computational models, establishing multimodal risk assessment systems, advancing precision therapies that target aging-related pathways, and promoting prevention-centered public health strategies. This review aims to provide a systematic framework for understanding the complex pathophysiology of bone aging and to provide key insights and directions for future interdisciplinary collaborations, translational research, and clinical interventions.",
-      "journal": "Bone Research",
-      "published_date": "2026-09-14",
-      "doi": "10.1038/s41413-026-00582-w",
-      "pmid": null,
-      "url": "https://doi.org/10.1038/s41413-026-00582-w",
-      "publication_status": "peer-reviewed",
-      "authors_json": "[\"Kangpeng Li\", \"Chenyuan Gao\", \"Ti Zhang\", \"Cheng Wang\", \"Xiao Geng\", \"Xinguang Wang\", \"Hua Tian\"]",
-      "raw_json": "{}",
-      "first_seen_at": "2026-09-16T02:17:15+00:00",
-      "last_seen_at": "2026-09-16T07:40:53+00:00",
-      "article_id": 7,
-      "track": "A",
-      "summary_json": "[\"这项研究聚焦“Bone aging: a paradigm of multiscale degeneration and targeted rejuvenation”，核心对象来自 Bone Research。\", \"作者主要使用了多模态建模、图谱/资源来回答研究问题。 摘要证据：Abstract Bone aging is not merely a process of bone mass loss but rather a multi-level, networked degenerative phenomenon spanning molecular, cellular\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：With the accelerating pace of global population aging, bone degenerative diseases have emerged as a major public health \"]",
-      "new_paradigm": "可迁移的新范式是：多模态建模、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "高通量分子测量与组织分辨率提高；算力、预训练模型与多模态数据基础成熟；大样本纵向队列和可复用数据资源出现。",
-      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
-      "secondary_queries_json": "[\"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (bone)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (osteoporosis)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (muscle)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (sarcopenia)\", \"(\\\"multimodal\\\" OR \\\"atlas\\\") AND (fracture)\"]",
-      "competition_json": "[]",
-      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
-      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"human tissue\", \"animal experiment\", \"omics\"]",
-      "novelty_status": "No direct match found in current search",
-      "score_total": 59,
-      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 65, \"data_feasibility\": 53, \"mechanistic_depth\": 80, \"competition_urgency\": 42}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：atlas。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 3 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 4 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-16T07:41:00+00:00",
-      "authors": [
-        "Kangpeng Li",
-        "Chenyuan Gao",
-        "Ti Zhang",
-        "Cheng Wang",
-        "Xiao Geng",
-        "Xinguang Wang",
-        "Hua Tian"
-      ],
-      "summary_zh": [
-        "这项研究聚焦“Bone aging: a paradigm of multiscale degeneration and targeted rejuvenation”，核心对象来自 Bone Research。",
-        "作者主要使用了多模态建模、图谱/资源来回答研究问题。 摘要证据：Abstract Bone aging is not merely a process of bone mass loss but rather a multi-level, networked degenerative phenomenon spanning molecular, cellular",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：With the accelerating pace of global population aging, bone degenerative diseases have emerged as a major public health "
-      ],
-      "secondary_queries": [
-        "(\"multimodal\" OR \"atlas\") AND (bone)",
-        "(\"multimodal\" OR \"atlas\") AND (osteoporosis)",
-        "(\"multimodal\" OR \"atlas\") AND (muscle)",
-        "(\"multimodal\" OR \"atlas\") AND (sarcopenia)",
-        "(\"multimodal\" OR \"atlas\") AND (fracture)"
-      ],
-      "competition": [],
-      "unresolved_questions": [
-        "核心信号在独立人群、不同年龄与性别中是否稳定？",
-        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
-        "该方法相对现有临床指标是否带来可量化的增益？"
-      ],
-      "transfer_questions": [
-        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
-        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
-        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
-      ],
-      "data_needs": [
-        "human tissue",
-        "animal experiment",
-        "omics"
-      ],
-      "score_components": {
-        "paradigm_novelty": 51,
-        "musculoskeletal_gap": 58,
-        "clinical_significance": 65,
-        "data_feasibility": 53,
-        "mechanistic_depth": 80,
-        "competition_urgency": 42
-      },
-      "score_reasons": {
-        "paradigm_novelty": "识别到 1 个范式信号：atlas。",
-        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
-        "clinical_significance": "临床相关线索 3 个。",
-        "data_feasibility": "可获得数据/技术线索 1 个。",
-        "mechanistic_depth": "机制或因果线索 4 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
       }
     },
@@ -1378,6 +1892,364 @@
         "data_feasibility": "可获得数据/技术线索 3 个。",
         "mechanistic_depth": "机制或因果线索 0 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 51,
+      "source": "pubmed",
+      "title": "Polystyrene nanoplastics are associated with telomere-associated alterations and senescence-related changes in intestinal epithelial cells involving PPARα-POT1 regulation.",
+      "title_key": "polystyrenenanoplasticsareassociatedwithtelomereassociatedalterationsandsenescencerelatedchangesinintestinalepithelialcellsinvolvingpparpot1regulation",
+      "abstract": "Nanoplastics have emerged as important environmental contaminants with potential risks to animal and human health; however, their effects on intestinal epithelial cells remain unclear. In this study, polystyrene nanoplastics (PS) were used to investigate cytotoxic mechanisms in porcine intestinal epithelial cells(IPI-2I). PS exposure was associated with oxidative stress, as evidenced by elevated reactive oxygen species levels, altered oxidative stress-related indicators, and mitochondrial structural alterations. Increased γ-H2AX expression suggested activation of DNA damage responses. Transcriptomic analysis revealed enrichment of pathways associated with oxidative stress and telomere maintenance. PS exposure was also associated with telomere-associated alterations, including altered expression of shelterin complex proteins (TERF1, TERF2, and POT1), decreased telomerase activity, and shortened relative telomere length. In addition, PS treatment was associated with senescence-related phenotypes, including increased p53 and p21 expression and a higher proportion of SA-β-gal-positive cells. Bioinformatic and experimental analyses suggested a potential association between PPARα and POT1 regulation under PS exposure conditions. Chromatin immunoprecipitation-qPCR analysis suggested that PPARα could associate with the POT1 promoter region, and this enrichment was reduced after PS exposure. Collectively, the present findings suggest that PS exposure is associated with oxidative stress, DNA damage, telomere-associated alterations, and senescence-related changes in intestinal epithelial cells. In addition, PPARα may participate in telomere-associated cellular responses under PS exposure conditions.",
+      "journal": "Biochemical and biophysical research communications",
+      "published_date": "2026-09-17",
+      "doi": "10.1016/j.bbrc.2026.154206",
+      "pmid": "42468176",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42468176/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Chenhui Li\", \"Cuipeng Zhu\", \"Chuyang Zhu\", \"Long Yuan\", \"Fanfan Meng\", \"Shiqi Wang\", \"Hao Huang\", \"Demin Cai\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 51,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Polystyrene nanoplastics are associated with telomere-associated alterations and senescence-related changes in intestinal epithelial cells involving PPARα-POT1 regulation.”，核心对象来自 Biochemical and biophysical research communications。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Nanoplastics have emerged as important environmental contaminants with potential risks to animal and human health; however, their effects on intestina\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：In this study, polystyrene nanoplastics (PS) were used to investigate cytotoxic mechanisms in porcine intestinal epithel\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"senescence\\\") AND (bone)\", \"(\\\"senescence\\\") AND (osteoporosis)\", \"(\\\"senescence\\\") AND (muscle)\", \"(\\\"senescence\\\") AND (sarcopenia)\", \"(\\\"senescence\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Melatonin Alleviates Diabetic Cardiomyopathy by Inhibiting Cellular Senescence via Activation of the MT2/SIRT1/Nrf2 Signaling Pathway.\", \"journal\": \"Journal of pineal research\", \"date\": \"2026-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42745677/\", \"pmid\": \"42745677\"}, {\"title\": \"HMOX2-driven crosstalk between vascular aging and heart failure: A multimodal bioinformatics and explainable machine learning approach with experimental validation.\", \"journal\": \"PloS one\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42743238/\", \"pmid\": \"42743238\"}, {\"title\": \"From pathogenic to reparative: Context-Dependent function of extracellular vesicles in osteoarthritis.\", \"journal\": \"Bioactive materials\", \"date\": \"2027-02\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42741701/\", \"pmid\": \"42741701\"}, {\"title\": \"Prolonged In Vitro Expansion Shapes the Neuro-Supportive Potential of Jaw Periosteum Secretomes: Implications for Secretome Product Quality.\", \"journal\": \"Cells\", \"date\": \"2026-08-24\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42738820/\", \"pmid\": \"42738820\"}, {\"title\": \"Maternal E-Cigarette Vaping Drives Persistent Reprogramming of Bone Marrow Hematopoietic and Mesenchymal Stem Cells and Promotes Transcriptional and Metabolic Dysregulation-Associated Inflammaging and Disease Risks in Rat Offspring.\", \"journal\": \"Cells\", \"date\": \"2026-08-24\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42738815/\", \"pmid\": \"42738815\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 58,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 68, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:45+00:00",
+      "authors": [
+        "Chenhui Li",
+        "Cuipeng Zhu",
+        "Chuyang Zhu",
+        "Long Yuan",
+        "Fanfan Meng",
+        "Shiqi Wang",
+        "Hao Huang",
+        "Demin Cai"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Polystyrene nanoplastics are associated with telomere-associated alterations and senescence-related changes in intestinal epithelial cells involving PPARα-POT1 regulation.”，核心对象来自 Biochemical and biophysical research communications。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Nanoplastics have emerged as important environmental contaminants with potential risks to animal and human health; however, their effects on intestina",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：In this study, polystyrene nanoplastics (PS) were used to investigate cytotoxic mechanisms in porcine intestinal epithel"
+      ],
+      "secondary_queries": [
+        "(\"senescence\") AND (bone)",
+        "(\"senescence\") AND (osteoporosis)",
+        "(\"senescence\") AND (muscle)",
+        "(\"senescence\") AND (sarcopenia)",
+        "(\"senescence\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Melatonin Alleviates Diabetic Cardiomyopathy by Inhibiting Cellular Senescence via Activation of the MT2/SIRT1/Nrf2 Signaling Pathway.",
+          "journal": "Journal of pineal research",
+          "date": "2026-09",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42745677/",
+          "pmid": "42745677"
+        },
+        {
+          "title": "HMOX2-driven crosstalk between vascular aging and heart failure: A multimodal bioinformatics and explainable machine learning approach with experimental validation.",
+          "journal": "PloS one",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42743238/",
+          "pmid": "42743238"
+        },
+        {
+          "title": "From pathogenic to reparative: Context-Dependent function of extracellular vesicles in osteoarthritis.",
+          "journal": "Bioactive materials",
+          "date": "2027-02",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741701/",
+          "pmid": "42741701"
+        },
+        {
+          "title": "Prolonged In Vitro Expansion Shapes the Neuro-Supportive Potential of Jaw Periosteum Secretomes: Implications for Secretome Product Quality.",
+          "journal": "Cells",
+          "date": "2026-08-24",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42738820/",
+          "pmid": "42738820"
+        },
+        {
+          "title": "Maternal E-Cigarette Vaping Drives Persistent Reprogramming of Bone Marrow Hematopoietic and Mesenchymal Stem Cells and Promotes Transcriptional and Metabolic Dysregulation-Associated Inflammaging and Disease Risks in Rat Offspring.",
+          "journal": "Cells",
+          "date": "2026-08-24",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42738815/",
+          "pmid": "42738815"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 53,
+        "mechanistic_depth": 68,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 3 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 52,
+      "source": "pubmed",
+      "title": "Antiresorptive therapy influence on peri-implant diseases: Clinical implications and osteoimmunological perspectives.",
+      "title_key": "antiresorptivetherapyinfluenceonperiimplantdiseasesclinicalimplicationsandosteoimmunologicalperspectives",
+      "abstract": "Antiresorptive therapy represents a cornerstone in the management of osteoporosis and cancer-related bone disease through suppression of osteoclast-mediated bone resorption. As implant therapy becomes more common in aging populations, clinicians increasingly encounter patients receiving these medications, thus making their impact on peri-implant tissues clinically relevant. This narrative review critically examines clinical evidence on implant survival, peri-implant bone stability, peri-implantitis progression, and treatment considerations in patients receiving antiresorptive therapy, while integrating mechanistic insights. Evidence suggests that implant survival and marginal bone loss in osteoporotic patients are generally comparable to untreated individuals, indicating that suppression of bone resorption does not inherently compromise osseointegration. However, these outcomes may not fully reflect peri-implant tissue dynamics. Antiresorptives alter osteoclast functions and bone remodeling, potentially affecting the osteoimmune balance required to adapt to mechanical and oral microbial challenges. While these effects may remain subclinical under healthy conditions, they may become relevant during chronic peri-implant inflammation or repeated surgical interventions, where remodeling demands are increased. Altered remodeling may result in lesion persistence, impaired structural recovery, and late complications. Although medication-related osteonecrosis of the jaw remains rare, antiresorptives may modify osteoimmune interactions within inflamed tissues. Therefore, peri-implantitis may act as a contextual modifier influencing healing outcomes. Antiresorptive therapy should not be regarded as an absolute contraindication to implant therapy in appropriately selected patients, particularly those receiving osteoporosis-dose regimens. However, chronic peri-implant inflammation, repeated surgical intervention, and high-dose oncologic antiresorptive exposure may impair osteoimmune adaptation and increase susceptibility to delayed healing and MRONJ-related complications. Early control of peri-implant inflammation, individualized risk stratification, and strict supportive maintenance should be considered central components of clinical management in antiresorptive-exposed patients.",
+      "journal": "Periodontology 2000",
+      "published_date": "2026-09-16",
+      "doi": "10.1111/prd.70085",
+      "pmid": "42748180",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748180/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Emilio A Cafferata\", \"Frank Schwarz\", \"Reinhard Gruber\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 52,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Antiresorptive therapy influence on peri-implant diseases: Clinical implications and osteoimmunological perspectives.”，核心对象来自 Periodontology 2000。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Antiresorptive therapy represents a cornerstone in the management of osteoporosis and cancer-related bone disease through suppression of osteoclast-me\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：As implant therapy becomes more common in aging populations, clinicians increasingly encounter patients receiving these \"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"osteoporosis\\\") AND (bone)\", \"(\\\"osteoporosis\\\") AND (osteoporosis)\", \"(\\\"osteoporosis\\\") AND (muscle)\", \"(\\\"osteoporosis\\\") AND (sarcopenia)\", \"(\\\"osteoporosis\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Antiresorptive therapy influence on peri-implant diseases: Clinical implications and osteoimmunological perspectives.\", \"journal\": \"Periodontology 2000\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42748180/\", \"pmid\": \"42748180\"}, {\"title\": \"Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.\", \"journal\": \"Archives of orthopaedic and trauma surgery\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747581/\", \"pmid\": \"42747581\"}, {\"title\": \"The Liver-Bone Axis in Steatotic Liver Disease.\", \"journal\": \"Calcified tissue international\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747510/\", \"pmid\": \"42747510\"}, {\"title\": \"Sigma Anti-bonding Calcium Attenuates Ovariectomy-Induced Bone Loss by Preserving Trabecular Microarchitecture and Suppressing Osteoclastogenesis.\", \"journal\": \"Calcified tissue international\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747495/\", \"pmid\": \"42747495\"}, {\"title\": \"Osteosarcopenia as a Risk Factor for Atrial Fibrillation: A Multi-Cohort Study.\", \"journal\": \"JACC. Asia\", \"date\": \"2026-09-15\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747365/\", \"pmid\": \"42747365\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"hospital DXA\", \"human tissue\", \"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 58,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 85, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 5 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:45+00:00",
+      "authors": [
+        "Emilio A Cafferata",
+        "Frank Schwarz",
+        "Reinhard Gruber"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Antiresorptive therapy influence on peri-implant diseases: Clinical implications and osteoimmunological perspectives.”，核心对象来自 Periodontology 2000。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Antiresorptive therapy represents a cornerstone in the management of osteoporosis and cancer-related bone disease through suppression of osteoclast-me",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：As implant therapy becomes more common in aging populations, clinicians increasingly encounter patients receiving these "
+      ],
+      "secondary_queries": [
+        "(\"osteoporosis\") AND (bone)",
+        "(\"osteoporosis\") AND (osteoporosis)",
+        "(\"osteoporosis\") AND (muscle)",
+        "(\"osteoporosis\") AND (sarcopenia)",
+        "(\"osteoporosis\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Antiresorptive therapy influence on peri-implant diseases: Clinical implications and osteoimmunological perspectives.",
+          "journal": "Periodontology 2000",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42748180/",
+          "pmid": "42748180"
+        },
+        {
+          "title": "Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.",
+          "journal": "Archives of orthopaedic and trauma surgery",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747581/",
+          "pmid": "42747581"
+        },
+        {
+          "title": "The Liver-Bone Axis in Steatotic Liver Disease.",
+          "journal": "Calcified tissue international",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747510/",
+          "pmid": "42747510"
+        },
+        {
+          "title": "Sigma Anti-bonding Calcium Attenuates Ovariectomy-Induced Bone Loss by Preserving Trabecular Microarchitecture and Suppressing Osteoclastogenesis.",
+          "journal": "Calcified tissue international",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747495/",
+          "pmid": "42747495"
+        },
+        {
+          "title": "Osteosarcopenia as a Risk Factor for Atrial Fibrillation: A Multi-Cohort Study.",
+          "journal": "JACC. Asia",
+          "date": "2026-09-15",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747365/",
+          "pmid": "42747365"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "hospital DXA",
+        "human tissue",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 85,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 5 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 60,
+      "source": "pubmed",
+      "title": "Superior reduction quality without improved outcomes: open versus closed reduction for displaced femoral neck fractures in adults under 60 years.",
+      "title_key": "superiorreductionqualitywithoutimprovedoutcomesopenversusclosedreductionfordisplacedfemoralneckfracturesinadultsunder60years",
+      "abstract": "The optimal reduction strategy for displaced femoral neck fractures (DFNFs) in non-elderly adults remains controversial. Although open reduction may improve radiographic alignment, its impact on outcomes remains unclear. Adults aged < 60 years with DFNFs who were treated with internal fixation between 2017 and 2023 were retrospectively reviewed. Patients were categorized into closed and open reduction groups. Reduction quality was assessed using the Garden alignment index and the Haidukewych reduction criteria. Multivariate analyses were performed for the overall cohort and patients with Pauwels type III fractures. Outcomes included non-union, osteonecrosis, femoral neck shortening, and major reoperations. In total, 98 patients were included, among whom 83 and 15 underwent closed and open reduction, respectively. Although open reduction achieved a higher rate of excellent reduction (53.3% vs. 16.9%, p = 0.012), it was not associated with lower rates of non-union or osteonecrosis. In the overall cohort, age was associated with non-union (odds ratio [OR], 1.09; p = 0.024), whereas poorer reduction quality was associated with major reoperation (fair: OR 7.03, p = 0.012; poor: OR 47.6, p = 0.007). In patients with Pauwels type III fractures, poorer reduction quality predicted conversion to arthroplasty (fair: OR 9.84, p = 0.014), and age was associated with non-union and osteonecrosis. Femoral neck shortening of > 10 mm at 3 months was associated with age and open reduction, whereas at 12 months, age and intraoperative blood loss remained significant predictors. Open reduction achieved a higher rate of excellent reduction but did not reduce complication rates compared with closed reduction. Fracture severity, patient age, and reduction quality remained the principal determinants of outcome, supporting a fracture morphology-guided fixation strategy and realistic patient counseling.",
+      "journal": "Archives of orthopaedic and trauma surgery",
+      "published_date": "2026-09-16",
+      "doi": "10.1097/bot.0000000000001377",
+      "pmid": "42747591",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747591/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Jia-En Chi\", \"Chang-Heng Liu\", \"Youh-Hua Lo\", \"Chih-Yang Lai\", \"I-Jung Chen\", \"Yi-Hsun Yu\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 60,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Superior reduction quality without improved outcomes: open versus closed reduction for displaced femoral neck fractures in adults under 60 years.”，核心对象来自 Archives of orthopaedic and trauma surgery。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：The optimal reduction strategy for displaced femoral neck fractures (DFNFs) in non-elderly adults remains controversial.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although open reduction may improve radiographic alignment, its impact on outcomes remains unclear.\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.\", \"journal\": \"Archives of orthopaedic and trauma surgery\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747581/\", \"pmid\": \"42747581\"}, {\"title\": \"Atomic force microscopy in human post-mortem samples: current applications and future directions.\", \"journal\": \"International journal of legal medicine\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747552/\", \"pmid\": \"42747552\"}, {\"title\": \"The use of the Neviaser portal for antegrade intramedullary nailing in humerus fractures: a scoping review.\", \"journal\": \"European journal of orthopaedic surgery & traumatology : orthopedie traumatologie\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747522/\", \"pmid\": \"42747522\"}, {\"title\": \"The Liver-Bone Axis in Steatotic Liver Disease.\", \"journal\": \"Calcified tissue international\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747510/\", \"pmid\": \"42747510\"}, {\"title\": \"The effect of gap and step-off displacement of infratectal T-type acetabular fractures on contact pressures of the acetabulum: a biomechanical analysis.\", \"journal\": \"European journal of orthopaedic surgery & traumatology : orthopedie traumatologie\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747501/\", \"pmid\": \"42747501\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 56,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 65, \"data_feasibility\": 64, \"mechanistic_depth\": 32, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 3 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Jia-En Chi",
+        "Chang-Heng Liu",
+        "Youh-Hua Lo",
+        "Chih-Yang Lai",
+        "I-Jung Chen",
+        "Yi-Hsun Yu"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Superior reduction quality without improved outcomes: open versus closed reduction for displaced femoral neck fractures in adults under 60 years.”，核心对象来自 Archives of orthopaedic and trauma surgery。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：The optimal reduction strategy for displaced femoral neck fractures (DFNFs) in non-elderly adults remains controversial.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although open reduction may improve radiographic alignment, its impact on outcomes remains unclear."
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Longer hospital stay but similar one-year mortality and readmission after combined proximal humerus and proximal femur fragility fractures: a Propensity-Score-Matched Cohort Study.",
+          "journal": "Archives of orthopaedic and trauma surgery",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747581/",
+          "pmid": "42747581"
+        },
+        {
+          "title": "Atomic force microscopy in human post-mortem samples: current applications and future directions.",
+          "journal": "International journal of legal medicine",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747552/",
+          "pmid": "42747552"
+        },
+        {
+          "title": "The use of the Neviaser portal for antegrade intramedullary nailing in humerus fractures: a scoping review.",
+          "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747522/",
+          "pmid": "42747522"
+        },
+        {
+          "title": "The Liver-Bone Axis in Steatotic Liver Disease.",
+          "journal": "Calcified tissue international",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747510/",
+          "pmid": "42747510"
+        },
+        {
+          "title": "The effect of gap and step-off displacement of infratectal T-type acetabular fractures on contact pressures of the acetabulum: a biomechanical analysis.",
+          "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747501/",
+          "pmid": "42747501"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 65,
+        "data_feasibility": 64,
+        "mechanistic_depth": 32,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 3 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     },
     {
@@ -2574,6 +3446,176 @@
       }
     },
     {
+      "id": 48,
+      "source": "pubmed",
+      "title": "UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.",
+      "title_key": "ua30mitigatessystemicagingandmotordeclinebyinhibitingralasignalinginnaturallyagedmice",
+      "abstract": "Aging, characterized by progressive physiological decline and systemic dysfunction, represents a major risk factor for age-related diseases such as sarcopenia, which involves fibrosis that disrupts muscle regeneration and function. Effective therapeutic strategies remain limited. Here we report UA-30, a novel compound with a favorable pharmacokinetic and safety profile, that delayed systemic aging in naturally aged mice, as indicated by reduced frailty, slowed epigenetic age, extended lifespan, and improved muscle function. 10-wk UA-30 treatment reduced fibrosis and muscle atrophy in 18.5-mo-old mice. Thermal proteome profiling, surface plasmon resonance, and functional analyses identified Ras-related protein Ral-A (RalA) as a direct molecular target of UA-30. UA-30 suppressed RalA activity, thereby inhibiting the pro-fibrotic JNK-Smad signaling axis and enhancing mitochondrial functions. Overexpression of constitutively active RalA largely abolished the anti-aging and anti-fibrotic effects of UA-30. These findings support UA-30 as a promising therapeutic candidate for aging and sarcopenia, and indicate RalA is a potential target for age-related muscle degeneration.",
+      "journal": "The Journal of experimental medicine",
+      "published_date": "2026-10-05",
+      "doi": "10.1084/jem.20260071",
+      "pmid": "42747887",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747887/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Bingge Zhang\", \"Ye He\", \"Ruiming Zhang\", \"Ting Su\", \"Ruijuan Liu\", \"Xiaomei Li\", \"Xiufen Zhang\", \"Bocheng Xiong\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 48,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.”，核心对象来自 The Journal of experimental medicine。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Aging, characterized by progressive physiological decline and systemic dysfunction, represents a major risk factor for age-related diseases such as sa\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Effective therapeutic strategies remain limited.\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"sarcopenia\\\" OR \\\"frailty\\\") AND (bone)\", \"(\\\"sarcopenia\\\" OR \\\"frailty\\\") AND (osteoporosis)\", \"(\\\"sarcopenia\\\" OR \\\"frailty\\\") AND (muscle)\", \"(\\\"sarcopenia\\\" OR \\\"frailty\\\") AND (sarcopenia)\", \"(\\\"sarcopenia\\\" OR \\\"frailty\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 49,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Bingge Zhang",
+        "Ye He",
+        "Ruiming Zhang",
+        "Ting Su",
+        "Ruijuan Liu",
+        "Xiaomei Li",
+        "Xiufen Zhang",
+        "Bocheng Xiong"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.”，核心对象来自 The Journal of experimental medicine。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Aging, characterized by progressive physiological decline and systemic dysfunction, represents a major risk factor for age-related diseases such as sa",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Effective therapeutic strategies remain limited."
+      ],
+      "secondary_queries": [
+        "(\"sarcopenia\" OR \"frailty\") AND (bone)",
+        "(\"sarcopenia\" OR \"frailty\") AND (osteoporosis)",
+        "(\"sarcopenia\" OR \"frailty\") AND (muscle)",
+        "(\"sarcopenia\" OR \"frailty\") AND (sarcopenia)",
+        "(\"sarcopenia\" OR \"frailty\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 50,
+      "source": "pubmed",
+      "title": "Endothelial C/EBPβ/AEP pathway drives vascular deterioration and systemic aging.",
+      "title_key": "endothelialcebpaeppathwaydrivesvasculardeteriorationandsystemicaging",
+      "abstract": "Age-related microvascular dysfunction disrupts nutrient homeostasis and waste clearance, leading to organ failure. However, a critical gap remains in our understanding of the specific molecular drivers of vascular deterioration and how they orchestrate organism-wide aging. Here, we identify progressive activation of the CCAAT/enhancer-binding protein β (C/EBPβ)/asparagine endopeptidase (AEP) pathway in aging vascular endothelial cells contributes to vascular degeneration and lifespan reduction. Endothelial-specific C/EBPβ or AEP overexpression accelerated vascular aging and shortened lifespan in mice. Mechanistically, AEP mediates proteolytic cleavage of nicotinamide phosphoribosyltransferase (NAMPT), the rate-limiting enzyme in nicotinamide adenine dinucleotide (oxidised form, NAD+) biosynthesis, resulting in systemic NAD+ depletion and senescence that elicits both central and peripheral vascular dysfunction and ultimately systemic aging. Genetic ablation of AEP or expression of AEP-resistant NAMPT N136A mutant significantly ameliorated vascular aging and extended lifespan in endothelial-specific Tie 2-C/EBPβ transgenic mice. Pharmacologically, AEP inhibitor CP#11A or nicotinamide mononucleotide (NMN) supplementation alleviated age-related vascular decline, with CP#11A showing superior efficacy. These findings support a model in which endothelial senescence contributes to vascular dysfunction and systemic aging mediated by C/EBPβ/AEP signaling, and establish C/EBPβ/AEP as a therapeutic target to preserve vascular integrity and mitigate systemic frailty in aging populations.",
+      "journal": "Science advances",
+      "published_date": "2026-09-18",
+      "doi": "10.1126/sciadv.aed1961",
+      "pmid": "42748238",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748238/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Bowei Li\", \"Shuke Nie\", \"Mengmeng Wang\", \"Jiawei An\", \"Zhengjiang Qian\", \"Xin Meng\", \"Laura E Edgington-Mitchell\", \"Zhentao Zhang\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 50,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Endothelial C/EBPβ/AEP pathway drives vascular deterioration and systemic aging.”，核心对象来自 Science advances。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Age-related microvascular dysfunction disrupts nutrient homeostasis and waste clearance, leading to organ failure.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：However, a critical gap remains in our understanding of the specific molecular drivers of vascular deterioration and how\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"frailty\\\" OR \\\"senescence\\\") AND (bone)\", \"(\\\"frailty\\\" OR \\\"senescence\\\") AND (osteoporosis)\", \"(\\\"frailty\\\" OR \\\"senescence\\\") AND (muscle)\", \"(\\\"frailty\\\" OR \\\"senescence\\\") AND (sarcopenia)\", \"(\\\"frailty\\\" OR \\\"senescence\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 49,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 68, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Bowei Li",
+        "Shuke Nie",
+        "Mengmeng Wang",
+        "Jiawei An",
+        "Zhengjiang Qian",
+        "Xin Meng",
+        "Laura E Edgington-Mitchell",
+        "Zhentao Zhang"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Endothelial C/EBPβ/AEP pathway drives vascular deterioration and systemic aging.”，核心对象来自 Science advances。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Age-related microvascular dysfunction disrupts nutrient homeostasis and waste clearance, leading to organ failure.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：However, a critical gap remains in our understanding of the specific molecular drivers of vascular deterioration and how"
+      ],
+      "secondary_queries": [
+        "(\"frailty\" OR \"senescence\") AND (bone)",
+        "(\"frailty\" OR \"senescence\") AND (osteoporosis)",
+        "(\"frailty\" OR \"senescence\") AND (muscle)",
+        "(\"frailty\" OR \"senescence\") AND (sarcopenia)",
+        "(\"frailty\" OR \"senescence\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 68,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 3 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 27,
       "source": "pubmed",
       "title": "Impact of mild autonomous cortisol secretion on bone density, metabolism, and microstructure: a cross-sectional study.",
@@ -2742,6 +3784,88 @@
       }
     },
     {
+      "id": 53,
+      "source": "pubmed",
+      "title": "Post-surgical Outcomes in Pediatric and Adolescent Patients With Osteogenesis Imperfecta Undergoing Knee Arthroscopy.",
+      "title_key": "postsurgicaloutcomesinpediatricandadolescentpatientswithosteogenesisimperfectaundergoingkneearthroscopy",
+      "abstract": "Osteogenesis imperfecta (OI) is a genetic disorder of type I collagen associated with a higher risk of musculoskeletal injury. While fracture management in OI is well described, the safety and outcomes of knee arthroscopy for intra-articular pathology in pediatric and adolescent patients with OI remain unknown. The purpose of this study is to evaluate indications, complications, revision surgery rates, and return to baseline activity following knee arthroscopy in this population. A multicenter retrospective case series was performed on pediatric and adolescent patients with OI who underwent knee arthroscopy between January 2004 and March 2025. Patients with <6 months of follow-up were excluded. Demographic information, diagnoses, procedures, complications, revision surgeries, time to regain full range of motion, and time to return to sport or baseline activity were recorded. Complications were classified using a modified Clavien-Dindo-Sink system. Twenty patients (29 arthroscopic procedures) were included, with a mean age at surgery of 15.5 ± 3.2 years. The most common indications were meniscal injury (41.4%), patellar instability (31.0%), and fracture (27.6%). The most frequent procedures were meniscus repair or meniscectomy (24.1%), patellar stabilization surgery (24.1%), and anterior cruciate ligament reconstruction (17.2%). Postoperative complications of any type occurred after 48.3% of procedures, and 35% of patients required at least one revision surgery. No life-threatening or limb-threatening complications occurred. Seventeen patients (85%) returned to full baseline activities at a mean of 182 days postoperatively. Knee arthroscopy in pediatric and adolescent patients with OI is safe and can effectively restore function and allow return to baseline activity. However, patients should be counseled regarding higher rates of postoperative complications and revision surgery compared with the general pediatric and adolescent population. Level IV-case series.",
+      "journal": "Journal of pediatric orthopedics",
+      "published_date": "2026-09-16",
+      "doi": "10.1097/bpo.0000000000003470",
+      "pmid": "42748174",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748174/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Artin T Allahverdian\", \"Kristen Combs\", \"Jennifer M Weiss\", \"Selina C Poon\", \"Cynthia V Nguyen\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 53,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Post-surgical Outcomes in Pediatric and Adolescent Patients With Osteogenesis Imperfecta Undergoing Knee Arthroscopy.”，核心对象来自 Journal of pediatric orthopedics。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Osteogenesis imperfecta (OI) is a genetic disorder of type I collagen associated with a higher risk of musculoskeletal injury.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：While fracture management in OI is well described, the safety and outcomes of knee arthroscopy for intra-articular patho\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 49,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 65, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 3 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Artin T Allahverdian",
+        "Kristen Combs",
+        "Jennifer M Weiss",
+        "Selina C Poon",
+        "Cynthia V Nguyen"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Post-surgical Outcomes in Pediatric and Adolescent Patients With Osteogenesis Imperfecta Undergoing Knee Arthroscopy.”，核心对象来自 Journal of pediatric orthopedics。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Osteogenesis imperfecta (OI) is a genetic disorder of type I collagen associated with a higher risk of musculoskeletal injury.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：While fracture management in OI is well described, the safety and outcomes of knee arthroscopy for intra-articular patho"
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 65,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 3 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 5,
       "source": "crossref",
       "title": "Reprogramming the Aging Type H Vascular Niche via Myeloid Angiogenic Cell-Derived Extracellular Vesicles: Mechanisms, Engineering Strategies, and Translational Perspectives",
@@ -2756,7 +3880,7 @@
       "authors_json": "[\"Jinxin Zhang\", \"Xingchen Wei\", \"Na Han\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T02:17:15+00:00",
-      "last_seen_at": "2026-09-16T07:40:53+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
       "article_id": 5,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Reprogramming the Aging Type H Vascular Niche via Myeloid Angiogenic Cell-Derived Extracellular Vesicles: Mechanisms, Engineering Strategies, and Translational Perspectives”，核心对象来自 International Journal of Molecular Sciences。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Age-related osteoporosis is characterized by the simultaneous loss of bone mass and the regression of CD31hiEmcnhi (Type H) vessels, a specialized cap\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The endothelial progenitor cell (EPC) compartment, comprising myeloid angiogenic cells (MACs) and endothelial colony-for\"]",
@@ -2772,7 +3896,7 @@
       "score_total": 49,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 56, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-16T07:41:00+00:00",
+      "generated_at": "2026-09-17T00:34:46+00:00",
       "authors": [
         "Jinxin Zhang",
         "Xingchen Wei",
@@ -2837,7 +3961,7 @@
       "authors_json": "[\"Yingying Zhang\", \"Chen Yu\", \"Xiaoqin Zhang\", \"Linda Xiaoyan Li\", \"Alice Shasha Cheng\", \"Xiaogang Li\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T02:17:15+00:00",
-      "last_seen_at": "2026-09-16T07:40:53+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
       "article_id": 6,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“LSD1-mediated demethylation of the DNA damage response factor ATM promotes senescence and organ aging”，核心对象来自 Journal of Clinical Investigation。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Aging occurs heterogeneously across organs, leading to progressive tissue dysfunction.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Cellular senescence is a stress response triggered by age-associated insults, yet the mechanisms regulating senescence a\"]",
@@ -2853,7 +3977,7 @@
       "score_total": 49,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 68, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-16T07:41:00+00:00",
+      "generated_at": "2026-09-17T00:34:46+00:00",
       "authors": [
         "Yingying Zhang",
         "Chen Yu",
@@ -3327,6 +4451,169 @@
       }
     },
     {
+      "id": 56,
+      "source": "pubmed",
+      "title": "Air Force Pararescue Experience in Wilderness Medicine: Relevance for the Deployed Environment.",
+      "title_key": "airforcepararescueexperienceinwildernessmedicinerelevanceforthedeployedenvironment",
+      "abstract": "In the realm of military special operations, the practice of medicine extends beyond the conventional boundaries of healthcare. Operating within remote and often hostile environments demands a unique fusion of medical expertise, tactical acumen, and adaptability. In this report we review three distinct pararescue missions executed by the 212th Rescue Squadron in which the complexities of wilderness medicine and operational demands are examined. The relationship of Special Operations Forces (SOF) medical skills to wilderness medicine is examined in each mission: wound care for soft tissue injury from a bear mauling; airway management in a patient with severe traumatic brain injury at high altitude and extreme cold; and analgesia and appropriate field management of a mid-femur fracture from a snow machine accident in remote Alaskan wilderness. Currently, there is a paucity of literature discussing the critical role of wilderness medicine in SOF medical practice. By examining the role of wilderness medicine principles and techniques in this case series, we seek to contribute to the evolving discourse surrounding SOF medical practice as a unique union of wilderness and combat medical skills.",
+      "journal": "Journal of special operations medicine : a peer reviewed journal for SOF medical professionals",
+      "published_date": "2026-09-16",
+      "doi": "10.55460/j.spec.oper.med.2026.xsr7-cquw",
+      "pmid": "42747878",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747878/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Randy Michael\", \"Whitney Briggs\", \"Paul Barendregt\", \"Michael J Lauria\", \"Stephen C Rush\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 56,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Air Force Pararescue Experience in Wilderness Medicine: Relevance for the Deployed Environment.”，核心对象来自 Journal of special operations medicine : a peer reviewed journal for SOF medical professionals。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：In the realm of military special operations, the practice of medicine extends beyond the conventional boundaries of healthcare.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Operating within remote and often hostile environments demands a unique fusion of medical expertise, tactical acumen, an\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 47,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Randy Michael",
+        "Whitney Briggs",
+        "Paul Barendregt",
+        "Michael J Lauria",
+        "Stephen C Rush"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Air Force Pararescue Experience in Wilderness Medicine: Relevance for the Deployed Environment.”，核心对象来自 Journal of special operations medicine : a peer reviewed journal for SOF medical professionals。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：In the realm of military special operations, the practice of medicine extends beyond the conventional boundaries of healthcare.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Operating within remote and often hostile environments demands a unique fusion of medical expertise, tactical acumen, an"
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 62,
+      "source": "pubmed",
+      "title": "Atomic force microscopy in human post-mortem samples: current applications and future directions.",
+      "title_key": "atomicforcemicroscopyinhumanpostmortemsamplescurrentapplicationsandfuturedirections",
+      "abstract": "Nanotechnologies are increasingly being explored in forensic science, including Atomic Force Microscopy (AFM), a scanning probe technique capable of high-resolution surface analysis and quantitative nano-mechanical assessment. AFM can be applied to both inert materials and biological specimens; this narrative review focuses on human post-mortem samples. We aimed to summarize current AFM applications in this setting and to outline realistic directions for future research. A structured search of PubMed, Scopus, and Web of Science identified five studies consistent with our predefined focus. The available evidence addressed mainly bone, skeletal muscle, tendinous tissue, and hair. Bone studies investigated local mechanical properties relevant to fracture susceptibility, supporting the rationale for extending AFM to forensic scenarios such as the differentiation between perimortem trauma and post-mortem damage and the assessment of thermally altered remains. Studies on skeletal muscle and iliotibial band highlighted the influence of tissue water content on mechanical parameters, with implications for experimental designs targeting Post Mortem Interval. Hair analyses were primarily conducted on mummified remains, reporting structural differences between contemporary samples and mummified hair. These findings support further research adopting a comparative framework across different historical periods and site-specific environmental conditions. Overall, AFM appears promising for the characterization of post-mortem tissues, including substrates that remain underexplored in forensic research-such as skin, which has already been widely investigated in clinical settings. However, the current evidence base is constrained by small sample sizes, high costs, and substantial methodological heterogeneity. Future studies should therefore prioritize standardized protocols and multicentre designs to strengthen forensic applicability.",
+      "journal": "International journal of legal medicine",
+      "published_date": "2026-09-16",
+      "doi": "10.1016/j.ejrad.2025.112011",
+      "pmid": "42747552",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747552/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Fabio De-Giorgio\", \"Beatrice Benedetti\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 62,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Atomic force microscopy in human post-mortem samples: current applications and future directions.”，核心对象来自 International journal of legal medicine。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Nanotechnologies are increasingly being explored in forensic science, including Atomic Force Microscopy (AFM), a scanning probe technique capable of h\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：AFM can be applied to both inert materials and biological specimens; this narrative review focuses on human post-mortem \"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 47,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Fabio De-Giorgio",
+        "Beatrice Benedetti"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Atomic force microscopy in human post-mortem samples: current applications and future directions.”，核心对象来自 International journal of legal medicine。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Nanotechnologies are increasingly being explored in forensic science, including Atomic Force Microscopy (AFM), a scanning probe technique capable of h",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：AFM can be applied to both inert materials and biological specimens; this narrative review focuses on human post-mortem "
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 33,
       "source": "pubmed",
       "title": "Surgical strategies for atypical femoral fracture nonunion: Augmentative plating with or without exchange nailing.",
@@ -3657,6 +4944,86 @@
       }
     },
     {
+      "id": 49,
+      "source": "pubmed",
+      "title": "Invited Commentary: Understanding the Relationship Between Frailty and Mortality After Pancreatic Resection.",
+      "title_key": "invitedcommentaryunderstandingtherelationshipbetweenfrailtyandmortalityafterpancreaticresection",
+      "abstract": "",
+      "journal": "Journal of the American College of Surgeons",
+      "published_date": "2026-10-01",
+      "doi": "10.1097/xcs.0000000000002087",
+      "pmid": "42429276",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42429276/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Carrie E Ryan\", \"Mary E Dillhoff\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 49,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Invited Commentary: Understanding the Relationship Between Frailty and Mortality After Pancreatic Resection.”，核心对象来自 Journal of the American College of Surgeons。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"frailty\\\") AND (bone)\", \"(\\\"frailty\\\") AND (osteoporosis)\", \"(\\\"frailty\\\") AND (muscle)\", \"(\\\"frailty\\\") AND (sarcopenia)\", \"(\\\"frailty\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"hospital DXA\", \"clinical cohort\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 45,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Carrie E Ryan",
+        "Mary E Dillhoff"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Invited Commentary: Understanding the Relationship Between Frailty and Mortality After Pancreatic Resection.”，核心对象来自 Journal of the American College of Surgeons。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。"
+      ],
+      "secondary_queries": [
+        "(\"frailty\") AND (bone)",
+        "(\"frailty\") AND (osteoporosis)",
+        "(\"frailty\") AND (muscle)",
+        "(\"frailty\") AND (sarcopenia)",
+        "(\"frailty\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "hospital DXA",
+        "clinical cohort"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 45,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 25,
       "source": "pubmed",
       "title": "Immature fruit abscission is triggered by hormonal changes in the seed coat of avocado.",
@@ -3736,6 +5103,176 @@
         "clinical_significance": "临床相关线索 0 个。",
         "data_feasibility": "可获得数据/技术线索 1 个。",
         "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 54,
+      "source": "pubmed",
+      "title": "Discovery of a small peptide that increases yeast lifespan by enhancing the function of APCCdh1 in nondividing quiescent cells.",
+      "title_key": "discoveryofasmallpeptidethatincreasesyeastlifespanbyenhancingthefunctionofapccdh1innondividingquiescentcells",
+      "abstract": "Aging is accompanied by molecular hallmarks conserved from yeast to humans. One such hallmark, senescence, is an irreversible nondividing state that promotes aging. We previously reported that mutants of the yeast Anaphase Promoting Complex (APC) shorten the lifespan of both dividing and nondividing cells. Here, we propose that activation of the APC will promote the maintenance of quiescent yeast cells, thereby delaying senescence and aging. We observed that APC activity in aging quiescent cells becomes increasingly impaired, as the APC substrates Clb1 and Mps1 accumulated within aging cells reintroduced back into the cell cycle. To identify peptide activators of the APC, we used a yeast 2-hybrid screen to recover peptides that interacted with the APC subunit Apc10. Recovered peptides were tested for their effects on the replicative lifespan (RLS) of dividing cells, and the chronological lifespan (CLS) of nondividing cells. Several peptides increased the RLS of wild type cells, but only one peptide (C43-4) increased CLS, which requires the APC Cdh1 co-activator, but not the Cdc20 co-activator. In cells expressing C43-4, Clb1 and Mps1 levels remained low when aging quiescent cells were reintroduced back into the cell cycle. The addition of a synthetic C43-4 to aging quiescent cells increased CLS even when added at late stages of aging. Mutations to APC subunits and co-activators blocked the ability of C43-4 to extend CLS. Htz1, which shares sequence homology with C43-4, was found to suppress APC mutant phenotypes and stabilize Apc10. We individually mutated the 6 amino acids in C43-4 that were shared with Htz1; one of the mutants disrupted the C43-4-Apc10 2-hybrid interaction and abolished the C43-4-dependent increase in CLS. C43-4 action is evolutionarily conserved, as C43-4 increased C. elegans lifespan in a daf-16- and aak-2-dependent manner. Our results describe the discovery of an evolutionarily conserved translational peptide that is the first of its kind to specifically activate the anti-aging APCCdh1 complex.",
+      "journal": "Genetics",
+      "published_date": "2026-09-16",
+      "doi": "10.1093/genetics/iyag249",
+      "pmid": "42747995",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747995/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Rachel E Harris\", \"Spike D Postnikoff\", \"Nishita K Shukla\", \"Alexandra H Harkness\", \"Hannah M Brooks\", \"Abd-Al-Wahab Khawaja\", \"Mackenzie E Malo\", \"Carlos Zapien-Verdugo\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 54,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Discovery of a small peptide that increases yeast lifespan by enhancing the function of APCCdh1 in nondividing quiescent cells.”，核心对象来自 Genetics。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Aging is accompanied by molecular hallmarks conserved from yeast to humans.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：One such hallmark, senescence, is an irreversible nondividing state that promotes aging.\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"senescence\\\") AND (bone)\", \"(\\\"senescence\\\") AND (osteoporosis)\", \"(\\\"senescence\\\") AND (muscle)\", \"(\\\"senescence\\\") AND (sarcopenia)\", \"(\\\"senescence\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 45,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Rachel E Harris",
+        "Spike D Postnikoff",
+        "Nishita K Shukla",
+        "Alexandra H Harkness",
+        "Hannah M Brooks",
+        "Abd-Al-Wahab Khawaja",
+        "Mackenzie E Malo",
+        "Carlos Zapien-Verdugo"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Discovery of a small peptide that increases yeast lifespan by enhancing the function of APCCdh1 in nondividing quiescent cells.”，核心对象来自 Genetics。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Aging is accompanied by molecular hallmarks conserved from yeast to humans.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：One such hallmark, senescence, is an irreversible nondividing state that promotes aging."
+      ],
+      "secondary_queries": [
+        "(\"senescence\") AND (bone)",
+        "(\"senescence\") AND (osteoporosis)",
+        "(\"senescence\") AND (muscle)",
+        "(\"senescence\") AND (sarcopenia)",
+        "(\"senescence\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 59,
+      "source": "pubmed",
+      "title": "Effect of tooth preparation design on fracture load and fracture behavior of deciduous crowns fabricated by subtractive and additive manufacturing.",
+      "title_key": "effectoftoothpreparationdesignonfractureloadandfracturebehaviorofdeciduouscrownsfabricatedbysubtractiveandadditivemanufacturing",
+      "abstract": "This study evaluated the effects of crown material and margin design on fracture load and behavior of computer-aided design/computer-aided manufacturing (CAD-CAM) crowns for deciduous molars. Three subtractive-manufacturing (SM) materials and two additive-manufacturing (AM) materials were evaluated. Crowns with knife-edge, chamfer, and deep chamfer margins were fabricated and bonded to standardized deciduous molar abutments (n = 12/group; total = 180). Fracture load was measured under static loading, and fracture modes were classified by repairability and abutment involvement. Fracture surfaces and crack propagation were examined by scanning electron microscopy. Significant effects of material and material-margin interactions were observed (p < 0.05). ESTELITE BLOCK II exhibited the highest fracture load with knife-edge margins, whereas Detax showed the highest values with deep chamfer margins. However, non-repairable abutment-involving fractures occurred in both materials with knife-edge margins. CERASMART PRIME showed lower fracture load but mainly repairable fractures. SHOFU BLOCK HC and CERASMART PRIME, unified crown-abutment fracture in ESTELITE BLOCK II, interlayer delamination in Detax, and superficial radial cracking in NextDent. The effects of margin design on fracture load and fracture behavior were material-dependent. Among subtractive-manufacturing materials, fracture load was generally consistent with reported mechanical properties, whereas fracture behavior in additive-manufacturing materials may have been influenced by internal structure and build orientation. Material selection should consider fracture load, fracture severity, and abutment involvement. Material and margin selection influence fracture resistance and failure patterns. Fracture severity and abutment involvement should be considered in addition to fracture load.",
+      "journal": "Clinical oral investigations",
+      "published_date": "2026-09-16",
+      "doi": "10.1155/2018/5658393",
+      "pmid": "42747611",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747611/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Misaki Hamashima\", \"Kanae Wada\", \"Shinya Oishi\", \"Hidekazu Takahashi\", \"Kaori Kohi\", \"Daiki Kondo\", \"Yujeong Shin\", \"Yuika Yamanaka\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "article_id": 59,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Effect of tooth preparation design on fracture load and fracture behavior of deciduous crowns fabricated by subtractive and additive manufacturing.”，核心对象来自 Clinical oral investigations。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：This study evaluated the effects of crown material and margin design on fracture load and behavior of computer-aided design/computer-aided manufacturi\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Three subtractive-manufacturing (SM) materials and two additive-manufacturing (AM) materials were evaluated.\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 45,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-17T00:34:46+00:00",
+      "authors": [
+        "Misaki Hamashima",
+        "Kanae Wada",
+        "Shinya Oishi",
+        "Hidekazu Takahashi",
+        "Kaori Kohi",
+        "Daiki Kondo",
+        "Yujeong Shin",
+        "Yuika Yamanaka"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Effect of tooth preparation design on fracture load and fracture behavior of deciduous crowns fabricated by subtractive and additive manufacturing.”，核心对象来自 Clinical oral investigations。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：This study evaluated the effects of crown material and margin design on fracture load and behavior of computer-aided design/computer-aided manufacturi",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Three subtractive-manufacturing (SM) materials and two additive-manufacturing (AM) materials were evaluated."
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 45,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
       }
     },
@@ -3925,7 +5462,7 @@
       "authors_json": "[]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T07:21:29+00:00",
-      "last_seen_at": "2026-09-16T07:40:53+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
       "article_id": 20,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Cardiac Surgery, Frailty, and Outcomes: Connecting the Dots.”，核心对象来自 Anesthesia and analgesia。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。\"]",
@@ -3941,7 +5478,7 @@
       "score_total": 44,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-16T07:41:00+00:00",
+      "generated_at": "2026-09-17T00:34:46+00:00",
       "authors": [],
       "summary_zh": [
         "这项研究聚焦“Cardiac Surgery, Frailty, and Outcomes: Connecting the Dots.”，核心对象来自 Anesthesia and analgesia。",
@@ -4002,7 +5539,7 @@
       "authors_json": "[\"Muhammad Shafique Khan\", \"Meng-Yu Liu\", \"Aymen Safdar\", \"Mehreen Malik\", \"Khalid J. Alzahrani\", \"Khalaf F. Alsharif\", \"Fuad M. Alzahrani\", \"Ataullah Khan\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T02:17:15+00:00",
-      "last_seen_at": "2026-09-16T07:40:53+00:00",
+      "last_seen_at": "2026-09-17T00:34:40+00:00",
       "article_id": 4,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Emerging biological therapies for healthy aging: targeting inflammaging, senescence, and regenerative decline”，核心对象来自 Stem Cell Research & Therapy。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。\"]",
@@ -4018,7 +5555,7 @@
       "score_total": 44,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 42, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 0 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-16T07:41:00+00:00",
+      "generated_at": "2026-09-17T00:34:46+00:00",
       "authors": [
         "Muhammad Shafique Khan",
         "Meng-Yu Liu",
@@ -4074,8 +5611,8 @@
     }
   ],
   "stats": {
-    "total": 44,
-    "track_a": 33,
+    "total": 59,
+    "track_a": 48,
     "track_b": 11,
     "preprints": 11,
     "high_value": 5
