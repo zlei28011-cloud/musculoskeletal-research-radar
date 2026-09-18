@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:34:46+00:00",
+  "generated_at": "2026-09-18T00:23:54+00:00",
   "cards": [
     {
       "id": 18,
@@ -642,6 +642,163 @@
       }
     },
     {
+      "id": 80,
+      "source": "medrxiv",
+      "title": "Human genetics implicates a BACH2-NRF2 axis in fetal hemoglobin activation",
+      "title_key": "humangeneticsimplicatesabach2nrf2axisinfetalhemoglobinactivation",
+      "abstract": "Human genetic studies have identified key regulators of fetal hemoglobin (HbF) expression, including BCL11A, resulting in therapeutic advances. Yet the mechanisms by which HbF expression is activated remain incompletely understood. Here, we conduct a large multi-ancestry genome-wide association study of HbF levels in 28,279 individuals that identifies 91 conditionally-independent associations across 12 genomic regions. In one previously uncharacterized associated region, the high-HbF-linked causal variant, rs1010474-C, reduces BACH2 expression and elevates HbF levels. Direct perturbation or inhibition of BACH2 likewise increases HbF expression. Mechanistically, BACH2 restrains activation of the HbF-encoding {gamma}-globin genes, while loss of BACH2 enhances NRF2 chromatin occupancy and promotes the formation of activation foci at the {gamma}-globin genes. Although BACH2 and NRF2 binding motifs in the {gamma}-globin promoters overlap, they can be selectively edited to activate or repress {gamma}-globin, respectively, and do so independently of BCL11A. These findings illustrate how human genetic variation continues to advance our understanding of therapeutically-relevant regulatory mechanisms underlying HbF expression.",
+      "journal": "medrxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.1101/2023.03.24.23287659",
+      "pmid": null,
+      "url": "https://www.medrxiv.org/content/10.1101/2023.03.24.23287659",
+      "publication_status": "preprint",
+      "authors_json": "[\"Guo, C.-J.\", \"Arora, U. P.\", \"Xu, W.\", \"Cheng, X.\", \"Cato, L. D.\", \"Li, R.\", \"Lu, H. Y.\", \"Lee, A. J.\", \"Yu, F.\", \"Agarwal, G.\", \"Lyu, P.\", \"Ye, T.\", \"Antoszewski, M.\", \"Wissman, M.\", \"Mkumbe, B. S.\", \"Ekwattanakit, S.\", \"Deelen, P.\", \"Mwita, L.\", \"Sangeda, R. Z.\", \"Suksangpleng, T.\", \"Riolueang, S.\", \"Bronson, P. G.\", \"Paul, D. S.\", \"Kawabata, E.\", \"Astle, W. J.\", \"Aguet, F.\", \"Ardlie, K.\", \"Lopez de Lapuente Portilla, A.\", \"Kang, G.\", \"Zhang, Y.\", \"Nouraie, S. M.\", \"Gordeuk, V. R.\", \"Gladwin, M. T.\", \"Garrett, M. E.\", \"Ashley-Koch, A.\", \"Telen, M. J.\", \"Custer, B.\", \"Kelly, S.\", \"DINARDO, C.\", \"Sabino, E. C.\", \"Loureiro, P.\", \"Carneiro-Proietti, A. B.\", \"Maximo, C.\", \"Mendez,\"]",
+      "raw_json": "{\"category\": \"genetic and genomic medicine\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 80,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Human genetics implicates a BACH2-NRF2 axis in fetal hemoglobin activation”，核心对象来自 medrxiv。\", \"作者主要使用了扰动实验来回答研究问题。 摘要证据：Human genetic studies have identified key regulators of fetal hemoglobin (HbF) expression, including BCL11A, resulting in therapeutic advances.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Yet the mechanisms by which HbF expression is activated remain incompletely understood.\"]",
+      "new_paradigm": "可迁移的新范式是：扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"perturbation\\\") AND (bone)\", \"(\\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"perturbation\\\") AND (muscle)\", \"(\\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.\", \"journal\": \"Frontiers in sports and active living\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751572/\", \"pmid\": \"42751572\"}, {\"title\": \"Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.\", \"journal\": \"G3 (Bethesda, Md.)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747884/\", \"pmid\": \"42747884\"}, {\"title\": \"Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.\", \"journal\": \"Cerebellum (London, England)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747689/\", \"pmid\": \"42747689\"}, {\"title\": \"Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.\", \"journal\": \"Cardiovascular therapeutics\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42742929/\", \"pmid\": \"42742929\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 67,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 68, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:50+00:00",
+      "authors": [
+        "Guo, C.-J.",
+        "Arora, U. P.",
+        "Xu, W.",
+        "Cheng, X.",
+        "Cato, L. D.",
+        "Li, R.",
+        "Lu, H. Y.",
+        "Lee, A. J.",
+        "Yu, F.",
+        "Agarwal, G.",
+        "Lyu, P.",
+        "Ye, T.",
+        "Antoszewski, M.",
+        "Wissman, M.",
+        "Mkumbe, B. S.",
+        "Ekwattanakit, S.",
+        "Deelen, P.",
+        "Mwita, L.",
+        "Sangeda, R. Z.",
+        "Suksangpleng, T.",
+        "Riolueang, S.",
+        "Bronson, P. G.",
+        "Paul, D. S.",
+        "Kawabata, E.",
+        "Astle, W. J.",
+        "Aguet, F.",
+        "Ardlie, K.",
+        "Lopez de Lapuente Portilla, A.",
+        "Kang, G.",
+        "Zhang, Y.",
+        "Nouraie, S. M.",
+        "Gordeuk, V. R.",
+        "Gladwin, M. T.",
+        "Garrett, M. E.",
+        "Ashley-Koch, A.",
+        "Telen, M. J.",
+        "Custer, B.",
+        "Kelly, S.",
+        "DINARDO, C.",
+        "Sabino, E. C.",
+        "Loureiro, P.",
+        "Carneiro-Proietti, A. B.",
+        "Maximo, C.",
+        "Mendez,"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Human genetics implicates a BACH2-NRF2 axis in fetal hemoglobin activation”，核心对象来自 medrxiv。",
+        "作者主要使用了扰动实验来回答研究问题。 摘要证据：Human genetic studies have identified key regulators of fetal hemoglobin (HbF) expression, including BCL11A, resulting in therapeutic advances.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Yet the mechanisms by which HbF expression is activated remain incompletely understood."
+      ],
+      "secondary_queries": [
+        "(\"perturbation\") AND (bone)",
+        "(\"perturbation\") AND (osteoporosis)",
+        "(\"perturbation\") AND (muscle)",
+        "(\"perturbation\") AND (sarcopenia)",
+        "(\"perturbation\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.",
+          "journal": "Frontiers in sports and active living",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751572/",
+          "pmid": "42751572"
+        },
+        {
+          "title": "Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.",
+          "journal": "G3 (Bethesda, Md.)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747884/",
+          "pmid": "42747884"
+        },
+        {
+          "title": "Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.",
+          "journal": "Cerebellum (London, England)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747689/",
+          "pmid": "42747689"
+        },
+        {
+          "title": "Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.",
+          "journal": "Cardiovascular therapeutics",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42742929/",
+          "pmid": "42742929"
+        },
+        {
+          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
+          "journal": "Sensors (Basel, Switzerland)",
+          "date": "2026-08-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
+          "pmid": "42740073"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 63,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 68,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：perturbation。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 3 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 12,
       "source": "biorxiv",
       "title": "OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation",
@@ -885,6 +1042,128 @@
       }
     },
     {
+      "id": 69,
+      "source": "pubmed",
+      "title": "MAPK-driven MYC/p21 axis controls senescence bypass and BCL-XL dependence in vincristine-resistant rhabdomyosarcoma.",
+      "title_key": "mapkdrivenmycp21axiscontrolssenescencebypassandbclxldependenceinvincristineresistantrhabdomyosarcoma",
+      "abstract": "Therapy resistance remains the primary cause of treatment failure in rhabdomyosarcoma (RMS), the most common pediatric soft tissue sarcoma, yet underlying mechanisms are poorly understood. Using vincristine-resistant fusion-negative RMS models, RNA sequencing, genetic perturbations, and a syngeneic zebrafish tumor model, we demonstrate that resistance is driven by enhanced MAPK signaling, validated in post-chemotherapy patient specimens. MEK inhibition induced senescence through an MYC-p21 axis; MYC represses CDKN1A transcription, and its overexpression bypasses senescence. Resistant cells exhibited BCL-XL dependence, and combined MEK/BCL-XL inhibition eradicated resistant tumors in vitro and in vivo. These findings reveal that enhanced MAPK signaling and MYC-mediated senescence bypass are candidate resistance-associated mechanisms in fusion-negative RMS with implications across cancer types, and identify targetable vulnerabilities (MEK and BCL-XL), providing preclinical rationale for treatment-refractory RMS.",
+      "journal": "iScience",
+      "published_date": "2026-09-18",
+      "doi": "10.1038/nprot.2009.191",
+      "pmid": "42699572",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42699572/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Yadong Wang\", \"Andrea D Largent\", \"Dorothy Lee\", \"Paulomi Modi\", \"Long Wang\", \"Anshu Bandhlish\", \"Myron Ignatius\", \"Eleanor Y Chen\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 69,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“MAPK-driven MYC/p21 axis controls senescence bypass and BCL-XL dependence in vincristine-resistant rhabdomyosarcoma.”，核心对象来自 iScience。\", \"作者主要使用了扰动实验来回答研究问题。 摘要证据：Therapy resistance remains the primary cause of treatment failure in rhabdomyosarcoma (RMS), the most common pediatric soft tissue sarcoma, yet underl\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Using vincristine-resistant fusion-negative RMS models, RNA sequencing, genetic perturbations, and a syngeneic zebrafish\"]",
+      "new_paradigm": "可迁移的新范式是：扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"perturbation\\\") AND (bone)\", \"(\\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"perturbation\\\") AND (muscle)\", \"(\\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.\", \"journal\": \"Frontiers in sports and active living\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751572/\", \"pmid\": \"42751572\"}, {\"title\": \"Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.\", \"journal\": \"G3 (Bethesda, Md.)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747884/\", \"pmid\": \"42747884\"}, {\"title\": \"Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.\", \"journal\": \"Cerebellum (London, England)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747689/\", \"pmid\": \"42747689\"}, {\"title\": \"Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.\", \"journal\": \"Cardiovascular therapeutics\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42742929/\", \"pmid\": \"42742929\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 66,
+      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 75, \"data_feasibility\": 53, \"mechanistic_depth\": 80, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：perturbation。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 4 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:49+00:00",
+      "authors": [
+        "Yadong Wang",
+        "Andrea D Largent",
+        "Dorothy Lee",
+        "Paulomi Modi",
+        "Long Wang",
+        "Anshu Bandhlish",
+        "Myron Ignatius",
+        "Eleanor Y Chen"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“MAPK-driven MYC/p21 axis controls senescence bypass and BCL-XL dependence in vincristine-resistant rhabdomyosarcoma.”，核心对象来自 iScience。",
+        "作者主要使用了扰动实验来回答研究问题。 摘要证据：Therapy resistance remains the primary cause of treatment failure in rhabdomyosarcoma (RMS), the most common pediatric soft tissue sarcoma, yet underl",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Using vincristine-resistant fusion-negative RMS models, RNA sequencing, genetic perturbations, and a syngeneic zebrafish"
+      ],
+      "secondary_queries": [
+        "(\"perturbation\") AND (bone)",
+        "(\"perturbation\") AND (osteoporosis)",
+        "(\"perturbation\") AND (muscle)",
+        "(\"perturbation\") AND (sarcopenia)",
+        "(\"perturbation\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.",
+          "journal": "Frontiers in sports and active living",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751572/",
+          "pmid": "42751572"
+        },
+        {
+          "title": "Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.",
+          "journal": "G3 (Bethesda, Md.)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747884/",
+          "pmid": "42747884"
+        },
+        {
+          "title": "Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.",
+          "journal": "Cerebellum (London, England)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747689/",
+          "pmid": "42747689"
+        },
+        {
+          "title": "Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.",
+          "journal": "Cardiovascular therapeutics",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42742929/",
+          "pmid": "42742929"
+        },
+        {
+          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
+          "journal": "Sensors (Basel, Switzerland)",
+          "date": "2026-08-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
+          "pmid": "42740073"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 51,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 75,
+        "data_feasibility": 53,
+        "mechanistic_depth": 80,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：perturbation。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 4 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 4 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 46,
       "source": "pubmed",
       "title": "Gliomas phenocopy an inborn error of metabolism to drive neuronal activity and tumor growth.",
@@ -1004,6 +1283,491 @@
         "clinical_significance": "临床相关线索 0 个。",
         "data_feasibility": "可获得数据/技术线索 2 个。",
         "mechanistic_depth": "机制或因果线索 3 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 77,
+      "source": "biorxiv",
+      "title": "Reactive persistence of riverine metapopulations",
+      "title_key": "reactivepersistenceofriverinemetapopulations",
+      "abstract": "Understanding the conditions that favor the persistence of metapopulations inhabiting riverine landscapes (riverscapes) is critical to guiding conservation and restoration efforts aimed at preserving biodiversity and ecological integrity in freshwater environments. In this study, we present a modeling framework to examine the transient persistence of fluvial metapopulations---the temporary occupation of riverscape patches by a metapopulation expected to become extinct in the long run. Our approach is theoretically grounded in the concept of ecological reactivity, which effectively complements asymptotic stability analysis in the study of the short-term response of ecological systems to impulsive perturbations of otherwise stable steady states. Our results suggest that, under ecohydrological conditions conducive to reactive metapopulation extinction equilibria, a metapopulation asymptotically bound to extinction can still colonize parts of the riverscape for significant periods of time. We also find that, in the presence of repeated positive perturbations of the extinction equilibrium, the temporal scales associated with these transient phenomena may allow for reactive pseudo-persistence. This phenomenon involves an arbitrarily long delay in the eventual extinction of the metapopulation, which may occur well below the deterministic extinction threshold. Identifying the ecohydrological drivers of reactivity-driven metapopulation persistence and the riverscape patches that contribute most to transient metapopulation dynamics over different temporal scales may provide valuable suggestions for the spatial prioritization of conservation and restoration efforts.",
+      "journal": "biorxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.64898/2025.12.02.691852",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691852",
+      "publication_status": "preprint",
+      "authors_json": "[\"Mari, L.\", \"Bertuzzo, E.\", \"Rinaldo, A.\", \"Gatto, M.\", \"Casagrandi, R.\"]",
+      "raw_json": "{\"category\": \"ecology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 77,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Reactive persistence of riverine metapopulations”，核心对象来自 biorxiv。\", \"作者主要使用了扰动实验来回答研究问题。 摘要证据：Understanding the conditions that favor the persistence of metapopulations inhabiting riverine landscapes (riverscapes) is critical to guiding conserv\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：In this study, we present a modeling framework to examine the transient persistence of fluvial metapopulations---the tem\"]",
+      "new_paradigm": "可迁移的新范式是：扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"perturbation\\\") AND (bone)\", \"(\\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"perturbation\\\") AND (muscle)\", \"(\\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.\", \"journal\": \"Frontiers in sports and active living\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751572/\", \"pmid\": \"42751572\"}, {\"title\": \"Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.\", \"journal\": \"G3 (Bethesda, Md.)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747884/\", \"pmid\": \"42747884\"}, {\"title\": \"Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.\", \"journal\": \"Cerebellum (London, England)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747689/\", \"pmid\": \"42747689\"}, {\"title\": \"Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.\", \"journal\": \"Cardiovascular therapeutics\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42742929/\", \"pmid\": \"42742929\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 66,
+      "score_components_json": "{\"paradigm_novelty\": 76, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：perturbation, spatial。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:52+00:00",
+      "authors": [
+        "Mari, L.",
+        "Bertuzzo, E.",
+        "Rinaldo, A.",
+        "Gatto, M.",
+        "Casagrandi, R."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Reactive persistence of riverine metapopulations”，核心对象来自 biorxiv。",
+        "作者主要使用了扰动实验来回答研究问题。 摘要证据：Understanding the conditions that favor the persistence of metapopulations inhabiting riverine landscapes (riverscapes) is critical to guiding conserv",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：In this study, we present a modeling framework to examine the transient persistence of fluvial metapopulations---the tem"
+      ],
+      "secondary_queries": [
+        "(\"perturbation\") AND (bone)",
+        "(\"perturbation\") AND (osteoporosis)",
+        "(\"perturbation\") AND (muscle)",
+        "(\"perturbation\") AND (sarcopenia)",
+        "(\"perturbation\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.",
+          "journal": "Frontiers in sports and active living",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751572/",
+          "pmid": "42751572"
+        },
+        {
+          "title": "Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.",
+          "journal": "G3 (Bethesda, Md.)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747884/",
+          "pmid": "42747884"
+        },
+        {
+          "title": "Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.",
+          "journal": "Cerebellum (London, England)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747689/",
+          "pmid": "42747689"
+        },
+        {
+          "title": "Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.",
+          "journal": "Cardiovascular therapeutics",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42742929/",
+          "pmid": "42742929"
+        },
+        {
+          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
+          "journal": "Sensors (Basel, Switzerland)",
+          "date": "2026-08-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
+          "pmid": "42740073"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 76,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 2 个范式信号：perturbation, spatial。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 75,
+      "source": "biorxiv",
+      "title": "Biofilms promote tolerance and stability in gut bacterial communities during bile acid stress",
+      "title_key": "biofilmspromotetoleranceandstabilityingutbacterialcommunitiesduringbileacidstress",
+      "abstract": "Several mechanisms have been described to explain how bacterial species colonize and persist in the mammalian gut. However, biofilm formation remains underexplored as a mechanism for gut microbiota symbiont persistence. While evidence of biofilm formation by individual gut symbionts is beginning to emerge, its occurrence and relevance in multispecies gut microbiota communities remain poorly studied. Here, we established an in vitro model to study multispecies gut microbiota biofilms using the Oligo-Mouse Microbiota 12 (OMM12) consortium, a defined community of murine gut isolates. We investigated community biofilm formation and responses to bile acids, host-derived detergent-like molecules released into the gut that can perturb bacterial growth and community structure. We identified distinct contributions of two OMM12 members: removal of Enterococcus faecalis strongly reduced community biofilm biomass, whereas removal of Bacteroides caecimuris had limited effect on biomass but strongly altered species associations. These results, together with monoculture assays, show that individual biofilm capacity does not directly predict community-level contribution. Moreover, planktonic and biofilm communities had markedly distinct responses to bile acid stress. Planktonic cultures, while more susceptible to bile acids, showed resilience by recovering growth yield within 24 hours upon bile stress removal. Community biofilms, in contrast, showed greater tolerance to bile acid stress and more species associations. Overall, our findings support biofilms as a community-level lifestyle that can buffer defined gut microbiota communities against host-associated chemical perturbations.",
+      "journal": "biorxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.64898/2026.07.20.739518",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739518",
+      "publication_status": "preprint",
+      "authors_json": "[\"Louro, M.\", \"Cabral, V.\", \"XAVIER, K. B.\"]",
+      "raw_json": "{\"category\": \"microbiology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 75,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Biofilms promote tolerance and stability in gut bacterial communities during bile acid stress”，核心对象来自 biorxiv。\", \"作者主要使用了扰动实验来回答研究问题。 摘要证据：Several mechanisms have been described to explain how bacterial species colonize and persist in the mammalian gut.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：However, biofilm formation remains underexplored as a mechanism for gut microbiota symbiont persistence.\"]",
+      "new_paradigm": "可迁移的新范式是：扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"perturbation\\\") AND (bone)\", \"(\\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"perturbation\\\") AND (muscle)\", \"(\\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.\", \"journal\": \"Frontiers in sports and active living\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751572/\", \"pmid\": \"42751572\"}, {\"title\": \"Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.\", \"journal\": \"G3 (Bethesda, Md.)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747884/\", \"pmid\": \"42747884\"}, {\"title\": \"Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.\", \"journal\": \"Cerebellum (London, England)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747689/\", \"pmid\": \"42747689\"}, {\"title\": \"Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.\", \"journal\": \"Cardiovascular therapeutics\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42742929/\", \"pmid\": \"42742929\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 65,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 56, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:51+00:00",
+      "authors": [
+        "Louro, M.",
+        "Cabral, V.",
+        "XAVIER, K. B."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Biofilms promote tolerance and stability in gut bacterial communities during bile acid stress”，核心对象来自 biorxiv。",
+        "作者主要使用了扰动实验来回答研究问题。 摘要证据：Several mechanisms have been described to explain how bacterial species colonize and persist in the mammalian gut.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：However, biofilm formation remains underexplored as a mechanism for gut microbiota symbiont persistence."
+      ],
+      "secondary_queries": [
+        "(\"perturbation\") AND (bone)",
+        "(\"perturbation\") AND (osteoporosis)",
+        "(\"perturbation\") AND (muscle)",
+        "(\"perturbation\") AND (sarcopenia)",
+        "(\"perturbation\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.",
+          "journal": "Frontiers in sports and active living",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751572/",
+          "pmid": "42751572"
+        },
+        {
+          "title": "Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.",
+          "journal": "G3 (Bethesda, Md.)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747884/",
+          "pmid": "42747884"
+        },
+        {
+          "title": "Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.",
+          "journal": "Cerebellum (London, England)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747689/",
+          "pmid": "42747689"
+        },
+        {
+          "title": "Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.",
+          "journal": "Cardiovascular therapeutics",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42742929/",
+          "pmid": "42742929"
+        },
+        {
+          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
+          "journal": "Sensors (Basel, Switzerland)",
+          "date": "2026-08-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
+          "pmid": "42740073"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 63,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 56,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：perturbation。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 2 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 76,
+      "source": "biorxiv",
+      "title": "Cell death and growth dynamics shape DNA-replication-based estimates of microbial growth",
+      "title_key": "celldeathandgrowthdynamicsshapednareplicationbasedestimatesofmicrobialgrowth",
+      "abstract": "Inferring bacterial growth rates is fundamental to understanding microbial interactions and community dynamics, but remains difficult in natural settings where time points are limited or organisms are unculturable. In these cases, a widely used method is the origin-to-terminus ratio, or peak-to-trough ratio (PTR), which estimates DNA replication activity from origin and terminus copy numbers. Although PTR is theoretically related to bacterial growth rate, it is frequently benchmarked against population growth rate, which reflects the balance between cell division and loss. Understanding when and why these measures diverge is therefore important for validating PTR-based approaches. To quantify how departures from steady growth affect PTR, population growth rate, and bacterial growth rate, we developed a stochastic, cell-based model that explicitly tracks DNA replication, cell division, and cell death. We show that transient stress-induced mortality and heterogeneous survival can cause PTR to fail to reflect population growth rate while still reflecting bacterial growth rate. We experimentally validated these predictions by exposing \\textit{Escherichia coli} to osmotic shock or antibiotics, and measuring population growth rate and DNA replication activity. We further show that initial physiological state, lag before replication resumes, and abrupt growth arrest can alter the relationship between PTR and population growth rate. In the presence of mortality, lag can increase PTR's correspondence with population growth rate while decreasing its correspondence with bacterial growth rate. These results provide a mechanistic and quantitative framework for interpreting PTR across changing growth states, mortality regimes, and environmental perturbations.",
+      "journal": "biorxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.64898/2026.05.11.723878",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.11.723878",
+      "publication_status": "preprint",
+      "authors_json": "[\"Hunter, M.\", \"Ghezzi, H.\", \"Jain, A.\", \"He, J.\", \"Tropini, C.\"]",
+      "raw_json": "{\"category\": \"microbiology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 76,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Cell death and growth dynamics shape DNA-replication-based estimates of microbial growth”，核心对象来自 biorxiv。\", \"作者主要使用了扰动实验来回答研究问题。 摘要证据：Inferring bacterial growth rates is fundamental to understanding microbial interactions and community dynamics, but remains difficult in natural setti\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：In these cases, a widely used method is the origin-to-terminus ratio, or peak-to-trough ratio (PTR), which estimates DNA\"]",
+      "new_paradigm": "可迁移的新范式是：扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"perturbation\\\") AND (bone)\", \"(\\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"perturbation\\\") AND (muscle)\", \"(\\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.\", \"journal\": \"Frontiers in sports and active living\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751572/\", \"pmid\": \"42751572\"}, {\"title\": \"Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.\", \"journal\": \"G3 (Bethesda, Md.)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747884/\", \"pmid\": \"42747884\"}, {\"title\": \"Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.\", \"journal\": \"Cerebellum (London, England)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747689/\", \"pmid\": \"42747689\"}, {\"title\": \"Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.\", \"journal\": \"Cardiovascular therapeutics\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42742929/\", \"pmid\": \"42742929\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 65,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:52+00:00",
+      "authors": [
+        "Hunter, M.",
+        "Ghezzi, H.",
+        "Jain, A.",
+        "He, J.",
+        "Tropini, C."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Cell death and growth dynamics shape DNA-replication-based estimates of microbial growth”，核心对象来自 biorxiv。",
+        "作者主要使用了扰动实验来回答研究问题。 摘要证据：Inferring bacterial growth rates is fundamental to understanding microbial interactions and community dynamics, but remains difficult in natural setti",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：In these cases, a widely used method is the origin-to-terminus ratio, or peak-to-trough ratio (PTR), which estimates DNA"
+      ],
+      "secondary_queries": [
+        "(\"perturbation\") AND (bone)",
+        "(\"perturbation\") AND (osteoporosis)",
+        "(\"perturbation\") AND (muscle)",
+        "(\"perturbation\") AND (sarcopenia)",
+        "(\"perturbation\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.",
+          "journal": "Frontiers in sports and active living",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751572/",
+          "pmid": "42751572"
+        },
+        {
+          "title": "Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.",
+          "journal": "G3 (Bethesda, Md.)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747884/",
+          "pmid": "42747884"
+        },
+        {
+          "title": "Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.",
+          "journal": "Cerebellum (London, England)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747689/",
+          "pmid": "42747689"
+        },
+        {
+          "title": "Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.",
+          "journal": "Cardiovascular therapeutics",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42742929/",
+          "pmid": "42742929"
+        },
+        {
+          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
+          "journal": "Sensors (Basel, Switzerland)",
+          "date": "2026-08-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
+          "pmid": "42740073"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 63,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 45,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：perturbation。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 81,
+      "source": "medrxiv",
+      "title": "Plasma Proteomic Mediators of the Association Between Early-Pregnancy Psychosocial Stress and Cardiovascular Health 2 to 7 Years After Delivery: The nuMoM2b-HHS Study",
+      "title_key": "plasmaproteomicmediatorsoftheassociationbetweenearlypregnancypsychosocialstressandcardiovascularhealth2to7yearsafterdeliverythenumom2bhhsstudy",
+      "abstract": "Importance: Psychosocial exposures in early pregnancy are associated with worse maternal cardiovascular health (CVH), but the biological pathways linking early-pregnancy stressors to long-term CVH are not defined. Objective: To determine whether plasma proteins measured in early pregnancy mediate the association between early-pregnancy psychosocial stressors and CVH 2 to 7 years after delivery. Design, Setting, and Participants: This was a secondary analysis of the prospective multicenter Nulliparous Pregnancy Outcomes Study: Monitoring Mothers-to-Be Heart Health Study (nuMoM2b-HHS), which enrolled nulliparous individuals at eight US academic centers (2010-2014) and followed them 2 to 7 years after delivery. The analytic sample comprised participants with first-trimester plasma proteomics. Analyses were conducted from January to June 2026. Exposures: Perceived stress (Perceived Stress Scale-10 >13) as the primary exposure; Early-pregnancy depression (Edinburgh Postnatal Depression Scale >10) and anxiety (State-Trait Anxiety Inventory >37) as secondary exposures. Main Outcomes and Measures: Post-pregnancy CVH quantified by the American Heart Association Life's Essential 8 (LE8) composite score (0-100) and its clinical components: blood pressure, lipid, glucose, and body mass index (BMI) scores. A four-way decomposition partitioned the total effect of stress into a controlled direct effect, reference interaction, mediated interaction, and pure indirect effect operating through a proteomic mediator. Results: Among 1662 participants (mean [SD] age, 27.1 [5.5] years), 41.6% screened positive for stress. Of 6874 aptamers, 17 (representing 14 unique, predominantly neuronal and synaptic proteins) were associated with both stress and the LE8 composite as well as four clinical components after false discovery rate correction. No aptamers met criteria for depression or anxiety. Stress was associated with lower levels of all 14 proteins, and higher protein levels were associated with better CVH scores. The 14 proteins reduced to a single principal component (57% of variance) used as the mediator. Stress was associated with a lower post-pregnancy LE8 composite score (total effect, -3.74 [95% CI, -5.03 to -2.45]); the proteomic factor accounted for a pure indirect effect of -1.20 (95% CI, -1.68 to -0.72), approximately 32% of the total effect, and approximately 56% of the larger association with the BMI score. Significant indirect effects through the proteomic factor were also observed for the blood pressure, lipid, and glucose scores despite nonsignificant total effects.",
+      "journal": "medrxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.64898/2026.09.14.26363041",
+      "pmid": null,
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26363041",
+      "publication_status": "preprint",
+      "authors_json": "[\"Huang, X.\", \"Petito, L. C.\", \"Guan, W.\", \"Yee, L. M.\", \"Haas, D. M.\", \"Mercer, B. M.\", \"Parry, S.\", \"Saade, G. R.\", \"Silver, R. M.\", \"Qiao, Y.\", \"Huang, X.\", \"Simhan, H. N.\", \"Reddy, U. M.\", \"Chung, J.\", \"Greenland, P.\", \"Lloyd-Jones, D. M.\", \"Grobman, W. A.\", \"Khan, S. S.\"]",
+      "raw_json": "{\"category\": \"epidemiology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 81,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Plasma Proteomic Mediators of the Association Between Early-Pregnancy Psychosocial Stress and Cardiovascular Health 2 to 7 Years After Delivery: The nuMoM2b-HHS Study”，核心对象来自 medrxiv。\", \"作者主要使用了蛋白质组学来回答研究问题。 摘要证据：Importance: Psychosocial exposures in early pregnancy are associated with worse maternal cardiovascular health (CVH), but the biological pathways link\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Objective: To determine whether plasma proteins measured in early pregnancy mediate the association between early-pregna\"]",
+      "new_paradigm": "可迁移的新范式是：蛋白质组学。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"proteomics\\\") AND (bone)\", \"(\\\"proteomics\\\") AND (osteoporosis)\", \"(\\\"proteomics\\\") AND (muscle)\", \"(\\\"proteomics\\\") AND (sarcopenia)\", \"(\\\"proteomics\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Plant Metabolites Screening Identifies 7-epi-10-Deacetyltaxol Inhibiting Cell Division by Interfering With the Cell Cycle and Microtubule Organization.\", \"journal\": \"Advanced science (Weinheim, Baden-Wurttemberg, Germany)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42750187/\", \"pmid\": \"42750187\"}, {\"title\": \"Comparative analysis of myeloperoxidase deficiency in humans and mice: Conserved and species-specific effects on neutrophil biology.\", \"journal\": \"Redox biology\", \"date\": \"2026-09-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42748657/\", \"pmid\": \"42748657\"}, {\"title\": \"Proteome Analysis of Different Tissues in Pregnant Women with Gestational Diabetes and Type 1 Diabetes Mellitus.\", \"journal\": \"Journal of molecular endocrinology\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747343/\", \"pmid\": \"42747343\"}, {\"title\": \"Endogenous calcium/calmodulin-dependent protein kinase II gamma and delta maintain Type II myofiber identity in adult mice.\", \"journal\": \"American journal of physiology. Cell physiology\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747228/\", \"pmid\": \"42747228\"}, {\"title\": \"Inhibition of Jaw Bone Marrow Mesenchymal Stem Cell Cuproptosis Attenuates Bone Loss in Apical Periodontitis via Suppressing the FoxO Signalling Pathway.\", \"journal\": \"International endodontic journal\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42746789/\", \"pmid\": \"42746789\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 65,
+      "score_components_json": "{\"paradigm_novelty\": 50, \"musculoskeletal_gap\": 92, \"clinical_significance\": 45, \"data_feasibility\": 64, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:53+00:00",
+      "authors": [
+        "Huang, X.",
+        "Petito, L. C.",
+        "Guan, W.",
+        "Yee, L. M.",
+        "Haas, D. M.",
+        "Mercer, B. M.",
+        "Parry, S.",
+        "Saade, G. R.",
+        "Silver, R. M.",
+        "Qiao, Y.",
+        "Huang, X.",
+        "Simhan, H. N.",
+        "Reddy, U. M.",
+        "Chung, J.",
+        "Greenland, P.",
+        "Lloyd-Jones, D. M.",
+        "Grobman, W. A.",
+        "Khan, S. S."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Plasma Proteomic Mediators of the Association Between Early-Pregnancy Psychosocial Stress and Cardiovascular Health 2 to 7 Years After Delivery: The nuMoM2b-HHS Study”，核心对象来自 medrxiv。",
+        "作者主要使用了蛋白质组学来回答研究问题。 摘要证据：Importance: Psychosocial exposures in early pregnancy are associated with worse maternal cardiovascular health (CVH), but the biological pathways link",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Objective: To determine whether plasma proteins measured in early pregnancy mediate the association between early-pregna"
+      ],
+      "secondary_queries": [
+        "(\"proteomics\") AND (bone)",
+        "(\"proteomics\") AND (osteoporosis)",
+        "(\"proteomics\") AND (muscle)",
+        "(\"proteomics\") AND (sarcopenia)",
+        "(\"proteomics\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Plant Metabolites Screening Identifies 7-epi-10-Deacetyltaxol Inhibiting Cell Division by Interfering With the Cell Cycle and Microtubule Organization.",
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42750187/",
+          "pmid": "42750187"
+        },
+        {
+          "title": "Comparative analysis of myeloperoxidase deficiency in humans and mice: Conserved and species-specific effects on neutrophil biology.",
+          "journal": "Redox biology",
+          "date": "2026-09-09",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42748657/",
+          "pmid": "42748657"
+        },
+        {
+          "title": "Proteome Analysis of Different Tissues in Pregnant Women with Gestational Diabetes and Type 1 Diabetes Mellitus.",
+          "journal": "Journal of molecular endocrinology",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747343/",
+          "pmid": "42747343"
+        },
+        {
+          "title": "Endogenous calcium/calmodulin-dependent protein kinase II gamma and delta maintain Type II myofiber identity in adult mice.",
+          "journal": "American journal of physiology. Cell physiology",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747228/",
+          "pmid": "42747228"
+        },
+        {
+          "title": "Inhibition of Jaw Bone Marrow Mesenchymal Stem Cell Cuproptosis Attenuates Bone Loss in Apical Periodontitis via Suppressing the FoxO Signalling Pathway.",
+          "journal": "International endodontic journal",
+          "date": "2026-09-16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42746789/",
+          "pmid": "42746789"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 50,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 45,
+        "data_feasibility": 64,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     },
@@ -1364,6 +2128,128 @@
         "clinical_significance": "临床相关线索 5 个。",
         "data_feasibility": "可获得数据/技术线索 3 个。",
         "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 82,
+      "source": "medrxiv",
+      "title": "Task-Specific Quality Gating for Retinal Optical Coherence Tomography B-Scans: Learned Representations Over Scalar Metrics in Choroid Segmentation",
+      "title_key": "taskspecificqualitygatingforretinalopticalcoherencetomographybscanslearnedrepresentationsoverscalarmetricsinchoroidsegmentation",
+      "abstract": "Automated segmentation of Optical Coherence Tomography (OCT) images is a critical component of structural biomarker extraction for retinal diagnostics. Deep learning models achieve state-of-the-art performance on controlled datasets, yet exhibit unpredictable failures on real-world data. Current quality gates rely on device-reported scan quality scores, which have been shown to be unreliable predictors of segmentation performance. We define scan quality in a task-specific sense, that is, whether a given B-scan will yield a reliable segmentation from a particular trained model. Under this definition, we systematically evaluate No-Reference Image Quality Assessment (NR-IQA) metrics, general-purpose pretrained representations, and domain-specific pretrained representations as alternative quality gates. We use choroid segmentation as the prototype task, with a dataset of 6,076 OCT B-scans from 80 subjects. These quality gate candidates are evaluated at three levels: scalar metrics (BRISQUE, NIQE, PIQE, SNR, PSNR), supervised linear probing, and unsupervised partitioning (K-Means) of feature vectors and learned representations. All scalar NR-IQA metrics proved inadequate (|r| < 0.20). General-purpose pretrained representations (EfficientNet-B0, ResNet-50, ViT-B/16) outperform NR-IQA, achieving ROC-AUC up to 0.77, indicating that learned representations are better suited to task-specific quality gating than hand-crafted scalar statistics. Retinal foundation models (FMs) further improve performance: RETFound, an OCT-specific FM, achieves ROC-AUC of approximately 0.81. Unsupervised K-Means partitioning of the embeddings recovers the same hierarchy geometrically: only the two retinal foundation models produce quality-aligned clusters that exceed a patient-level permutation null, while NR-IQA and general-purpose pretrained feature spaces do not, suggesting that domain-specific pretraining provides an additional benefit beyond general-purpose learned representations.",
+      "journal": "medrxiv",
+      "published_date": "2026-09-16",
+      "doi": "10.64898/2026.09.14.26363079",
+      "pmid": null,
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26363079",
+      "publication_status": "preprint",
+      "authors_json": "[\"Hiras, A.\", \"Jayaraman, A.\", \"Gadari, A.\", \"Mankumare, A. S.\", \"Mynampati, A.\", \"Chhablani, J. K.\", \"Bollepalli, S. C.\", \"Vupparaboina, K. K.\"]",
+      "raw_json": "{\"category\": \"ophthalmology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 82,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Task-Specific Quality Gating for Retinal Optical Coherence Tomography B-Scans: Learned Representations Over Scalar Metrics in Choroid Segmentation”，核心对象来自 medrxiv。\", \"作者主要使用了基础模型来回答研究问题。 摘要证据：Automated segmentation of Optical Coherence Tomography (OCT) images is a critical component of structural biomarker extraction for retinal diagnostics\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Deep learning models achieve state-of-the-art performance on controlled datasets, yet exhibit unpredictable failures on \"]",
+      "new_paradigm": "可迁移的新范式是：基础模型。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "算力、预训练模型与多模态数据基础成熟。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"foundation model\\\") AND (bone)\", \"(\\\"foundation model\\\") AND (osteoporosis)\", \"(\\\"foundation model\\\") AND (muscle)\", \"(\\\"foundation model\\\") AND (sarcopenia)\", \"(\\\"foundation model\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"SAM3-AgeSeg: an adaptive segmentation model for bone tumors in the aging population.\", \"journal\": \"Frontiers in medicine\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42676879/\", \"pmid\": \"42676879\"}, {\"title\": \"Deep learning differentiates myeloproliferative neoplasms and predicts JAK2 and CALR mutations from bone marrow smears.\", \"journal\": \"Annals of hematology\", \"date\": \"2026-08-25\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42645155/\", \"pmid\": \"42645155\"}, {\"title\": \"Foundation Model Forecasting of Headache Days in People With Persisting Postconcussion Symptoms.\", \"journal\": \"The Journal of head trauma rehabilitation\", \"date\": \"2026-08-18\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42611195/\", \"pmid\": \"42611195\"}, {\"title\": \"Dual-energy x-ray imaging for AI-based lung tumor localization using foundation models: a phantom study.\", \"journal\": \"Physics in medicine and biology\", \"date\": \"2026-07-20\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42425156/\", \"pmid\": \"42425156\"}, {\"title\": \"BoneCoT: multicentre validation of a whole-body skeleton foundation model for bone metastases guided by clinician-derived chain of thought.\", \"journal\": \"Nature biomedical engineering\", \"date\": \"2026-07-02\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42393341/\", \"pmid\": \"42393341\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"hospital DXA\", \"clinical cohort\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 64,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：foundation model。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Hiras, A.",
+        "Jayaraman, A.",
+        "Gadari, A.",
+        "Mankumare, A. S.",
+        "Mynampati, A.",
+        "Chhablani, J. K.",
+        "Bollepalli, S. C.",
+        "Vupparaboina, K. K."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Task-Specific Quality Gating for Retinal Optical Coherence Tomography B-Scans: Learned Representations Over Scalar Metrics in Choroid Segmentation”，核心对象来自 medrxiv。",
+        "作者主要使用了基础模型来回答研究问题。 摘要证据：Automated segmentation of Optical Coherence Tomography (OCT) images is a critical component of structural biomarker extraction for retinal diagnostics",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Deep learning models achieve state-of-the-art performance on controlled datasets, yet exhibit unpredictable failures on "
+      ],
+      "secondary_queries": [
+        "(\"foundation model\") AND (bone)",
+        "(\"foundation model\") AND (osteoporosis)",
+        "(\"foundation model\") AND (muscle)",
+        "(\"foundation model\") AND (sarcopenia)",
+        "(\"foundation model\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "SAM3-AgeSeg: an adaptive segmentation model for bone tumors in the aging population.",
+          "journal": "Frontiers in medicine",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42676879/",
+          "pmid": "42676879"
+        },
+        {
+          "title": "Deep learning differentiates myeloproliferative neoplasms and predicts JAK2 and CALR mutations from bone marrow smears.",
+          "journal": "Annals of hematology",
+          "date": "2026-08-25",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645155/",
+          "pmid": "42645155"
+        },
+        {
+          "title": "Foundation Model Forecasting of Headache Days in People With Persisting Postconcussion Symptoms.",
+          "journal": "The Journal of head trauma rehabilitation",
+          "date": "2026-08-18",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42611195/",
+          "pmid": "42611195"
+        },
+        {
+          "title": "Dual-energy x-ray imaging for AI-based lung tumor localization using foundation models: a phantom study.",
+          "journal": "Physics in medicine and biology",
+          "date": "2026-07-20",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42425156/",
+          "pmid": "42425156"
+        },
+        {
+          "title": "BoneCoT: multicentre validation of a whole-body skeleton foundation model for bone metastases guided by clinician-derived chain of thought.",
+          "journal": "Nature biomedical engineering",
+          "date": "2026-07-02",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42393341/",
+          "pmid": "42393341"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "hospital DXA",
+        "clinical cohort"
+      ],
+      "score_components": {
+        "paradigm_novelty": 63,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 45,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：foundation model。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     },
@@ -2134,6 +3020,93 @@
       }
     },
     {
+      "id": 78,
+      "source": "biorxiv",
+      "title": "Temporal proximity proteomics reveals ANP32A roles in replication fork progression and end joining",
+      "title_key": "temporalproximityproteomicsrevealsanp32arolesinreplicationforkprogressionandendjoining",
+      "abstract": "Acidic nuclear phosphoprotein 32 family member A (ANP32A) regulates chromatin and histone homeostasis, but its contribution to DNA replication and repair remains unclear. Time-resolved AirID proximity labeling with data-independent acquisition mass spectrometry revealed phased remodeling of the ANP32A proximal proteome during hydroxyurea-induced replication stress. Early stress enriched DNA replication and repair factors, including FEN1, XRCC5/Ku80, and XRCC6/Ku70, whereas prolonged exposure shifted the network towards checkpoint and cell-cycle regulators. Orthogonal proximity ligation assays revealed sustained ANP32A-FEN1 proximity and transiently increased ANP32A-XRCC5 proximity. ANP32A was dynamically recruited to {gamma}H2AX-marked lesions following laser microirradiation and showed increased proximity to {gamma}H2AX after hydroxyurea treatment. ANP32A loss impaired proliferation and G1/S progression and moderately reduced replication fork velocity. However, it did not promote nascent strand degradation at stalled forks or measurably alter homologous recombination reporter activity. In contrast, ANP32A loss reduced non-homologous end-joining reporter activity, consistent with its stress-induced proximity to Ku proteins. These findings identify ANP32A as a chromatin-associated factor supporting replication fork progression and end joining while dispensable for stalled-fork protection, linking ANP32A-dependent chromatin regulation to genome maintenance.",
+      "journal": "biorxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.64898/2026.09.11.750924",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.11.750924",
+      "publication_status": "preprint",
+      "authors_json": "[\"Jurkovic, C.-M.\", \"Raisch, J.\", \"Marbach, G.\", \"Levesque, D.\", \"Marois, I.\", \"Djerir, B.\", \"Monterroso, A. D. D.\", \"Marechal, A.\", \"Boisvert, F.-M.\"]",
+      "raw_json": "{\"category\": \"cell biology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 78,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Temporal proximity proteomics reveals ANP32A roles in replication fork progression and end joining”，核心对象来自 biorxiv。\", \"作者主要使用了蛋白质组学来回答研究问题。 摘要证据：Acidic nuclear phosphoprotein 32 family member A (ANP32A) regulates chromatin and histone homeostasis, but its contribution to DNA replication and rep\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Time-resolved AirID proximity labeling with data-independent acquisition mass spectrometry revealed phased remodeling of\"]",
+      "new_paradigm": "可迁移的新范式是：蛋白质组学。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"proteomics\\\") AND (bone)\", \"(\\\"proteomics\\\") AND (osteoporosis)\", \"(\\\"proteomics\\\") AND (muscle)\", \"(\\\"proteomics\\\") AND (sarcopenia)\", \"(\\\"proteomics\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\", \"omics\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 57,
+      "score_components_json": "{\"paradigm_novelty\": 50, \"musculoskeletal_gap\": 92, \"clinical_significance\": 45, \"data_feasibility\": 64, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Jurkovic, C.-M.",
+        "Raisch, J.",
+        "Marbach, G.",
+        "Levesque, D.",
+        "Marois, I.",
+        "Djerir, B.",
+        "Monterroso, A. D. D.",
+        "Marechal, A.",
+        "Boisvert, F.-M."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Temporal proximity proteomics reveals ANP32A roles in replication fork progression and end joining”，核心对象来自 biorxiv。",
+        "作者主要使用了蛋白质组学来回答研究问题。 摘要证据：Acidic nuclear phosphoprotein 32 family member A (ANP32A) regulates chromatin and histone homeostasis, but its contribution to DNA replication and rep",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Time-resolved AirID proximity labeling with data-independent acquisition mass spectrometry revealed phased remodeling of"
+      ],
+      "secondary_queries": [
+        "(\"proteomics\") AND (bone)",
+        "(\"proteomics\") AND (osteoporosis)",
+        "(\"proteomics\") AND (muscle)",
+        "(\"proteomics\") AND (sarcopenia)",
+        "(\"proteomics\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 50,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 45,
+        "data_feasibility": 64,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 60,
       "source": "pubmed",
       "title": "Superior reduction quality without improved outcomes: open versus closed reduction for displaced femoral neck fractures in adults under 60 years.",
@@ -2419,6 +3392,91 @@
         "clinical_significance": "临床相关线索 3 个。",
         "data_feasibility": "可获得数据/技术线索 1 个。",
         "mechanistic_depth": "机制或因果线索 4 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 79,
+      "source": "biorxiv",
+      "title": "Effects of UniProtKB restructuring and taxonomic database restrictions on downstream Unipept peptide-centric profiling",
+      "title_key": "effectsofuniprotkbrestructuringandtaxonomicdatabaserestrictionsondownstreamunipeptpeptidecentricprofiling",
+      "abstract": "Metaproteomics identifies the proteins present in a microbial community and, from them, which organisms are active and what functions they carry out. Tools such as Unipept assign peptides to taxa and functions by matching them to UniProtKB proteins and taking the lowest common ancestor of the matching taxa, deriving functional annotations from the same matches. This analysis therefore depends directly on the content of UniProtKB, which was substantially restructured in 2025-2026, reducing it by more than 100 million protein entries. We investigated how these changes affect taxonomic interpretation and how restricting the database to sample-specific taxa identified by rRNA profiling modifies that effect. Fixed, non-redundant peptide lists from human-gut and marine-hatchery studies were reanalysed with Unipept against UniProtKB releases 2025_03, 2025_04, and 2026_02. Peptide mapping coverage fell from 85.9% to 73.3% (gut) and from 82.3% to 68.7% (marine) between release 2025_03 and 2026_02, yet dominant taxonomic profiles remained robust: family- and genus-level distributions changed little and all 15 dominant gut species were retained. Root-level assignments dropped from 18.7% to 7.0% (gut) and 25.8% to 14.3% (marine). Restricting UniProtKB 2026_02 to taxa detected by large-subunit ribosomal RNA (LSU rRNA) profiling reduced coverage to 64.4% (gut) and 41.8% (marine), while genus- and species-level proportions changed by less than one percentage point. The major UniProtKB restructuring of 2025-2026 therefore narrowed mapping breadth without destabilizing the dominant taxonomic profiles in these two datasets.",
+      "journal": "biorxiv",
+      "published_date": "2026-09-15",
+      "doi": "10.64898/2026.02.24.707692",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707692",
+      "publication_status": "preprint",
+      "authors_json": "[\"Vande Moortele, T.\", \"Van de Vyver, S.\", \"Binke, B.-B.\", \"Van Den Bossche, T.\", \"Dawyndt, P.\", \"Martens, L.\", \"Verschaffelt, P.\", \"Mesuere, B.\"]",
+      "raw_json": "{\"category\": \"bioinformatics\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 79,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Effects of UniProtKB restructuring and taxonomic database restrictions on downstream Unipept peptide-centric profiling”，核心对象来自 biorxiv。\", \"作者主要使用了蛋白质组学来回答研究问题。 摘要证据：Metaproteomics identifies the proteins present in a microbial community and, from them, which organisms are active and what functions they carry out.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Tools such as Unipept assign peptides to taxa and functions by matching them to UniProtKB proteins and taking the lowest\"]",
+      "new_paradigm": "可迁移的新范式是：蛋白质组学。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"proteomics\\\") AND (bone)\", \"(\\\"proteomics\\\") AND (osteoporosis)\", \"(\\\"proteomics\\\") AND (muscle)\", \"(\\\"proteomics\\\") AND (sarcopenia)\", \"(\\\"proteomics\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"omics\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 55,
+      "score_components_json": "{\"paradigm_novelty\": 50, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 64, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Vande Moortele, T.",
+        "Van de Vyver, S.",
+        "Binke, B.-B.",
+        "Van Den Bossche, T.",
+        "Dawyndt, P.",
+        "Martens, L.",
+        "Verschaffelt, P.",
+        "Mesuere, B."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Effects of UniProtKB restructuring and taxonomic database restrictions on downstream Unipept peptide-centric profiling”，核心对象来自 biorxiv。",
+        "作者主要使用了蛋白质组学来回答研究问题。 摘要证据：Metaproteomics identifies the proteins present in a microbial community and, from them, which organisms are active and what functions they carry out.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Tools such as Unipept assign peptides to taxa and functions by matching them to UniProtKB proteins and taking the lowest"
+      ],
+      "secondary_queries": [
+        "(\"proteomics\") AND (bone)",
+        "(\"proteomics\") AND (osteoporosis)",
+        "(\"proteomics\") AND (muscle)",
+        "(\"proteomics\") AND (sarcopenia)",
+        "(\"proteomics\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 50,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 35,
+        "data_feasibility": 64,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
       }
     },
@@ -2860,6 +3918,170 @@
       }
     },
     {
+      "id": 74,
+      "source": "crossref",
+      "title": "Circular RNAs in Skeletal Muscle Aging and Sarcopenia: Mechanistic Evidence, Biomarker Potential, and Therapeutic Readiness",
+      "title_key": "circularrnasinskeletalmuscleagingandsarcopeniamechanisticevidencebiomarkerpotentialandtherapeuticreadiness",
+      "abstract": "Skeletal muscle aging arises from interacting defects in proteostasis, mitochondrial quality control, inflammatory signaling, neuromuscular integrity, regenerative capacity, and mechanical-metabolic plasticity, and may culminate in sarcopenia. Circular RNAs (circRNAs) are plausible regulators and biomarker candidates, but most evidence derives from developmental myogenesis, expression profiling, or non-aging atrophy models. This critical review organizes the literature around skeletal muscle aging and applies a four-level framework encompassing discovery, mechanistic support, in vivo causality, and functional intervention. We assess human linkage, species, treatment timing, locus of action, and endogenous or engineered modality separately. circSnd1 and circDdb1 currently provide the strongest combination of functional preclinical evidence and association with aged human skeletal muscle. circFUT10, circBBS9, circNEB, and circGLIS3 define less mature regenerative, discovery, histological, or muscle-quality domains. Non-aging atrophy studies, including circTmeff1 and engineered circmiR-29b, test whether proposed mechanisms remain active under defined catabolic stress. In the targeted literature reviewed here, no reported circulating circRNA has yet met the analytical, biological, and clinical requirements for a useful sarcopenia biomarker. Therapeutic development is constrained by quantitative target credibility, systemic skeletal-muscle exposure, post-onset functional efficacy in aged organisms, safety, reversibility, and independent replication. The field should now prioritize rigorous validation over additional descriptive cataloging.",
+      "journal": "",
+      "published_date": "2026-09-16",
+      "doi": "10.20944/preprints202609.1313.v1",
+      "pmid": null,
+      "url": "https://doi.org/10.20944/preprints202609.1313.v1",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Thanh Huu Phan Ngo\", \"Wan Lee\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 74,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Circular RNAs in Skeletal Muscle Aging and Sarcopenia: Mechanistic Evidence, Biomarker Potential, and Therapeutic Readiness”，核心对象来自 crossref。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Skeletal muscle aging arises from interacting defects in proteostasis, mitochondrial quality control, inflammatory signaling, neuromuscular integrity,\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Circular RNAs (circRNAs) are plausible regulators and biomarker candidates, but most evidence derives from developmental\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"sarcopenia\\\" OR \\\"muscle aging\\\") AND (bone)\", \"(\\\"sarcopenia\\\" OR \\\"muscle aging\\\") AND (osteoporosis)\", \"(\\\"sarcopenia\\\" OR \\\"muscle aging\\\") AND (muscle)\", \"(\\\"sarcopenia\\\" OR \\\"muscle aging\\\") AND (sarcopenia)\", \"(\\\"sarcopenia\\\" OR \\\"muscle aging\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 53,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 68, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Thanh Huu Phan Ngo",
+        "Wan Lee"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Circular RNAs in Skeletal Muscle Aging and Sarcopenia: Mechanistic Evidence, Biomarker Potential, and Therapeutic Readiness”，核心对象来自 crossref。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Skeletal muscle aging arises from interacting defects in proteostasis, mitochondrial quality control, inflammatory signaling, neuromuscular integrity,",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Circular RNAs (circRNAs) are plausible regulators and biomarker candidates, but most evidence derives from developmental"
+      ],
+      "secondary_queries": [
+        "(\"sarcopenia\" OR \"muscle aging\") AND (bone)",
+        "(\"sarcopenia\" OR \"muscle aging\") AND (osteoporosis)",
+        "(\"sarcopenia\" OR \"muscle aging\") AND (muscle)",
+        "(\"sarcopenia\" OR \"muscle aging\") AND (sarcopenia)",
+        "(\"sarcopenia\" OR \"muscle aging\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 53,
+        "mechanistic_depth": 68,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 3 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 64,
+      "source": "pubmed",
+      "title": "Youth Football and the Epidemic of Pediatric Brain Injury: Neurologic and Psychiatric Outcomes in a Cohort of 72,025 Concussions.",
+      "title_key": "youthfootballandtheepidemicofpediatricbraininjuryneurologicandpsychiatricoutcomesinacohortof72025concussions",
+      "abstract": "Sports-related traumatic brain injury (TBI) is among the most common causes of long-term neurologic and psychiatric morbidity in children and young adults. Football, in particular, has been implicated as a leading source of TBI, yet large-scale comparative studies across sports and developmental stages are limited. The objective of this study was to quantify the burden of football-related TBI in youth compared with other sports and recreational activities, and to evaluate long-term neurologic and psychiatric outcomes across developmental stages. This retrospective cohort study used the TriNetX Research Network, encompassing >150 million patients. Children and young adults (≤25 years) with a first TBI and activity cause of morbidity recorded on the day of injury were identified based on ICD-10 codes. Patients with TBI were compared with patients with lower leg fractures in the same activity with no recorded TBI on neurologic, psychiatric, and developmental outcomes. Attributable risks were calculated between TBI and lower leg fracture patients matched 1:1 on age category and sex. Prevalent cases were excluded. Multivariate Cox proportional hazard models adjusted for age category, sex, and activity compared the risk of each outcome across activities. Compared with other sports, football had the greatest quantity and severity of TBIs. Football accounted for 19.4% of 72,025 identified activity-related TBIs (mean age, 13.9 years; 32% female). Repeat TBI occurred in 37% of football injuries (32% overall). Attributable risks of football TBIs included neurologic outcomes (chronic headache, 23%; visual impairment and blindness, 5%; and neurodevelopmental disorders, 0.5%) and psychiatric outcomes (anxiety disorders, 5%; depressive disorders, 3%; substance use disorders, 1%; and violence and suicidality, 0.5%). TBIs at early ages were associated with mood and developmental disorders, while TBIs at later ages were associated with substance use disorders. Football is the single leading source of pediatric sports-related TBI, associated with high recurrence rates, substantial neurologic and psychiatric sequelae, and altered developmental trajectories. These findings highlight football as a critical public health priority and support stronger preventive measures, including delaying tackle football participation and regulating institutional promotion of youth football.",
+      "journal": "Neurology. Clinical practice",
+      "published_date": "2026-12",
+      "doi": "10.1212/cpj.0000000000200656",
+      "pmid": "42753228",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42753228/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Isaac B Thorman\", \"Eric Feldstein\", \"Ariel Sacknovitz\", \"Aryan Malhotra\", \"Michael C Schubert\", \"Fawaz Al-Mufti\", \"Dennis J Keselman\", \"Patricia E McGoldrick\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 64,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Youth Football and the Epidemic of Pediatric Brain Injury: Neurologic and Psychiatric Outcomes in a Cohort of 72,025 Concussions.”，核心对象来自 Neurology. Clinical practice。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Sports-related traumatic brain injury (TBI) is among the most common causes of long-term neurologic and psychiatric morbidity in children and young ad\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Football, in particular, has been implicated as a leading source of TBI, yet large-scale comparative studies across spor\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 52,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 75, \"data_feasibility\": 64, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Isaac B Thorman",
+        "Eric Feldstein",
+        "Ariel Sacknovitz",
+        "Aryan Malhotra",
+        "Michael C Schubert",
+        "Fawaz Al-Mufti",
+        "Dennis J Keselman",
+        "Patricia E McGoldrick"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Youth Football and the Epidemic of Pediatric Brain Injury: Neurologic and Psychiatric Outcomes in a Cohort of 72,025 Concussions.”，核心对象来自 Neurology. Clinical practice。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Sports-related traumatic brain injury (TBI) is among the most common causes of long-term neurologic and psychiatric morbidity in children and young ad",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Football, in particular, has been implicated as a leading source of TBI, yet large-scale comparative studies across spor"
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 75,
+        "data_feasibility": 64,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 4 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 21,
       "source": "pubmed",
       "title": "The longevity gene APOE2 enhances pericyte function and reduces lipid droplets.",
@@ -3104,6 +4326,174 @@
         "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
         "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
         "clinical_significance": "临床相关线索 4 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 68,
+      "source": "pubmed",
+      "title": "Comprehensive multi-post-translational modifications profiling reveals age-associated remodeling in skeletal muscle.",
+      "title_key": "comprehensivemultiposttranslationalmodificationsprofilingrevealsageassociatedremodelinginskeletalmuscle",
+      "abstract": "Sarcopenia, characterized by the progressive loss of skeletal muscle mass and function, is a major hallmark of aging. Post-translational modifications (PTMs) play essential roles in regulating protein activity and cellular homeostasis; however, how multiple PTMs are remodeled during skeletal muscle aging remains incompletely characterized. Here, we performed comprehensive multi-layered proteomic profiling of skeletal muscle from young (3-month-old) and aged (24-month-old) mice, systematically quantifying the global proteome together with five major PTMs: acetylation, phosphorylation, N-glycosylation, O-glycosylation, and ubiquitination. In total, we identified 5 337 proteins and mapped thousands of PTM sites, generating an integrated atlas of age-associated proteomic and PTM remodeling in skeletal muscle. Pathway enrichment analyses revealed distinct modification-specific patterns: acetylation and phosphorylation were predominantly associated with metabolic and mitochondrial-related pathways; N-glycosylation was enriched in immune- and secretory pathway-related processes; O-glycosylation was associated with muscle contraction-related pathways; and ubiquitination was preferentially linked to cytoskeletal organization in muscle cells. Correlation analyses further uncovered diverse association patterns among different PTMs across protein- and modification-level datasets. Phosphorylation and ubiquitination exhibited consistent positive associations, whereas acetylation and ubiquitination showed both inverse and concordant co-variation patterns across subsets of proteins. Phosphorylation and O-glycosylation displayed heterogeneous association patterns across different proteins, and acetylation and phosphorylation demonstrated positive correlations with distinct age-associated directional changes across protein subsets. Together, these results provide a comprehensive, multi-dimensional view of age-associated remodeling of the skeletal muscle proteome and multiple PTM layers, offering a valuable resource for understanding molecular alterations accompanying muscle aging and sarcopenia.",
+      "journal": "Zoological research",
+      "published_date": "2026-09-18",
+      "doi": "10.24272/j.issn.2095-8137.2025.460",
+      "pmid": "42706783",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42706783/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Jian Li\", \"Xinqiang Lan\", \"Caifen Guo\", \"Xiang Wang\", \"Chunping Huang\", \"Dongqin Zhang\", \"Lin Zeng\", \"Xiaoli Tian\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 68,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Comprehensive multi-post-translational modifications profiling reveals age-associated remodeling in skeletal muscle.”，核心对象来自 Zoological research。\", \"作者主要使用了图谱/资源来回答研究问题。 摘要证据：Sarcopenia, characterized by the progressive loss of skeletal muscle mass and function, is a major hallmark of aging.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Post-translational modifications (PTMs) play essential roles in regulating protein activity and cellular homeostasis; ho\"]",
+      "new_paradigm": "可迁移的新范式是：图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"atlas\\\") AND (bone)\", \"(\\\"atlas\\\") AND (osteoporosis)\", \"(\\\"atlas\\\") AND (muscle)\", \"(\\\"atlas\\\") AND (sarcopenia)\", \"(\\\"atlas\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 51,
+      "score_components_json": "{\"paradigm_novelty\": 64, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：resource, atlas。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Jian Li",
+        "Xinqiang Lan",
+        "Caifen Guo",
+        "Xiang Wang",
+        "Chunping Huang",
+        "Dongqin Zhang",
+        "Lin Zeng",
+        "Xiaoli Tian"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Comprehensive multi-post-translational modifications profiling reveals age-associated remodeling in skeletal muscle.”，核心对象来自 Zoological research。",
+        "作者主要使用了图谱/资源来回答研究问题。 摘要证据：Sarcopenia, characterized by the progressive loss of skeletal muscle mass and function, is a major hallmark of aging.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Post-translational modifications (PTMs) play essential roles in regulating protein activity and cellular homeostasis; ho"
+      ],
+      "secondary_queries": [
+        "(\"atlas\") AND (bone)",
+        "(\"atlas\") AND (osteoporosis)",
+        "(\"atlas\") AND (muscle)",
+        "(\"atlas\") AND (sarcopenia)",
+        "(\"atlas\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 64,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 2 个范式信号：resource, atlas。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 71,
+      "source": "pubmed",
+      "title": "Co-evolving adiposity and frailty trajectories shape stroke risk in middle-aged and older adults.",
+      "title_key": "coevolvingadiposityandfrailtytrajectoriesshapestrokeriskinmiddleagedandolderadults",
+      "abstract": "Obesity and frailty are independently associated with stroke risk, but their joint longitudinal evolution and combined prognostic significance remain unclear. Using harmonized data from four nationally representative aging cohorts (China health and retirement longitudinal study [CHARLS], health and retirement study [HRS], English longitudinal study of aging [ELSA], and survey of health, aging and retirement in Europe [SHARE]), we applied group-based multi-trajectory modeling to 41,717 stroke-free participants aged ≥45 years to identify distinct joint body mass index (BMI)-frailty index trajectories. Five trajectory subgroups were identified in each cohort. Over a median follow-up of 11.0 years, the obesity and high-frailty group consistently demonstrated the highest stroke risk across all cohorts (hazard ratios [HRs], 2.86-7.87), whereas the overweight and low-frailty group showed protective associations (HRs, 0.42-0.60). High frailty was the dominant risk modifier within each BMI category. These findings were robust across extensive sensitivity analyses and indicate that joint BMI-frailty trajectory assessment provides superior stroke risk stratification compared with either measure alone.",
+      "journal": "iScience",
+      "published_date": "2026-09-18",
+      "doi": "10.1038/s41467-025-61089-2",
+      "pmid": "42662810",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42662810/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Zheng-Jun Wu\", \"Qian-Hui Hu\", \"Ming-Fang He\", \"Qiu-Xia Liang\", \"Jin-Rong Zhang\", \"Hong Liu\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 71,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Co-evolving adiposity and frailty trajectories shape stroke risk in middle-aged and older adults.”，核心对象来自 iScience。\", \"作者主要使用了纵向轨迹来回答研究问题。 摘要证据：Obesity and frailty are independently associated with stroke risk, but their joint longitudinal evolution and combined prognostic significance remain \", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Using harmonized data from four nationally representative aging cohorts (China health and retirement longitudinal study \"]",
+      "new_paradigm": "可迁移的新范式是：纵向轨迹。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"longitudinal\\\") AND (bone)\", \"(\\\"longitudinal\\\") AND (osteoporosis)\", \"(\\\"longitudinal\\\") AND (muscle)\", \"(\\\"longitudinal\\\") AND (sarcopenia)\", \"(\\\"longitudinal\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 51,
+      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 64, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：longitudinal。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Zheng-Jun Wu",
+        "Qian-Hui Hu",
+        "Ming-Fang He",
+        "Qiu-Xia Liang",
+        "Jin-Rong Zhang",
+        "Hong Liu"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Co-evolving adiposity and frailty trajectories shape stroke risk in middle-aged and older adults.”，核心对象来自 iScience。",
+        "作者主要使用了纵向轨迹来回答研究问题。 摘要证据：Obesity and frailty are independently associated with stroke risk, but their joint longitudinal evolution and combined prognostic significance remain ",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Using harmonized data from four nationally representative aging cohorts (China health and retirement longitudinal study "
+      ],
+      "secondary_queries": [
+        "(\"longitudinal\") AND (bone)",
+        "(\"longitudinal\") AND (osteoporosis)",
+        "(\"longitudinal\") AND (muscle)",
+        "(\"longitudinal\") AND (sarcopenia)",
+        "(\"longitudinal\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 51,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 64,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：longitudinal。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
         "data_feasibility": "可获得数据/技术线索 2 个。",
         "mechanistic_depth": "机制或因果线索 0 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
@@ -3359,6 +4749,88 @@
       }
     },
     {
+      "id": 72,
+      "source": "pubmed",
+      "title": "Structural characteristics of double layer hard roof and effects on coal pillar and roadway stability.",
+      "title_key": "structuralcharacteristicsofdoublelayerhardroofandeffectsoncoalpillarandroadwaystability",
+      "abstract": "Underground coal mines require coal pillars to support the overlying strata and protect mining roadways. Excessively wide coal pillars waste recoverable coal resources, whereas overly narrow pillars may induce roadway instability. This challenge becomes more pronounced under composite key strata conditions. A coupled mechanical model was developed based on a double-layer hard roof. The fracture characteristics of the double-layer hard roof and the pillar load-bearing response were analyzed, with particular emphasis on force-energy conversion mechanisms. Results show that the fixed-end lengths of both sub-key stratum (SKS) I and SKS II exhibit exponential relationships with coal pillar width. Parametric analyses of the overburden load and pillar bearing capacity indicate that the pillar width can be reduced to 15 m. Regarding energy distribution, SKS I is characterized by energy accumulation at the fixed end, whereas the peak energy density of SKS II shifts toward the rebound zone as the suspended length increases. Field application demonstrated the effectiveness of the proposed approach. These findings provide a theoretical and practical basis for determining coal pillar width under analogous geological and mining conditions.",
+      "journal": "iScience",
+      "published_date": "2026-09-18",
+      "doi": "10.1007/s40948-022-00340-2",
+      "pmid": "42657275",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42657275/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Haolei Li\", \"Changyou Liu\", \"Huaidong Liu\", \"Yiqi Chen\", \"Fengfeng Wu\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 72,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Structural characteristics of double layer hard roof and effects on coal pillar and roadway stability.”，核心对象来自 iScience。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Underground coal mines require coal pillars to support the overlying strata and protect mining roadways.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Excessively wide coal pillars waste recoverable coal resources, whereas overly narrow pillars may induce roadway instabi\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 50,
+      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：resource。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Haolei Li",
+        "Changyou Liu",
+        "Huaidong Liu",
+        "Yiqi Chen",
+        "Fengfeng Wu"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Structural characteristics of double layer hard roof and effects on coal pillar and roadway stability.”，核心对象来自 iScience。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Underground coal mines require coal pillars to support the overlying strata and protect mining roadways.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Excessively wide coal pillars waste recoverable coal resources, whereas overly narrow pillars may induce roadway instabi"
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 51,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 45,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：resource。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 9,
       "source": "biorxiv",
       "title": "A transitional senescence program drives inflammatory monocyte state expansion in aging humans",
@@ -3460,7 +4932,7 @@
       "authors_json": "[\"Bingge Zhang\", \"Ye He\", \"Ruiming Zhang\", \"Ting Su\", \"Ruijuan Liu\", \"Xiaomei Li\", \"Xiufen Zhang\", \"Bocheng Xiong\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-17T00:34:40+00:00",
-      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
       "article_id": 48,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“UA-30 mitigates systemic aging and motor decline by inhibiting RalA signaling in naturally aged mice.”，核心对象来自 The Journal of experimental medicine。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Aging, characterized by progressive physiological decline and systemic dysfunction, represents a major risk factor for age-related diseases such as sa\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Effective therapeutic strategies remain limited.\"]",
@@ -3476,7 +4948,7 @@
       "score_total": 49,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-17T00:34:46+00:00",
+      "generated_at": "2026-09-18T00:23:54+00:00",
       "authors": [
         "Bingge Zhang",
         "Ye He",
@@ -3545,7 +5017,7 @@
       "authors_json": "[\"Bowei Li\", \"Shuke Nie\", \"Mengmeng Wang\", \"Jiawei An\", \"Zhengjiang Qian\", \"Xin Meng\", \"Laura E Edgington-Mitchell\", \"Zhentao Zhang\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-17T00:34:40+00:00",
-      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
       "article_id": 50,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Endothelial C/EBPβ/AEP pathway drives vascular deterioration and systemic aging.”，核心对象来自 Science advances。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Age-related microvascular dysfunction disrupts nutrient homeostasis and waste clearance, leading to organ failure.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：However, a critical gap remains in our understanding of the specific molecular drivers of vascular deterioration and how\"]",
@@ -3561,7 +5033,7 @@
       "score_total": 49,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 68, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-17T00:34:46+00:00",
+      "generated_at": "2026-09-18T00:23:54+00:00",
       "authors": [
         "Bowei Li",
         "Shuke Nie",
@@ -3880,7 +5352,7 @@
       "authors_json": "[\"Jinxin Zhang\", \"Xingchen Wei\", \"Na Han\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T02:17:15+00:00",
-      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
       "article_id": 5,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Reprogramming the Aging Type H Vascular Niche via Myeloid Angiogenic Cell-Derived Extracellular Vesicles: Mechanisms, Engineering Strategies, and Translational Perspectives”，核心对象来自 International Journal of Molecular Sciences。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Age-related osteoporosis is characterized by the simultaneous loss of bone mass and the regression of CD31hiEmcnhi (Type H) vessels, a specialized cap\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The endothelial progenitor cell (EPC) compartment, comprising myeloid angiogenic cells (MACs) and endothelial colony-for\"]",
@@ -3896,7 +5368,7 @@
       "score_total": 49,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 56, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-17T00:34:46+00:00",
+      "generated_at": "2026-09-18T00:23:54+00:00",
       "authors": [
         "Jinxin Zhang",
         "Xingchen Wei",
@@ -3961,7 +5433,7 @@
       "authors_json": "[\"Yingying Zhang\", \"Chen Yu\", \"Xiaoqin Zhang\", \"Linda Xiaoyan Li\", \"Alice Shasha Cheng\", \"Xiaogang Li\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T02:17:15+00:00",
-      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
       "article_id": 6,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“LSD1-mediated demethylation of the DNA damage response factor ATM promotes senescence and organ aging”，核心对象来自 Journal of Clinical Investigation。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Aging occurs heterogeneously across organs, leading to progressive tissue dysfunction.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Cellular senescence is a stress response triggered by age-associated insults, yet the mechanisms regulating senescence a\"]",
@@ -3977,7 +5449,7 @@
       "score_total": 49,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 68, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-17T00:34:46+00:00",
+      "generated_at": "2026-09-18T00:23:54+00:00",
       "authors": [
         "Yingying Zhang",
         "Chen Yu",
@@ -4362,6 +5834,88 @@
         "clinical_significance": "临床相关线索 3 个。",
         "data_feasibility": "可获得数据/技术线索 1 个。",
         "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 65,
+      "source": "pubmed",
+      "title": "Dynamic fracture and catastrophic crack branching in highly entangled hydrogels.",
+      "title_key": "dynamicfractureandcatastrophiccrackbranchinginhighlyentangledhydrogels",
+      "abstract": "Despite extensive research on advanced soft materials, how fracture resistance evolves under dynamic loading and how cracks propagate remain incompletely understood. Here we show that dynamic fracture in long-chain, highly entangled polymer hydrogel networks with near-perfect elasticity is governed by localized viscous dissipation at the crack tip. Using highly entangled gels as a model system, we systematically vary network and loading parameters to evaluate the effects of loading rate, network topology, and solvent viscosity on fracture behavior. We find that, due to viscoelastic dissipation, the dynamic fracture toughness can be significantly lower than the quasi-static fracture toughness. Cracks can propagate at velocities approaching the shear-wave speed and undergo pronounced, unconventional branching. We develop a shear-lag model to describe the dissipation mechanism. The model predicts that the fracture energy scales inversely with a Weissenberg-like number ([Formula: see text]) that combines strain rate, chain length, mesh size, and solvent viscosity, and it recovers the Lake-Thomas limit at low values of [Formula: see text]. These results reveal how localized viscous dissipation governs fracture in highly elastic, entangled hydrogels and provide design principles for improving failure resistance in soft materials and devices operating under dynamic loading.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "published_date": "2026-09-22",
+      "doi": "10.1073/pnas.2603322123",
+      "pmid": "42752234",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42752234/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Hang Yang\", \"Shuming Kang\", \"Yujing Du\", \"David A Weitz\", \"Joost J Vlassak\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 65,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Dynamic fracture and catastrophic crack branching in highly entangled hydrogels.”，核心对象来自 Proceedings of the National Academy of Sciences of the United States of America。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Despite extensive research on advanced soft materials, how fracture resistance evolves under dynamic loading and how cracks propagate remain incomplet\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here we show that dynamic fracture in long-chain, highly entangled polymer hydrogel networks with near-perfect elasticit\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 47,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Hang Yang",
+        "Shuming Kang",
+        "Yujing Du",
+        "David A Weitz",
+        "Joost J Vlassak"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Dynamic fracture and catastrophic crack branching in highly entangled hydrogels.”，核心对象来自 Proceedings of the National Academy of Sciences of the United States of America。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Despite extensive research on advanced soft materials, how fracture resistance evolves under dynamic loading and how cracks propagate remain incomplet",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here we show that dynamic fracture in long-chain, highly entangled polymer hydrogel networks with near-perfect elasticit"
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 45,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
       }
     },
@@ -4944,6 +6498,176 @@
       }
     },
     {
+      "id": 73,
+      "source": "crossref",
+      "title": "Deciphering senescence-associated mechanisms through cell painting & transcriptomics",
+      "title_key": "decipheringsenescenceassociatedmechanismsthroughcellpaintingtranscriptomics",
+      "abstract": "",
+      "journal": "npj Aging",
+      "published_date": "2026-09-17",
+      "doi": "10.1038/s41514-026-00500-8",
+      "pmid": null,
+      "url": "https://doi.org/10.1038/s41514-026-00500-8",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Yuliana Tan\", \"Anika Liu\", \"Emily Larkin\", \"Revati Wani\", \"Alec Dick\", \"Stefano Patassini\", \"Patrik Erlmann\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 73,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Deciphering senescence-associated mechanisms through cell painting & transcriptomics”，核心对象来自 npj Aging。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"senescence\\\") AND (bone)\", \"(\\\"senescence\\\") AND (osteoporosis)\", \"(\\\"senescence\\\") AND (muscle)\", \"(\\\"senescence\\\") AND (sarcopenia)\", \"(\\\"senescence\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"omics\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 46,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 42, \"mechanistic_depth\": 56, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 0 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Yuliana Tan",
+        "Anika Liu",
+        "Emily Larkin",
+        "Revati Wani",
+        "Alec Dick",
+        "Stefano Patassini",
+        "Patrik Erlmann"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Deciphering senescence-associated mechanisms through cell painting & transcriptomics”，核心对象来自 npj Aging。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。"
+      ],
+      "secondary_queries": [
+        "(\"senescence\") AND (bone)",
+        "(\"senescence\") AND (osteoporosis)",
+        "(\"senescence\") AND (muscle)",
+        "(\"senescence\") AND (sarcopenia)",
+        "(\"senescence\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 35,
+        "data_feasibility": 42,
+        "mechanistic_depth": 56,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 0 个。",
+        "mechanistic_depth": "机制或因果线索 2 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 63,
+      "source": "pubmed",
+      "title": "Gut microbiota dysbiosis shapes brain T-cell immunity in accelerated aging.",
+      "title_key": "gutmicrobiotadysbiosisshapesbraintcellimmunityinacceleratedaging",
+      "abstract": "The bidirectional communication between the gut microbiota, immune system, and central nervous system-the gut‒brain axis-plays a vital role in maintaining brain health. Its disruption can lead to neuroinflammation and cognitive decline. However, the relationship between the gut microbiota and age-related changes in brain immunity remains unclear. This study examined gut microbiota composition and T-cell profiles in senescence-accelerated SAMP8 mice and senescence-resistant SAMR1 controls at young adult and aged stages. The accelerated-aging phenotype of SAMP8 mice was confirmed by reduced behavioral performance and brain transcriptomic alterations. Fecal microbiota profiles were obtained using culture-dependent plating and 16S rRNA gene sequencing. T-cell phenotypes were determined by flow cytometry on brain and splenic leukocytes. Strain, age, and sex were drivers of microbiota composition variation. Microbial diversity differed between strains independently of age. Several bacterial genera had altered abundances in young SAMP8 mice, with only Intestinimonas remaining higher in aged SAMP8. T-cell profiling revealed strain- and age-specific immune signatures. In the brain, SAMP8 mice exhibited a higher CD4⁺/CD8⁺ ratio, and higher levels of pro-inflammatory cytokine-producing CD4⁺ T cells compared to SAMR1. In contrast, the spleens of SAMP8 mice had a lower CD4⁺/CD8⁺ ratio. Only the spleens of aged SAMP8 mice showed increased T-cell activation (effector/naïve ratios) and higher levels of pro-inflammatory cytokine-producing CD4⁺ and CD8⁺ T cells, suggesting age- and tissue-specific immune alterations. Nine bacterial genera correlated with immune cell frequencies and ratios. Notably, Intestinimonas showed a discordant association with the CD4⁺/CD8⁺ ratio in the brain (negative) and spleen (positive). Furthermore, CD8⁺ T cells correlated with microbiota composition variation more strongly than strain, age, and sex. Together, these findings link the gut microbiota to age-dependent immune remodeling in the brain and imply that altered microbial communities could influence pro-inflammatory T-cell responses, thereby contributing to accelerated brain aging.",
+      "journal": "Gut microbes",
+      "published_date": "2026-12-31",
+      "doi": "10.1080/19490976.2026.2728329",
+      "pmid": "42750596",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42750596/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Laura Peschke\", \"Tinh Thi Nguyen\", \"Jefferson Antônio Leite\", \"Gwen Falony\", \"Vu Thu Thuy Nguyen\", \"Yogita Kattimani\", \"Nishada Ramphal\", \"Rebecca Jasser\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 63,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Gut microbiota dysbiosis shapes brain T-cell immunity in accelerated aging.”，核心对象来自 Gut microbes。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：The bidirectional communication between the gut microbiota, immune system, and central nervous system-the gut‒brain axis-plays a vital role in maintai\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Its disruption can lead to neuroinflammation and cognitive decline.\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"senescence\\\") AND (bone)\", \"(\\\"senescence\\\") AND (osteoporosis)\", \"(\\\"senescence\\\") AND (muscle)\", \"(\\\"senescence\\\") AND (sarcopenia)\", \"(\\\"senescence\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 45,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Laura Peschke",
+        "Tinh Thi Nguyen",
+        "Jefferson Antônio Leite",
+        "Gwen Falony",
+        "Vu Thu Thuy Nguyen",
+        "Yogita Kattimani",
+        "Nishada Ramphal",
+        "Rebecca Jasser"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Gut microbiota dysbiosis shapes brain T-cell immunity in accelerated aging.”，核心对象来自 Gut microbes。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：The bidirectional communication between the gut microbiota, immune system, and central nervous system-the gut‒brain axis-plays a vital role in maintai",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Its disruption can lead to neuroinflammation and cognitive decline."
+      ],
+      "secondary_queries": [
+        "(\"senescence\") AND (bone)",
+        "(\"senescence\") AND (osteoporosis)",
+        "(\"senescence\") AND (muscle)",
+        "(\"senescence\") AND (sarcopenia)",
+        "(\"senescence\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 49,
       "source": "pubmed",
       "title": "Invited Commentary: Understanding the Relationship Between Frailty and Mortality After Pancreatic Resection.",
@@ -4958,7 +6682,7 @@
       "authors_json": "[\"Carrie E Ryan\", \"Mary E Dillhoff\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-17T00:34:40+00:00",
-      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
       "article_id": 49,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Invited Commentary: Understanding the Relationship Between Frailty and Mortality After Pancreatic Resection.”，核心对象来自 Journal of the American College of Surgeons。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。\"]",
@@ -4974,7 +6698,7 @@
       "score_total": 45,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-17T00:34:46+00:00",
+      "generated_at": "2026-09-18T00:23:54+00:00",
       "authors": [
         "Carrie E Ryan",
         "Mary E Dillhoff"
@@ -5020,6 +6744,173 @@
         "clinical_significance": "临床相关线索 1 个。",
         "data_feasibility": "可获得数据/技术线索 1 个。",
         "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 66,
+      "source": "pubmed",
+      "title": "3D patterns on fractured surfaces of soft stretchable materials.",
+      "title_key": "3dpatternsonfracturedsurfacesofsoftstretchablematerials",
+      "abstract": "Patterns in soft solids play essential roles across many fields and are created through diverse strategies. Here, we study the complex three-dimensional (3D) patterns which emerge directly from the fractured surfaces of soft stretchable materials. Using polyacrylamide hydrogels as model materials, we investigate the patterns on fractured gels with various crosslinker concentrations. In these systems, the crack front grows with 3D discontinuities that leave distinct step-like traces on the main fracture plane. We characterize the morphology using two geometric parameters: the step height t and step angle θ, which are highly related to material properties as shown by experiments and modelings. We find that for soft stretchable materials, the step height is on the order of the fractocohesive length Rf, rather than the previously claimed elastoadhesive length le. The step angle increases with network crosslinker concentration and approaches a plateau of magic ~45° at high crosslink densities. This work shows how nonlinear elasticity and fracture energy shape 3D fracture surface topography in soft materials and provides principles for designing functional patterned surfaces with tunable properties.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "published_date": "2026-09-22",
+      "doi": "10.1073/pnas.2613575123",
+      "pmid": "42752233",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42752233/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Tenghao Yin\", \"Etienne Barthel\", \"Chung-Yuen Hui\", \"Costantino Creton\", \"Matteo Ciccotti\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 66,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“3D patterns on fractured surfaces of soft stretchable materials.”，核心对象来自 Proceedings of the National Academy of Sciences of the United States of America。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Patterns in soft solids play essential roles across many fields and are created through diverse strategies.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we study the complex three-dimensional (3D) patterns which emerge directly from the fractured surfaces of soft str\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"fracture\\\") AND (bone)\", \"(\\\"fracture\\\") AND (osteoporosis)\", \"(\\\"fracture\\\") AND (muscle)\", \"(\\\"fracture\\\") AND (sarcopenia)\", \"(\\\"fracture\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 45,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Tenghao Yin",
+        "Etienne Barthel",
+        "Chung-Yuen Hui",
+        "Costantino Creton",
+        "Matteo Ciccotti"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“3D patterns on fractured surfaces of soft stretchable materials.”，核心对象来自 Proceedings of the National Academy of Sciences of the United States of America。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Patterns in soft solids play essential roles across many fields and are created through diverse strategies.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we study the complex three-dimensional (3D) patterns which emerge directly from the fractured surfaces of soft str"
+      ],
+      "secondary_queries": [
+        "(\"fracture\") AND (bone)",
+        "(\"fracture\") AND (osteoporosis)",
+        "(\"fracture\") AND (muscle)",
+        "(\"fracture\") AND (sarcopenia)",
+        "(\"fracture\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 45,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 1 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
+    },
+    {
+      "id": 70,
+      "source": "pubmed",
+      "title": "Bacterial stress rewires diatom chronobiology and ecosystem function.",
+      "title_key": "bacterialstressrewiresdiatomchronobiologyandecosystemfunction",
+      "abstract": "Diatoms are vital primary producers in marine ecosystems and play a key role in blue carbon sequestration. Although their circadian rhythms have been studied in isolation, how these rhythms are modulated by co-occurring bacteria remains unknown. Using a defined co-culture of the diatom Phaeodactylum tricornutum with the marine bacterium Aliivibrio fischeri, we observed time-dependent physiological and transcriptomic changes in P. tricornutum, including a 16.3% reduction in rhythmic genes with prolonged culture time. Genome-scale metabolic modeling suggested a biphasic response, with predicted biomass flux increasing by 81% at the early co-culture stage but decreasing by 87% during prolonged co-culture. Deconvolution of the transcriptome via AI-driven independent component analysis identified gene modules associated with silica transport and senescence-related responses under co-culture conditions. Together, these findings establish a systems-level framework that links interspecies interactions between diatoms and bacteria, providing mechanistic insights into how microbial associations influence phytoplankton chronobiology and rhythmic regulation.",
+      "journal": "iScience",
+      "published_date": "2026-09-18",
+      "doi": "10.1371/journal.pone.0155038",
+      "pmid": "42668638",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42668638/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Jiwei Chen\", \"Hang Diao\", \"Yixi Su\", \"Yuan Yuan\", \"Manish Kumar\", \"Fan Zhang\", \"Haisheng Zhang\", \"Karsten Zengler\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 70,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Bacterial stress rewires diatom chronobiology and ecosystem function.”，核心对象来自 iScience。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Diatoms are vital primary producers in marine ecosystems and play a key role in blue carbon sequestration.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although their circadian rhythms have been studied in isolation, how these rhythms are modulated by co-occurring bacteri\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"senescence\\\") AND (bone)\", \"(\\\"senescence\\\") AND (osteoporosis)\", \"(\\\"senescence\\\") AND (muscle)\", \"(\\\"senescence\\\") AND (sarcopenia)\", \"(\\\"senescence\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 45,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Jiwei Chen",
+        "Hang Diao",
+        "Yixi Su",
+        "Yuan Yuan",
+        "Manish Kumar",
+        "Fan Zhang",
+        "Haisheng Zhang",
+        "Karsten Zengler"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Bacterial stress rewires diatom chronobiology and ecosystem function.”，核心对象来自 iScience。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Diatoms are vital primary producers in marine ecosystems and play a key role in blue carbon sequestration.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although their circadian rhythms have been studied in isolation, how these rhythms are modulated by co-occurring bacteri"
+      ],
+      "secondary_queries": [
+        "(\"senescence\") AND (bone)",
+        "(\"senescence\") AND (osteoporosis)",
+        "(\"senescence\") AND (muscle)",
+        "(\"senescence\") AND (sarcopenia)",
+        "(\"senescence\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 44,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
       }
     },
@@ -5462,7 +7353,7 @@
       "authors_json": "[]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T07:21:29+00:00",
-      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
       "article_id": 20,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Cardiac Surgery, Frailty, and Outcomes: Connecting the Dots.”，核心对象来自 Anesthesia and analgesia。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。\"]",
@@ -5478,7 +7369,7 @@
       "score_total": 44,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-17T00:34:46+00:00",
+      "generated_at": "2026-09-18T00:23:54+00:00",
       "authors": [],
       "summary_zh": [
         "这项研究聚焦“Cardiac Surgery, Frailty, and Outcomes: Connecting the Dots.”，核心对象来自 Anesthesia and analgesia。",
@@ -5539,7 +7430,7 @@
       "authors_json": "[\"Muhammad Shafique Khan\", \"Meng-Yu Liu\", \"Aymen Safdar\", \"Mehreen Malik\", \"Khalid J. Alzahrani\", \"Khalaf F. Alsharif\", \"Fuad M. Alzahrani\", \"Ataullah Khan\"]",
       "raw_json": "{}",
       "first_seen_at": "2026-09-16T02:17:15+00:00",
-      "last_seen_at": "2026-09-17T00:34:40+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
       "article_id": 4,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Emerging biological therapies for healthy aging: targeting inflammaging, senescence, and regenerative decline”，核心对象来自 Stem Cell Research & Therapy。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。\"]",
@@ -5555,7 +7446,7 @@
       "score_total": 44,
       "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 42, \"mechanistic_depth\": 44, \"competition_urgency\": 42}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 0 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-17T00:34:46+00:00",
+      "generated_at": "2026-09-18T00:23:54+00:00",
       "authors": [
         "Muhammad Shafique Khan",
         "Meng-Yu Liu",
@@ -5608,13 +7499,98 @@
         "mechanistic_depth": "机制或因果线索 1 个。",
         "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
       }
+    },
+    {
+      "id": 67,
+      "source": "pubmed",
+      "title": "Evaluation of Beverage Can-opening Status as a Screening Indicator for Sarcopenia: A Cross-sectional Study.",
+      "title_key": "evaluationofbeveragecanopeningstatusasascreeningindicatorforsarcopeniaacrosssectionalstudy",
+      "abstract": "This study aimed to examine whether the ability to open a canned beverage can be associated with sarcopenia and to determine whether beverage can-opening status could serve as a simple screening indicator for sarcopenia. A cross-sectional study was conducted among 109 older adults requiring long-term care/support attending daycare rehabilitation services (81.1 ± 6.9 years; 55 men, 54 women). Participants were instructed to open a stay-on-tab beverage can while sitting and were classified into Success or Failure groups according to single-attempt performance. Handgrip strength and skeletal muscle mass index (SMI) were measured to diagnose sarcopenia according to the Asian Working Group for Sarcopenia 2025 criteria. Logistic regression analyses were performed to examine the associations between sarcopenia, handgrip strength, SMI, and beverage can-opening status after adjusting for age, sex, body mass index, Barthel Index, and Charlson Comorbidity Index. Screening performance for the inability to open a can for sarcopenia was evaluated. The Success and Failure groups comprised 78 and 31 participants, respectively. Can-opening failure was significantly associated with sarcopenia (odds ratio, 4.5; 95% confidence interval, 1.4-14.1; P = 0.009), and similar associations were observed for low handgrip strength and low SMI. The inability to open a canned beverage demonstrated a moderate discriminatory ability for sarcopenia (area under the curve, 0.62; sensitivity, 42.2%; specificity, 81.3%; P = 0.038). Beverage can-opening status may reflect sarcopenia status. Difficulty in opening cans, an everyday sign readily noticed by individuals and family members, may facilitate early detection of sarcopenia without specialized measurements.",
+      "journal": "Progress in rehabilitation medicine",
+      "published_date": "2026",
+      "doi": "10.3389/fpubh.2024.1310383",
+      "pmid": "42751700",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42751700/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Shuntaro Tsuji\", \"Yohei Sawaya\", \"Tamaki Hirose\", \"Takahiro Shiba\", \"Ryo Sato\", \"Lu Yin\", \"Masafumi Itokazu\", \"Tomohiko Urano\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-18T00:23:48+00:00",
+      "last_seen_at": "2026-09-18T00:23:48+00:00",
+      "article_id": 67,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Evaluation of Beverage Can-opening Status as a Screening Indicator for Sarcopenia: A Cross-sectional Study.”，核心对象来自 Progress in rehabilitation medicine。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：This study aimed to examine whether the ability to open a canned beverage can be associated with sarcopenia and to determine whether beverage can-open\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：A cross-sectional study was conducted among 109 older adults requiring long-term care/support attending daycare rehabili\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"sarcopenia\\\") AND (bone)\", \"(\\\"sarcopenia\\\") AND (osteoporosis)\", \"(\\\"sarcopenia\\\") AND (muscle)\", \"(\\\"sarcopenia\\\") AND (sarcopenia)\", \"(\\\"sarcopenia\\\") AND (fracture)\"]",
+      "competition_json": "[]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"animal experiment\"]",
+      "novelty_status": "No direct match found in current search",
+      "score_total": 44,
+      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 35, \"data_feasibility\": 53, \"mechanistic_depth\": 32, \"competition_urgency\": 42}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 0 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-18T00:23:54+00:00",
+      "authors": [
+        "Shuntaro Tsuji",
+        "Yohei Sawaya",
+        "Tamaki Hirose",
+        "Takahiro Shiba",
+        "Ryo Sato",
+        "Lu Yin",
+        "Masafumi Itokazu",
+        "Tomohiko Urano"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Evaluation of Beverage Can-opening Status as a Screening Indicator for Sarcopenia: A Cross-sectional Study.”，核心对象来自 Progress in rehabilitation medicine。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：This study aimed to examine whether the ability to open a canned beverage can be associated with sarcopenia and to determine whether beverage can-open",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：A cross-sectional study was conducted among 109 older adults requiring long-term care/support attending daycare rehabili"
+      ],
+      "secondary_queries": [
+        "(\"sarcopenia\") AND (bone)",
+        "(\"sarcopenia\") AND (osteoporosis)",
+        "(\"sarcopenia\") AND (muscle)",
+        "(\"sarcopenia\") AND (sarcopenia)",
+        "(\"sarcopenia\") AND (fracture)"
+      ],
+      "competition": [],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 38,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 35,
+        "data_feasibility": 53,
+        "mechanistic_depth": 32,
+        "competition_urgency": 42
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 0 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 0 个。",
+        "competition_urgency": "当前二次检索返回 0 条潜在竞争记录。"
+      }
     }
   ],
   "stats": {
-    "total": 59,
-    "track_a": 48,
-    "track_b": 11,
-    "preprints": 11,
+    "total": 79,
+    "track_a": 60,
+    "track_b": 19,
+    "preprints": 19,
     "high_value": 5
   },
   "notice": "novelty status 仅表示当前自动检索结果，不代表系统性综述结论。"
