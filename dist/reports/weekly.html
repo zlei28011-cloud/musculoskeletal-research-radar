@@ -1,10 +1,177 @@
 <!doctype html><html lang='zh-CN'><meta charset='utf-8'><style>
-    body{font:16px/1.65 system-ui;color:#13233a;background:#eef3f7;margin:0;padding:24px}main{max-width:760px;margin:auto;background:white;padding:32px}
+    body{font:16px/1.65 system-ui;color:#13233a;background:#eef3f7;margin:0;padding:24px}main{max-width:780px;margin:auto;background:white;padding:32px}
     h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;border-top:1px solid #d9e2ea;padding-top:20px;margin-top:28px}h3{font-size:17px;margin:6px 0}a{color:#075c66}
-    article{padding:14px 0}.meta{font-size:12px;color:#6a7a8a;text-transform:uppercase}.none{color:#6a7a8a}ol,ul{padding-left:22px}</style>
-    <main><h1>Weekly Frontier Brief</h1><p>2026-09-16 · 肌骨科研机会雷达</p>
-    <h2>1. 本周明显升温的研究范式</h2><ul><li><b>foundation model</b>：1 篇卡片命中</li><li><b>longitudinal</b>：1 篇卡片命中</li><li><b>multimodal</b>：1 篇卡片命中</li><li><b>spatial</b>：1 篇卡片命中</li><li><b>single-cell</b>：1 篇卡片命中</li><li><b>atlas</b>：1 篇卡片命中</li></ul>
-    <h2>2. 正在从其他学科向临床迁移的方法</h2><article><div class='meta'>TRACK B · 72/100 · No direct match found in current search</div><h3><a href='https://www.biorxiv.org/'>A multimodal foundation model for longitudinal multi-organ aging trajectories</a></h3><ol><li>这项研究聚焦“A multimodal foundation model for longitudinal multi-organ aging trajectories”，核心对象来自 bioRxiv。</li><li>作者主要使用了基础模型、蛋白质组学、代谢组学来回答研究问题。 摘要证据：A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank.</li><li>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The model predicts organ-specific aging trajectories and supports perturbation analysis.</li></ol></article>
-    <h2>3. 骨 / 肌领域目前做到哪一步</h2><ul><li>Proteomic signatures of frailty and sarcopenia preceding incident fracture — Directly studied</li><li>A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches — Directly studied</li></ul>
-    <h2>4. 值得继续人工深查的候选机会</h2><article><div class='meta'>TRACK B · 72/100 · No direct match found in current search</div><h3><a href='https://www.biorxiv.org/'>A multimodal foundation model for longitudinal multi-organ aging trajectories</a></h3><ol><li>这项研究聚焦“A multimodal foundation model for longitudinal multi-organ aging trajectories”，核心对象来自 bioRxiv。</li><li>作者主要使用了基础模型、蛋白质组学、代谢组学来回答研究问题。 摘要证据：A foundation model integrates imaging, proteomics and metabolomics across a longitudinal biobank.</li><li>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The model predicts organ-specific aging trajectories and supports perturbation analysis.</li></ol></article><article><div class='meta'>TRACK A · 60/100 · Directly studied</div><h3><a href='https://doi.org/10.0000/demo.003'>Proteomic signatures of frailty and sarcopenia preceding incident fracture</a></h3><ol><li>这项研究聚焦“Proteomic signatures of frailty and sarcopenia preceding incident fracture”，核心对象来自 Aging Cell。</li><li>作者主要使用了蛋白质组学、纵向轨迹来回答研究问题。 摘要证据：Longitudinal proteomics in a clinical cohort identifies pathways associated with frailty, sarcopenia and fracture.</li><li>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Findings are validated with CT muscle measures and DXA.</li></ol></article><article><div class='meta'>TRACK A · 58/100 · Directly studied</div><h3><a href='https://pubmed.ncbi.nlm.nih.gov/99900001/'>A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches</a></h3><ol><li>这项研究聚焦“A spatial single-cell atlas of human skeletal aging reveals osteocyte–immune niches”，核心对象来自 Nature Aging。</li><li>作者主要使用了空间转录组、单细胞分析、细胞间通讯推断来回答研究问题。 摘要证据：Spatial transcriptomics and single-cell profiling map age-associated osteocyte and immune cell states.</li><li>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：The study identifies cell-cell communication programs linked to cortical porosity and fracture risk.</li></ol></article>
+    article{padding:18px 0 24px;border-bottom:1px solid #e7edf2}.meta{font-size:12px;color:#6a7a8a;text-transform:uppercase}.badge{display:inline-block;margin:7px 0 3px;padding:2px 8px;border-radius:999px;background:#e8f5f3;color:#075c66;font-size:12px}
+    .source{font-size:13px;color:#526273}.digest h4{font-size:14px;margin:15px 0 3px;color:#075c66}.digest p{margin:0}blockquote{margin:6px 0;padding:8px 14px;border-left:3px solid #a7c9c5;background:#f6f9f9;color:#435363;font-size:14px}blockquote p{margin:5px 0!important}.source-link{font-weight:650}.none{color:#6a7a8a}.intro{padding:12px 14px;background:#f4f7f9;border-radius:6px}ol,ul{padding-left:22px}
+    @media(max-width:600px){body{padding:0}main{padding:20px}h1{font-size:21px}}</style>
+    <main><h1>每周前沿简报 / Weekly Frontier Brief</h1><p>2026-09-21 · 肌骨科研机会雷达</p><p class='intro'>中文总结在前，英文原始证据在后；文章卡片为摘要级自动解读。<br>Chinese summary first, followed by the original English evidence.</p>
+    <h2>1. 本周明显升温的研究范式 / Hot Paradigms</h2><ul><li><b>proteomics</b>：6 篇卡片命中</li><li><b>foundation model</b>：4 篇卡片命中</li><li><b>spatial</b>：3 篇卡片命中</li><li><b>multimodal</b>：2 篇卡片命中</li><li><b>single-cell</b>：2 篇卡片命中</li><li><b>perturbation</b>：1 篇卡片命中</li></ul>
+    <h2>2. 正在从其他学科向临床迁移的方法 / Translational Methods</h2><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 78/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363174'>Genomic foundation model-derived disruption profiling links somatic mutations to cancer biology and clinical outcomes</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>medrxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.15.26363174</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“Genomic foundation model-derived disruption profiling links somatic mutations to cancer biology and clinical outcomes”，核心对象来自 medrxiv。</p>
+      <h4>研究目的 / Objective</h4><p>构建或验证一种模型，用于表征生物学状态、预测结局或提高研究测量能力。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了基础模型、扰动实验、图谱/资源来回答研究问题。 方法/范式标签：可迁移的新范式是：基础模型、扰动实验、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：human tissue、animal experiment、omics。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Cancer genomics has concentrated on individual mutations, overlooking whether somatic mutations can accumulate to produce partial, gene-level disruption with biological and clinical consequences.</p><p>Sequence-to-function models can quantify these effects directly from DNA sequence.</p><p>Here, we use AlphaGenome and AlphaMissense to quantify the disruption imposed by somatic mutations across 8,800 patients and 33 cancer types from The Cancer Genome Atlas.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363174'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 77/100 · Adjacent studies exist</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.medrxiv.org/content/10.64898/2026.03.16.26348526'>CARDIAC-FM: A Generalizable Multimodal Foundation Model Integrating ECG and Cardiac MRI</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>medrxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.03.16.26348526</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“CARDIAC-FM: A Generalizable Multimodal Foundation Model Integrating ECG and Cardiac MRI”，核心对象来自 medrxiv。</p>
+      <h4>研究目的 / Objective</h4><p>构建或验证一种模型，用于表征生物学状态、预测结局或提高研究测量能力。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了基础模型、多模态建模来回答研究问题。 方法/范式标签：可迁移的新范式是：基础模型、多模态建模。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：UK Biobank、CT、animal experiment。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Atrial fibrillation and heart failure impose substantial health burdens worldwide, yet accurate and generalizable risk prediction remains challenging.</p><p>Here we developed CARDIAC-FM, a multimodal foundation model that integrates 12-lead electrocardiography (ECG) and cardiac magnetic resonance imaging (cardiac MRI) through self-supervised representation learning and cross-modal contrastive alignment.</p><p>CARDIAC-FM introduces a self-supervised spatiotemporal, multi-view masked autoencoder for cardiac MRI.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.medrxiv.org/content/10.64898/2026.03.16.26348526'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 76/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.biorxiv.org/content/10.64898/2026.09.10.750685'>Amygdala metabolic activity on FDG PET is associated with survival, response to immune checkpoint inhibition, and tumor immune signaling in non-small cell lung cancer</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>biorxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.10.750685</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“Amygdala metabolic activity on FDG PET is associated with survival, response to immune checkpoint inhibition, and tumor immune signaling in non-small cell lung cancer”，核心对象来自 biorxiv。</p>
+      <h4>研究目的 / Objective</h4><p>检验目标因素与疾病、衰老或临床结局之间的关联，并评估其潜在意义。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了空间转录组来回答研究问题。 方法/范式标签：可迁移的新范式是：空间转录组。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：CT、human tissue、animal experiment、omics。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Amygdala metabolic activity (AmygAc) measured by [18F]FDG PET has been associated with chronic psychological stress and adverse clinical outcomes, but its relationship with antitumor immunity and treatment response remains incompletely understood.</p><p>We investigated AmygAc as a host-derived imaging biomarker in non-small cell lung cancer (NSCLC) and examined its association with survival, response to immune checkpoint inhibition (ICI), and the tumor immune microenvironment.</p><p>Methods: In this multicenter retrospective study, baseline [18F]FDG PET scans from 256 treatment-naive patients with NSCLC were analyzed to quantify AmygAc.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.biorxiv.org/content/10.64898/2026.09.10.750685'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 74/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.biorxiv.org/content/10.64898/2026.09.16.752238'>In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>biorxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.16.752238</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions”，核心对象来自 biorxiv。</p>
+      <h4>研究目的 / Objective</h4><p>识别关键现象、标志物或机制线索，并解释它们与研究结局之间的关系。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了单细胞分析、扰动实验来回答研究问题。 方法/范式标签：可迁移的新范式是：单细胞分析、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：CT、human tissue、animal experiment、omics。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo remains challenging.</p><p>Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting their information content and scalability.</p><p>To overcome these limitations, we developed match-seq, an imaging-free, sequencing-based cell proximity tracing system that uses virus-like particles to transmit barcodes between neighboring cells.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.biorxiv.org/content/10.64898/2026.09.16.752238'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 73/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363116'>Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>medrxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.15.26363116</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial”，核心对象来自 medrxiv。</p>
+      <h4>研究目的 / Objective</h4><p>构建或验证一种模型，用于表征生物学状态、预测结局或提高研究测量能力。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了基础模型、图谱/资源来回答研究问题。 方法/范式标签：可迁移的新范式是：基础模型、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：animal experiment。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer.</p><p>We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guidelines (tumour region identification guided scoring), foundation model-based lymphocyte detection (SAM-TIL) and compare with alternative methods (HoVerNet, muTILs) and gold standard clinical assessment.</p><p>TRIGS and SAM-TIL had an odds ratio of 1.95 (95% confidence interval(ci): 1.22-3.03, p=0.005) and 2.32 (95% ci:1.43-3.77, p=0.001) for predicting pathological complete response (pCR) rate in 166 neoadjuvantly treated patients in the TransNEO cohort.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363116'>查看原始记录 / Open source record →</a></p>
+    </article>
+    <h2>3. 骨 / 肌领域目前做到哪一步 / Musculoskeletal Progress</h2><ul><li>A frozen human wound-repair reference reveals heterogeneous tumor niches and conditional immunotherapy associations — Directly studied</li><li>MAPK-driven MYC/p21 axis controls senescence bypass and BCL-XL dependence in vincristine-resistant rhabdomyosarcoma. — Directly studied</li><li>Bone aging: a paradigm of multiscale degeneration and targeted rejuvenation — Adjacent studies exist</li><li>Clinical and Radiologic Predictors of Surgical Intervention in Adult Maxillofacial Trauma Patients Presenting to the Emergency Department. — Directly studied</li><li>Primary Cardiovascular Prevention in People Living With HIV: Rethinking Statin Therapy in the Post-REPRIEVE Era. — Adjacent studies exist</li></ul>
+    <h2>4. 值得继续人工深查的候选机会 / Deep-dive Candidates</h2><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 78/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363174'>Genomic foundation model-derived disruption profiling links somatic mutations to cancer biology and clinical outcomes</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>medrxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.15.26363174</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“Genomic foundation model-derived disruption profiling links somatic mutations to cancer biology and clinical outcomes”，核心对象来自 medrxiv。</p>
+      <h4>研究目的 / Objective</h4><p>构建或验证一种模型，用于表征生物学状态、预测结局或提高研究测量能力。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了基础模型、扰动实验、图谱/资源来回答研究问题。 方法/范式标签：可迁移的新范式是：基础模型、扰动实验、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：human tissue、animal experiment、omics。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Cancer genomics has concentrated on individual mutations, overlooking whether somatic mutations can accumulate to produce partial, gene-level disruption with biological and clinical consequences.</p><p>Sequence-to-function models can quantify these effects directly from DNA sequence.</p><p>Here, we use AlphaGenome and AlphaMissense to quantify the disruption imposed by somatic mutations across 8,800 patients and 33 cancer types from The Cancer Genome Atlas.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363174'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 77/100 · Adjacent studies exist</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.medrxiv.org/content/10.64898/2026.03.16.26348526'>CARDIAC-FM: A Generalizable Multimodal Foundation Model Integrating ECG and Cardiac MRI</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>medrxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.03.16.26348526</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“CARDIAC-FM: A Generalizable Multimodal Foundation Model Integrating ECG and Cardiac MRI”，核心对象来自 medrxiv。</p>
+      <h4>研究目的 / Objective</h4><p>构建或验证一种模型，用于表征生物学状态、预测结局或提高研究测量能力。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了基础模型、多模态建模来回答研究问题。 方法/范式标签：可迁移的新范式是：基础模型、多模态建模。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：UK Biobank、CT、animal experiment。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Atrial fibrillation and heart failure impose substantial health burdens worldwide, yet accurate and generalizable risk prediction remains challenging.</p><p>Here we developed CARDIAC-FM, a multimodal foundation model that integrates 12-lead electrocardiography (ECG) and cardiac magnetic resonance imaging (cardiac MRI) through self-supervised representation learning and cross-modal contrastive alignment.</p><p>CARDIAC-FM introduces a self-supervised spatiotemporal, multi-view masked autoencoder for cardiac MRI.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.medrxiv.org/content/10.64898/2026.03.16.26348526'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 76/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.biorxiv.org/content/10.64898/2026.09.10.750685'>Amygdala metabolic activity on FDG PET is associated with survival, response to immune checkpoint inhibition, and tumor immune signaling in non-small cell lung cancer</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>biorxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.10.750685</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“Amygdala metabolic activity on FDG PET is associated with survival, response to immune checkpoint inhibition, and tumor immune signaling in non-small cell lung cancer”，核心对象来自 biorxiv。</p>
+      <h4>研究目的 / Objective</h4><p>检验目标因素与疾病、衰老或临床结局之间的关联，并评估其潜在意义。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了空间转录组来回答研究问题。 方法/范式标签：可迁移的新范式是：空间转录组。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：CT、human tissue、animal experiment、omics。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Amygdala metabolic activity (AmygAc) measured by [18F]FDG PET has been associated with chronic psychological stress and adverse clinical outcomes, but its relationship with antitumor immunity and treatment response remains incompletely understood.</p><p>We investigated AmygAc as a host-derived imaging biomarker in non-small cell lung cancer (NSCLC) and examined its association with survival, response to immune checkpoint inhibition (ICI), and the tumor immune microenvironment.</p><p>Methods: In this multicenter retrospective study, baseline [18F]FDG PET scans from 256 treatment-naive patients with NSCLC were analyzed to quantify AmygAc.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.biorxiv.org/content/10.64898/2026.09.10.750685'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 74/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.biorxiv.org/content/10.64898/2026.09.16.752238'>In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>biorxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.16.752238</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions”，核心对象来自 biorxiv。</p>
+      <h4>研究目的 / Objective</h4><p>识别关键现象、标志物或机制线索，并解释它们与研究结局之间的关系。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了单细胞分析、扰动实验来回答研究问题。 方法/范式标签：可迁移的新范式是：单细胞分析、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：CT、human tissue、animal experiment、omics。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo remains challenging.</p><p>Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting their information content and scalability.</p><p>To overcome these limitations, we developed match-seq, an imaging-free, sequencing-based cell proximity tracing system that uses virus-like particles to transmit barcodes between neighboring cells.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.biorxiv.org/content/10.64898/2026.09.16.752238'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 73/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363116'>Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>medrxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.15.26363116</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial”，核心对象来自 medrxiv。</p>
+      <h4>研究目的 / Objective</h4><p>构建或验证一种模型，用于表征生物学状态、预测结局或提高研究测量能力。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了基础模型、图谱/资源来回答研究问题。 方法/范式标签：可迁移的新范式是：基础模型、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：animal experiment。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer.</p><p>We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guidelines (tumour region identification guided scoring), foundation model-based lymphocyte detection (SAM-TIL) and compare with alternative methods (HoVerNet, muTILs) and gold standard clinical assessment.</p><p>TRIGS and SAM-TIL had an odds ratio of 1.95 (95% confidence interval(ci): 1.22-3.03, p=0.005) and 2.32 (95% ci:1.43-3.77, p=0.001) for predicting pathological complete response (pCR) rate in 166 neoadjuvantly treated patients in the TransNEO cohort.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.medrxiv.org/content/10.64898/2026.09.15.26363116'>查看原始记录 / Open source record →</a></p>
+    </article><article>
+    <div class='meta'>TRACK B · OPPORTUNITY SCORE 72/100 · Directly studied</div>
+    <div class='badge'>摘要级解读 / Abstract-level review</div>
+    <h3><a href='https://www.biorxiv.org/content/10.64898/2026.09.08.749421'>Spatially resolved gene expression and tumour-microenvironment interactions across malignant transformation in IDH-mutant glioma</a></h3>
+    <p class='source'><b>期刊 / Journal：</b>biorxiv　<b>日期 / Date：</b>日期待核对<br><b>DOI/PMID：</b>10.64898/2026.09.08.749421</p>
+    <div class='digest'>
+      <h4>研究背景 / Background</h4><p>这项研究聚焦“Spatially resolved gene expression and tumour-microenvironment interactions across malignant transformation in IDH-mutant glioma”，核心对象来自 biorxiv。</p>
+      <h4>研究目的 / Objective</h4><p>描绘研究对象在细胞、空间或组织层面的组成与变化，并寻找具有解释力的生物学模式。</p>
+      <h4>方法与数据 / Methods &amp; Data</h4><p>作者主要使用了空间转录组、纵向轨迹来回答研究问题。 方法/范式标签：可迁移的新范式是：空间转录组、纵向轨迹。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。。涉及的数据或样本：human tissue、animal experiment、omics。</p>
+      <h4>主要发现 / Key Findings</h4><p>摘要报告了与研究目标相关的主要结果。为避免误译效应方向、数值或因果关系，本邮件不补写摘要中没有明确支持的结论；可核对下方英文原句。</p>
+      <h4>结论与肌骨启示 / Interpretation for Musculoskeletal Research</h4><p>对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。</p>
+      <h4>局限 / Limitations</h4><p>本卡基于题录与摘要自动生成，尚未核对全文中的样本量、效应值、亚组分析、偏倚控制及作者原始局限。</p>
+      <h4>英文原文证据 / Original Evidence</h4><blockquote><p>Isocitrate dehydrogenase (IDH)-mutant gliomas represent most lower-grade diffuse gliomas in young adults.</p><p>Although IDH-mutant gliomas initially behave indolently relative to IDH-wildtype counterparts, they undergo inevitable malignant transformation.</p><p>The mechanisms driving this progression remain poorly defined.</p></blockquote>
+    </div>
+    <p><a class='source-link' href='https://www.biorxiv.org/content/10.64898/2026.09.08.749421'>查看原始记录 / Open source record →</a></p>
+    </article>
     <p class='none'>novelty status 仅代表当前自动检索结果，不等同于系统性综述结论。</p></main></html>
