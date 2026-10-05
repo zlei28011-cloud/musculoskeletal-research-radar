@@ -1,32 +1,179 @@
 {
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-10-05",
   "hot_paradigms": [
     {
       "term": "spatial",
-      "count": 9
+      "count": 17
     },
     {
       "term": "proteomics",
-      "count": 8
+      "count": 11
     },
     {
       "term": "multimodal",
-      "count": 5
-    },
-    {
-      "term": "foundation model",
-      "count": 4
-    },
-    {
-      "term": "single-cell",
-      "count": 4
+      "count": 8
     },
     {
       "term": "perturbation",
-      "count": 3
+      "count": 8
+    },
+    {
+      "term": "foundation model",
+      "count": 7
+    },
+    {
+      "term": "single-cell",
+      "count": 7
     }
   ],
   "transfer": [
+    {
+      "id": 538,
+      "source": "biorxiv",
+      "title": "Early dynamics of a neutrophil interferon program drive immunotherapy resistance and limit durable anti-tumor immunity",
+      "title_key": "earlydynamicsofaneutrophilinterferonprogramdriveimmunotherapyresistanceandlimitdurableantitumorimmunity",
+      "abstract": "Despite the remarkable success of immune checkpoint blockade (ICB), durable clinical benefit remains limited to a subset of patients, highlighting the need for predictive biomarkers and new therapeutic targets. Here, we investigated the early immune dynamics associated with anti-PD1 responsiveness using longitudinal single-cell transcriptomics, spatial transcriptomics, and neutrophil-specific genetic perturbations in preclinical models of triple-negative breast cancer. We identified a conserved neutrophil interferon-stimulated gene (ISG) program that emerges before overt tumor divergence and predicts resistance to anti-PD1 therapy. Successful treatment was associated with an early reduction of IFN-responsive neutrophils in both blood and tumor tissues, whereas persistent neutrophil IFN signaling correlated with therapeutic resistance. Mechanistically, genetic disruption of either type I or type II interferon signaling in neutrophils enhanced anti-PD1 efficacy and promoted durable anti-tumor immune memory. Spatial analyses further revealed an inverse association between IFN-responsive neutrophils and tertiary lymphoid structure-enriched regions during effective therapy. Together, these findings identify IFN-responsive neutrophils as early determinants of immunotherapy outcome and establish dynamic neutrophil interferon programs as candidate blood-based biomarkers and therapeutic targets for cancer immunotherapy.",
+      "journal": "biorxiv",
+      "published_date": "2026-10-01",
+      "doi": "10.64898/2026.09.30.755684",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755684",
+      "publication_status": "preprint",
+      "authors_json": "[\"Gao, Y.\", \"Anning, E.\", \"Wang, L.\", \"CHENG, Y.\", \"Wu, L.\", \"Wang, J.\", \"Liu, F.\", \"Xu, Z.\", \"Hao, X.\", \"Liu, J.\", \"Yu, L.\", \"Ding, Y.\", \"Zhang, W.\", \"Edwards, D. G.\", \"Wu, Y.-H.\", \"Chan, H. L.\", \"Hoffman, D.\", \"Wang, S.\", \"Lee, T. D.\", \"Dominguez, L. B.\", \"Peled, N.\", \"Li, X.\", \"Chen, X.\", \"Rivas, C. H.\", \"Zhao, N.\", \"Calderon, S. J.\", \"Pedroza, D. A.\", \"Smith, A.\", \"Guan, N.\", \"Liu, Z.\", \"Rosen, J.\", \"Zhang, X.\"]",
+      "raw_json": "{\"category\": \"cancer biology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-10-04T00:41:04+00:00",
+      "last_seen_at": "2026-10-04T00:41:04+00:00",
+      "article_id": 538,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Early dynamics of a neutrophil interferon program drive immunotherapy resistance and limit durable anti-tumor immunity”，核心对象来自 biorxiv。\", \"作者主要使用了空间转录组、单细胞分析、纵向轨迹来回答研究问题。 摘要证据：Despite the remarkable success of immune checkpoint blockade (ICB), durable clinical benefit remains limited to a subset of patients, highlighting the\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we investigated the early immune dynamics associated with anti-PD1 responsiveness using longitudinal single-cell t\"]",
+      "new_paradigm": "可迁移的新范式是：空间转录组、单细胞分析、纵向轨迹、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (bone)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (osteoporosis)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (muscle)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (sarcopenia)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Integrated transcriptomic and deep learning analyses define acRG signature for prognosis and therapeutic options in osteosarcoma.\", \"journal\": \"Biochimica et biophysica acta. Molecular basis of disease\", \"date\": \"2026-10-02\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826870/\", \"pmid\": \"42826870\"}, {\"title\": \"Inflammatory rhabdomyoblastic tumor: Clinicopathologic and genomic features, association with neurofibromatosis type 1, and progression to rhabdomyosarcoma.\", \"journal\": \"Pathology, research and practice\", \"date\": \"2026-09-26\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826567/\", \"pmid\": \"42826567\"}, {\"title\": \"An artificial intelligence algorithm characterizes the deterioration of body composition from systemic therapy for patients with advanced prostate cancer.\", \"journal\": \"Journal of the National Cancer Institute\", \"date\": \"2026-10-01\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826502/\", \"pmid\": \"42826502\"}, {\"title\": \"Primary versus secondary targeted muscle reinnervation in amputees: A long-term comparative analysis of pain trajectories.\", \"journal\": \"Journal of plastic, reconstructive & aesthetic surgery : JPRAS\", \"date\": \"2026-09-21\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826435/\", \"pmid\": \"42826435\"}, {\"title\": \"Comparative evaluation of the sarcopenia index and 5 related creatinine-cystatin C biomarkers in relation to all-cause mortality in older adults: A cohort study.\", \"journal\": \"Medicine\", \"date\": \"2026-10-02\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826254/\", \"pmid\": \"42826254\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 80,
+      "score_components_json": "{\"paradigm_novelty\": 100, \"musculoskeletal_gap\": 92, \"clinical_significance\": 75, \"data_feasibility\": 53, \"mechanistic_depth\": 56, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 4 个范式信号：spatial, single-cell, longitudinal, perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-10-04T00:41:05+00:00",
+      "authors": [
+        "Gao, Y.",
+        "Anning, E.",
+        "Wang, L.",
+        "CHENG, Y.",
+        "Wu, L.",
+        "Wang, J.",
+        "Liu, F.",
+        "Xu, Z.",
+        "Hao, X.",
+        "Liu, J.",
+        "Yu, L.",
+        "Ding, Y.",
+        "Zhang, W.",
+        "Edwards, D. G.",
+        "Wu, Y.-H.",
+        "Chan, H. L.",
+        "Hoffman, D.",
+        "Wang, S.",
+        "Lee, T. D.",
+        "Dominguez, L. B.",
+        "Peled, N.",
+        "Li, X.",
+        "Chen, X.",
+        "Rivas, C. H.",
+        "Zhao, N.",
+        "Calderon, S. J.",
+        "Pedroza, D. A.",
+        "Smith, A.",
+        "Guan, N.",
+        "Liu, Z.",
+        "Rosen, J.",
+        "Zhang, X."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Early dynamics of a neutrophil interferon program drive immunotherapy resistance and limit durable anti-tumor immunity”，核心对象来自 biorxiv。",
+        "作者主要使用了空间转录组、单细胞分析、纵向轨迹来回答研究问题。 摘要证据：Despite the remarkable success of immune checkpoint blockade (ICB), durable clinical benefit remains limited to a subset of patients, highlighting the",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we investigated the early immune dynamics associated with anti-PD1 responsiveness using longitudinal single-cell t"
+      ],
+      "secondary_queries": [
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (bone)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (osteoporosis)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (muscle)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (sarcopenia)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Integrated transcriptomic and deep learning analyses define acRG signature for prognosis and therapeutic options in osteosarcoma.",
+          "journal": "Biochimica et biophysica acta. Molecular basis of disease",
+          "date": "2026-10-02",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826870/",
+          "pmid": "42826870"
+        },
+        {
+          "title": "Inflammatory rhabdomyoblastic tumor: Clinicopathologic and genomic features, association with neurofibromatosis type 1, and progression to rhabdomyosarcoma.",
+          "journal": "Pathology, research and practice",
+          "date": "2026-09-26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826567/",
+          "pmid": "42826567"
+        },
+        {
+          "title": "An artificial intelligence algorithm characterizes the deterioration of body composition from systemic therapy for patients with advanced prostate cancer.",
+          "journal": "Journal of the National Cancer Institute",
+          "date": "2026-10-01",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826502/",
+          "pmid": "42826502"
+        },
+        {
+          "title": "Primary versus secondary targeted muscle reinnervation in amputees: A long-term comparative analysis of pain trajectories.",
+          "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPRAS",
+          "date": "2026-09-21",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826435/",
+          "pmid": "42826435"
+        },
+        {
+          "title": "Comparative evaluation of the sarcopenia index and 5 related creatinine-cystatin C biomarkers in relation to all-cause mortality in older adults: A cohort study.",
+          "journal": "Medicine",
+          "date": "2026-10-02",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826254/",
+          "pmid": "42826254"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 100,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 75,
+        "data_feasibility": 53,
+        "mechanistic_depth": 56,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 4 个范式信号：spatial, single-cell, longitudinal, perturbation。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 4 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 2 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
     {
       "id": 117,
       "source": "medrxiv",
@@ -278,6 +425,141 @@
       }
     },
     {
+      "id": 573,
+      "source": "biorxiv",
+      "title": "Metabolic Perturbation Exacerbates Sinoatrial Node Dysfunction in Heart Failure",
+      "title_key": "metabolicperturbationexacerbatessinoatrialnodedysfunctioninheartfailure",
+      "abstract": "Heart failure (HF) affects approximately 6.2 million people in the United States, with a 5-year mortality exceeding 50%. Bradyarrhythmia, a known complication in HF due to sinoatrial node (SAN) dysfunction (SAND), increases morbidity and mortality of HF patients. Insights into the mechanistic underpinnings of SAND in HF could therefore uncover vital therapeutic targets to improve clinical outcomes. The SAN is endowed with a dense mitochondrial network crucial for sustaining their pacemaking function on a beat-to-beat basis. We have previously demonstrated significant disruptions in the mitochondrial-sarcoplasmic reticulum connectomics, resulting in abnormal mitochondrial Ca2+ handling and impaired mitochondrial function in HF. Here, we hypothesize that the metabolic perturbation is one of the critical mechanisms underlying SAND. To this end, we took advantage of a multi-omics approach combined with ultra-resolution imaging and functional analyses to decipher the metabolic shift that transpires in the HF SAN. Our findings revealed significant metabolic remodeling within the SAN mitochondria in HF, associated with altered fatty acid-oxidation, ketone bodies, and carbohydrate catabolism, together with heightened mitochondrial cristae remodeling. Notably, metabolomics analyses identified pronounced increase of glucosylceramides and ceramides, motivating functional studies in human iPSC-derived SAN cells (iSANCs). Mixed ceramide exposure reduced stimulated oxygen consumption and the ATP-linked respiratory endpoint, increased extracellular acidification, and dose-dependently diminished spontaneous beating frequency. Collectively, our findings support the notion that ceramides are active mediators of mitochondrial and metabolic dysfunction in the SAN. Overall, the study provides evidence that ceramides may be a potential therapeutic target for mitigating SAND in HF.",
+      "journal": "biorxiv",
+      "published_date": "2026-10-02",
+      "doi": "10.64898/2026.02.06.704519",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.06.704519",
+      "publication_status": "preprint",
+      "authors_json": "[\"Ren, L.\", \"Liu, Y.\", \"Diloretto, D. A.\", \"Xie, M.\", \"Pan, Y.\", \"Zheng, Y.\", \"Caudal, A.\", \"Zeng, W.\", \"Woltz, R. L.\", \"Shin, D. H.\", \"Dai, Y.\", \"Rodriguez, R.\", \"Ngo, R. Q.\", \"Perkins, G. A.\", \"Grigorean, G.\", \"Yamoah, E. N.\", \"Wu, J. C.\", \"Zhang, H.\", \"Chiamvimonvat, N.\", \"Thai, P. N.\"]",
+      "raw_json": "{\"category\": \"physiology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-10-05T00:58:35+00:00",
+      "last_seen_at": "2026-10-05T01:14:37+00:00",
+      "article_id": 573,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Metabolic Perturbation Exacerbates Sinoatrial Node Dysfunction in Heart Failure”，核心对象来自 biorxiv。\", \"作者主要使用了代谢组学、扰动实验来回答研究问题。 摘要证据：Heart failure (HF) affects approximately 6.2 million people in the United States, with a 5-year mortality exceeding 50%.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Bradyarrhythmia, a known complication in HF due to sinoatrial node (SAN) dysfunction (SAND), increases morbidity and mor\"]",
+      "new_paradigm": "可迁移的新范式是：代谢组学、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (bone)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (muscle)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Metabolomic biomarkers and metabolic remodelling in genetically characterised hypertrophic cardiomyopathy: a systematic review.\", \"journal\": \"Metabolomics : Official journal of the Metabolomic Society\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42829397/\", \"pmid\": \"42829397\"}, {\"title\": \"PM2.5 exposure impairs BMSC function and dysregulates mitochondrial oxidative stress: multi-omics insights into potential osteoporotic mechanisms.\", \"journal\": \"Free radical biology & medicine\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42829035/\", \"pmid\": \"42829035\"}, {\"title\": \"Frailty-Related Metabolic Signature in the Association Between Frailty and Coronary Artery Disease: Modification by Genetic Susceptibility.\", \"journal\": \"The journal of nutrition, health & aging\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42828918/\", \"pmid\": \"42828918\"}, {\"title\": \"Hesperetin mitigates IBD-associated bone loss via Akkermansia muciniphila enrichment and IDA-driven gut-bone axis crosstalk.\", \"journal\": \"Journal of orthopaedic translation\", \"date\": \"2026-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42828164/\", \"pmid\": \"42828164\"}, {\"title\": \"USP53 regulates glycolytic reprogramming and accelerates Abdominal aortic aneurysm progression and rupture.\", \"journal\": \"Nucleosides, nucleotides & nucleic acids\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42827389/\", \"pmid\": \"42827389\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"CT\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 76,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 75, \"data_feasibility\": 75, \"mechanistic_depth\": 56, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 3 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-10-05T01:14:38+00:00",
+      "authors": [
+        "Ren, L.",
+        "Liu, Y.",
+        "Diloretto, D. A.",
+        "Xie, M.",
+        "Pan, Y.",
+        "Zheng, Y.",
+        "Caudal, A.",
+        "Zeng, W.",
+        "Woltz, R. L.",
+        "Shin, D. H.",
+        "Dai, Y.",
+        "Rodriguez, R.",
+        "Ngo, R. Q.",
+        "Perkins, G. A.",
+        "Grigorean, G.",
+        "Yamoah, E. N.",
+        "Wu, J. C.",
+        "Zhang, H.",
+        "Chiamvimonvat, N.",
+        "Thai, P. N."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Metabolic Perturbation Exacerbates Sinoatrial Node Dysfunction in Heart Failure”，核心对象来自 biorxiv。",
+        "作者主要使用了代谢组学、扰动实验来回答研究问题。 摘要证据：Heart failure (HF) affects approximately 6.2 million people in the United States, with a 5-year mortality exceeding 50%.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Bradyarrhythmia, a known complication in HF due to sinoatrial node (SAN) dysfunction (SAND), increases morbidity and mor"
+      ],
+      "secondary_queries": [
+        "(\"metabolomics\" OR \"perturbation\") AND (bone)",
+        "(\"metabolomics\" OR \"perturbation\") AND (osteoporosis)",
+        "(\"metabolomics\" OR \"perturbation\") AND (muscle)",
+        "(\"metabolomics\" OR \"perturbation\") AND (sarcopenia)",
+        "(\"metabolomics\" OR \"perturbation\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Metabolomic biomarkers and metabolic remodelling in genetically characterised hypertrophic cardiomyopathy: a systematic review.",
+          "journal": "Metabolomics : Official journal of the Metabolomic Society",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42829397/",
+          "pmid": "42829397"
+        },
+        {
+          "title": "PM2.5 exposure impairs BMSC function and dysregulates mitochondrial oxidative stress: multi-omics insights into potential osteoporotic mechanisms.",
+          "journal": "Free radical biology & medicine",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42829035/",
+          "pmid": "42829035"
+        },
+        {
+          "title": "Frailty-Related Metabolic Signature in the Association Between Frailty and Coronary Artery Disease: Modification by Genetic Susceptibility.",
+          "journal": "The journal of nutrition, health & aging",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42828918/",
+          "pmid": "42828918"
+        },
+        {
+          "title": "Hesperetin mitigates IBD-associated bone loss via Akkermansia muciniphila enrichment and IDA-driven gut-bone axis crosstalk.",
+          "journal": "Journal of orthopaedic translation",
+          "date": "2026-09",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42828164/",
+          "pmid": "42828164"
+        },
+        {
+          "title": "USP53 regulates glycolytic reprogramming and accelerates Abdominal aortic aneurysm progression and rupture.",
+          "journal": "Nucleosides, nucleotides & nucleic acids",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42827389/",
+          "pmid": "42827389"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "CT",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 63,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 75,
+        "data_feasibility": 75,
+        "mechanistic_depth": 56,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：perturbation。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 4 个。",
+        "data_feasibility": "可获得数据/技术线索 3 个。",
+        "mechanistic_depth": "机制或因果线索 2 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 13,
       "source": "biorxiv",
       "title": "Amygdala metabolic activity on FDG PET is associated with survival, response to immune checkpoint inhibition, and tumor immune signaling in non-small cell lung cancer",
@@ -420,267 +702,6 @@
         "clinical_significance": "临床相关线索 5 个。",
         "data_feasibility": "可获得数据/技术线索 3 个。",
         "mechanistic_depth": "机制或因果线索 1 个。",
-        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
-      }
-    },
-    {
-      "id": 172,
-      "source": "biorxiv",
-      "title": "In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions",
-      "title_key": "invivointercellularcrisprscreensusingviralproximitybarcodingrevealregulatorsoftumorimmuneinteractions",
-      "abstract": "Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo remains challenging. Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting their information content and scalability. To overcome these limitations, we developed match-seq, an imaging-free, sequencing-based cell proximity tracing system that uses virus-like particles to transmit barcodes between neighboring cells. Barcoded mRNAs are transmitted from sender cells to nearby receiver cells, thereby establishing a spatial linkage that can be computationally reconstructed by barcode sequencing after tissue dissociation. We apply this system to an in vivo syngeneic murine tumor model, where we observe robust labeling of all immune cell lineages, and leverage barcode labeling to reconstruct cell type niches that recapitulate known tumor spatial biology. Furthermore, we couple this system with CRISPR perturbations and single-cell RNA sequencing to perform genetic screens in vivo on tumor-immune interactions at single-cell resolution. We use this method to infer cell-cell spatial relationships and uncover genetic dependencies in cancer cells that change the composition and cell state of their local microenvironments. By calculating a local immune activation signature, we are able to prioritize targets whose deletion enhances anti-tumor immunity through distinct effector cell types: loss of Tgfb1 engages CD8 T cells and macrophages, Traf7 loss elicits a CD4 T cell response, and Nectin3 loss promotes NK cell-mediated immunity, relationships that we validate by in vivo immune cell depletion. Notably, Tgfb1 and Nectin3 deletion had little effect on cancer cell fitness in the pooled screen yet suppressed tumor growth when deleted throughout the tumor, demonstrating the potential of match-seq to reveal functionally important tumor-immune interactions that would otherwise remain hidden. Together, these results establish a general framework for pooled genetic dissection of cell-cell interactions in vivo, extending CRISPR screening from cell-intrinsic phenotypes to the mechanisms by which cells shape and respond to their local microenvironments.",
-      "journal": "biorxiv",
-      "published_date": "2026-09-18",
-      "doi": "10.64898/2026.09.16.752238",
-      "pmid": null,
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.16.752238",
-      "publication_status": "preprint",
-      "authors_json": "[\"Du, P.\", \"Kohno, S.\", \"Wang, M.\", \"Papanicolaou, M.\", \"Vaughan-Jackson, A.\", \"Daigh, L.\", \"Peng, Q.\", \"Spees, K.\", \"McCormick, A.\", \"Diehl, M.\", \"Bintu, L.\", \"Qiu, X.\", \"Satpathy, A.\", \"Bassik, M.\"]",
-      "raw_json": "{\"category\": \"cancer biology\", \"published_doi\": \"NA\"}",
-      "first_seen_at": "2026-09-21T00:22:01+00:00",
-      "last_seen_at": "2026-09-21T00:31:52+00:00",
-      "article_id": 172,
-      "track": "B",
-      "summary_json": "[\"这项研究聚焦“In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions”，核心对象来自 biorxiv。\", \"作者主要使用了单细胞分析、扰动实验来回答研究问题。 摘要证据：Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo re\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting thei\"]",
-      "new_paradigm": "可迁移的新范式是：单细胞分析、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "高通量分子测量与组织分辨率提高。",
-      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
-      "secondary_queries_json": "[\"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (bone)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (muscle)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Advances in adropin-mediated signaling pathways and molecular mechanisms: Receptor controversies, tissue-specific evidence, and emerging physiological roles.\", \"journal\": \"Biochemical and biophysical research communications\", \"date\": \"2026-09-17\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42762722/\", \"pmid\": \"42762722\"}, {\"title\": \"The IL-4/IL-4R/STAT6 signaling axis regulates macrophage efferocytosis in osteoarthritis.\", \"journal\": \"Inflammation research : official journal of the European Histamine Research Society ... [et al.]\", \"date\": \"2026-09-19\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42762332/\", \"pmid\": \"42762332\"}, {\"title\": \"Spatial multi-omics decoding of the fracture nonunion niche: from immune-vascular-skeletal crosstalk to precision regeneration.\", \"journal\": \"Frontiers in medicine\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42761428/\", \"pmid\": \"42761428\"}, {\"title\": \"Programmed Clonal Expansion Associated with V(D)J Recombination Drives an ATM-Dependent Vulnerability Underlying Preferential Lymphocyte Depletion and Myeloid Bias Following DNA Damage.\", \"journal\": \"bioRxiv : the preprint server for biology\", \"date\": \"2026-08-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42760984/\", \"pmid\": \"42760984\"}, {\"title\": \"Single-cell transcriptomics reveals critical role of CD74 in bone marrow-derived mesenchymal stem cells.\", \"journal\": \"Stem cells translational medicine\", \"date\": \"2026-09-18\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42760507/\", \"pmid\": \"42760507\"}]",
-      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
-      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"CT\", \"human tissue\", \"animal experiment\", \"omics\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 74,
-      "score_components_json": "{\"paradigm_novelty\": 89, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 64, \"mechanistic_depth\": 68, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 3 个范式信号：single-cell, perturbation, spatial。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-21T00:31:52+00:00",
-      "authors": [
-        "Du, P.",
-        "Kohno, S.",
-        "Wang, M.",
-        "Papanicolaou, M.",
-        "Vaughan-Jackson, A.",
-        "Daigh, L.",
-        "Peng, Q.",
-        "Spees, K.",
-        "McCormick, A.",
-        "Diehl, M.",
-        "Bintu, L.",
-        "Qiu, X.",
-        "Satpathy, A.",
-        "Bassik, M."
-      ],
-      "summary_zh": [
-        "这项研究聚焦“In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions”，核心对象来自 biorxiv。",
-        "作者主要使用了单细胞分析、扰动实验来回答研究问题。 摘要证据：Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo re",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting thei"
-      ],
-      "secondary_queries": [
-        "(\"single-cell\" OR \"perturbation\") AND (bone)",
-        "(\"single-cell\" OR \"perturbation\") AND (osteoporosis)",
-        "(\"single-cell\" OR \"perturbation\") AND (muscle)",
-        "(\"single-cell\" OR \"perturbation\") AND (sarcopenia)",
-        "(\"single-cell\" OR \"perturbation\") AND (fracture)"
-      ],
-      "competition": [
-        {
-          "title": "Advances in adropin-mediated signaling pathways and molecular mechanisms: Receptor controversies, tissue-specific evidence, and emerging physiological roles.",
-          "journal": "Biochemical and biophysical research communications",
-          "date": "2026-09-17",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42762722/",
-          "pmid": "42762722"
-        },
-        {
-          "title": "The IL-4/IL-4R/STAT6 signaling axis regulates macrophage efferocytosis in osteoarthritis.",
-          "journal": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
-          "date": "2026-09-19",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42762332/",
-          "pmid": "42762332"
-        },
-        {
-          "title": "Spatial multi-omics decoding of the fracture nonunion niche: from immune-vascular-skeletal crosstalk to precision regeneration.",
-          "journal": "Frontiers in medicine",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42761428/",
-          "pmid": "42761428"
-        },
-        {
-          "title": "Programmed Clonal Expansion Associated with V(D)J Recombination Drives an ATM-Dependent Vulnerability Underlying Preferential Lymphocyte Depletion and Myeloid Bias Following DNA Damage.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "date": "2026-08-11",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42760984/",
-          "pmid": "42760984"
-        },
-        {
-          "title": "Single-cell transcriptomics reveals critical role of CD74 in bone marrow-derived mesenchymal stem cells.",
-          "journal": "Stem cells translational medicine",
-          "date": "2026-09-18",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42760507/",
-          "pmid": "42760507"
-        }
-      ],
-      "unresolved_questions": [
-        "核心信号在独立人群、不同年龄与性别中是否稳定？",
-        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
-        "该方法相对现有临床指标是否带来可量化的增益？"
-      ],
-      "transfer_questions": [
-        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
-        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
-        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
-      ],
-      "data_needs": [
-        "CT",
-        "human tissue",
-        "animal experiment",
-        "omics"
-      ],
-      "score_components": {
-        "paradigm_novelty": 89,
-        "musculoskeletal_gap": 92,
-        "clinical_significance": 35,
-        "data_feasibility": 64,
-        "mechanistic_depth": 68,
-        "competition_urgency": 100
-      },
-      "score_reasons": {
-        "paradigm_novelty": "识别到 3 个范式信号：single-cell, perturbation, spatial。",
-        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
-        "clinical_significance": "临床相关线索 0 个。",
-        "data_feasibility": "可获得数据/技术线索 2 个。",
-        "mechanistic_depth": "机制或因果线索 3 个。",
-        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
-      }
-    },
-    {
-      "id": 116,
-      "source": "medrxiv",
-      "title": "Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial",
-      "title_key": "tumourregionidentificationguidedscoringtrigsandfoundationmodelbasedtumourinfiltratinglymphocytescoringareprognosticforpathologicalcompleteresponseeventfreesurvivalinthetriplenegativepatientsinthepartnerrandomizedcontrolledtrial",
-      "abstract": "Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer. We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guidelines (tumour region identification guided scoring), foundation model-based lymphocyte detection (SAM-TIL) and compare with alternative methods (HoVerNet, muTILs) and gold standard clinical assessment. TRIGS and SAM-TIL had an odds ratio of 1.95 (95% confidence interval(ci): 1.22-3.03, p=0.005) and 2.32 (95% ci:1.43-3.77, p=0.001) for predicting pathological complete response (pCR) rate in 166 neoadjuvantly treated patients in the TransNEO cohort. Hazard ratios for overall survival in 277 triple negative and HER2-positive patients in The Cancer Genome Atlas were 0.79 (95% ci: 0.63-1.00, p=0.05) and 0.80 (95% ci: 0.67-0.97, p=0.02) for TRIGS and SAM-TIL. Comparator methods showed similar results. Correlation with gold standard clinical assessment in 285 patients from the PARTNER randomized trial ranged from 0.59-0.69, which is substantially more than interobserver variability for the gold standard. Despite differences with gold standard assessment, no substantial difference in predicting pCR (AUC 0.60-0.64) or event free survival (Integrated Brier score approximately 0.10) were observed between the tested methods and gold standard assessment, suggesting AI tools that do not follow manual scoring guidelines could be validated and subsequently used. Although we reached prognostic performance similar to published literature and gold standard assessment, the lymphocyte detections produced by the models are not interchangeable with gold standard clinical assessment (correlation 0.59-0.69) and therefore cannot support pathologist assessment. Further studies to validate independent use and/or to improve prognostication are required.",
-      "journal": "medrxiv",
-      "published_date": "2026-09-16",
-      "doi": "10.64898/2026.09.15.26363116",
-      "pmid": null,
-      "url": "https://www.medrxiv.org/content/10.64898/2026.09.15.26363116",
-      "publication_status": "preprint",
-      "authors_json": "[\"Schouten, P. C.\", \"Irfan, M. O.\", \"Kinsella, Z.\", \"Sionakidis, A.\", \"Riddell, A.\", \"Worley, J. R.\", \"Lay, J.\", \"Casford, S.\", \"Pinilla, K.\", \"Kane, J.\", \"Whitehorn, D.\", \"Tarantino, S.\", \"Dayimu, A.\", \"Demiris, N.\", \"Earl, H. M.\", \"Simidjievski, N.\", \"Provenzano, E.\", \"Abraham, J. E.\"]",
-      "raw_json": "{\"category\": \"pathology\", \"published_doi\": \"NA\"}",
-      "first_seen_at": "2026-09-19T00:23:32+00:00",
-      "last_seen_at": "2026-09-19T00:23:32+00:00",
-      "article_id": 116,
-      "track": "B",
-      "summary_json": "[\"这项研究聚焦“Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial”，核心对象来自 medrxiv。\", \"作者主要使用了基础模型、图谱/资源来回答研究问题。 摘要证据：Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guideline\"]",
-      "new_paradigm": "可迁移的新范式是：基础模型、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "算力、预训练模型与多模态数据基础成熟；大样本纵向队列和可复用数据资源出现。",
-      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
-      "secondary_queries_json": "[\"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (bone)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (osteoporosis)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (muscle)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (sarcopenia)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Anatomical impact of C1 transverse process resection on inferior and inferolateral exposure at the craniocervical junction: a cadaveric study.\", \"journal\": \"Surgical and radiologic anatomy : SRA\", \"date\": \"2026-09-18\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42758351/\", \"pmid\": \"42758351\"}, {\"title\": \"Scintigraphic Characteristics of the Occipitoatlantoaxial Region in Clinically Sound Horses.\", \"journal\": \"Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association\", \"date\": \"2026-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751976/\", \"pmid\": \"42751976\"}, {\"title\": \"Medication-related osteonecrosis of the external auditory canal and treatment with teriparatide.\", \"journal\": \"JCEM case reports\", \"date\": \"2026-10\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751062/\", \"pmid\": \"42751062\"}, {\"title\": \"A multi-omic atlas of the maternal-fetal dyad reveals metabolic stratification and prenatal signatures potentially relevant to meat quality development.\", \"journal\": \"Food chemistry\", \"date\": \"2026-09-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42748695/\", \"pmid\": \"42748695\"}, {\"title\": \"Spatially Distinct Bone Marrow Sites Are Asymmetrically Impacted by Inflammatory Cardiovascular Disease.\", \"journal\": \"JACC. Basic to translational science\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42748518/\", \"pmid\": \"42748518\"}]",
-      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
-      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"animal experiment\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 73,
-      "score_components_json": "{\"paradigm_novelty\": 76, \"musculoskeletal_gap\": 92, \"clinical_significance\": 75, \"data_feasibility\": 64, \"mechanistic_depth\": 32, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：atlas, foundation model。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-19T00:23:34+00:00",
-      "authors": [
-        "Schouten, P. C.",
-        "Irfan, M. O.",
-        "Kinsella, Z.",
-        "Sionakidis, A.",
-        "Riddell, A.",
-        "Worley, J. R.",
-        "Lay, J.",
-        "Casford, S.",
-        "Pinilla, K.",
-        "Kane, J.",
-        "Whitehorn, D.",
-        "Tarantino, S.",
-        "Dayimu, A.",
-        "Demiris, N.",
-        "Earl, H. M.",
-        "Simidjievski, N.",
-        "Provenzano, E.",
-        "Abraham, J. E."
-      ],
-      "summary_zh": [
-        "这项研究聚焦“Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial”，核心对象来自 medrxiv。",
-        "作者主要使用了基础模型、图谱/资源来回答研究问题。 摘要证据：Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer.",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guideline"
-      ],
-      "secondary_queries": [
-        "(\"foundation model\" OR \"atlas\") AND (bone)",
-        "(\"foundation model\" OR \"atlas\") AND (osteoporosis)",
-        "(\"foundation model\" OR \"atlas\") AND (muscle)",
-        "(\"foundation model\" OR \"atlas\") AND (sarcopenia)",
-        "(\"foundation model\" OR \"atlas\") AND (fracture)"
-      ],
-      "competition": [
-        {
-          "title": "Anatomical impact of C1 transverse process resection on inferior and inferolateral exposure at the craniocervical junction: a cadaveric study.",
-          "journal": "Surgical and radiologic anatomy : SRA",
-          "date": "2026-09-18",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42758351/",
-          "pmid": "42758351"
-        },
-        {
-          "title": "Scintigraphic Characteristics of the Occipitoatlantoaxial Region in Clinically Sound Horses.",
-          "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
-          "date": "2026-09",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42751976/",
-          "pmid": "42751976"
-        },
-        {
-          "title": "Medication-related osteonecrosis of the external auditory canal and treatment with teriparatide.",
-          "journal": "JCEM case reports",
-          "date": "2026-10",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42751062/",
-          "pmid": "42751062"
-        },
-        {
-          "title": "A multi-omic atlas of the maternal-fetal dyad reveals metabolic stratification and prenatal signatures potentially relevant to meat quality development.",
-          "journal": "Food chemistry",
-          "date": "2026-09-11",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42748695/",
-          "pmid": "42748695"
-        },
-        {
-          "title": "Spatially Distinct Bone Marrow Sites Are Asymmetrically Impacted by Inflammatory Cardiovascular Disease.",
-          "journal": "JACC. Basic to translational science",
-          "date": "2026-09-16",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42748518/",
-          "pmid": "42748518"
-        }
-      ],
-      "unresolved_questions": [
-        "核心信号在独立人群、不同年龄与性别中是否稳定？",
-        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
-        "该方法相对现有临床指标是否带来可量化的增益？"
-      ],
-      "transfer_questions": [
-        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
-        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
-        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
-      ],
-      "data_needs": [
-        "animal experiment"
-      ],
-      "score_components": {
-        "paradigm_novelty": 76,
-        "musculoskeletal_gap": 92,
-        "clinical_significance": 75,
-        "data_feasibility": 64,
-        "mechanistic_depth": 32,
-        "competition_urgency": 100
-      },
-      "score_reasons": {
-        "paradigm_novelty": "识别到 2 个范式信号：atlas, foundation model。",
-        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
-        "clinical_significance": "临床相关线索 4 个。",
-        "data_feasibility": "可获得数据/技术线索 2 个。",
-        "mechanistic_depth": "机制或因果线索 0 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     }
@@ -929,6 +950,126 @@
       }
     },
     {
+      "id": 395,
+      "source": "crossref",
+      "title": "Inferring organ aging, hallmark of aging and senescence scores from blood and facial photographs",
+      "title_key": "inferringorganaginghallmarkofagingandsenescencescoresfrombloodandfacialphotographs",
+      "abstract": "Aging progresses asynchronously across organs, motivating the development of organ-resolved aging clocks. Direct assessment of organ aging in living humans, however, is largely impractical. Here, we construct tissue-specific transcriptomic aging clocks and infer organ biological age from paired whole-blood (blood-organ age) and tissue RNA sequencing data in the GTEx project. We observe high variability both in the strength of aging signatures across organs and in the ability to predict organ age and organ scores from blood. Pathway analysis shows that organ aging clocks are dominated by biological processes that differ across tissues. Age-associated multi-organ modules identified in an aging multi-organ network correlation analysis and organ age features causally mediated through organ-blood-organ transcriptomic interactions support a role for systemic signaling in coupling organ aging processes. Given the established role of cellular senescence as a driver of tissue dysfunction and its tissue-specific accumulation during aging, we extend this framework to estimate burden of organ-level senescence and hallmarks of aging. Using senescence- and hallmark-associated gene sets, we derive tissue-specific senescence and hallmark scores (organ scores) and demonstrate that these burdens across multiple organs can be inferred from blood transcriptomes (blood-organ scores). Finally, in pursuit of extending these models to other blood omics and alternative non-invasive assessments, we evaluate whether blood methylation (methylation-blood-organ age and scores) and facial photographs (facial-blood-organ age and scores) can serve as proxies for blood-organ age and blood-organ scores in independent cohorts (Edifice Health and Health and Retirement Study). The methylation- and facial-blood-organ age and scores were associated with mortality in additional testing cohorts (Framingham Heart Study and IMDB-WIKI dataset). These results establish a cross-modal framework for inferring organ-specific aging and senescence from minimally invasive data.",
+      "journal": "",
+      "published_date": "2026-09-29",
+      "doi": "10.64898/2026.09.23.753830",
+      "pmid": null,
+      "url": "https://doi.org/10.64898/2026.09.23.753830",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Kevin Lee Schneider\", \"Minja Belic\", \"Matias Fuentealba\", \"Fiona Senchyna\", \"David Furman\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-09-30T01:19:12+00:00",
+      "last_seen_at": "2026-10-02T01:42:28+00:00",
+      "article_id": 395,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Inferring organ aging, hallmark of aging and senescence scores from blood and facial photographs”，核心对象来自 crossref。\", \"作者主要使用了衰老时钟来回答研究问题。 摘要证据：Aging progresses asynchronously across organs, motivating the development of organ-resolved aging clocks.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Direct assessment of organ aging in living humans, however, is largely impractical.\"]",
+      "new_paradigm": "可迁移的新范式是：衰老时钟。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"aging clock\\\") AND (bone)\", \"(\\\"aging clock\\\") AND (osteoporosis)\", \"(\\\"aging clock\\\") AND (muscle)\", \"(\\\"aging clock\\\") AND (sarcopenia)\", \"(\\\"aging clock\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"An ANGPTL8-AKT2-mTOR Axis Drives Adipose Senescence and Aging-Related Functional Decline.\", \"journal\": \"Aging cell\", \"date\": \"2026-08\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42605193/\", \"pmid\": \"42605193\"}, {\"title\": \"Nuclear Enlargement as a Histological Hallmark of Skeletal Muscle Aging, Revealed by Deep Learning-Driven Analysis and Validated in Inflammatory Myopathies.\", \"journal\": \"Aging cell\", \"date\": \"2026-06\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42295036/\", \"pmid\": \"42295036\"}, {\"title\": \"Synergistic and heterogeneous aging using composite phenotypes and multiple organ systems aging clocks.\", \"journal\": \"Communications medicine\", \"date\": \"2025-12-01\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/41326677/\", \"pmid\": \"41326677\"}, {\"title\": \"A scalable step count-based predictor of biological age: development and validation of MoveIt! Age in community-dwelling adults and geriatric rehabilitation inpatients.\", \"journal\": \"GeroScience\", \"date\": \"2026-04\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/41241677/\", \"pmid\": \"41241677\"}, {\"title\": \"Atlas of Lysosomal Aging Reveals a Molecular Clock of Storage Disorder-Associated Metabolites.\", \"journal\": \"bioRxiv : the preprint server for biology\", \"date\": \"2025-09-26\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/41040360/\", \"pmid\": \"41040360\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 67,
+      "score_components_json": "{\"paradigm_novelty\": 64, \"musculoskeletal_gap\": 58, \"clinical_significance\": 55, \"data_feasibility\": 64, \"mechanistic_depth\": 80, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：multi-organ, clock。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 4 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-10-02T01:42:32+00:00",
+      "authors": [
+        "Kevin Lee Schneider",
+        "Minja Belic",
+        "Matias Fuentealba",
+        "Fiona Senchyna",
+        "David Furman"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Inferring organ aging, hallmark of aging and senescence scores from blood and facial photographs”，核心对象来自 crossref。",
+        "作者主要使用了衰老时钟来回答研究问题。 摘要证据：Aging progresses asynchronously across organs, motivating the development of organ-resolved aging clocks.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Direct assessment of organ aging in living humans, however, is largely impractical."
+      ],
+      "secondary_queries": [
+        "(\"aging clock\") AND (bone)",
+        "(\"aging clock\") AND (osteoporosis)",
+        "(\"aging clock\") AND (muscle)",
+        "(\"aging clock\") AND (sarcopenia)",
+        "(\"aging clock\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "An ANGPTL8-AKT2-mTOR Axis Drives Adipose Senescence and Aging-Related Functional Decline.",
+          "journal": "Aging cell",
+          "date": "2026-08",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42605193/",
+          "pmid": "42605193"
+        },
+        {
+          "title": "Nuclear Enlargement as a Histological Hallmark of Skeletal Muscle Aging, Revealed by Deep Learning-Driven Analysis and Validated in Inflammatory Myopathies.",
+          "journal": "Aging cell",
+          "date": "2026-06",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42295036/",
+          "pmid": "42295036"
+        },
+        {
+          "title": "Synergistic and heterogeneous aging using composite phenotypes and multiple organ systems aging clocks.",
+          "journal": "Communications medicine",
+          "date": "2025-12-01",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41326677/",
+          "pmid": "41326677"
+        },
+        {
+          "title": "A scalable step count-based predictor of biological age: development and validation of MoveIt! Age in community-dwelling adults and geriatric rehabilitation inpatients.",
+          "journal": "GeroScience",
+          "date": "2026-04",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41241677/",
+          "pmid": "41241677"
+        },
+        {
+          "title": "Atlas of Lysosomal Aging Reveals a Molecular Clock of Storage Disorder-Associated Metabolites.",
+          "journal": "bioRxiv : the preprint server for biology",
+          "date": "2025-09-26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41040360/",
+          "pmid": "41040360"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "human tissue",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 64,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 55,
+        "data_feasibility": 64,
+        "mechanistic_depth": 80,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 2 个范式信号：multi-organ, clock。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 4 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 283,
       "source": "pubmed",
       "title": "Nurse-Led Supportive Physical and Psychological Therapies versus Orthopedic Specialist-Led Usual Care for Postmenopausal Women with Osteoporosis: A 24-Month Prospective, Non-Randomized Interventional Study with Retrospective Data Analysis (Quasi-Experimental Design).",
@@ -1162,96 +1303,122 @@
         "mechanistic_depth": "机制或因果线索 4 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
-    },
+    }
+  ],
+  "candidates": [
     {
-      "id": 69,
-      "source": "pubmed",
-      "title": "MAPK-driven MYC/p21 axis controls senescence bypass and BCL-XL dependence in vincristine-resistant rhabdomyosarcoma.",
-      "title_key": "mapkdrivenmycp21axiscontrolssenescencebypassandbclxldependenceinvincristineresistantrhabdomyosarcoma",
-      "abstract": "Therapy resistance remains the primary cause of treatment failure in rhabdomyosarcoma (RMS), the most common pediatric soft tissue sarcoma, yet underlying mechanisms are poorly understood. Using vincristine-resistant fusion-negative RMS models, RNA sequencing, genetic perturbations, and a syngeneic zebrafish tumor model, we demonstrate that resistance is driven by enhanced MAPK signaling, validated in post-chemotherapy patient specimens. MEK inhibition induced senescence through an MYC-p21 axis; MYC represses CDKN1A transcription, and its overexpression bypasses senescence. Resistant cells exhibited BCL-XL dependence, and combined MEK/BCL-XL inhibition eradicated resistant tumors in vitro and in vivo. These findings reveal that enhanced MAPK signaling and MYC-mediated senescence bypass are candidate resistance-associated mechanisms in fusion-negative RMS with implications across cancer types, and identify targetable vulnerabilities (MEK and BCL-XL), providing preclinical rationale for treatment-refractory RMS.",
-      "journal": "iScience",
-      "published_date": "2026-09-18",
-      "doi": "10.1038/nprot.2009.191",
-      "pmid": "42699572",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42699572/",
-      "publication_status": "peer-reviewed",
-      "authors_json": "[\"Yadong Wang\", \"Andrea D Largent\", \"Dorothy Lee\", \"Paulomi Modi\", \"Long Wang\", \"Anshu Bandhlish\", \"Myron Ignatius\", \"Eleanor Y Chen\"]",
-      "raw_json": "{}",
-      "first_seen_at": "2026-09-18T00:23:48+00:00",
-      "last_seen_at": "2026-09-18T00:23:48+00:00",
-      "article_id": 69,
-      "track": "A",
-      "summary_json": "[\"这项研究聚焦“MAPK-driven MYC/p21 axis controls senescence bypass and BCL-XL dependence in vincristine-resistant rhabdomyosarcoma.”，核心对象来自 iScience。\", \"作者主要使用了扰动实验来回答研究问题。 摘要证据：Therapy resistance remains the primary cause of treatment failure in rhabdomyosarcoma (RMS), the most common pediatric soft tissue sarcoma, yet underl\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Using vincristine-resistant fusion-negative RMS models, RNA sequencing, genetic perturbations, and a syngeneic zebrafish\"]",
-      "new_paradigm": "可迁移的新范式是：扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
-      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
-      "secondary_queries_json": "[\"(\\\"perturbation\\\") AND (bone)\", \"(\\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"perturbation\\\") AND (muscle)\", \"(\\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"perturbation\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.\", \"journal\": \"Frontiers in sports and active living\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751572/\", \"pmid\": \"42751572\"}, {\"title\": \"Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.\", \"journal\": \"G3 (Bethesda, Md.)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747884/\", \"pmid\": \"42747884\"}, {\"title\": \"Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.\", \"journal\": \"Cerebellum (London, England)\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42747689/\", \"pmid\": \"42747689\"}, {\"title\": \"Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.\", \"journal\": \"Cardiovascular therapeutics\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42742929/\", \"pmid\": \"42742929\"}, {\"title\": \"Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.\", \"journal\": \"Sensors (Basel, Switzerland)\", \"date\": \"2026-08-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42740073/\", \"pmid\": \"42740073\"}]",
+      "id": 538,
+      "source": "biorxiv",
+      "title": "Early dynamics of a neutrophil interferon program drive immunotherapy resistance and limit durable anti-tumor immunity",
+      "title_key": "earlydynamicsofaneutrophilinterferonprogramdriveimmunotherapyresistanceandlimitdurableantitumorimmunity",
+      "abstract": "Despite the remarkable success of immune checkpoint blockade (ICB), durable clinical benefit remains limited to a subset of patients, highlighting the need for predictive biomarkers and new therapeutic targets. Here, we investigated the early immune dynamics associated with anti-PD1 responsiveness using longitudinal single-cell transcriptomics, spatial transcriptomics, and neutrophil-specific genetic perturbations in preclinical models of triple-negative breast cancer. We identified a conserved neutrophil interferon-stimulated gene (ISG) program that emerges before overt tumor divergence and predicts resistance to anti-PD1 therapy. Successful treatment was associated with an early reduction of IFN-responsive neutrophils in both blood and tumor tissues, whereas persistent neutrophil IFN signaling correlated with therapeutic resistance. Mechanistically, genetic disruption of either type I or type II interferon signaling in neutrophils enhanced anti-PD1 efficacy and promoted durable anti-tumor immune memory. Spatial analyses further revealed an inverse association between IFN-responsive neutrophils and tertiary lymphoid structure-enriched regions during effective therapy. Together, these findings identify IFN-responsive neutrophils as early determinants of immunotherapy outcome and establish dynamic neutrophil interferon programs as candidate blood-based biomarkers and therapeutic targets for cancer immunotherapy.",
+      "journal": "biorxiv",
+      "published_date": "2026-10-01",
+      "doi": "10.64898/2026.09.30.755684",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755684",
+      "publication_status": "preprint",
+      "authors_json": "[\"Gao, Y.\", \"Anning, E.\", \"Wang, L.\", \"CHENG, Y.\", \"Wu, L.\", \"Wang, J.\", \"Liu, F.\", \"Xu, Z.\", \"Hao, X.\", \"Liu, J.\", \"Yu, L.\", \"Ding, Y.\", \"Zhang, W.\", \"Edwards, D. G.\", \"Wu, Y.-H.\", \"Chan, H. L.\", \"Hoffman, D.\", \"Wang, S.\", \"Lee, T. D.\", \"Dominguez, L. B.\", \"Peled, N.\", \"Li, X.\", \"Chen, X.\", \"Rivas, C. H.\", \"Zhao, N.\", \"Calderon, S. J.\", \"Pedroza, D. A.\", \"Smith, A.\", \"Guan, N.\", \"Liu, Z.\", \"Rosen, J.\", \"Zhang, X.\"]",
+      "raw_json": "{\"category\": \"cancer biology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-10-04T00:41:04+00:00",
+      "last_seen_at": "2026-10-04T00:41:04+00:00",
+      "article_id": 538,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Early dynamics of a neutrophil interferon program drive immunotherapy resistance and limit durable anti-tumor immunity”，核心对象来自 biorxiv。\", \"作者主要使用了空间转录组、单细胞分析、纵向轨迹来回答研究问题。 摘要证据：Despite the remarkable success of immune checkpoint blockade (ICB), durable clinical benefit remains limited to a subset of patients, highlighting the\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we investigated the early immune dynamics associated with anti-PD1 responsiveness using longitudinal single-cell t\"]",
+      "new_paradigm": "可迁移的新范式是：空间转录组、单细胞分析、纵向轨迹、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (bone)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (osteoporosis)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (muscle)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (sarcopenia)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"longitudinal\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Integrated transcriptomic and deep learning analyses define acRG signature for prognosis and therapeutic options in osteosarcoma.\", \"journal\": \"Biochimica et biophysica acta. Molecular basis of disease\", \"date\": \"2026-10-02\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826870/\", \"pmid\": \"42826870\"}, {\"title\": \"Inflammatory rhabdomyoblastic tumor: Clinicopathologic and genomic features, association with neurofibromatosis type 1, and progression to rhabdomyosarcoma.\", \"journal\": \"Pathology, research and practice\", \"date\": \"2026-09-26\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826567/\", \"pmid\": \"42826567\"}, {\"title\": \"An artificial intelligence algorithm characterizes the deterioration of body composition from systemic therapy for patients with advanced prostate cancer.\", \"journal\": \"Journal of the National Cancer Institute\", \"date\": \"2026-10-01\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826502/\", \"pmid\": \"42826502\"}, {\"title\": \"Primary versus secondary targeted muscle reinnervation in amputees: A long-term comparative analysis of pain trajectories.\", \"journal\": \"Journal of plastic, reconstructive & aesthetic surgery : JPRAS\", \"date\": \"2026-09-21\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826435/\", \"pmid\": \"42826435\"}, {\"title\": \"Comparative evaluation of the sarcopenia index and 5 related creatinine-cystatin C biomarkers in relation to all-cause mortality in older adults: A cohort study.\", \"journal\": \"Medicine\", \"date\": \"2026-10-02\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42826254/\", \"pmid\": \"42826254\"}]",
       "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
       "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"human tissue\", \"animal experiment\"]",
+      "data_needs_json": "[\"human tissue\", \"animal experiment\", \"omics\"]",
       "novelty_status": "Directly studied",
-      "score_total": 66,
-      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 75, \"data_feasibility\": 53, \"mechanistic_depth\": 80, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：perturbation。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 4 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-18T00:23:49+00:00",
+      "score_total": 80,
+      "score_components_json": "{\"paradigm_novelty\": 100, \"musculoskeletal_gap\": 92, \"clinical_significance\": 75, \"data_feasibility\": 53, \"mechanistic_depth\": 56, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 4 个范式信号：spatial, single-cell, longitudinal, perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-10-04T00:41:05+00:00",
       "authors": [
-        "Yadong Wang",
-        "Andrea D Largent",
-        "Dorothy Lee",
-        "Paulomi Modi",
-        "Long Wang",
-        "Anshu Bandhlish",
-        "Myron Ignatius",
-        "Eleanor Y Chen"
+        "Gao, Y.",
+        "Anning, E.",
+        "Wang, L.",
+        "CHENG, Y.",
+        "Wu, L.",
+        "Wang, J.",
+        "Liu, F.",
+        "Xu, Z.",
+        "Hao, X.",
+        "Liu, J.",
+        "Yu, L.",
+        "Ding, Y.",
+        "Zhang, W.",
+        "Edwards, D. G.",
+        "Wu, Y.-H.",
+        "Chan, H. L.",
+        "Hoffman, D.",
+        "Wang, S.",
+        "Lee, T. D.",
+        "Dominguez, L. B.",
+        "Peled, N.",
+        "Li, X.",
+        "Chen, X.",
+        "Rivas, C. H.",
+        "Zhao, N.",
+        "Calderon, S. J.",
+        "Pedroza, D. A.",
+        "Smith, A.",
+        "Guan, N.",
+        "Liu, Z.",
+        "Rosen, J.",
+        "Zhang, X."
       ],
       "summary_zh": [
-        "这项研究聚焦“MAPK-driven MYC/p21 axis controls senescence bypass and BCL-XL dependence in vincristine-resistant rhabdomyosarcoma.”，核心对象来自 iScience。",
-        "作者主要使用了扰动实验来回答研究问题。 摘要证据：Therapy resistance remains the primary cause of treatment failure in rhabdomyosarcoma (RMS), the most common pediatric soft tissue sarcoma, yet underl",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Using vincristine-resistant fusion-negative RMS models, RNA sequencing, genetic perturbations, and a syngeneic zebrafish"
+        "这项研究聚焦“Early dynamics of a neutrophil interferon program drive immunotherapy resistance and limit durable anti-tumor immunity”，核心对象来自 biorxiv。",
+        "作者主要使用了空间转录组、单细胞分析、纵向轨迹来回答研究问题。 摘要证据：Despite the remarkable success of immune checkpoint blockade (ICB), durable clinical benefit remains limited to a subset of patients, highlighting the",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we investigated the early immune dynamics associated with anti-PD1 responsiveness using longitudinal single-cell t"
       ],
       "secondary_queries": [
-        "(\"perturbation\") AND (bone)",
-        "(\"perturbation\") AND (osteoporosis)",
-        "(\"perturbation\") AND (muscle)",
-        "(\"perturbation\") AND (sarcopenia)",
-        "(\"perturbation\") AND (fracture)"
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (bone)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (osteoporosis)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (muscle)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (sarcopenia)",
+        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"longitudinal\") AND (fracture)"
       ],
       "competition": [
         {
-          "title": "Effect of exercise-induced muscle fatigue on reaction times under postural perturbation conditions in individuals with and without chronic low back pain.",
-          "journal": "Frontiers in sports and active living",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42751572/",
-          "pmid": "42751572"
+          "title": "Integrated transcriptomic and deep learning analyses define acRG signature for prognosis and therapeutic options in osteosarcoma.",
+          "journal": "Biochimica et biophysica acta. Molecular basis of disease",
+          "date": "2026-10-02",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826870/",
+          "pmid": "42826870"
         },
         {
-          "title": "Analysis of proteasome stress in different cell types defines a conserved transcriptional response signature and its modulation with aging.",
-          "journal": "G3 (Bethesda, Md.)",
-          "date": "2026-09-16",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42747884/",
-          "pmid": "42747884"
+          "title": "Inflammatory rhabdomyoblastic tumor: Clinicopathologic and genomic features, association with neurofibromatosis type 1, and progression to rhabdomyosarcoma.",
+          "journal": "Pathology, research and practice",
+          "date": "2026-09-26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826567/",
+          "pmid": "42826567"
         },
         {
-          "title": "Large Evoked Responses and Synchronisation Recorded over the Cerebellum in Human Subjects in Response to Postural Perturbations.",
-          "journal": "Cerebellum (London, England)",
-          "date": "2026-09-16",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42747689/",
-          "pmid": "42747689"
+          "title": "An artificial intelligence algorithm characterizes the deterioration of body composition from systemic therapy for patients with advanced prostate cancer.",
+          "journal": "Journal of the National Cancer Institute",
+          "date": "2026-10-01",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826502/",
+          "pmid": "42826502"
         },
         {
-          "title": "Humanized hiPSC Platforms for I/R Injury: Advancing Toward Precision Cardioprotection.",
-          "journal": "Cardiovascular therapeutics",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42742929/",
-          "pmid": "42742929"
+          "title": "Primary versus secondary targeted muscle reinnervation in amputees: A long-term comparative analysis of pain trajectories.",
+          "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPRAS",
+          "date": "2026-09-21",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826435/",
+          "pmid": "42826435"
         },
         {
-          "title": "Understanding Human Motion from Depth Sensors: Activity Recognition and Age Group Recognition Using Skeleton Data.",
-          "journal": "Sensors (Basel, Switzerland)",
-          "date": "2026-08-28",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42740073/",
-          "pmid": "42740073"
+          "title": "Comparative evaluation of the sarcopenia index and 5 related creatinine-cystatin C biomarkers in relation to all-cause mortality in older adults: A cohort study.",
+          "journal": "Medicine",
+          "date": "2026-10-02",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42826254/",
+          "pmid": "42826254"
         }
       ],
       "unresolved_questions": [
@@ -1266,27 +1433,26 @@
       ],
       "data_needs": [
         "human tissue",
-        "animal experiment"
+        "animal experiment",
+        "omics"
       ],
       "score_components": {
-        "paradigm_novelty": 51,
-        "musculoskeletal_gap": 58,
+        "paradigm_novelty": 100,
+        "musculoskeletal_gap": 92,
         "clinical_significance": 75,
         "data_feasibility": 53,
-        "mechanistic_depth": 80,
+        "mechanistic_depth": 56,
         "competition_urgency": 100
       },
       "score_reasons": {
-        "paradigm_novelty": "识别到 1 个范式信号：perturbation。",
-        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "paradigm_novelty": "识别到 4 个范式信号：spatial, single-cell, longitudinal, perturbation。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
         "clinical_significance": "临床相关线索 4 个。",
         "data_feasibility": "可获得数据/技术线索 1 个。",
-        "mechanistic_depth": "机制或因果线索 4 个。",
+        "mechanistic_depth": "机制或因果线索 2 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
-    }
-  ],
-  "candidates": [
+    },
     {
       "id": 117,
       "source": "medrxiv",
@@ -1538,6 +1704,141 @@
       }
     },
     {
+      "id": 573,
+      "source": "biorxiv",
+      "title": "Metabolic Perturbation Exacerbates Sinoatrial Node Dysfunction in Heart Failure",
+      "title_key": "metabolicperturbationexacerbatessinoatrialnodedysfunctioninheartfailure",
+      "abstract": "Heart failure (HF) affects approximately 6.2 million people in the United States, with a 5-year mortality exceeding 50%. Bradyarrhythmia, a known complication in HF due to sinoatrial node (SAN) dysfunction (SAND), increases morbidity and mortality of HF patients. Insights into the mechanistic underpinnings of SAND in HF could therefore uncover vital therapeutic targets to improve clinical outcomes. The SAN is endowed with a dense mitochondrial network crucial for sustaining their pacemaking function on a beat-to-beat basis. We have previously demonstrated significant disruptions in the mitochondrial-sarcoplasmic reticulum connectomics, resulting in abnormal mitochondrial Ca2+ handling and impaired mitochondrial function in HF. Here, we hypothesize that the metabolic perturbation is one of the critical mechanisms underlying SAND. To this end, we took advantage of a multi-omics approach combined with ultra-resolution imaging and functional analyses to decipher the metabolic shift that transpires in the HF SAN. Our findings revealed significant metabolic remodeling within the SAN mitochondria in HF, associated with altered fatty acid-oxidation, ketone bodies, and carbohydrate catabolism, together with heightened mitochondrial cristae remodeling. Notably, metabolomics analyses identified pronounced increase of glucosylceramides and ceramides, motivating functional studies in human iPSC-derived SAN cells (iSANCs). Mixed ceramide exposure reduced stimulated oxygen consumption and the ATP-linked respiratory endpoint, increased extracellular acidification, and dose-dependently diminished spontaneous beating frequency. Collectively, our findings support the notion that ceramides are active mediators of mitochondrial and metabolic dysfunction in the SAN. Overall, the study provides evidence that ceramides may be a potential therapeutic target for mitigating SAND in HF.",
+      "journal": "biorxiv",
+      "published_date": "2026-10-02",
+      "doi": "10.64898/2026.02.06.704519",
+      "pmid": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.06.704519",
+      "publication_status": "preprint",
+      "authors_json": "[\"Ren, L.\", \"Liu, Y.\", \"Diloretto, D. A.\", \"Xie, M.\", \"Pan, Y.\", \"Zheng, Y.\", \"Caudal, A.\", \"Zeng, W.\", \"Woltz, R. L.\", \"Shin, D. H.\", \"Dai, Y.\", \"Rodriguez, R.\", \"Ngo, R. Q.\", \"Perkins, G. A.\", \"Grigorean, G.\", \"Yamoah, E. N.\", \"Wu, J. C.\", \"Zhang, H.\", \"Chiamvimonvat, N.\", \"Thai, P. N.\"]",
+      "raw_json": "{\"category\": \"physiology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-10-05T00:58:35+00:00",
+      "last_seen_at": "2026-10-05T01:14:37+00:00",
+      "article_id": 573,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Metabolic Perturbation Exacerbates Sinoatrial Node Dysfunction in Heart Failure”，核心对象来自 biorxiv。\", \"作者主要使用了代谢组学、扰动实验来回答研究问题。 摘要证据：Heart failure (HF) affects approximately 6.2 million people in the United States, with a 5-year mortality exceeding 50%.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Bradyarrhythmia, a known complication in HF due to sinoatrial node (SAN) dysfunction (SAND), increases morbidity and mor\"]",
+      "new_paradigm": "可迁移的新范式是：代谢组学、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (bone)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (muscle)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"metabolomics\\\" OR \\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Metabolomic biomarkers and metabolic remodelling in genetically characterised hypertrophic cardiomyopathy: a systematic review.\", \"journal\": \"Metabolomics : Official journal of the Metabolomic Society\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42829397/\", \"pmid\": \"42829397\"}, {\"title\": \"PM2.5 exposure impairs BMSC function and dysregulates mitochondrial oxidative stress: multi-omics insights into potential osteoporotic mechanisms.\", \"journal\": \"Free radical biology & medicine\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42829035/\", \"pmid\": \"42829035\"}, {\"title\": \"Frailty-Related Metabolic Signature in the Association Between Frailty and Coronary Artery Disease: Modification by Genetic Susceptibility.\", \"journal\": \"The journal of nutrition, health & aging\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42828918/\", \"pmid\": \"42828918\"}, {\"title\": \"Hesperetin mitigates IBD-associated bone loss via Akkermansia muciniphila enrichment and IDA-driven gut-bone axis crosstalk.\", \"journal\": \"Journal of orthopaedic translation\", \"date\": \"2026-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42828164/\", \"pmid\": \"42828164\"}, {\"title\": \"USP53 regulates glycolytic reprogramming and accelerates Abdominal aortic aneurysm progression and rupture.\", \"journal\": \"Nucleosides, nucleotides & nucleic acids\", \"date\": \"2026-10-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42827389/\", \"pmid\": \"42827389\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"CT\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 76,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 75, \"data_feasibility\": 75, \"mechanistic_depth\": 56, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 3 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-10-05T01:14:38+00:00",
+      "authors": [
+        "Ren, L.",
+        "Liu, Y.",
+        "Diloretto, D. A.",
+        "Xie, M.",
+        "Pan, Y.",
+        "Zheng, Y.",
+        "Caudal, A.",
+        "Zeng, W.",
+        "Woltz, R. L.",
+        "Shin, D. H.",
+        "Dai, Y.",
+        "Rodriguez, R.",
+        "Ngo, R. Q.",
+        "Perkins, G. A.",
+        "Grigorean, G.",
+        "Yamoah, E. N.",
+        "Wu, J. C.",
+        "Zhang, H.",
+        "Chiamvimonvat, N.",
+        "Thai, P. N."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Metabolic Perturbation Exacerbates Sinoatrial Node Dysfunction in Heart Failure”，核心对象来自 biorxiv。",
+        "作者主要使用了代谢组学、扰动实验来回答研究问题。 摘要证据：Heart failure (HF) affects approximately 6.2 million people in the United States, with a 5-year mortality exceeding 50%.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Bradyarrhythmia, a known complication in HF due to sinoatrial node (SAN) dysfunction (SAND), increases morbidity and mor"
+      ],
+      "secondary_queries": [
+        "(\"metabolomics\" OR \"perturbation\") AND (bone)",
+        "(\"metabolomics\" OR \"perturbation\") AND (osteoporosis)",
+        "(\"metabolomics\" OR \"perturbation\") AND (muscle)",
+        "(\"metabolomics\" OR \"perturbation\") AND (sarcopenia)",
+        "(\"metabolomics\" OR \"perturbation\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Metabolomic biomarkers and metabolic remodelling in genetically characterised hypertrophic cardiomyopathy: a systematic review.",
+          "journal": "Metabolomics : Official journal of the Metabolomic Society",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42829397/",
+          "pmid": "42829397"
+        },
+        {
+          "title": "PM2.5 exposure impairs BMSC function and dysregulates mitochondrial oxidative stress: multi-omics insights into potential osteoporotic mechanisms.",
+          "journal": "Free radical biology & medicine",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42829035/",
+          "pmid": "42829035"
+        },
+        {
+          "title": "Frailty-Related Metabolic Signature in the Association Between Frailty and Coronary Artery Disease: Modification by Genetic Susceptibility.",
+          "journal": "The journal of nutrition, health & aging",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42828918/",
+          "pmid": "42828918"
+        },
+        {
+          "title": "Hesperetin mitigates IBD-associated bone loss via Akkermansia muciniphila enrichment and IDA-driven gut-bone axis crosstalk.",
+          "journal": "Journal of orthopaedic translation",
+          "date": "2026-09",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42828164/",
+          "pmid": "42828164"
+        },
+        {
+          "title": "USP53 regulates glycolytic reprogramming and accelerates Abdominal aortic aneurysm progression and rupture.",
+          "journal": "Nucleosides, nucleotides & nucleic acids",
+          "date": "2026-10-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42827389/",
+          "pmid": "42827389"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "CT",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 63,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 75,
+        "data_feasibility": 75,
+        "mechanistic_depth": 56,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：perturbation。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 4 个。",
+        "data_feasibility": "可获得数据/技术线索 3 个。",
+        "mechanistic_depth": "机制或因果线索 2 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 13,
       "source": "biorxiv",
       "title": "Amygdala metabolic activity on FDG PET is associated with survival, response to immune checkpoint inhibition, and tumor immune signaling in non-small cell lung cancer",
@@ -1684,358 +1985,71 @@
       }
     },
     {
-      "id": 172,
+      "id": 398,
       "source": "biorxiv",
-      "title": "In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions",
-      "title_key": "invivointercellularcrisprscreensusingviralproximitybarcodingrevealregulatorsoftumorimmuneinteractions",
-      "abstract": "Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo remains challenging. Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting their information content and scalability. To overcome these limitations, we developed match-seq, an imaging-free, sequencing-based cell proximity tracing system that uses virus-like particles to transmit barcodes between neighboring cells. Barcoded mRNAs are transmitted from sender cells to nearby receiver cells, thereby establishing a spatial linkage that can be computationally reconstructed by barcode sequencing after tissue dissociation. We apply this system to an in vivo syngeneic murine tumor model, where we observe robust labeling of all immune cell lineages, and leverage barcode labeling to reconstruct cell type niches that recapitulate known tumor spatial biology. Furthermore, we couple this system with CRISPR perturbations and single-cell RNA sequencing to perform genetic screens in vivo on tumor-immune interactions at single-cell resolution. We use this method to infer cell-cell spatial relationships and uncover genetic dependencies in cancer cells that change the composition and cell state of their local microenvironments. By calculating a local immune activation signature, we are able to prioritize targets whose deletion enhances anti-tumor immunity through distinct effector cell types: loss of Tgfb1 engages CD8 T cells and macrophages, Traf7 loss elicits a CD4 T cell response, and Nectin3 loss promotes NK cell-mediated immunity, relationships that we validate by in vivo immune cell depletion. Notably, Tgfb1 and Nectin3 deletion had little effect on cancer cell fitness in the pooled screen yet suppressed tumor growth when deleted throughout the tumor, demonstrating the potential of match-seq to reveal functionally important tumor-immune interactions that would otherwise remain hidden. Together, these results establish a general framework for pooled genetic dissection of cell-cell interactions in vivo, extending CRISPR screening from cell-intrinsic phenotypes to the mechanisms by which cells shape and respond to their local microenvironments.",
+      "title": "A meta-interaction basis for cell-cell communication in tissues",
+      "title_key": "ametainteractionbasisforcellcellcommunicationintissues",
+      "abstract": "Tissue function depends on signals exchanged between cells and the responses they elicit. Yet whether diverse cell-cell interactions in situ form recurrent sender-receiver programs remains unclear. We present SpiderNet, an interpretable representation-learning framework that discovers such directed programs as a compact basis of cell-cell meta-interactions (MIs) from spatial transcriptomics. SpiderNet jointly learns which sender regulators, ligand-receptor pairs, and receiver targets define each MI and where each program is active across neighboring cell pairs. The resulting representation traces multicellular relays and links communication to cell states, perturbation responses, and phenotypes. SpiderNet recovers ground-truth MIs and their molecular components in simulations and, in real tissues, shows stronger direction-specific agreement with independently curated regulatory programs in senders and receivers than alternative methods. Across more than 5.8 million spatially profiled cells, SpiderNet resolves an SPP1-THBS relay linking monocytes, fibroblasts, and tumor cells within an immune-suppressive ovarian cancer niche, predicts T-cell responses to held-out melanoma-cell perturbations, and identifies a T-cell-associated brain-aging program and age-predictive signals that transfer across regions and platforms. It reveals a recurrent pan-cancer COLLAGEN-linked fibroblast-tumor program whose projected abundance in independent cohorts is associated with poorer survival and non-response to immunotherapy. SpiderNet thus establishes MIs as a reusable organizational layer between molecular interactions and tissue phenotypes, providing a framework to resolve, compare, trace, and perturb multicellular regulation in situ.",
       "journal": "biorxiv",
-      "published_date": "2026-09-18",
-      "doi": "10.64898/2026.09.16.752238",
+      "published_date": "2026-09-27",
+      "doi": "10.64898/2026.09.21.753369",
       "pmid": null,
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.16.752238",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753369",
       "publication_status": "preprint",
-      "authors_json": "[\"Du, P.\", \"Kohno, S.\", \"Wang, M.\", \"Papanicolaou, M.\", \"Vaughan-Jackson, A.\", \"Daigh, L.\", \"Peng, Q.\", \"Spees, K.\", \"McCormick, A.\", \"Diehl, M.\", \"Bintu, L.\", \"Qiu, X.\", \"Satpathy, A.\", \"Bassik, M.\"]",
-      "raw_json": "{\"category\": \"cancer biology\", \"published_doi\": \"NA\"}",
-      "first_seen_at": "2026-09-21T00:22:01+00:00",
-      "last_seen_at": "2026-09-21T00:31:52+00:00",
-      "article_id": 172,
+      "authors_json": "[\"Tang, J.\", \"Liang, S.\", \"Alam, S.\", \"Cheng, W.\", \"Zhang, Y.\", \"Ma, J.\"]",
+      "raw_json": "{\"category\": \"bioinformatics\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-09-30T01:19:12+00:00",
+      "last_seen_at": "2026-09-30T01:19:12+00:00",
+      "article_id": 398,
       "track": "B",
-      "summary_json": "[\"这项研究聚焦“In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions”，核心对象来自 biorxiv。\", \"作者主要使用了单细胞分析、扰动实验来回答研究问题。 摘要证据：Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo re\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting thei\"]",
-      "new_paradigm": "可迁移的新范式是：单细胞分析、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "高通量分子测量与组织分辨率提高。",
-      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
-      "secondary_queries_json": "[\"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (bone)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (muscle)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Advances in adropin-mediated signaling pathways and molecular mechanisms: Receptor controversies, tissue-specific evidence, and emerging physiological roles.\", \"journal\": \"Biochemical and biophysical research communications\", \"date\": \"2026-09-17\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42762722/\", \"pmid\": \"42762722\"}, {\"title\": \"The IL-4/IL-4R/STAT6 signaling axis regulates macrophage efferocytosis in osteoarthritis.\", \"journal\": \"Inflammation research : official journal of the European Histamine Research Society ... [et al.]\", \"date\": \"2026-09-19\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42762332/\", \"pmid\": \"42762332\"}, {\"title\": \"Spatial multi-omics decoding of the fracture nonunion niche: from immune-vascular-skeletal crosstalk to precision regeneration.\", \"journal\": \"Frontiers in medicine\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42761428/\", \"pmid\": \"42761428\"}, {\"title\": \"Programmed Clonal Expansion Associated with V(D)J Recombination Drives an ATM-Dependent Vulnerability Underlying Preferential Lymphocyte Depletion and Myeloid Bias Following DNA Damage.\", \"journal\": \"bioRxiv : the preprint server for biology\", \"date\": \"2026-08-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42760984/\", \"pmid\": \"42760984\"}, {\"title\": \"Single-cell transcriptomics reveals critical role of CD74 in bone marrow-derived mesenchymal stem cells.\", \"journal\": \"Stem cells translational medicine\", \"date\": \"2026-09-18\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42760507/\", \"pmid\": \"42760507\"}]",
-      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
-      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"CT\", \"human tissue\", \"animal experiment\", \"omics\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 74,
-      "score_components_json": "{\"paradigm_novelty\": 89, \"musculoskeletal_gap\": 92, \"clinical_significance\": 35, \"data_feasibility\": 64, \"mechanistic_depth\": 68, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 3 个范式信号：single-cell, perturbation, spatial。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 0 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-21T00:31:52+00:00",
-      "authors": [
-        "Du, P.",
-        "Kohno, S.",
-        "Wang, M.",
-        "Papanicolaou, M.",
-        "Vaughan-Jackson, A.",
-        "Daigh, L.",
-        "Peng, Q.",
-        "Spees, K.",
-        "McCormick, A.",
-        "Diehl, M.",
-        "Bintu, L.",
-        "Qiu, X.",
-        "Satpathy, A.",
-        "Bassik, M."
-      ],
-      "summary_zh": [
-        "这项研究聚焦“In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions”，核心对象来自 biorxiv。",
-        "作者主要使用了单细胞分析、扰动实验来回答研究问题。 摘要证据：Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo re",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting thei"
-      ],
-      "secondary_queries": [
-        "(\"single-cell\" OR \"perturbation\") AND (bone)",
-        "(\"single-cell\" OR \"perturbation\") AND (osteoporosis)",
-        "(\"single-cell\" OR \"perturbation\") AND (muscle)",
-        "(\"single-cell\" OR \"perturbation\") AND (sarcopenia)",
-        "(\"single-cell\" OR \"perturbation\") AND (fracture)"
-      ],
-      "competition": [
-        {
-          "title": "Advances in adropin-mediated signaling pathways and molecular mechanisms: Receptor controversies, tissue-specific evidence, and emerging physiological roles.",
-          "journal": "Biochemical and biophysical research communications",
-          "date": "2026-09-17",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42762722/",
-          "pmid": "42762722"
-        },
-        {
-          "title": "The IL-4/IL-4R/STAT6 signaling axis regulates macrophage efferocytosis in osteoarthritis.",
-          "journal": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
-          "date": "2026-09-19",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42762332/",
-          "pmid": "42762332"
-        },
-        {
-          "title": "Spatial multi-omics decoding of the fracture nonunion niche: from immune-vascular-skeletal crosstalk to precision regeneration.",
-          "journal": "Frontiers in medicine",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42761428/",
-          "pmid": "42761428"
-        },
-        {
-          "title": "Programmed Clonal Expansion Associated with V(D)J Recombination Drives an ATM-Dependent Vulnerability Underlying Preferential Lymphocyte Depletion and Myeloid Bias Following DNA Damage.",
-          "journal": "bioRxiv : the preprint server for biology",
-          "date": "2026-08-11",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42760984/",
-          "pmid": "42760984"
-        },
-        {
-          "title": "Single-cell transcriptomics reveals critical role of CD74 in bone marrow-derived mesenchymal stem cells.",
-          "journal": "Stem cells translational medicine",
-          "date": "2026-09-18",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42760507/",
-          "pmid": "42760507"
-        }
-      ],
-      "unresolved_questions": [
-        "核心信号在独立人群、不同年龄与性别中是否稳定？",
-        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
-        "该方法相对现有临床指标是否带来可量化的增益？"
-      ],
-      "transfer_questions": [
-        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
-        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
-        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
-      ],
-      "data_needs": [
-        "CT",
-        "human tissue",
-        "animal experiment",
-        "omics"
-      ],
-      "score_components": {
-        "paradigm_novelty": 89,
-        "musculoskeletal_gap": 92,
-        "clinical_significance": 35,
-        "data_feasibility": 64,
-        "mechanistic_depth": 68,
-        "competition_urgency": 100
-      },
-      "score_reasons": {
-        "paradigm_novelty": "识别到 3 个范式信号：single-cell, perturbation, spatial。",
-        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
-        "clinical_significance": "临床相关线索 0 个。",
-        "data_feasibility": "可获得数据/技术线索 2 个。",
-        "mechanistic_depth": "机制或因果线索 3 个。",
-        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
-      }
-    },
-    {
-      "id": 116,
-      "source": "medrxiv",
-      "title": "Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial",
-      "title_key": "tumourregionidentificationguidedscoringtrigsandfoundationmodelbasedtumourinfiltratinglymphocytescoringareprognosticforpathologicalcompleteresponseeventfreesurvivalinthetriplenegativepatientsinthepartnerrandomizedcontrolledtrial",
-      "abstract": "Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer. We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guidelines (tumour region identification guided scoring), foundation model-based lymphocyte detection (SAM-TIL) and compare with alternative methods (HoVerNet, muTILs) and gold standard clinical assessment. TRIGS and SAM-TIL had an odds ratio of 1.95 (95% confidence interval(ci): 1.22-3.03, p=0.005) and 2.32 (95% ci:1.43-3.77, p=0.001) for predicting pathological complete response (pCR) rate in 166 neoadjuvantly treated patients in the TransNEO cohort. Hazard ratios for overall survival in 277 triple negative and HER2-positive patients in The Cancer Genome Atlas were 0.79 (95% ci: 0.63-1.00, p=0.05) and 0.80 (95% ci: 0.67-0.97, p=0.02) for TRIGS and SAM-TIL. Comparator methods showed similar results. Correlation with gold standard clinical assessment in 285 patients from the PARTNER randomized trial ranged from 0.59-0.69, which is substantially more than interobserver variability for the gold standard. Despite differences with gold standard assessment, no substantial difference in predicting pCR (AUC 0.60-0.64) or event free survival (Integrated Brier score approximately 0.10) were observed between the tested methods and gold standard assessment, suggesting AI tools that do not follow manual scoring guidelines could be validated and subsequently used. Although we reached prognostic performance similar to published literature and gold standard assessment, the lymphocyte detections produced by the models are not interchangeable with gold standard clinical assessment (correlation 0.59-0.69) and therefore cannot support pathologist assessment. Further studies to validate independent use and/or to improve prognostication are required.",
-      "journal": "medrxiv",
-      "published_date": "2026-09-16",
-      "doi": "10.64898/2026.09.15.26363116",
-      "pmid": null,
-      "url": "https://www.medrxiv.org/content/10.64898/2026.09.15.26363116",
-      "publication_status": "preprint",
-      "authors_json": "[\"Schouten, P. C.\", \"Irfan, M. O.\", \"Kinsella, Z.\", \"Sionakidis, A.\", \"Riddell, A.\", \"Worley, J. R.\", \"Lay, J.\", \"Casford, S.\", \"Pinilla, K.\", \"Kane, J.\", \"Whitehorn, D.\", \"Tarantino, S.\", \"Dayimu, A.\", \"Demiris, N.\", \"Earl, H. M.\", \"Simidjievski, N.\", \"Provenzano, E.\", \"Abraham, J. E.\"]",
-      "raw_json": "{\"category\": \"pathology\", \"published_doi\": \"NA\"}",
-      "first_seen_at": "2026-09-19T00:23:32+00:00",
-      "last_seen_at": "2026-09-19T00:23:32+00:00",
-      "article_id": 116,
-      "track": "B",
-      "summary_json": "[\"这项研究聚焦“Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial”，核心对象来自 medrxiv。\", \"作者主要使用了基础模型、图谱/资源来回答研究问题。 摘要证据：Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guideline\"]",
-      "new_paradigm": "可迁移的新范式是：基础模型、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "算力、预训练模型与多模态数据基础成熟；大样本纵向队列和可复用数据资源出现。",
-      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
-      "secondary_queries_json": "[\"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (bone)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (osteoporosis)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (muscle)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (sarcopenia)\", \"(\\\"foundation model\\\" OR \\\"atlas\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Anatomical impact of C1 transverse process resection on inferior and inferolateral exposure at the craniocervical junction: a cadaveric study.\", \"journal\": \"Surgical and radiologic anatomy : SRA\", \"date\": \"2026-09-18\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42758351/\", \"pmid\": \"42758351\"}, {\"title\": \"Scintigraphic Characteristics of the Occipitoatlantoaxial Region in Clinically Sound Horses.\", \"journal\": \"Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association\", \"date\": \"2026-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751976/\", \"pmid\": \"42751976\"}, {\"title\": \"Medication-related osteonecrosis of the external auditory canal and treatment with teriparatide.\", \"journal\": \"JCEM case reports\", \"date\": \"2026-10\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42751062/\", \"pmid\": \"42751062\"}, {\"title\": \"A multi-omic atlas of the maternal-fetal dyad reveals metabolic stratification and prenatal signatures potentially relevant to meat quality development.\", \"journal\": \"Food chemistry\", \"date\": \"2026-09-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42748695/\", \"pmid\": \"42748695\"}, {\"title\": \"Spatially Distinct Bone Marrow Sites Are Asymmetrically Impacted by Inflammatory Cardiovascular Disease.\", \"journal\": \"JACC. Basic to translational science\", \"date\": \"2026-09-16\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42748518/\", \"pmid\": \"42748518\"}]",
-      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
-      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"animal experiment\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 73,
-      "score_components_json": "{\"paradigm_novelty\": 76, \"musculoskeletal_gap\": 92, \"clinical_significance\": 75, \"data_feasibility\": 64, \"mechanistic_depth\": 32, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：atlas, foundation model。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-19T00:23:34+00:00",
-      "authors": [
-        "Schouten, P. C.",
-        "Irfan, M. O.",
-        "Kinsella, Z.",
-        "Sionakidis, A.",
-        "Riddell, A.",
-        "Worley, J. R.",
-        "Lay, J.",
-        "Casford, S.",
-        "Pinilla, K.",
-        "Kane, J.",
-        "Whitehorn, D.",
-        "Tarantino, S.",
-        "Dayimu, A.",
-        "Demiris, N.",
-        "Earl, H. M.",
-        "Simidjievski, N.",
-        "Provenzano, E.",
-        "Abraham, J. E."
-      ],
-      "summary_zh": [
-        "这项研究聚焦“Tumour region identification guided scoring (TRIGS) and foundation model-based Tumour Infiltrating Lymphocyte scoring are prognostic for pathological complete response/event free survival in the triple negative patients in the PARTNER randomized controlled trial”，核心对象来自 medrxiv。",
-        "作者主要使用了基础模型、图谱/资源来回答研究问题。 摘要证据：Assessment of tumour infiltrating lymphocytes (TILs) is a robust prognostic biomarker for HER2-positive and triple negative breast cancer.",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We aimed to update a previously established pipeline for automated TIL assessment to align to clinical scoring guideline"
-      ],
-      "secondary_queries": [
-        "(\"foundation model\" OR \"atlas\") AND (bone)",
-        "(\"foundation model\" OR \"atlas\") AND (osteoporosis)",
-        "(\"foundation model\" OR \"atlas\") AND (muscle)",
-        "(\"foundation model\" OR \"atlas\") AND (sarcopenia)",
-        "(\"foundation model\" OR \"atlas\") AND (fracture)"
-      ],
-      "competition": [
-        {
-          "title": "Anatomical impact of C1 transverse process resection on inferior and inferolateral exposure at the craniocervical junction: a cadaveric study.",
-          "journal": "Surgical and radiologic anatomy : SRA",
-          "date": "2026-09-18",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42758351/",
-          "pmid": "42758351"
-        },
-        {
-          "title": "Scintigraphic Characteristics of the Occipitoatlantoaxial Region in Clinically Sound Horses.",
-          "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
-          "date": "2026-09",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42751976/",
-          "pmid": "42751976"
-        },
-        {
-          "title": "Medication-related osteonecrosis of the external auditory canal and treatment with teriparatide.",
-          "journal": "JCEM case reports",
-          "date": "2026-10",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42751062/",
-          "pmid": "42751062"
-        },
-        {
-          "title": "A multi-omic atlas of the maternal-fetal dyad reveals metabolic stratification and prenatal signatures potentially relevant to meat quality development.",
-          "journal": "Food chemistry",
-          "date": "2026-09-11",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42748695/",
-          "pmid": "42748695"
-        },
-        {
-          "title": "Spatially Distinct Bone Marrow Sites Are Asymmetrically Impacted by Inflammatory Cardiovascular Disease.",
-          "journal": "JACC. Basic to translational science",
-          "date": "2026-09-16",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42748518/",
-          "pmid": "42748518"
-        }
-      ],
-      "unresolved_questions": [
-        "核心信号在独立人群、不同年龄与性别中是否稳定？",
-        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
-        "该方法相对现有临床指标是否带来可量化的增益？"
-      ],
-      "transfer_questions": [
-        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
-        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
-        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
-      ],
-      "data_needs": [
-        "animal experiment"
-      ],
-      "score_components": {
-        "paradigm_novelty": 76,
-        "musculoskeletal_gap": 92,
-        "clinical_significance": 75,
-        "data_feasibility": 64,
-        "mechanistic_depth": 32,
-        "competition_urgency": 100
-      },
-      "score_reasons": {
-        "paradigm_novelty": "识别到 2 个范式信号：atlas, foundation model。",
-        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
-        "clinical_significance": "临床相关线索 4 个。",
-        "data_feasibility": "可获得数据/技术线索 2 个。",
-        "mechanistic_depth": "机制或因果线索 0 个。",
-        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
-      }
-    },
-    {
-      "id": 343,
-      "source": "biorxiv",
-      "title": "A Community-Driven Single-Cell PBMC Reference Integrating Landmark Datasets Spanning Health and Disease",
-      "title_key": "acommunitydrivensinglecellpbmcreferenceintegratinglandmarkdatasetsspanninghealthanddisease",
-      "abstract": "Blood provides an accessible window into human health, yet the absence of a peripheral blood mononuclear cells (PBMCs) reference with standardized immune cell annotations has constrained comparisons between single-cell RNA sequencing (scRNAseq) studies. Here, we present HARP (Human Cell Atlas Reference for PBMCs), an integrated atlas of ~9 million PBMCs from >2,600 donors across 15 studies spanning four continents, encompassing diverse populations, neonates to 97 years, across health and diverse immune-related diseases. We developed optimized integration workflows, including novel label-free metrics to assess integration quality, and generated community-driven consensus annotations for 192 immune cell subsets, identifying rare populations representing as few as 0.004% of PBMCs. HARP reveals coordinated cellular modules associated with age, sex, and disease, identifies female-biased interferon and inflammatory gene programs and their perturbation by COVID-19, and uncovers a novel sexual dimorphism in prostaglandin signaling. Finally, we introduce scTiger, a hierarchical label-transfer framework that accurately projects these 192 cell annotations onto ~18 million additional PBMCs, providing a robust and transferable reference for harmonizing future PBMC studies. HARP provides a high-resolution community-driven reference atlas for PBMC annotation and analysis, as a basis for emerging clinical applications of single-cell genomics.",
-      "journal": "biorxiv",
-      "published_date": "2026-09-25",
-      "doi": "10.64898/2026.09.21.749940",
-      "pmid": null,
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.749940",
-      "publication_status": "preprint",
-      "authors_json": "[\"Cujba, A.-M.\", \"Aguilar-Fernandez, S.\", \"Antoinette, A.\", \"Said, W.\", \"Mueller, M. F.\", \"Kock, K. H.\", \"Nestor, J.\", \"Sonthalia, R.\", \"Buyamin, E. V.\", \"Rawat, P.\", \"Predeus, A.\", \"Kretschmer, L.\", \"Fei, L.\", \"Slowikowski, K.\", \"Sen, P.\", \"Cosgriff, C. V.\", \"MGH COVID-19 Collection & Processing Team,\", \"Dufva, O.\", \"Askari, M.\", \"Kimler, K.\", \"Futey, M.\", \"Zucchi, I.\", \"Chatzigeorgiou, A.\", \"Nejad, P.\", \"Jin, L.\", \"Bowen, B.\", \"Yang, A.\", \"Lindeboom, R. G. H.\", \"Normand, R.\", \"Megas, S.\", \"Ando, Y.\", \"Chatterjee, A.\", \"Park, J.-E.\", \"Majumder, P. P.\", \"Matangkasombut, P.\", \"Charoensawan, V.\", \"Shin, J. W.\", \"Park, W.-Y.\", \"Asian Immune Diversity Atlas (AIDA) Network\"]",
-      "raw_json": "{\"category\": \"immunology\", \"published_doi\": \"NA\"}",
-      "first_seen_at": "2026-09-28T00:49:38+00:00",
-      "last_seen_at": "2026-09-28T01:09:48+00:00",
-      "article_id": 343,
-      "track": "B",
-      "summary_json": "[\"这项研究聚焦“A Community-Driven Single-Cell PBMC Reference Integrating Landmark Datasets Spanning Health and Disease”，核心对象来自 biorxiv。\", \"作者主要使用了单细胞分析、扰动实验、图谱/资源来回答研究问题。 摘要证据：Blood provides an accessible window into human health, yet the absence of a peripheral blood mononuclear cells (PBMCs) reference with standardized imm\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we present HARP (Human Cell Atlas Reference for PBMCs), an integrated atlas of ~9 million PBMCs from >2,600 donors\"]",
-      "new_paradigm": "可迁移的新范式是：单细胞分析、扰动实验、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "summary_json": "[\"这项研究聚焦“A meta-interaction basis for cell-cell communication in tissues”，核心对象来自 biorxiv。\", \"作者主要使用了空间转录组、细胞间通讯推断、扰动实验来回答研究问题。 摘要证据：Tissue function depends on signals exchanged between cells and the responses they elicit.\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Yet whether diverse cell-cell interactions in situ form recurrent sender-receiver programs remains unclear.\"]",
+      "new_paradigm": "可迁移的新范式是：空间转录组、细胞间通讯推断、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
       "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
       "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
-      "secondary_queries_json": "[\"(\\\"single-cell\\\" OR \\\"perturbation\\\" OR \\\"atlas\\\") AND (bone)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\" OR \\\"atlas\\\") AND (osteoporosis)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\" OR \\\"atlas\\\") AND (muscle)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\" OR \\\"atlas\\\") AND (sarcopenia)\", \"(\\\"single-cell\\\" OR \\\"perturbation\\\" OR \\\"atlas\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Promoter-Targeted CRISPR Correction of PMP22 Gene Dosage Restores Schwann Cell Homeostasis in Charcot-Marie-Tooth Disease Type 1A.\", \"journal\": \"Tissue engineering and regenerative medicine\", \"date\": \"2026-09-27\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42801440/\", \"pmid\": \"42801440\"}, {\"title\": \"Integrative Bulk, Single-Cell, and Spatial Transcriptomic Analyses Nominate PPARG as a Candidate Senescence-Related Prognostic Gene in Osteosarcoma.\", \"journal\": \"Journal of visualized experiments : JoVE\", \"date\": \"2026-09-25\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42799625/\", \"pmid\": \"42799625\"}, {\"title\": \"Fibroblast-centered mechanisms of chronic inflammation and airway remodeling in allergic bronchopulmonary aspergillosis.\", \"journal\": \"Frontiers in allergy\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42798922/\", \"pmid\": \"42798922\"}, {\"title\": \"Lineage relationships in muscle stem cells: linking functional fate to molecular state.\", \"journal\": \"Frontiers in cell and developmental biology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42798658/\", \"pmid\": \"42798658\"}, {\"title\": \"Integrative single-cell and bulk transcriptomics uncovers a lipid metabolism-related lncRNA signature alongside the ELFN1-AS1/LYPLA1 axis driving osteosarcoma progression.\", \"journal\": \"Frontiers in immunology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42798652/\", \"pmid\": \"42798652\"}]",
+      "secondary_queries_json": "[\"(\\\"spatial transcriptomics\\\" OR \\\"cell-cell communication\\\" OR \\\"perturbation\\\") AND (bone)\", \"(\\\"spatial transcriptomics\\\" OR \\\"cell-cell communication\\\" OR \\\"perturbation\\\") AND (osteoporosis)\", \"(\\\"spatial transcriptomics\\\" OR \\\"cell-cell communication\\\" OR \\\"perturbation\\\") AND (muscle)\", \"(\\\"spatial transcriptomics\\\" OR \\\"cell-cell communication\\\" OR \\\"perturbation\\\") AND (sarcopenia)\", \"(\\\"spatial transcriptomics\\\" OR \\\"cell-cell communication\\\" OR \\\"perturbation\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Correction: Integrated histopathology and single-cell transcriptomics reveal distinct pathological features and foamy macrophage characteristics in spinal tuberculosis and brucellar spondylitis.\", \"journal\": \"Frontiers in immunology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42807487/\", \"pmid\": \"42807487\"}, {\"title\": \"BAFF-APRIL blockade reveals isotype-specific pathogenic autoantibody remodelling in antiphospholipid syndrome.\", \"journal\": \"Annals of the rheumatic diseases\", \"date\": \"2026-09-28\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42805835/\", \"pmid\": \"42805835\"}, {\"title\": \"Integrative Bulk, Single-Cell, and Spatial Transcriptomic Analyses Nominate PPARG as a Candidate Senescence-Related Prognostic Gene in Osteosarcoma.\", \"journal\": \"Journal of visualized experiments : JoVE\", \"date\": \"2026-09-25\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42799625/\", \"pmid\": \"42799625\"}, {\"title\": \"Single-cell dissection of a collision marrow with coexisting acute myeloid leukemia and a Waldenström-related lymphoplasmacytic compartment.\", \"journal\": \"Frontiers in oncology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42798504/\", \"pmid\": \"42798504\"}, {\"title\": \"Inflammatory phenotypes after total knee arthroplasty: a testable framework for biomarker-stratified enhanced recovery and precision rehabilitation.\", \"journal\": \"Frontiers in medicine\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42798389/\", \"pmid\": \"42798389\"}]",
       "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
       "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
       "data_needs_json": "[\"human tissue\", \"animal experiment\", \"omics\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 72,
-      "score_components_json": "{\"paradigm_novelty\": 89, \"musculoskeletal_gap\": 92, \"clinical_significance\": 45, \"data_feasibility\": 53, \"mechanistic_depth\": 56, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 3 个范式信号：single-cell, perturbation, atlas。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 1 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-09-28T01:09:49+00:00",
+      "novelty_status": "Adjacent studies exist",
+      "score_total": 75,
+      "score_components_json": "{\"paradigm_novelty\": 76, \"musculoskeletal_gap\": 92, \"clinical_significance\": 55, \"data_feasibility\": 64, \"mechanistic_depth\": 68, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：spatial, perturbation。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 2 个。\", \"mechanistic_depth\": \"机制或因果线索 3 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-09-30T01:19:13+00:00",
       "authors": [
-        "Cujba, A.-M.",
-        "Aguilar-Fernandez, S.",
-        "Antoinette, A.",
-        "Said, W.",
-        "Mueller, M. F.",
-        "Kock, K. H.",
-        "Nestor, J.",
-        "Sonthalia, R.",
-        "Buyamin, E. V.",
-        "Rawat, P.",
-        "Predeus, A.",
-        "Kretschmer, L.",
-        "Fei, L.",
-        "Slowikowski, K.",
-        "Sen, P.",
-        "Cosgriff, C. V.",
-        "MGH COVID-19 Collection & Processing Team,",
-        "Dufva, O.",
-        "Askari, M.",
-        "Kimler, K.",
-        "Futey, M.",
-        "Zucchi, I.",
-        "Chatzigeorgiou, A.",
-        "Nejad, P.",
-        "Jin, L.",
-        "Bowen, B.",
-        "Yang, A.",
-        "Lindeboom, R. G. H.",
-        "Normand, R.",
-        "Megas, S.",
-        "Ando, Y.",
-        "Chatterjee, A.",
-        "Park, J.-E.",
-        "Majumder, P. P.",
-        "Matangkasombut, P.",
-        "Charoensawan, V.",
-        "Shin, J. W.",
-        "Park, W.-Y.",
-        "Asian Immune Diversity Atlas (AIDA) Network"
+        "Tang, J.",
+        "Liang, S.",
+        "Alam, S.",
+        "Cheng, W.",
+        "Zhang, Y.",
+        "Ma, J."
       ],
       "summary_zh": [
-        "这项研究聚焦“A Community-Driven Single-Cell PBMC Reference Integrating Landmark Datasets Spanning Health and Disease”，核心对象来自 biorxiv。",
-        "作者主要使用了单细胞分析、扰动实验、图谱/资源来回答研究问题。 摘要证据：Blood provides an accessible window into human health, yet the absence of a peripheral blood mononuclear cells (PBMCs) reference with standardized imm",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we present HARP (Human Cell Atlas Reference for PBMCs), an integrated atlas of ~9 million PBMCs from >2,600 donors"
+        "这项研究聚焦“A meta-interaction basis for cell-cell communication in tissues”，核心对象来自 biorxiv。",
+        "作者主要使用了空间转录组、细胞间通讯推断、扰动实验来回答研究问题。 摘要证据：Tissue function depends on signals exchanged between cells and the responses they elicit.",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Yet whether diverse cell-cell interactions in situ form recurrent sender-receiver programs remains unclear."
       ],
       "secondary_queries": [
-        "(\"single-cell\" OR \"perturbation\" OR \"atlas\") AND (bone)",
-        "(\"single-cell\" OR \"perturbation\" OR \"atlas\") AND (osteoporosis)",
-        "(\"single-cell\" OR \"perturbation\" OR \"atlas\") AND (muscle)",
-        "(\"single-cell\" OR \"perturbation\" OR \"atlas\") AND (sarcopenia)",
-        "(\"single-cell\" OR \"perturbation\" OR \"atlas\") AND (fracture)"
+        "(\"spatial transcriptomics\" OR \"cell-cell communication\" OR \"perturbation\") AND (bone)",
+        "(\"spatial transcriptomics\" OR \"cell-cell communication\" OR \"perturbation\") AND (osteoporosis)",
+        "(\"spatial transcriptomics\" OR \"cell-cell communication\" OR \"perturbation\") AND (muscle)",
+        "(\"spatial transcriptomics\" OR \"cell-cell communication\" OR \"perturbation\") AND (sarcopenia)",
+        "(\"spatial transcriptomics\" OR \"cell-cell communication\" OR \"perturbation\") AND (fracture)"
       ],
       "competition": [
         {
-          "title": "Promoter-Targeted CRISPR Correction of PMP22 Gene Dosage Restores Schwann Cell Homeostasis in Charcot-Marie-Tooth Disease Type 1A.",
-          "journal": "Tissue engineering and regenerative medicine",
-          "date": "2026-09-27",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42801440/",
-          "pmid": "42801440"
+          "title": "Correction: Integrated histopathology and single-cell transcriptomics reveal distinct pathological features and foamy macrophage characteristics in spinal tuberculosis and brucellar spondylitis.",
+          "journal": "Frontiers in immunology",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42807487/",
+          "pmid": "42807487"
+        },
+        {
+          "title": "BAFF-APRIL blockade reveals isotype-specific pathogenic autoantibody remodelling in antiphospholipid syndrome.",
+          "journal": "Annals of the rheumatic diseases",
+          "date": "2026-09-28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42805835/",
+          "pmid": "42805835"
         },
         {
           "title": "Integrative Bulk, Single-Cell, and Spatial Transcriptomic Analyses Nominate PPARG as a Candidate Senescence-Related Prognostic Gene in Osteosarcoma.",
@@ -2045,25 +2059,18 @@
           "pmid": "42799625"
         },
         {
-          "title": "Fibroblast-centered mechanisms of chronic inflammation and airway remodeling in allergic bronchopulmonary aspergillosis.",
-          "journal": "Frontiers in allergy",
+          "title": "Single-cell dissection of a collision marrow with coexisting acute myeloid leukemia and a Waldenström-related lymphoplasmacytic compartment.",
+          "journal": "Frontiers in oncology",
           "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42798922/",
-          "pmid": "42798922"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42798504/",
+          "pmid": "42798504"
         },
         {
-          "title": "Lineage relationships in muscle stem cells: linking functional fate to molecular state.",
-          "journal": "Frontiers in cell and developmental biology",
+          "title": "Inflammatory phenotypes after total knee arthroplasty: a testable framework for biomarker-stratified enhanced recovery and precision rehabilitation.",
+          "journal": "Frontiers in medicine",
           "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42798658/",
-          "pmid": "42798658"
-        },
-        {
-          "title": "Integrative single-cell and bulk transcriptomics uncovers a lipid metabolism-related lncRNA signature alongside the ELFN1-AS1/LYPLA1 axis driving osteosarcoma progression.",
-          "journal": "Frontiers in immunology",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42798652/",
-          "pmid": "42798652"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42798389/",
+          "pmid": "42798389"
         }
       ],
       "unresolved_questions": [
@@ -2082,19 +2089,19 @@
         "omics"
       ],
       "score_components": {
-        "paradigm_novelty": 89,
+        "paradigm_novelty": 76,
         "musculoskeletal_gap": 92,
-        "clinical_significance": 45,
-        "data_feasibility": 53,
-        "mechanistic_depth": 56,
+        "clinical_significance": 55,
+        "data_feasibility": 64,
+        "mechanistic_depth": 68,
         "competition_urgency": 100
       },
       "score_reasons": {
-        "paradigm_novelty": "识别到 3 个范式信号：single-cell, perturbation, atlas。",
+        "paradigm_novelty": "识别到 2 个范式信号：spatial, perturbation。",
         "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
-        "clinical_significance": "临床相关线索 1 个。",
-        "data_feasibility": "可获得数据/技术线索 1 个。",
-        "mechanistic_depth": "机制或因果线索 2 个。",
+        "clinical_significance": "临床相关线索 2 个。",
+        "data_feasibility": "可获得数据/技术线索 2 个。",
+        "mechanistic_depth": "机制或因果线索 3 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     }
