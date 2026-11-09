@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-02",
+  "generated_at": "2026-11-09",
   "hot_paradigms": [
     {
       "term": "spatial",
-      "count": 37
+      "count": 36
     },
     {
       "term": "foundation model",
-      "count": 20
+      "count": 22
     },
     {
       "term": "longitudinal",
-      "count": 16
-    },
-    {
-      "term": "proteomics",
-      "count": 14
+      "count": 18
     },
     {
       "term": "perturbation",
-      "count": 12
+      "count": 17
+    },
+    {
+      "term": "proteomics",
+      "count": 17
     },
     {
       "term": "single-cell",
-      "count": 11
+      "count": 14
     }
   ],
   "transfer": [
@@ -535,93 +535,87 @@
       }
     },
     {
-      "id": 1372,
-      "source": "biorxiv",
-      "title": "Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme",
-      "title_key": "integrativemultiomicsdecodingofthehostresponsetoklebsiellapneumoniaeinfectionrevealsanitaconatecentredmetabolicimmuneaxisandaspatiallyorganisedinflammatoryprogramme",
-      "abstract": "Background: Klebsiella pneumoniae (Kp) is a leading cause of hospital and community acquired pneumonia and bacteraemia, and hypervirulent and carbapenem resistant lineages continue to expand worldwide. Although individual omics layers of Kp infection have been profiled, the host-level molecular logic that connects transcriptional, cellular, metabolic and spatial programmes has not been systematically integrated. Methods: We curated 16 public datasets spanning four modalities-bulk and dual host pathogen RNA-seq (six datasets; 118 libraries), single-cell RNA-seq (four datasets; {approx}164,000 cells), untargeted/targeted metabolomics (four datasets; 1,842 molecular features) and Visium spatial transcriptomics (two datasets; {approx}11,400 spots) covering murine lung infection models, hypervirulent and classical Kp strains, carbapenem-resistant isolates and human clinical specimens. Datasets were harmonised through a standardised pipeline (Salmon/DESeq2; Scanpy/Harmony; MetaboAnalyst; RCTD/spacexr), and integrated by WGCNA, GSVA, CellChat, Monocle3, SCENIC, joint-pathway analysis, RCTD deconvolution, and machine-learning feature selection (LASSO, random forest, SVM-RFE, XGBoost) with 1,000x bootstrap internal validation and independent external validation. Results: Kp infection evoked a coherent 920 gene neutrophil inflammatory response ({approx}520 up-/{approx}400 down-regulated genes) dominated by IL-17/TNF/NF-{kappa}B signalling, neutrophil degranulation, HIF-1-linked glycolysis and itaconate biosynthesis. A turquoise co-expression module (r = 0.86 with infection status) yielded a ten-gene hub signature (IRG1, S100A9, IL1B, CXCL2, SLC7A11, HMOX1, PTGS2, NFKBIA, LST1, FCGR3B). Single-cell profiling resolved twelve major lung lineages and eleven myeloid substates, tracing a Monocle3 trajectory from Cxcr2hi inflammatory neutrophils through an Irg1/Slc7a11hi oxidative phase into Cxcr4hi/Trem2hi suppressive states; CellChat identified S100A8/A9-TLR4 and CXCL2-CXCR2 as the most amplified axes (8.5x and 4.2x). Metabolomics revealed 30-fold pulmonary itaconate accumulation together with succinate and lactate elevation, glucose/glutamine depletion and glutathione collapse, and joint-pathway analysis positioned the TCA-cycle itaconate and ferroptosis modules as the strongest convergent perturbations. Spatial transcriptomics mapped these programmes onto five anatomical niches, with IRG1 expression peaking in the infection core (58% neutrophil content) and declining radially. A ten-gene host-response classification model reached AUC=0.958 in discovery, 0.937 in internal validation and 0.884-0.912 in two independent external cohorts (Brier score 0.071). Conclusions: By vertically integrating public multi-omics data, we define an itaconate-centred metabolic-immune axis that couples inflammatory myeloid expansion to spatially segregated metabolic niches, and we deliver a validated host-side molecular signature that discriminates Kp infection from non-infected states.",
-      "journal": "biorxiv",
-      "published_date": "2026-10-30",
-      "doi": "10.64898/2026.10.29.762801",
+      "id": 1529,
+      "source": "medrxiv",
+      "title": "Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci",
+      "title_key": "functionalheritabilitypartitioningmultitissuetranscriptomiccolocalizationandpharmacogenomictargetdeconvolutionacross127alzheimersdiseasesusceptibilityloci",
+      "abstract": "Background: The landmark genome-wide association meta-analysis of Alzheimer's disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann et al., Nature, 2026) expanded the known susceptibility landscape to 127 independent genomic risk loci (160 association signals) and established an autosomal common-variant SNP heritability of h2_SNP = 16.0% on the liability scale. Translating these 127 static statistical signals into pathway-stratified clinical trials requires resolving three quantitative gaps: how the non-APOE polygenic architecture partitions across distinct cellular programs, which effector genes operate via cortical parenchymal versus peripheral myeloid gene expression, and which targets possess nanomolar human bioactivity suitable for genetically stratified trials. Methods: Operating entirely on individual-genotype-free summary statistics structured along a previously established tridimensional diagnostic framework (Axis 1: Etiology and Genetic Architecture; Axis 2: Molecular Pathophysiology and Biomarker Programs; Axis 3: Neuroanatomical-Cognitive Topography; Menendez-Gonzalez, Alzheimers Dement, 2025), we ingested the complete NHGRI-EBI GWAS Catalog build GCST90695466 (8,159,496 autosomal and 160,704 X-chromosome variants). First, we performed functional heritability partitioning via stratified excess chi-square inflation and additive genetic variance (sum 2pq*beta^2) across +/-50 kb cis-regulatory windows of 50 fine-mapped effector genes organized into five mechanistic Axis 2 programs (MICROGLIAL_IMMUNE, PROTEOPATHY_AUTOPHAGY, ENDOCYTIC_VESICULAR, SYNAPTIC_CALCIUM, and MITOCHONDRIAL_OXIDATIVE). Second, we conducted Summary-data-based Mendelian Randomization (SMR) and Approximate Bayes Factor colocalization (PP.H4) across 54 human tissues in GTEx v10 (4,415 matched cis-eQTLs) alongside Open Targets v4 SuSiE fine-mapped credible sets spanning ROS/MAP dorsolateral prefrontal cortex (DLPFC), BrainSeq, primary human monocytes, and UK Biobank Pharma Proteomics Project (UKB-PPP) plasma pQTLs. Third, we queried EMBL-EBI ChEMBL v34 across 2,785 human bioactivity assays (IC50, Ki, Kd, EC50) and Open Targets tractability matrices to construct an empirical pharmacogenomic target atlas. Results: Across 8,159,496 autosomal variants, the genome-wide mean test statistic was chi2_GW = 1.5099. Outside the APOE/TOMM40 super-locus (max chi2 = 3,267.15; 2pq*beta^2 = 0.0882, accounting for 74.82% of top-locus additive variance), 89,589 cis-regulatory SNPs across 48 non-APOE effector genes exhibited a 12.88-fold heritability enrichment over the autosomal background. Normalized across the 16.0% polygenic liability scale, non-APOE functional heritability concentrated in MICROGLIAL_IMMUNE (39.22% share; h2_SNP = 6.28%; 13.02x enrichment; mean chi2 = 7.64) and PROTEOPATHY_AUTOPHAGY (36.34% share; h2_SNP = 5.81%; 14.98x enrichment; mean chi2 = 8.64), followed by ENDOCYTIC_VESICULAR (16.71% share; h2_SNP = 2.67%; 12.69x enrichment; mean chi2 = 7.47), SYNAPTIC_CALCIUM (5.40% share; h2_SNP = 0.86%; 10.05x enrichment; mean chi2 = 6.13), and MITOCHONDRIAL_OXIDATIVE (2.33% share; h2_SNP = 0.37%; 5.24x enrichment; mean chi2 = 3.67). Multi-tissue SMR and colocalization resolved a striking divergence between Axis 3 cortical parenchyma and myeloid compartments: QPCT (rs2300880; Z_SMR = -4.62, p_SMR = 3.93e-6, PP.H4_cis = 0.919, PP.H4_local = 0.994 in Brain_Cortex; PP.H4_local = 0.979 in Brain_Frontal_Cortex_BA9) and AXL (rs12979764; p_SMR = 2.13e-4, PP.H4_cis = 0.902, PP.H4_local = 0.924 in Brain_Cortex) colocalized directly within human cerebral cortex and ROS/MAP DLPFC. Conversely, canonical myeloid and endocytic drivers (BIN1, CD33, TREM2, INPP5D, SYK) exhibited near-zero bulk cortical eQTL colocalization (PP.H4_cis <= 0.025 in Brain_Cortex) despite high SuSiE Locus-to-Gene scores (L2G = 0.875-0.968) and robust colocalization in primary monocytes and spleen (INPP5D PP.H4_local = 0.992; BIN1 PP.H4_local = 0.999). ChEMBL v34 bioactivity profiling confirmed low-nanomolar human target potency for clinical-stage compounds across all five programs, including isradipine (2.0 nM) and nilvadipine (19.0 nM) for CACNA1S, omaveloxolone (2.2 nM) for KEAP1, fostamatinib/R406 (41.0 nM) for SYK, and varoglutamstat/PQ912 (61.0 nM) for QPCT. Conclusion: Over three-quarters (75.56%) of the non-APOE common-variant heritability of Alzheimer's disease resides within microglial immune surveillance and proteopathic clearance networks. If prospectively validated in genotype-stratified clinical cohorts, these empirical summary-statistics findings suggest that therapeutic efficacy in sporadic AD may depend on matching pathway-selective drugs to a patient's individual Functional Pathway Burden Score rather than administering uniform monotherapies to genetically unstratified populations.",
+      "journal": "medrxiv",
+      "published_date": "2026-11-04",
+      "doi": "10.64898/2026.11.04.26366951",
       "pmid": null,
-      "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762801",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26366951",
       "publication_status": "preprint",
-      "authors_json": "[\"Zhao, Y.\", \"Cheng, H.\", \"Zhou, S.\", \"He, L.\", \"Xiu, C.\", \"Huang, B.\", \"Lu, X.\"]",
-      "raw_json": "{\"category\": \"microbiology\", \"published_doi\": \"NA\"}",
-      "first_seen_at": "2026-11-02T01:32:23+00:00",
-      "last_seen_at": "2026-11-02T01:47:00+00:00",
-      "article_id": 1372,
+      "authors_json": "[\"Menendez-Gonzalez, M.\"]",
+      "raw_json": "{\"category\": \"neurology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-11-07T01:57:42+00:00",
+      "last_seen_at": "2026-11-07T01:57:42+00:00",
+      "article_id": 1529,
       "track": "B",
-      "summary_json": "[\"这项研究聚焦“Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme”，核心对象来自 biorxiv。\", \"作者主要使用了空间转录组、单细胞分析、代谢组学来回答研究问题。 摘要证据：Background: Klebsiella pneumoniae (Kp) is a leading cause of hospital and community acquired pneumonia and bacteraemia, and hypervirulent and carbapen\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although individual omics layers of Kp infection have been profiled, the host-level molecular logic that connects transc\"]",
-      "new_paradigm": "可迁移的新范式是：空间转录组、单细胞分析、代谢组学、扰动实验。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "summary_json": "[\"这项研究聚焦“Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci”，核心对象来自 medrxiv。\", \"作者主要使用了蛋白质组学、图谱/资源来回答研究问题。 摘要证据：Background: The landmark genome-wide association meta-analysis of Alzheimer's disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Translating these 127 static statistical signals into pathway-stratified clinical trials requires resolving three quanti\"]",
+      "new_paradigm": "可迁移的新范式是：蛋白质组学、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
       "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
       "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
-      "secondary_queries_json": "[\"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"metabolomics\\\") AND (bone)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"metabolomics\\\") AND (osteoporosis)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"metabolomics\\\") AND (muscle)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"metabolomics\\\") AND (sarcopenia)\", \"(\\\"spatial transcriptomics\\\" OR \\\"single-cell\\\" OR \\\"metabolomics\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Single-cell profiling reveals systemic immune reprogramming in muscle-invasive urothelial carcinoma.\", \"journal\": \"Genomics\", \"date\": \"2026-10-31\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966578/\", \"pmid\": \"42966578\"}, {\"title\": \"The stimulative effect of Cordyceps sinensis functionalized selenium nanoparticles on bone development in growing mice: involvement of the gut microbiota-bone axis.\", \"journal\": \"Journal of advanced research\", \"date\": \"2026-10-31\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966464/\", \"pmid\": \"42966464\"}, {\"title\": \"Extracellular vesicles repair alveolar bone defect in periodontitis via FTH1 delivery to suppress ferroptosis and restore Th17/Treg balance.\", \"journal\": \"Pathology, research and practice\", \"date\": \"2026-10-27\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966046/\", \"pmid\": \"42966046\"}, {\"title\": \"Establishing a functional osteochondral-synovial ex vivo joint model: Systematic evaluation of glucose and oxygen impact.\", \"journal\": \"Journal of orthopaedic translation\", \"date\": \"2026-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42964790/\", \"pmid\": \"42964790\"}, {\"title\": \"Neutrophil fate in bone infection: Mechanisms, microenvironment, and therapeutic opportunities.\", \"journal\": \"Journal of orthopaedic translation\", \"date\": \"2026-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42964643/\", \"pmid\": \"42964643\"}]",
+      "secondary_queries_json": "[\"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (bone)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (osteoporosis)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (muscle)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (sarcopenia)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Brain Region-Specific Peptide and Proteomic Signatures Inform Alzheimer's Disease Biomarker Panels.\", \"journal\": \"Journal of proteome research\", \"date\": \"2026-11-06\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42992893/\", \"pmid\": \"42992893\"}, {\"title\": \"Transcriptomics-Coupled Proteomics Identifies CD36 as a Potential Radiation-Responsive Biomarker in Macrophages.\", \"journal\": \"Journal of proteome research\", \"date\": \"2026-11-06\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42992867/\", \"pmid\": \"42992867\"}, {\"title\": \"Motor Neurons in the Prothoracic Ganglion of the Praying Mantis, Tenodera sinensis.\", \"journal\": \"The Journal of comparative neurology\", \"date\": \"2026-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42992466/\", \"pmid\": \"42992466\"}, {\"title\": \"Integrated transcriptomic and proteomic analyses of the mechanisms of Citrobacter freundii-induced ''water bubble disease'' in Macrobrachium rosenbergii.\", \"journal\": \"Frontiers in immunology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42991287/\", \"pmid\": \"42991287\"}, {\"title\": \"Hypoxia-stimulated breast cancer-associated fibroblasts activation regulates glucose metabolism and facilitates progression of breast cancer.\", \"journal\": \"Translational breast cancer research : a journal focusing on translational research in breast cancer\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42991021/\", \"pmid\": \"42991021\"}]",
       "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
       "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"human tissue\", \"animal experiment\", \"omics\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 78,
-      "score_components_json": "{\"paradigm_novelty\": 89, \"musculoskeletal_gap\": 92, \"clinical_significance\": 55, \"data_feasibility\": 75, \"mechanistic_depth\": 56, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 3 个范式信号：perturbation, single-cell, spatial。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 2 个。\", \"data_feasibility\": \"可获得数据/技术线索 3 个。\", \"mechanistic_depth\": \"机制或因果线索 2 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-11-02T01:47:01+00:00",
+      "data_needs_json": "[\"UK Biobank\", \"human tissue\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "Adjacent studies exist",
+      "score_total": 79,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 85, \"data_feasibility\": 97, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：atlas。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 5 个。\", \"data_feasibility\": \"可获得数据/技术线索 5 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-11-07T01:57:43+00:00",
       "authors": [
-        "Zhao, Y.",
-        "Cheng, H.",
-        "Zhou, S.",
-        "He, L.",
-        "Xiu, C.",
-        "Huang, B.",
-        "Lu, X."
+        "Menendez-Gonzalez, M."
       ],
       "summary_zh": [
-        "这项研究聚焦“Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme”，核心对象来自 biorxiv。",
-        "作者主要使用了空间转录组、单细胞分析、代谢组学来回答研究问题。 摘要证据：Background: Klebsiella pneumoniae (Kp) is a leading cause of hospital and community acquired pneumonia and bacteraemia, and hypervirulent and carbapen",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although individual omics layers of Kp infection have been profiled, the host-level molecular logic that connects transc"
+        "这项研究聚焦“Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci”，核心对象来自 medrxiv。",
+        "作者主要使用了蛋白质组学、图谱/资源来回答研究问题。 摘要证据：Background: The landmark genome-wide association meta-analysis of Alzheimer's disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Translating these 127 static statistical signals into pathway-stratified clinical trials requires resolving three quanti"
       ],
       "secondary_queries": [
-        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"metabolomics\") AND (bone)",
-        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"metabolomics\") AND (osteoporosis)",
-        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"metabolomics\") AND (muscle)",
-        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"metabolomics\") AND (sarcopenia)",
-        "(\"spatial transcriptomics\" OR \"single-cell\" OR \"metabolomics\") AND (fracture)"
+        "(\"proteomics\" OR \"atlas\") AND (bone)",
+        "(\"proteomics\" OR \"atlas\") AND (osteoporosis)",
+        "(\"proteomics\" OR \"atlas\") AND (muscle)",
+        "(\"proteomics\" OR \"atlas\") AND (sarcopenia)",
+        "(\"proteomics\" OR \"atlas\") AND (fracture)"
       ],
       "competition": [
         {
-          "title": "Single-cell profiling reveals systemic immune reprogramming in muscle-invasive urothelial carcinoma.",
-          "journal": "Genomics",
-          "date": "2026-10-31",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966578/",
-          "pmid": "42966578"
+          "title": "Brain Region-Specific Peptide and Proteomic Signatures Inform Alzheimer's Disease Biomarker Panels.",
+          "journal": "Journal of proteome research",
+          "date": "2026-11-06",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42992893/",
+          "pmid": "42992893"
         },
         {
-          "title": "The stimulative effect of Cordyceps sinensis functionalized selenium nanoparticles on bone development in growing mice: involvement of the gut microbiota-bone axis.",
-          "journal": "Journal of advanced research",
-          "date": "2026-10-31",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966464/",
-          "pmid": "42966464"
+          "title": "Transcriptomics-Coupled Proteomics Identifies CD36 as a Potential Radiation-Responsive Biomarker in Macrophages.",
+          "journal": "Journal of proteome research",
+          "date": "2026-11-06",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42992867/",
+          "pmid": "42992867"
         },
         {
-          "title": "Extracellular vesicles repair alveolar bone defect in periodontitis via FTH1 delivery to suppress ferroptosis and restore Th17/Treg balance.",
-          "journal": "Pathology, research and practice",
-          "date": "2026-10-27",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966046/",
-          "pmid": "42966046"
-        },
-        {
-          "title": "Establishing a functional osteochondral-synovial ex vivo joint model: Systematic evaluation of glucose and oxygen impact.",
-          "journal": "Journal of orthopaedic translation",
+          "title": "Motor Neurons in the Prothoracic Ganglion of the Praying Mantis, Tenodera sinensis.",
+          "journal": "The Journal of comparative neurology",
           "date": "2026-11",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42964790/",
-          "pmid": "42964790"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42992466/",
+          "pmid": "42992466"
         },
         {
-          "title": "Neutrophil fate in bone infection: Mechanisms, microenvironment, and therapeutic opportunities.",
-          "journal": "Journal of orthopaedic translation",
-          "date": "2026-11",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42964643/",
-          "pmid": "42964643"
+          "title": "Integrated transcriptomic and proteomic analyses of the mechanisms of Citrobacter freundii-induced ''water bubble disease'' in Macrobrachium rosenbergii.",
+          "journal": "Frontiers in immunology",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42991287/",
+          "pmid": "42991287"
+        },
+        {
+          "title": "Hypoxia-stimulated breast cancer-associated fibroblasts activation regulates glucose metabolism and facilitates progression of breast cancer.",
+          "journal": "Translational breast cancer research : a journal focusing on translational research in breast cancer",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42991021/",
+          "pmid": "42991021"
         }
       ],
       "unresolved_questions": [
@@ -635,24 +629,25 @@
         "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
       ],
       "data_needs": [
+        "UK Biobank",
         "human tissue",
         "animal experiment",
         "omics"
       ],
       "score_components": {
-        "paradigm_novelty": 89,
+        "paradigm_novelty": 63,
         "musculoskeletal_gap": 92,
-        "clinical_significance": 55,
-        "data_feasibility": 75,
-        "mechanistic_depth": 56,
+        "clinical_significance": 85,
+        "data_feasibility": 97,
+        "mechanistic_depth": 44,
         "competition_urgency": 100
       },
       "score_reasons": {
-        "paradigm_novelty": "识别到 3 个范式信号：perturbation, single-cell, spatial。",
+        "paradigm_novelty": "识别到 1 个范式信号：atlas。",
         "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
-        "clinical_significance": "临床相关线索 2 个。",
-        "data_feasibility": "可获得数据/技术线索 3 个。",
-        "mechanistic_depth": "机制或因果线索 2 个。",
+        "clinical_significance": "临床相关线索 5 个。",
+        "data_feasibility": "可获得数据/技术线索 5 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     }
@@ -783,6 +778,129 @@
       }
     },
     {
+      "id": 1426,
+      "source": "pubmed",
+      "title": "Osteosarcopenia as a Systems-Level Failure of the Bone-Muscle Functional Unit.",
+      "title_key": "osteosarcopeniaasasystemslevelfailureofthebonemusclefunctionalunit",
+      "abstract": "Osteosarcopenia-osteoporosis co-occurring with sarcopenia-has a pooled prevalence of 18.5% in older adults (range 5-37%) and carries increased risks of fracture (HR 2.13, 95% CI 1.61-2.81), falls (HR 1.54, 95% CI 1.20-1.97), and mortality (HR 1.75, 95% CI 1.34-2.28). Often framed as simple coexistence, osteosarcopenia is proposed as a systems-level disorder of interconnected bone-muscle degeneration. We synthesize evidence from molecular biology, systems physiology, and translational research showing that osteosarcopenia is a systems-level failure of the bone-muscle functional unit, a highly integrated structure maintained by bidirectional mechanical coupling, osteokine-myokine exchange, and shared intracellular signaling pathways. We examine how intrinsic aging mechanisms (genomic and epigenetic drift, transcriptional reprogramming, structural co-degeneration, and metabolic-mechanical decoupling) and systemic drivers (inflammaging, adipose dysfunction, gut dysbiosis, and hormonal decline) converge to reconfigure this crosstalk from a homeostatic regulator into a pathological amplifier. At the center of this process is a vicious cycle of declining osteocalcin and irisin alongside rising sclerostin, FGF23, and myostatin, propagated through shared signaling hubs (Wnt/β-catenin, TGF-β/Smad, IGF-1/Akt/FOXO, and NF-κB) and sustained by gut-bone-muscle axes. We advance this systems-level framing as an integrative hypothesis rather than established fact: more-than-additive risk and synergistic treatment effects are not yet demonstrated in humans. Actionable now are dual-tissue screening, guideline-based treatment of each component, and combined exercise and nutritional strategies; biomarker-guided care and crosstalk-targeted pharmacology await prospective validation. Mechanistic claims in this review are primarily supported by preclinical evidence; human causal evidence remains incomplete. Full statement in Online Resource 1.",
+      "journal": "Current osteoporosis reports",
+      "published_date": "2026-11-03",
+      "doi": "10.1007/s11914-026-00991-0",
+      "pmid": "42975735",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975735/",
+      "publication_status": "peer-reviewed",
+      "authors_json": "[\"Haoran Dai\", \"Jingyang Liu\", \"Wanli Zang\", \"Li Feng Tan\", \"Frederick Koh\", \"Karen M Knapp\", \"Chen Zhu\", \"Weiwei Zhang\"]",
+      "raw_json": "{}",
+      "first_seen_at": "2026-11-04T02:22:36+00:00",
+      "last_seen_at": "2026-11-04T02:22:36+00:00",
+      "article_id": 1426,
+      "track": "A",
+      "summary_json": "[\"这项研究聚焦“Osteosarcopenia as a Systems-Level Failure of the Bone-Muscle Functional Unit.”，核心对象来自 Current osteoporosis reports。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Osteosarcopenia-osteoporosis co-occurring with sarcopenia-has a pooled prevalence of 18.5% in older adults (range 5-37%) and carries increased risks o\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Often framed as simple coexistence, osteosarcopenia is proposed as a systems-level disorder of interconnected bone-muscl\"]",
+      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
+      "secondary_queries_json": "[\"(\\\"osteoporosis\\\" OR \\\"sarcopenia\\\") AND (bone)\", \"(\\\"osteoporosis\\\" OR \\\"sarcopenia\\\") AND (osteoporosis)\", \"(\\\"osteoporosis\\\" OR \\\"sarcopenia\\\") AND (muscle)\", \"(\\\"osteoporosis\\\" OR \\\"sarcopenia\\\") AND (sarcopenia)\", \"(\\\"osteoporosis\\\" OR \\\"sarcopenia\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Impact of sarcopenia on clinical outcomes after endoscopic and endovascular interventions for bleeding gastric varices: A multi-center real-world study.\", \"journal\": \"Indian journal of gastroenterology : official journal of the Indian Society of Gastroenterology\", \"date\": \"2026-11-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42975867/\", \"pmid\": \"42975867\"}, {\"title\": \"Prognostic value of the red blood cell distribution width-to-albumin ratio in alcohol-related sarcopenia.\", \"journal\": \"Internal and emergency medicine\", \"date\": \"2026-11-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42975796/\", \"pmid\": \"42975796\"}, {\"title\": \"Healthy Eating Index and Bone in Obesity.\", \"journal\": \"Current osteoporosis reports\", \"date\": \"2026-11-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42975791/\", \"pmid\": \"42975791\"}, {\"title\": \"Revitalizing aging muscles: harnessing NAD⁺, sirtuins, and exercise to combat sarcopenia.\", \"journal\": \"Journal of bioenergetics and biomembranes\", \"date\": \"2026-11-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42975750/\", \"pmid\": \"42975750\"}, {\"title\": \"Osteosarcopenia as a Systems-Level Failure of the Bone-Muscle Functional Unit.\", \"journal\": \"Current osteoporosis reports\", \"date\": \"2026-11-03\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42975735/\", \"pmid\": \"42975735\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"hospital DXA\", \"human tissue\", \"animal experiment\"]",
+      "novelty_status": "Directly studied",
+      "score_total": 68,
+      "score_components_json": "{\"paradigm_novelty\": 51, \"musculoskeletal_gap\": 58, \"clinical_significance\": 85, \"data_feasibility\": 53, \"mechanistic_depth\": 80, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：resource。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 5 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 4 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-11-04T02:22:41+00:00",
+      "authors": [
+        "Haoran Dai",
+        "Jingyang Liu",
+        "Wanli Zang",
+        "Li Feng Tan",
+        "Frederick Koh",
+        "Karen M Knapp",
+        "Chen Zhu",
+        "Weiwei Zhang"
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Osteosarcopenia as a Systems-Level Failure of the Bone-Muscle Functional Unit.”，核心对象来自 Current osteoporosis reports。",
+        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Osteosarcopenia-osteoporosis co-occurring with sarcopenia-has a pooled prevalence of 18.5% in older adults (range 5-37%) and carries increased risks o",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Often framed as simple coexistence, osteosarcopenia is proposed as a systems-level disorder of interconnected bone-muscl"
+      ],
+      "secondary_queries": [
+        "(\"osteoporosis\" OR \"sarcopenia\") AND (bone)",
+        "(\"osteoporosis\" OR \"sarcopenia\") AND (osteoporosis)",
+        "(\"osteoporosis\" OR \"sarcopenia\") AND (muscle)",
+        "(\"osteoporosis\" OR \"sarcopenia\") AND (sarcopenia)",
+        "(\"osteoporosis\" OR \"sarcopenia\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Impact of sarcopenia on clinical outcomes after endoscopic and endovascular interventions for bleeding gastric varices: A multi-center real-world study.",
+          "journal": "Indian journal of gastroenterology : official journal of the Indian Society of Gastroenterology",
+          "date": "2026-11-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42975867/",
+          "pmid": "42975867"
+        },
+        {
+          "title": "Prognostic value of the red blood cell distribution width-to-albumin ratio in alcohol-related sarcopenia.",
+          "journal": "Internal and emergency medicine",
+          "date": "2026-11-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42975796/",
+          "pmid": "42975796"
+        },
+        {
+          "title": "Healthy Eating Index and Bone in Obesity.",
+          "journal": "Current osteoporosis reports",
+          "date": "2026-11-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42975791/",
+          "pmid": "42975791"
+        },
+        {
+          "title": "Revitalizing aging muscles: harnessing NAD⁺, sirtuins, and exercise to combat sarcopenia.",
+          "journal": "Journal of bioenergetics and biomembranes",
+          "date": "2026-11-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42975750/",
+          "pmid": "42975750"
+        },
+        {
+          "title": "Osteosarcopenia as a Systems-Level Failure of the Bone-Muscle Functional Unit.",
+          "journal": "Current osteoporosis reports",
+          "date": "2026-11-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42975735/",
+          "pmid": "42975735"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "hospital DXA",
+        "human tissue",
+        "animal experiment"
+      ],
+      "score_components": {
+        "paradigm_novelty": 51,
+        "musculoskeletal_gap": 58,
+        "clinical_significance": 85,
+        "data_feasibility": 53,
+        "mechanistic_depth": 80,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：resource。",
+        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
+        "clinical_significance": "临床相关线索 5 个。",
+        "data_feasibility": "可获得数据/技术线索 1 个。",
+        "mechanistic_depth": "机制或因果线索 4 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 1289,
       "source": "pubmed",
       "title": "Obesity and skeletal fragility: revisiting an old paradigm.",
@@ -908,15 +1026,15 @@
       "title_key": "biologicalageuncertaintyrevealsdiscordantagingandpredictshumanhealthspan",
       "abstract": "Biological aging clocks typically summarize complex biological profiles as a single age estimate, yet how uncertain these estimates are and whether this uncertainty represents a distinct, biologically meaningful dimension of human aging remain unclear. Here, we develop a probabilistic framework across nuclear magnetic resonance (NMR) metabolomic, plasma proteomic and routine blood test (RBT) profiles in more than 450,000 UK Biobank participants to derive biological age gap (BAG) and biological age uncertainty (BAU) from the mean and width of predicted-age distributions. BAU was weakly correlated with BAG and increased with age-signal disagreement across individual molecules and organs, linking uncertainty to discordant aging across biological systems. Higher BAU predicted mortality, loss of healthspan and multimorbidity independently of BAG, with mortality hazard ratios of 1.24 (95% CI, 1.23-1.26) and 1.40 (95% CI, 1.37-1.43) per standard deviation for NMR- and proteomic-derived BAU, respectively. Adding BAU to conventional clinical models improved 10-year risk discrimination; moreover, longitudinal increases in NMR-derived BAU tracked subsequent health decline, and mortality associations were replicated using RBT-derived BAU across three independent external cohorts. Multi-omics and physiological analyses linked BAU to inflammation, metabolic dysregulation and tissue remodeling beyond BAG. Genetic analyses further revealed overlapping but distinct architectures of BAU and BAG, with BAU showing stronger genetic correlations with frailty and cardiometabolic diseases, and tissue and functional mapping implicating hepatic, immune and lipid-metabolic processes. This study establishes a framework for characterizing biological age through both its mean deviation and uncertainty, defining BAU as an independent dimension of human aging that links discordant aging to future healthspan.",
       "journal": "medrxiv",
-      "published_date": "2026-10-31",
+      "published_date": "2026-11-03",
       "doi": "10.64898/2026.09.26.26364091",
       "pmid": null,
       "url": "https://www.medrxiv.org/content/10.64898/2026.09.26.26364091",
       "publication_status": "preprint",
-      "authors_json": "[\"Li, Y.\", \"Feng, G.\", \"Yan, S.\", \"Huang, Q.\", \"Jiang, J.\", \"Pei, Z.\", \"Tay, L. X.\", \"Li, K.\", \"Pan, Z.\", \"Yuan, Z.\", \"Gao, L.\", \"Ji, J. S.\", \"Ke, L.\", \"Gu, K.\", \"Di, Q.\"]",
+      "authors_json": "[\"Li, Y.\", \"Feng, G.\", \"Yan, S.\", \"Huang, Q.\", \"Jiang, J.\", \"Wang, Y.\", \"Pei, Z.\", \"Tay, L. X.\", \"Li, K.\", \"Pan, Z.\", \"Yuan, Z.\", \"Gao, L.\", \"Ji, J. S.\", \"Ke, L.\", \"Gu, K.\", \"Di, Q.\"]",
       "raw_json": "{\"category\": \"epidemiology\", \"published_doi\": \"NA\"}",
       "first_seen_at": "2026-09-30T01:19:12+00:00",
-      "last_seen_at": "2026-11-02T01:47:00+00:00",
+      "last_seen_at": "2026-11-06T02:30:21+00:00",
       "article_id": 412,
       "track": "A",
       "summary_json": "[\"这项研究聚焦“Biological age uncertainty reveals discordant aging and predicts human healthspan”，核心对象来自 medrxiv。\", \"作者主要使用了纵向轨迹、衰老时钟来回答研究问题。 摘要证据：Biological aging clocks typically summarize complex biological profiles as a single age estimate, yet how uncertain these estimates are and whether th\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Here, we develop a probabilistic framework across nuclear magnetic resonance (NMR) metabolomic, plasma proteomic and rou\"]",
@@ -924,7 +1042,7 @@
       "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
       "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
       "secondary_queries_json": "[\"(\\\"longitudinal\\\" OR \\\"aging clock\\\") AND (bone)\", \"(\\\"longitudinal\\\" OR \\\"aging clock\\\") AND (osteoporosis)\", \"(\\\"longitudinal\\\" OR \\\"aging clock\\\") AND (muscle)\", \"(\\\"longitudinal\\\" OR \\\"aging clock\\\") AND (sarcopenia)\", \"(\\\"longitudinal\\\" OR \\\"aging clock\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Osteoporosis, sarcopenia, locomotive syndrome, and frailty in age-related spinal kyphosis.\", \"journal\": \"Journal of bone and mineral metabolism\", \"date\": \"2026-11-01\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42967254/\", \"pmid\": \"42967254\"}, {\"title\": \"A Retrospective Radiographic Study of Metacarpal and Phalangeal Length Proportions: Testing the Golden Ratio, Fibonacci, and Lucas Models.\", \"journal\": \"Cureus\", \"date\": \"2026-10\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42967183/\", \"pmid\": \"42967183\"}, {\"title\": \"Normal Creatine Kinase in Idiopathic Inflammatory Myopathies: Disease Characteristics and Outcomes.\", \"journal\": \"Joint bone spine\", \"date\": \"2026-10-31\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966493/\", \"pmid\": \"42966493\"}, {\"title\": \"Title: Impact of Coexisting Gout on Disease Activity in Rheumatoid Arthritis: Data from the Ontario Best Practices Research Initiative (OBRI).\", \"journal\": \"Joint bone spine\", \"date\": \"2026-10-31\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966492/\", \"pmid\": \"42966492\"}, {\"title\": \"Bone health beyond BMD: The role of metabolic syndrome in Brazilian adults with type 1 diabetes.\", \"journal\": \"Journal of clinical densitometry : the official journal of the International Society for Clinical Densitometry\", \"date\": \"2026-10-18\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966242/\", \"pmid\": \"42966242\"}]",
+      "competition_json": "[{\"title\": \"Digital Health Technologies for Mobility Recovery Among Intensive Care Unit Survivors: Scoping Review.\", \"journal\": \"Journal of medical Internet research\", \"date\": \"2026-11-05\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42987255/\", \"pmid\": \"42987255\"}, {\"title\": \"Hip Fracture Is Associated With Major Wealth Loss.\", \"journal\": \"The Journal of the American Academy of Orthopaedic Surgeons\", \"date\": \"2026-11-05\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42987172/\", \"pmid\": \"42987172\"}, {\"title\": \"Lactylated MOESIN links gut metabolism to TGF-β-driven immune remodeling and bone protection in diabetic osteoporosis.\", \"journal\": \"Gut microbes\", \"date\": \"2026-12-31\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42986298/\", \"pmid\": \"42986298\"}, {\"title\": \"Diagnostic accuracy of CBCT versus digital radiography for early detection of peri-implant bone loss: a retrospective study with threshold and observer variability analysis.\", \"journal\": \"Frontiers in dental medicine\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42985655/\", \"pmid\": \"42985655\"}, {\"title\": \"Effectiveness of burosumab in children with X-linked hypophosphatemia with low rickets severity: SUNFLOWER analysis.\", \"journal\": \"JBMR plus\", \"date\": \"2026-12\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42985459/\", \"pmid\": \"42985459\"}]",
       "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
       "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
       "data_needs_json": "[\"UK Biobank\", \"human tissue\", \"animal experiment\", \"omics\"]",
@@ -932,13 +1050,14 @@
       "score_total": 67,
       "score_components_json": "{\"paradigm_novelty\": 64, \"musculoskeletal_gap\": 58, \"clinical_significance\": 75, \"data_feasibility\": 86, \"mechanistic_depth\": 32, \"competition_urgency\": 100}",
       "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：clock, longitudinal。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 4 个。\", \"mechanistic_depth\": \"机制或因果线索 0 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-11-02T01:47:05+00:00",
+      "generated_at": "2026-11-06T02:30:31+00:00",
       "authors": [
         "Li, Y.",
         "Feng, G.",
         "Yan, S.",
         "Huang, Q.",
         "Jiang, J.",
+        "Wang, Y.",
         "Pei, Z.",
         "Tay, L. X.",
         "Li, K.",
@@ -964,39 +1083,39 @@
       ],
       "competition": [
         {
-          "title": "Osteoporosis, sarcopenia, locomotive syndrome, and frailty in age-related spinal kyphosis.",
-          "journal": "Journal of bone and mineral metabolism",
-          "date": "2026-11-01",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42967254/",
-          "pmid": "42967254"
+          "title": "Digital Health Technologies for Mobility Recovery Among Intensive Care Unit Survivors: Scoping Review.",
+          "journal": "Journal of medical Internet research",
+          "date": "2026-11-05",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42987255/",
+          "pmid": "42987255"
         },
         {
-          "title": "A Retrospective Radiographic Study of Metacarpal and Phalangeal Length Proportions: Testing the Golden Ratio, Fibonacci, and Lucas Models.",
-          "journal": "Cureus",
-          "date": "2026-10",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42967183/",
-          "pmid": "42967183"
+          "title": "Hip Fracture Is Associated With Major Wealth Loss.",
+          "journal": "The Journal of the American Academy of Orthopaedic Surgeons",
+          "date": "2026-11-05",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42987172/",
+          "pmid": "42987172"
         },
         {
-          "title": "Normal Creatine Kinase in Idiopathic Inflammatory Myopathies: Disease Characteristics and Outcomes.",
-          "journal": "Joint bone spine",
-          "date": "2026-10-31",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966493/",
-          "pmid": "42966493"
+          "title": "Lactylated MOESIN links gut metabolism to TGF-β-driven immune remodeling and bone protection in diabetic osteoporosis.",
+          "journal": "Gut microbes",
+          "date": "2026-12-31",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42986298/",
+          "pmid": "42986298"
         },
         {
-          "title": "Title: Impact of Coexisting Gout on Disease Activity in Rheumatoid Arthritis: Data from the Ontario Best Practices Research Initiative (OBRI).",
-          "journal": "Joint bone spine",
-          "date": "2026-10-31",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966492/",
-          "pmid": "42966492"
+          "title": "Diagnostic accuracy of CBCT versus digital radiography for early detection of peri-implant bone loss: a retrospective study with threshold and observer variability analysis.",
+          "journal": "Frontiers in dental medicine",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42985655/",
+          "pmid": "42985655"
         },
         {
-          "title": "Bone health beyond BMD: The role of metabolic syndrome in Brazilian adults with type 1 diabetes.",
-          "journal": "Journal of clinical densitometry : the official journal of the International Society for Clinical Densitometry",
-          "date": "2026-10-18",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966242/",
-          "pmid": "42966242"
+          "title": "Effectiveness of burosumab in children with X-linked hypophosphatemia with low rickets severity: SUNFLOWER analysis.",
+          "journal": "JBMR plus",
+          "date": "2026-12",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42985459/",
+          "pmid": "42985459"
         }
       ],
       "unresolved_questions": [
@@ -1143,129 +1262,6 @@
         "clinical_significance": "临床相关线索 5 个。",
         "data_feasibility": "可获得数据/技术线索 1 个。",
         "mechanistic_depth": "机制或因果线索 2 个。",
-        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
-      }
-    },
-    {
-      "id": 1288,
-      "source": "pubmed",
-      "title": "Hormonal remodeling and molecular mechanisms in postmenopausal osteoporosis: Pathogenesis and therapeutic implications (Review).",
-      "title_key": "hormonalremodelingandmolecularmechanismsinpostmenopausalosteoporosispathogenesisandtherapeuticimplicationsreview",
-      "abstract": "Postmenopausal osteoporosis (PMO) is a prevalent metabolic bone disorder characterized by accelerated bone loss, reduced bone mineral density, and increased fragility fracture risk. Although estrogen deficiency is considered a central driver of PMO, increasing evidence indicates that bone loss after menopause results from broader endocrine remodeling involving multiple hormones. Estrogen decline and the accompanying rise in follicle‑stimulating hormone (FSH) are characteristic of the menopausal transition. Alterations in the parathyroid hormone (PTH)‑vitamin D axis, oxytocin (OT) and calcitonin (CT) may also influence skeletal homeostasis, although their patterns and causal contributions are less consistently established in postmenopausal women. These pathways are discussed as interacting components of an endocrine framework with differing levels of supporting evidence. These coordinated hormonal alterations disrupt bone remodeling through several mechanisms, including impaired bone mechanical homeostasis, dysregulated osteoimmune interactions, altered calcium metabolism, and gut microbiota‑bone axis imbalance. Collectively, these changes promote osteoclast activation, suppress osteoblast function, and accelerate skeletal deterioration. Current therapeutic approaches, such as hormone replacement therapy, bisphosphonates, selective estrogen receptor modulators, and PTH analogs, have improved the management of PMO but remain limited by safety concerns or restricted long‑term efficacy. Emerging approaches, including FSH blockade, selected phytoestrogen‑related interventions, modified CT delivery, and OT‑related pathways have different levels of supporting evidence; most specific experimental strategies require human efficacy and safety validation before clinical application. An improved understanding of hormonal interactions and endocrine network remodeling may facilitate the development of more precise and individualized strategies for the prevention and treatment of PMO.",
-      "journal": "International journal of molecular medicine",
-      "published_date": "2026-12",
-      "doi": "10.3892/ijmm.2026.6027",
-      "pmid": "42960442",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42960442/",
-      "publication_status": "peer-reviewed",
-      "authors_json": "[\"Wenjun Liu\", \"Zhengzheng Li\", \"Penglin Wang\", \"Jiahao Zeng\", \"Haimin Zeng\", \"Yining Xie\", \"Ruhui Yang\", \"Liu Yang\"]",
-      "raw_json": "{}",
-      "first_seen_at": "2026-10-31T01:37:25+00:00",
-      "last_seen_at": "2026-11-02T01:47:00+00:00",
-      "article_id": 1288,
-      "track": "A",
-      "summary_json": "[\"这项研究聚焦“Hormonal remodeling and molecular mechanisms in postmenopausal osteoporosis: Pathogenesis and therapeutic implications (Review).”，核心对象来自 International journal of molecular medicine。\", \"作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Postmenopausal osteoporosis (PMO) is a prevalent metabolic bone disorder characterized by accelerated bone loss, reduced bone mineral density, and inc\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although estrogen deficiency is considered a central driver of PMO, increasing evidence indicates that bone loss after m\"]",
-      "new_paradigm": "可迁移的新范式是：将既有研究问题转化为可复用的数据与验证流程。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "样本规模、测量精度和开放工具链达到可执行阈值。",
-      "musculoskeletal_link": "该工作已直接涉及肌骨主题；下一步应关注能否扩展到骨—肌互作、疾病分层与干预反应。",
-      "secondary_queries_json": "[\"(\\\"osteoporosis\\\" OR \\\"fracture\\\") AND (bone)\", \"(\\\"osteoporosis\\\" OR \\\"fracture\\\") AND (osteoporosis)\", \"(\\\"osteoporosis\\\" OR \\\"fracture\\\") AND (muscle)\", \"(\\\"osteoporosis\\\" OR \\\"fracture\\\") AND (sarcopenia)\", \"(\\\"osteoporosis\\\" OR \\\"fracture\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Osteoporosis, sarcopenia, locomotive syndrome, and frailty in age-related spinal kyphosis.\", \"journal\": \"Journal of bone and mineral metabolism\", \"date\": \"2026-11-01\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42967254/\", \"pmid\": \"42967254\"}, {\"title\": \"Van Neck-Odelberg Disease in a Pediatric Patient With Prolonged Groin Pain: A Case Report.\", \"journal\": \"Case reports in radiology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42967091/\", \"pmid\": \"42967091\"}, {\"title\": \"Multi-regional debridement and staged reconstruction for fracture-related infection after intramedullary nailing.\", \"journal\": \"Journal of bone and joint infection\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966998/\", \"pmid\": \"42966998\"}, {\"title\": \"Sequential Atraumatic Insufficiency Fractures of the Distal Fibula and Tibia: A Case Report.\", \"journal\": \"Cureus\", \"date\": \"2026-09\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966946/\", \"pmid\": \"42966946\"}, {\"title\": \"The osteoporosis diagnosis and treatment gaps in Iranian older adults: Bushehr Elderly Health (BEH) Program.\", \"journal\": \"Archives of osteoporosis\", \"date\": \"2026-10-31\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42966781/\", \"pmid\": \"42966781\"}]",
-      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
-      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"hospital DXA\", \"CT\", \"animal experiment\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 66,
-      "score_components_json": "{\"paradigm_novelty\": 38, \"musculoskeletal_gap\": 58, \"clinical_significance\": 85, \"data_feasibility\": 53, \"mechanistic_depth\": 80, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 0 个范式信号：以问题创新为主。\", \"musculoskeletal_gap\": \"研究对象已在肌骨领域，重点看是否形成方法学增量。\", \"clinical_significance\": \"临床相关线索 5 个。\", \"data_feasibility\": \"可获得数据/技术线索 1 个。\", \"mechanistic_depth\": \"机制或因果线索 4 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-11-02T01:47:05+00:00",
-      "authors": [
-        "Wenjun Liu",
-        "Zhengzheng Li",
-        "Penglin Wang",
-        "Jiahao Zeng",
-        "Haimin Zeng",
-        "Yining Xie",
-        "Ruhui Yang",
-        "Liu Yang"
-      ],
-      "summary_zh": [
-        "这项研究聚焦“Hormonal remodeling and molecular mechanisms in postmenopausal osteoporosis: Pathogenesis and therapeutic implications (Review).”，核心对象来自 International journal of molecular medicine。",
-        "作者主要使用了队列/实验与统计分析来回答研究问题。 摘要证据：Postmenopausal osteoporosis (PMO) is a prevalent metabolic bone disorder characterized by accelerated bone loss, reduced bone mineral density, and inc",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Although estrogen deficiency is considered a central driver of PMO, increasing evidence indicates that bone loss after m"
-      ],
-      "secondary_queries": [
-        "(\"osteoporosis\" OR \"fracture\") AND (bone)",
-        "(\"osteoporosis\" OR \"fracture\") AND (osteoporosis)",
-        "(\"osteoporosis\" OR \"fracture\") AND (muscle)",
-        "(\"osteoporosis\" OR \"fracture\") AND (sarcopenia)",
-        "(\"osteoporosis\" OR \"fracture\") AND (fracture)"
-      ],
-      "competition": [
-        {
-          "title": "Osteoporosis, sarcopenia, locomotive syndrome, and frailty in age-related spinal kyphosis.",
-          "journal": "Journal of bone and mineral metabolism",
-          "date": "2026-11-01",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42967254/",
-          "pmid": "42967254"
-        },
-        {
-          "title": "Van Neck-Odelberg Disease in a Pediatric Patient With Prolonged Groin Pain: A Case Report.",
-          "journal": "Case reports in radiology",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42967091/",
-          "pmid": "42967091"
-        },
-        {
-          "title": "Multi-regional debridement and staged reconstruction for fracture-related infection after intramedullary nailing.",
-          "journal": "Journal of bone and joint infection",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966998/",
-          "pmid": "42966998"
-        },
-        {
-          "title": "Sequential Atraumatic Insufficiency Fractures of the Distal Fibula and Tibia: A Case Report.",
-          "journal": "Cureus",
-          "date": "2026-09",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966946/",
-          "pmid": "42966946"
-        },
-        {
-          "title": "The osteoporosis diagnosis and treatment gaps in Iranian older adults: Bushehr Elderly Health (BEH) Program.",
-          "journal": "Archives of osteoporosis",
-          "date": "2026-10-31",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42966781/",
-          "pmid": "42966781"
-        }
-      ],
-      "unresolved_questions": [
-        "核心信号在独立人群、不同年龄与性别中是否稳定？",
-        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
-        "该方法相对现有临床指标是否带来可量化的增益？"
-      ],
-      "transfer_questions": [
-        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
-        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
-        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
-      ],
-      "data_needs": [
-        "hospital DXA",
-        "CT",
-        "animal experiment"
-      ],
-      "score_components": {
-        "paradigm_novelty": 38,
-        "musculoskeletal_gap": 58,
-        "clinical_significance": 85,
-        "data_feasibility": 53,
-        "mechanistic_depth": 80,
-        "competition_urgency": 100
-      },
-      "score_reasons": {
-        "paradigm_novelty": "识别到 0 个范式信号：以问题创新为主。",
-        "musculoskeletal_gap": "研究对象已在肌骨领域，重点看是否形成方法学增量。",
-        "clinical_significance": "临床相关线索 5 个。",
-        "data_feasibility": "可获得数据/技术线索 1 个。",
-        "mechanistic_depth": "机制或因果线索 4 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     }
@@ -1779,6 +1775,123 @@
       }
     },
     {
+      "id": 1529,
+      "source": "medrxiv",
+      "title": "Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci",
+      "title_key": "functionalheritabilitypartitioningmultitissuetranscriptomiccolocalizationandpharmacogenomictargetdeconvolutionacross127alzheimersdiseasesusceptibilityloci",
+      "abstract": "Background: The landmark genome-wide association meta-analysis of Alzheimer's disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann et al., Nature, 2026) expanded the known susceptibility landscape to 127 independent genomic risk loci (160 association signals) and established an autosomal common-variant SNP heritability of h2_SNP = 16.0% on the liability scale. Translating these 127 static statistical signals into pathway-stratified clinical trials requires resolving three quantitative gaps: how the non-APOE polygenic architecture partitions across distinct cellular programs, which effector genes operate via cortical parenchymal versus peripheral myeloid gene expression, and which targets possess nanomolar human bioactivity suitable for genetically stratified trials. Methods: Operating entirely on individual-genotype-free summary statistics structured along a previously established tridimensional diagnostic framework (Axis 1: Etiology and Genetic Architecture; Axis 2: Molecular Pathophysiology and Biomarker Programs; Axis 3: Neuroanatomical-Cognitive Topography; Menendez-Gonzalez, Alzheimers Dement, 2025), we ingested the complete NHGRI-EBI GWAS Catalog build GCST90695466 (8,159,496 autosomal and 160,704 X-chromosome variants). First, we performed functional heritability partitioning via stratified excess chi-square inflation and additive genetic variance (sum 2pq*beta^2) across +/-50 kb cis-regulatory windows of 50 fine-mapped effector genes organized into five mechanistic Axis 2 programs (MICROGLIAL_IMMUNE, PROTEOPATHY_AUTOPHAGY, ENDOCYTIC_VESICULAR, SYNAPTIC_CALCIUM, and MITOCHONDRIAL_OXIDATIVE). Second, we conducted Summary-data-based Mendelian Randomization (SMR) and Approximate Bayes Factor colocalization (PP.H4) across 54 human tissues in GTEx v10 (4,415 matched cis-eQTLs) alongside Open Targets v4 SuSiE fine-mapped credible sets spanning ROS/MAP dorsolateral prefrontal cortex (DLPFC), BrainSeq, primary human monocytes, and UK Biobank Pharma Proteomics Project (UKB-PPP) plasma pQTLs. Third, we queried EMBL-EBI ChEMBL v34 across 2,785 human bioactivity assays (IC50, Ki, Kd, EC50) and Open Targets tractability matrices to construct an empirical pharmacogenomic target atlas. Results: Across 8,159,496 autosomal variants, the genome-wide mean test statistic was chi2_GW = 1.5099. Outside the APOE/TOMM40 super-locus (max chi2 = 3,267.15; 2pq*beta^2 = 0.0882, accounting for 74.82% of top-locus additive variance), 89,589 cis-regulatory SNPs across 48 non-APOE effector genes exhibited a 12.88-fold heritability enrichment over the autosomal background. Normalized across the 16.0% polygenic liability scale, non-APOE functional heritability concentrated in MICROGLIAL_IMMUNE (39.22% share; h2_SNP = 6.28%; 13.02x enrichment; mean chi2 = 7.64) and PROTEOPATHY_AUTOPHAGY (36.34% share; h2_SNP = 5.81%; 14.98x enrichment; mean chi2 = 8.64), followed by ENDOCYTIC_VESICULAR (16.71% share; h2_SNP = 2.67%; 12.69x enrichment; mean chi2 = 7.47), SYNAPTIC_CALCIUM (5.40% share; h2_SNP = 0.86%; 10.05x enrichment; mean chi2 = 6.13), and MITOCHONDRIAL_OXIDATIVE (2.33% share; h2_SNP = 0.37%; 5.24x enrichment; mean chi2 = 3.67). Multi-tissue SMR and colocalization resolved a striking divergence between Axis 3 cortical parenchyma and myeloid compartments: QPCT (rs2300880; Z_SMR = -4.62, p_SMR = 3.93e-6, PP.H4_cis = 0.919, PP.H4_local = 0.994 in Brain_Cortex; PP.H4_local = 0.979 in Brain_Frontal_Cortex_BA9) and AXL (rs12979764; p_SMR = 2.13e-4, PP.H4_cis = 0.902, PP.H4_local = 0.924 in Brain_Cortex) colocalized directly within human cerebral cortex and ROS/MAP DLPFC. Conversely, canonical myeloid and endocytic drivers (BIN1, CD33, TREM2, INPP5D, SYK) exhibited near-zero bulk cortical eQTL colocalization (PP.H4_cis <= 0.025 in Brain_Cortex) despite high SuSiE Locus-to-Gene scores (L2G = 0.875-0.968) and robust colocalization in primary monocytes and spleen (INPP5D PP.H4_local = 0.992; BIN1 PP.H4_local = 0.999). ChEMBL v34 bioactivity profiling confirmed low-nanomolar human target potency for clinical-stage compounds across all five programs, including isradipine (2.0 nM) and nilvadipine (19.0 nM) for CACNA1S, omaveloxolone (2.2 nM) for KEAP1, fostamatinib/R406 (41.0 nM) for SYK, and varoglutamstat/PQ912 (61.0 nM) for QPCT. Conclusion: Over three-quarters (75.56%) of the non-APOE common-variant heritability of Alzheimer's disease resides within microglial immune surveillance and proteopathic clearance networks. If prospectively validated in genotype-stratified clinical cohorts, these empirical summary-statistics findings suggest that therapeutic efficacy in sporadic AD may depend on matching pathway-selective drugs to a patient's individual Functional Pathway Burden Score rather than administering uniform monotherapies to genetically unstratified populations.",
+      "journal": "medrxiv",
+      "published_date": "2026-11-04",
+      "doi": "10.64898/2026.11.04.26366951",
+      "pmid": null,
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26366951",
+      "publication_status": "preprint",
+      "authors_json": "[\"Menendez-Gonzalez, M.\"]",
+      "raw_json": "{\"category\": \"neurology\", \"published_doi\": \"NA\"}",
+      "first_seen_at": "2026-11-07T01:57:42+00:00",
+      "last_seen_at": "2026-11-07T01:57:42+00:00",
+      "article_id": 1529,
+      "track": "B",
+      "summary_json": "[\"这项研究聚焦“Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci”，核心对象来自 medrxiv。\", \"作者主要使用了蛋白质组学、图谱/资源来回答研究问题。 摘要证据：Background: The landmark genome-wide association meta-analysis of Alzheimer's disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann\", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Translating these 127 static statistical signals into pathway-stratified clinical trials requires resolving three quanti\"]",
+      "new_paradigm": "可迁移的新范式是：蛋白质组学、图谱/资源。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
+      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
+      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
+      "secondary_queries_json": "[\"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (bone)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (osteoporosis)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (muscle)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (sarcopenia)\", \"(\\\"proteomics\\\" OR \\\"atlas\\\") AND (fracture)\"]",
+      "competition_json": "[{\"title\": \"Brain Region-Specific Peptide and Proteomic Signatures Inform Alzheimer's Disease Biomarker Panels.\", \"journal\": \"Journal of proteome research\", \"date\": \"2026-11-06\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42992893/\", \"pmid\": \"42992893\"}, {\"title\": \"Transcriptomics-Coupled Proteomics Identifies CD36 as a Potential Radiation-Responsive Biomarker in Macrophages.\", \"journal\": \"Journal of proteome research\", \"date\": \"2026-11-06\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42992867/\", \"pmid\": \"42992867\"}, {\"title\": \"Motor Neurons in the Prothoracic Ganglion of the Praying Mantis, Tenodera sinensis.\", \"journal\": \"The Journal of comparative neurology\", \"date\": \"2026-11\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42992466/\", \"pmid\": \"42992466\"}, {\"title\": \"Integrated transcriptomic and proteomic analyses of the mechanisms of Citrobacter freundii-induced ''water bubble disease'' in Macrobrachium rosenbergii.\", \"journal\": \"Frontiers in immunology\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42991287/\", \"pmid\": \"42991287\"}, {\"title\": \"Hypoxia-stimulated breast cancer-associated fibroblasts activation regulates glucose metabolism and facilitates progression of breast cancer.\", \"journal\": \"Translational breast cancer research : a journal focusing on translational research in breast cancer\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42991021/\", \"pmid\": \"42991021\"}]",
+      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
+      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
+      "data_needs_json": "[\"UK Biobank\", \"human tissue\", \"animal experiment\", \"omics\"]",
+      "novelty_status": "Adjacent studies exist",
+      "score_total": 79,
+      "score_components_json": "{\"paradigm_novelty\": 63, \"musculoskeletal_gap\": 92, \"clinical_significance\": 85, \"data_feasibility\": 97, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
+      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 1 个范式信号：atlas。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 5 个。\", \"data_feasibility\": \"可获得数据/技术线索 5 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
+      "generated_at": "2026-11-07T01:57:43+00:00",
+      "authors": [
+        "Menendez-Gonzalez, M."
+      ],
+      "summary_zh": [
+        "这项研究聚焦“Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci”，核心对象来自 medrxiv。",
+        "作者主要使用了蛋白质组学、图谱/资源来回答研究问题。 摘要证据：Background: The landmark genome-wide association meta-analysis of Alzheimer's disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann",
+        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：Translating these 127 static statistical signals into pathway-stratified clinical trials requires resolving three quanti"
+      ],
+      "secondary_queries": [
+        "(\"proteomics\" OR \"atlas\") AND (bone)",
+        "(\"proteomics\" OR \"atlas\") AND (osteoporosis)",
+        "(\"proteomics\" OR \"atlas\") AND (muscle)",
+        "(\"proteomics\" OR \"atlas\") AND (sarcopenia)",
+        "(\"proteomics\" OR \"atlas\") AND (fracture)"
+      ],
+      "competition": [
+        {
+          "title": "Brain Region-Specific Peptide and Proteomic Signatures Inform Alzheimer's Disease Biomarker Panels.",
+          "journal": "Journal of proteome research",
+          "date": "2026-11-06",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42992893/",
+          "pmid": "42992893"
+        },
+        {
+          "title": "Transcriptomics-Coupled Proteomics Identifies CD36 as a Potential Radiation-Responsive Biomarker in Macrophages.",
+          "journal": "Journal of proteome research",
+          "date": "2026-11-06",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42992867/",
+          "pmid": "42992867"
+        },
+        {
+          "title": "Motor Neurons in the Prothoracic Ganglion of the Praying Mantis, Tenodera sinensis.",
+          "journal": "The Journal of comparative neurology",
+          "date": "2026-11",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42992466/",
+          "pmid": "42992466"
+        },
+        {
+          "title": "Integrated transcriptomic and proteomic analyses of the mechanisms of Citrobacter freundii-induced ''water bubble disease'' in Macrobrachium rosenbergii.",
+          "journal": "Frontiers in immunology",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42991287/",
+          "pmid": "42991287"
+        },
+        {
+          "title": "Hypoxia-stimulated breast cancer-associated fibroblasts activation regulates glucose metabolism and facilitates progression of breast cancer.",
+          "journal": "Translational breast cancer research : a journal focusing on translational research in breast cancer",
+          "date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42991021/",
+          "pmid": "42991021"
+        }
+      ],
+      "unresolved_questions": [
+        "核心信号在独立人群、不同年龄与性别中是否稳定？",
+        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
+        "该方法相对现有临床指标是否带来可量化的增益？"
+      ],
+      "transfer_questions": [
+        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
+        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
+        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
+      ],
+      "data_needs": [
+        "UK Biobank",
+        "human tissue",
+        "animal experiment",
+        "omics"
+      ],
+      "score_components": {
+        "paradigm_novelty": 63,
+        "musculoskeletal_gap": 92,
+        "clinical_significance": 85,
+        "data_feasibility": 97,
+        "mechanistic_depth": 44,
+        "competition_urgency": 100
+      },
+      "score_reasons": {
+        "paradigm_novelty": "识别到 1 个范式信号：atlas。",
+        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
+        "clinical_significance": "临床相关线索 5 个。",
+        "data_feasibility": "可获得数据/技术线索 5 个。",
+        "mechanistic_depth": "机制或因果线索 1 个。",
+        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
+      }
+    },
+    {
       "id": 1372,
       "source": "biorxiv",
       "title": "Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme",
@@ -1897,125 +2010,6 @@
         "clinical_significance": "临床相关线索 2 个。",
         "data_feasibility": "可获得数据/技术线索 3 个。",
         "mechanistic_depth": "机制或因果线索 2 个。",
-        "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
-      }
-    },
-    {
-      "id": 1286,
-      "source": "medrxiv",
-      "title": "Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy",
-      "title_key": "denselongitudinalmultiomicsrevealsmicrobialmetabolicimmunesuccessionduringimmunecheckpointtherapy",
-      "abstract": "Immune checkpoint inhibitors (ICIs) can induce durable clinical responses, yet relationships among the gut microbiome, microbial function, intestinal metabolism, and host immunity remain incompletely resolved. We performed dense longitudinal multi-omics profiling of a single patient with colorectal cancer metastatic to the liver during ICI therapy and sustained tumor regression. Eleven serial stool samples spanning approximately 7.3 months were analyzed by 16S rRNA sequencing, microbial metatranscriptomics, metabolomics, lipidomics, and stool host RNA immune profiling and aligned with serial clinical imaging. A major intestinal ecosystem transition accompanied the emergence of clinical response. Microbial abundance and transcriptional activity were frequently discordant, demonstrating that compositional profiling alone incompletely captured microbial dynamics. Taxon-resolved functional analysis revealed sequential microbial states rather than a single responder associated configuration. Loss of early Bacteroides/Fusobacterium associated functions accompanied purine/sphingolipid remodeling and changes in myeloid-associated immune signatures. At T5, a transient Bifidobacterium carbohydrate/fermentation program coincided with lactate/indole-3-lactate remodeling and broad adaptive T cell, memory/regulatory, mucosal, and B-cell immune changes. At T6, marked Clostridium transcriptional emergence and lipid/coenzyme A pathway activation coincided with fatty acid/lysophospholipid remodeling and a distinct immune configuration. Historical HUMAnN reconstruction using original UniRef90 and MetaCyc resources confirmed taxon-specific, reaction-associated gene-family support for prioritized functional programs. These findings define a temporally ordered microbial metabolic immune succession during ICI response. Although this N of 1 design cannot establish population generalizability, dense within-person multi omics resolves transient functional states obscured by cross-sectional analyses and generates testable hypotheses for larger prospective cohorts and personalized studies of ICI response.",
-      "journal": "medrxiv",
-      "published_date": "2026-10-28",
-      "doi": "10.64898/2026.10.24.26366392",
-      "pmid": null,
-      "url": "https://www.medrxiv.org/content/10.64898/2026.10.24.26366392",
-      "publication_status": "preprint",
-      "authors_json": "[\"Zandi, E.\", \"Medetgul-Ernar, K.\", \"Lenz, H.-J.\", \"Alishahi, F.\"]",
-      "raw_json": "{\"category\": \"oncology\", \"published_doi\": \"NA\"}",
-      "first_seen_at": "2026-10-30T01:59:02+00:00",
-      "last_seen_at": "2026-10-31T01:37:25+00:00",
-      "article_id": 1286,
-      "track": "B",
-      "summary_json": "[\"这项研究聚焦“Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy”，核心对象来自 medrxiv。\", \"作者主要使用了代谢组学、纵向轨迹来回答研究问题。 摘要证据：Immune checkpoint inhibitors (ICIs) can induce durable clinical responses, yet relationships among the gut microbiome, microbial function, intestinal \", \"对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We performed dense longitudinal multi-omics profiling of a single patient with colorectal cancer metastatic to the liver\"]",
-      "new_paradigm": "可迁移的新范式是：代谢组学、纵向轨迹。重点应验证它是否改变了问题定义、测量尺度或因果识别能力。",
-      "why_now": "高通量分子测量与组织分辨率提高；大样本纵向队列和可复用数据资源出现。",
-      "musculoskeletal_link": "可把同一范式迁移到骨重塑、肌少症、骨折风险及骨—肌跨器官网络，并用DXA/CT或组织组学做外部验证。",
-      "secondary_queries_json": "[\"(\\\"metabolomics\\\" OR \\\"longitudinal\\\") AND (bone)\", \"(\\\"metabolomics\\\" OR \\\"longitudinal\\\") AND (osteoporosis)\", \"(\\\"metabolomics\\\" OR \\\"longitudinal\\\") AND (muscle)\", \"(\\\"metabolomics\\\" OR \\\"longitudinal\\\") AND (sarcopenia)\", \"(\\\"metabolomics\\\" OR \\\"longitudinal\\\") AND (fracture)\"]",
-      "competition_json": "[{\"title\": \"Using archaeometabolomics to characterise tobacco-usage in human cortical bone from 17th to 19th century Dutch communities.\", \"journal\": \"PloS one\", \"date\": \"2026\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42961924/\", \"pmid\": \"42961924\"}, {\"title\": \"Whey protein hydrolysate rich in branched-chain amino acid-containing oligopeptide as a novel nutritional strategy to attenuate age-related muscle weakness.\", \"journal\": \"Food & function\", \"date\": \"2026-10-30\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42961298/\", \"pmid\": \"42961298\"}, {\"title\": \"Type 2 Diabetes and Continuous Glucose Monitoring: A Pilot Cross-Sectional Study of Medication Adherence and Self-Management Behaviors.\", \"journal\": \"Journal of pharmacy practice\", \"date\": \"2026-10-30\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42960525/\", \"pmid\": \"42960525\"}, {\"title\": \"Association of non-methane volatile organic compound emission burden with chronic kidney disease: integrated epidemiological, transcriptomic and in vitro analyses.\", \"journal\": \"Renal failure\", \"date\": \"2026-12\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42960465/\", \"pmid\": \"42960465\"}, {\"title\": \"Parity, skeletal health and osteoporosis.\", \"journal\": \"Current opinion in endocrinology, diabetes, and obesity\", \"date\": \"2026-12-01\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/42960422/\", \"pmid\": \"42960422\"}]",
-      "unresolved_json": "[\"核心信号在独立人群、不同年龄与性别中是否稳定？\", \"观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？\", \"该方法相对现有临床指标是否带来可量化的增益？\"]",
-      "transfer_questions_json": "[\"能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？\", \"能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？\", \"哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？\"]",
-      "data_needs_json": "[\"CT\", \"animal experiment\", \"omics\"]",
-      "novelty_status": "Directly studied",
-      "score_total": 78,
-      "score_components_json": "{\"paradigm_novelty\": 76, \"musculoskeletal_gap\": 92, \"clinical_significance\": 75, \"data_feasibility\": 86, \"mechanistic_depth\": 44, \"competition_urgency\": 100}",
-      "score_reasons_json": "{\"paradigm_novelty\": \"识别到 2 个范式信号：longitudinal, resource。\", \"musculoskeletal_gap\": \"骨/肌直接命中较少，迁移空间较大。\", \"clinical_significance\": \"临床相关线索 4 个。\", \"data_feasibility\": \"可获得数据/技术线索 4 个。\", \"mechanistic_depth\": \"机制或因果线索 1 个。\", \"competition_urgency\": \"当前二次检索返回 5 条潜在竞争记录。\"}",
-      "generated_at": "2026-10-31T01:37:26+00:00",
-      "authors": [
-        "Zandi, E.",
-        "Medetgul-Ernar, K.",
-        "Lenz, H.-J.",
-        "Alishahi, F."
-      ],
-      "summary_zh": [
-        "这项研究聚焦“Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy”，核心对象来自 medrxiv。",
-        "作者主要使用了代谢组学、纵向轨迹来回答研究问题。 摘要证据：Immune checkpoint inhibitors (ICIs) can induce durable clinical responses, yet relationships among the gut microbiome, microbial function, intestinal ",
-        "对肌骨研究者而言，价值不只在结论本身，更在于其研究设计、数据组合或分析范式能否被迁移。 摘要补充：We performed dense longitudinal multi-omics profiling of a single patient with colorectal cancer metastatic to the liver"
-      ],
-      "secondary_queries": [
-        "(\"metabolomics\" OR \"longitudinal\") AND (bone)",
-        "(\"metabolomics\" OR \"longitudinal\") AND (osteoporosis)",
-        "(\"metabolomics\" OR \"longitudinal\") AND (muscle)",
-        "(\"metabolomics\" OR \"longitudinal\") AND (sarcopenia)",
-        "(\"metabolomics\" OR \"longitudinal\") AND (fracture)"
-      ],
-      "competition": [
-        {
-          "title": "Using archaeometabolomics to characterise tobacco-usage in human cortical bone from 17th to 19th century Dutch communities.",
-          "journal": "PloS one",
-          "date": "2026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42961924/",
-          "pmid": "42961924"
-        },
-        {
-          "title": "Whey protein hydrolysate rich in branched-chain amino acid-containing oligopeptide as a novel nutritional strategy to attenuate age-related muscle weakness.",
-          "journal": "Food & function",
-          "date": "2026-10-30",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42961298/",
-          "pmid": "42961298"
-        },
-        {
-          "title": "Type 2 Diabetes and Continuous Glucose Monitoring: A Pilot Cross-Sectional Study of Medication Adherence and Self-Management Behaviors.",
-          "journal": "Journal of pharmacy practice",
-          "date": "2026-10-30",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42960525/",
-          "pmid": "42960525"
-        },
-        {
-          "title": "Association of non-methane volatile organic compound emission burden with chronic kidney disease: integrated epidemiological, transcriptomic and in vitro analyses.",
-          "journal": "Renal failure",
-          "date": "2026-12",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42960465/",
-          "pmid": "42960465"
-        },
-        {
-          "title": "Parity, skeletal health and osteoporosis.",
-          "journal": "Current opinion in endocrinology, diabetes, and obesity",
-          "date": "2026-12-01",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42960422/",
-          "pmid": "42960422"
-        }
-      ],
-      "unresolved_questions": [
-        "核心信号在独立人群、不同年龄与性别中是否稳定？",
-        "观察到的关联能否通过纵向、扰动或遗传工具支持因果解释？",
-        "该方法相对现有临床指标是否带来可量化的增益？"
-      ],
-      "transfer_questions": [
-        "能否用同一分析框架建立骨—肌联合衰老轨迹，并预测骨折或功能下降？",
-        "能否在DXA/CT、临床表型与组织组学之间建立可解释的多模态模型？",
-        "哪些细胞、分泌因子或器官网络节点可作为可验证干预靶点？"
-      ],
-      "data_needs": [
-        "CT",
-        "animal experiment",
-        "omics"
-      ],
-      "score_components": {
-        "paradigm_novelty": 76,
-        "musculoskeletal_gap": 92,
-        "clinical_significance": 75,
-        "data_feasibility": 86,
-        "mechanistic_depth": 44,
-        "competition_urgency": 100
-      },
-      "score_reasons": {
-        "paradigm_novelty": "识别到 2 个范式信号：longitudinal, resource。",
-        "musculoskeletal_gap": "骨/肌直接命中较少，迁移空间较大。",
-        "clinical_significance": "临床相关线索 4 个。",
-        "data_feasibility": "可获得数据/技术线索 4 个。",
-        "mechanistic_depth": "机制或因果线索 1 个。",
         "competition_urgency": "当前二次检索返回 5 条潜在竞争记录。"
       }
     }
